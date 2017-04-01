@@ -48,5 +48,5 @@ swallow.
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 
-[hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
+[hello-world SAS Recipe (from Week 1 Setup Instructions)]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
