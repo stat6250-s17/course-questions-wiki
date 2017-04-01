@@ -14,39 +14,54 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 1]
-- Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
+
+Question (dlee117−stat6250): What must you do if your Horizon email address is already associated with a GitHub account?
+
+Answer (dlee117-stat6250): You can change the username on the account or you can change the account's email address which allows you to create a new account. This way, you have a GitHub account solely for STAT 6250.
 
 [Course Structure Quiz, Problem 2]
-- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-- Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
+
+Question (dlee117−stat6250): What is the benefit of using a news aggregator service like feedly.com to look for recent articles relating to SAS?
+
+Answer (dlee117-stat6250): Using a news aggregator service lets you look at recent article posts from all of the sources that you want. In this way, all of the articles from different websites are in one place so you don't have to search through many websites.
 
 [Course Structure Quiz, Problem 3]
-- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+
+Question (dlee117−stat6250): When you submit your Weekly quiz, will the Professor automatically merge your pull request? 
 
 [Course Structure Quiz, Problem 4]
-- Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
-- Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
+
+Question (dlee117−stat6250): What are the goals of the two team projects (besides getting good grades on them)?
+
+Answer (dlee117-stat6250): To collaboratively work toward creative solutions and adding value to each team-member's work-sample portfolio. If your code doesn't work, someone else can take a look with fresh eyes and see if they can come up with a solution. This fosters teamwork and communication.
 
 [Course Structure Quiz, Problem 5]
-- Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
-- Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
+
+Question (dlee117−stat6250): Which chapters do you need to study out of the course textbook for the final exam and what should you focus on?
 
 [Course Structure Quiz, Problem 6]
-- Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
+
+Question (dlee117−stat6250): How can you use the five professional practices to get more out of this class than just a letter grade? Basically, what can they teach you outside of the classroom?
 
 [Course Structure Quiz, Problem 7]
-- Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
+
+Question (dlee117−stat6250): If you find yourself not meeting assignment expectactions or deadlines, what can you do so that you can succeed in this course?
 
 [Course Structure Quiz, Problem 8]
-- Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+
+Question (dlee117−stat6250): What is the benefit of continuing to contribute to the Course Questions Wiki when preparing for the final exam?
+
+Answer (dlee117-stat6250): Asking and answering substantive questions helps you understand and remember important course concepts, which will help you study for the final exam.
 
 [Course Structure Quiz, Problem 9]
-- Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
-- Answer (ilankham−stat6250): An African swallow maybe, but not a European
-swallow.
+
+Question (dlee117−stat6250): Why is sending a message to the Professor through Slack generally the preferred method of communication?
 
 [Course Structure Quiz, Problem 10]
-- Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 
-[hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
-- Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
+Question (dlee117−stat6250): Why should you check all of the course technologies daily? 
+
+[Course Structure Quiz, Problem 11]
+
+Question (dlee117−stat6250): What is the benefit of adding put statements to your code when debugging?
+
