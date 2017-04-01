@@ -15,6 +15,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
+- *Answer* (lwang30-stat6250) : The word "repository" is always abbreviated as "repo".
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -22,6 +23,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+- *Answer* (lwang30-stat6250) : Both; however, students are encouraged to do all the weekly quizzes, which can be used as a study guide for the final exam.
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
@@ -33,12 +35,15 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
+- *Answer* (lwang30-stat6250) : Yes, students who earn all 5 achievements will be awarded the grade **A**.
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
+- *Answer* (lwang30-stat6250 : The goal is to help students fully understand the concepts by finishing each assignment completely. The projects can definitely contribute to student's work-sample portfolios, but there should be no conflicts between the weekly assignments and the projects.
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+- *Answer* (lwang30-stat6250) : Both. Even professors or experienced programmer can make typo, and students are encouraged to help professor proofread course materials. Giving extra credit can also motivate the student's participance in such an online class.
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
@@ -47,6 +52,8 @@ swallow.
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
+- *Answer* (lwang30-stat6250) : Yes, students should log in to their GitHub account at least once in a day, to make sure they do not miss any professor's updates.
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
+- *Answer* (lwang30-stat6250) : Yes, using the code *proc print* will generate the output in HTML format in a separate window. 
