@@ -18,7 +18,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): Is there a benefit to using so many different method of “communications” such as both Blackboard (forum) and Slack? 
 - Question (kveng-stat6250): After we complete everything, where can we check the status of our achievements?
 - Answer (kveng-stat6250): We can keep track of our achievements on BlackBoard by clicking on "Course Gradebook" and "Course Achievements"
-- Question (cyuan10-stat6250): Is there a benefit to using so many different method of “communications” such as both Blackboard (forum) and Slack?
 - Question (meisenbach-stat6250): In slack, how do you create a "group" chat which would be useful for chatting just with your project team?
 
 [Course Structure Quiz, Problem 2]
