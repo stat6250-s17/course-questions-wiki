@@ -24,7 +24,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (lwang30-stat6250) : The application of multiple technologies is to ensure sufficient communication considering this is an online class. In particular, GitHub will be an effective tool for students to work on the team projects.
 
 [Course Structure Quiz, Problem 2]
-[Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
 - Question (cyuan10-stat6250): Are student encouraged to read and response to other students’ postings? Will there be credit given for responding to another post?
