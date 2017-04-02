@@ -15,10 +15,13 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
+- Answer (henghu9-stat6250): I saw all respository as repo today.
 - Question (cyuan10-stat6250): Is there a benefit to using so many different method of “communications” such as both Blackboard (forum) and Slack? 
+- Answer (henghu9-stat6250): yes, its more convenient to contact with classmates.
 - Question (kveng-stat6250): After we complete everything, where can we check the status of our achievements?
 - Answer (kveng-stat6250): We can keep track of our achievements on BlackBoard by clicking on "Course Gradebook" and "Course Achievements"
 - Question (meisenbach-stat6250): In slack, how do you create a "group" chat which would be useful for chatting just with your project team?
+- Answer (henghu9-stat6250): we can get it via "group chat" function.
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -26,13 +29,17 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): Are student encouraged to read and response to other students’ postings? Will there be credit given for responding to another post?
 - Answer (cyuan10-stat6250): Credit may be given at the Professor’s discretion. However, reading and responding to peer’s posting will be helpful for your own learnings as well as others. Student are more than encouraged to do so.
 - Question (kveng-stat6250): Since we only need 8 out 10 to earn the reading for breadth achievement, will students who complete 10 out of the 10 weekly forum posts get some sort of extra credit?
+- Answer (henghu9-stat6250): we should do more practice not only for extre credit.
 - Question (meisenbach-stat6250): Why are we using our name as the subject for the new thread?
 - Answer (meisenbach-stat6250): Because it allows the instructor to automate grading and provides practice following directions (response from instructor via Slack direct message)
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+- Answer (henghu9-stat6250): I should fully complete at least 8 of the 10 scheduled quizzes by their assigned due dates, the more,the better.
 - Question (cyuan10-stat6250): Do the weekly quizzes focuse on content from the textbook, supplementary material, videos, postings, or possibly of all the above?
+- Answer (henghu9-stat62250): the weekly quizzes focuse not only textbook but also other materials including videos and postings.
 - Question (kveng-stat6250): Since we only need 8 out 10 to earn the reading for depth achievement, will students who complete 10 out of the 10 weekly quizzes get some sort of extra credit?
+- Answer (henghu9-stat6250): the more the better, we should do our best to study this course.
 - Question (meisenbach-stat6250): Does our score for the weekly quiz matter?
 - Answer (meisenbach-stat6250): No, quizzes are graded on a "complete/incomplete" scale.
 
@@ -47,6 +54,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 - Question (cyuan10-stat6250): 110 minutes feel a rushed for 65 questions - have you had past students not finishing the final exam?
+- Answer (henghu9-stat6250): I think the time is enough to finish final exam.
 - Question (kveng-stat6250): How much time do we have to invest on this class daily in order to do well on the final exam? 
 - Answer (kveng-stat6250): Depend on the individual students some would take more time to learn the materials and some would take less time to learn the materials. 
 
@@ -94,7 +102,7 @@ swallow.
 - Question (meisenbach-stat6250): Is there a way to sign up for push notification from GitHub?
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
-- Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
-- Question (cyuan10-stat6250): Is there any different between running SAS on your desktop vs. BayCloud (virtual desktop)?
-- Question (kveng-stat6250): Will I still be able to use SAS via BayCloud after this course ended?
-- Question (meisenbach-stat6250): Using the VMware Horizon Client supposedly offers better performance and features. I've successfully installed the client but typing into SAS stops working when I switch away from the client window? I don't have problems using the browser. Am I missing out on a lot if I just use the browser?
+- Question (henghu9−stat6250): is there any chance for classmates to study offline?
+- Question (cyuan10-stat6250): SAS is famous becaues its functionality or other reasons?
+- Question (kveng-stat6250): Is Bay really very convenient for students to finnish their program? 
+- Question (meisenbach-stat6250): during the runing of vmwave horizon client, I can not use "PRT SCR" key, is there any confliction between VMwave horizon client and local deck?  
