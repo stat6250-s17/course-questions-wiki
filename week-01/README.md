@@ -20,6 +20,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng-stat6250): After we complete everything, where can we check the status of our achievements?
 - Answer (kveng-stat6250): We can keep track of our achievements on BlackBoard by clicking on "Course Gradebook" and "Course Achievements"
 - Question (meisenbach-stat6250): In slack, how do you create a "group" chat which would be useful for chatting just with your project team?
+- Question (yyan11−stat6250): What should STAT6250 students check for daily?
+- Answer (yyan11−stat6250): Slack, GiHhub, blackboard, and horizon email.
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -47,7 +49,9 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
-- Question (yyan11−stat6250): The Final Exam will tentatively consist of 65 multiple-choice, with a time limit of 110 minutes, if I can not finish the final exam, can I pass?
+- Question (yyan11−stat6250): How many questions in the Final Exam?
+- Answer (yyan11−stat6250): The Final Exam will tentatively consist of 65 multiple-choice, with a time limit of 110 minutes.
+- Question (yyan11−stat6250): If I can not finish the final exam, can I pass?
 - Question (cyuan10-stat6250): 110 minutes feel a rushed for 65 questions - have you had past students not finishing the final exam?
 - Question (kveng-stat6250): How much time do we have to invest on this class daily in order to do well on the final exam? 
 - Answer (kveng-stat6250): Depend on the individual students some would take more time to learn the materials and some would take less time to learn the materials. 
@@ -77,6 +81,8 @@ other persons."
 - Question (cyuan10-stat6250): I’m not very familiar with Github but if we contribute to the Course Question Wiki after week 10 quiz deadline - will it automatically let you know an update has been made or should we inform you another way?
 - Question (kveng-stat6250): I understand that you would give extra credit to pointing out typos, give substantive suggestions, and contribute to the course questions wiki after the week 10 quiz deadline. I would like to know how much weight does this extra credit has on the overall grade? Is it half of one achievement or less than half or one whole achievement itself? 
 - Question (meisenbach-stat6250): Does contributing to the Course Question Wiki after the week 10 quiz mean answering other people's questions?
+- Question (yyan11−stat6250): How to contact professor?
+- Answer (yyan11−stat6250): Email or direct-message in Slack.
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
