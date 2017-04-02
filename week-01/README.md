@@ -27,16 +27,16 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 3]
 
- *Question* (aalshehry−stat6250): What kind of activities should students practice daily to gain _Reading for Depth Achievement_.
+* *Question* (aalshehry−stat6250): What kind of activities should students practice daily to gain _Reading for Depth Achievement_.
 
 [Course Structure Quiz, Problem 4]
 
- *Question* (aalshehry−stat6250): How many steps in team projects and how many steps should each member complete?
+* *Question* (aalshehry−stat6250): How many steps in team projects and how many steps should each member complete?
 
 
 [Course Structure Quiz, Problem 5]
 
-*  *Question* (aalshehry−stat6250): What is the format of final exam? 
+* *Question* (aalshehry−stat6250): What is the format of final exam? 
 
 
 [Course Structure Quiz, Problem 6]
