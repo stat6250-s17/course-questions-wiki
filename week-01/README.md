@@ -50,4 +50,3 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : Except for displaying the output, what other primary purpose is the SAS log window used for ?
 - *Answer* (lwang30-stat6250) : The log window will indicate where errors occur in the codes and the corresponding explanation for those errors.
 
-
