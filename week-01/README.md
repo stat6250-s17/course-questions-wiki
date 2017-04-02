@@ -19,6 +19,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng-stat6250): After we complete everything, where can we check the status of our achievements?
 - Answer (kveng-stat6250): We can keep track of our achievements on BlackBoard by clicking on "Course Gradebook" and "Course Achievements"
 - Question (meisenbach-stat6250): In slack, how do you create a "group" chat which would be useful for chatting just with your project team?
+- Question (dlee117−stat6250): What must you do if your Horizon email address is already associated with a GitHub account?
+- Answer (dlee117-stat6250): You can change the username on the account or you can change the account's email address which allows you to create a new account. This way, you have a GitHub account solely for STAT 6250.
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -28,6 +30,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng-stat6250): Since we only need 8 out 10 to earn the reading for breadth achievement, will students who complete 10 out of the 10 weekly forum posts get some sort of extra credit?
 - Question (meisenbach-stat6250): Why are we using our name as the subject for the new thread?
 - Answer (meisenbach-stat6250): Because it allows the instructor to automate grading and provides practice following directions (response from instructor via Slack direct message)
+- Question (dlee117−stat6250): What is the benefit of using a news aggregator service like feedly.com to look for recent articles relating to SAS?
+- Answer (dlee117-stat6250): Using a news aggregator service lets you look at recent article posts from all of the sources that you want. In this way, all of the articles from different websites are in one place so you don't have to search through many websites.
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -35,6 +39,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng-stat6250): Since we only need 8 out 10 to earn the reading for depth achievement, will students who complete 10 out of the 10 weekly quizzes get some sort of extra credit?
 - Question (meisenbach-stat6250): Does our score for the weekly quiz matter?
 - Answer (meisenbach-stat6250): No, quizzes are graded on a "complete/incomplete" scale.
+- Question (dlee117−stat6250): When you submit your Weekly quiz, will the Professor automatically merge your pull request? 
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
@@ -42,6 +47,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): I could not find the instructions for the projects, can you provide more directions about the projects?
 - Question (kveng-stat6250): Where are the Team Project 1 and Team Project 2 instructions handouts? How many people in a team? How do we choose our team? How do we report slacker in our team? 
 - Question (meisenbach-stat6250): Where will the data for the projects come from?
+- Question (dlee117−stat6250): What are the goals of the two team projects (besides getting good grades on them)?
+- Answer (dlee117-stat6250): To collaboratively work toward creative solutions and adding value to each team-member's work-sample portfolio. If your code doesn't work, someone else can take a look with fresh eyes and see if they can come up with a solution. This fosters teamwork and communication.
 
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
@@ -49,6 +56,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): 110 minutes feel a rushed for 65 questions - have you had past students not finishing the final exam?
 - Question (kveng-stat6250): How much time do we have to invest on this class daily in order to do well on the final exam? 
 - Answer (kveng-stat6250): Depend on the individual students some would take more time to learn the materials and some would take less time to learn the materials. 
+- Question (dlee117−stat6250): Which chapters do you need to study out of the course textbook for the final exam and what should you focus on?
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
@@ -58,6 +66,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Can we use reference materials during the final exam?
 - Answer (meisenbach-stat6250): No, "You have completed all problems without the assistance of any reference materials or
 other persons."
+- Question (dlee117−stat6250): How can you use the five professional practices to get more out of this class than just a letter grade? Basically, what can they teach you outside of the classroom?
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
@@ -69,12 +78,15 @@ other persons."
 - Question (cyuan10-stat6250): Why accept incomplete submissions but not late submissions? If a submission is late, can you still review it and provide feedback (even if it is not counted for our grades?).
 - Question (kveng-stat6250): How strict are you on the late submissions policy? What if we are only one hour past the due date, would that be okay? 
 - Question (meisenbach-stat6250): Why are assignments are graded for only for completeness?
+- Question (dlee117−stat6250): If you find yourself not meeting assignment expectations or deadlines, what can you do so that you can succeed in this course?
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 - Question (cyuan10-stat6250): I’m not very familiar with Github but if we contribute to the Course Question Wiki after week 10 quiz deadline - will it automatically let you know an update has been made or should we inform you another way?
 - Question (kveng-stat6250): I understand that you would give extra credit to pointing out typos, give substantive suggestions, and contribute to the course questions wiki after the week 10 quiz deadline. I would like to know how much weight does this extra credit has on the overall grade? Is it half of one achievement or less than half or one whole achievement itself? 
 - Question (meisenbach-stat6250): Does contributing to the Course Question Wiki after the week 10 quiz mean answering other people's questions?
+- Question (dlee117−stat6250): What is the benefit of continuing to contribute to the Course Questions Wiki when preparing for the final exam?
+- Answer (dlee117-stat6250): Asking and answering substantive questions helps you understand and remember important course concepts, which will help you study for the final exam.
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
@@ -85,6 +97,7 @@ swallow.
 - Question (kveng-stat6250): How fast will the instructor respond when a student asked a question via direct message sent through Slack?
 - Answer (kveng-stat6250): I think the instructor would quickly respond within a day.
 - Question (meisenbach-stat6250): Doesn't it bother the professor to be getting Slack messages at random times throughout the day?
+- Question (dlee117−stat6250): Why is sending a message to the Professor through Slack generally the preferred method of communication?
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
@@ -92,9 +105,12 @@ swallow.
 - Answer (cyuan10-stat6250): It is best to check all channels of communications on a daily basis.
 - Question (kveng-stat6250): Why do we have weekly forum on Blackboard? Why don't we post the weekly forum on slack instead of on Blackboard? 
 - Question (meisenbach-stat6250): Is there a way to sign up for push notification from GitHub?
+- Question (dlee117−stat6250): Why should you check all of the course technologies daily? 
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
 - Question (cyuan10-stat6250): Is there any different between running SAS on your desktop vs. BayCloud (virtual desktop)?
 - Question (kveng-stat6250): Will I still be able to use SAS via BayCloud after this course ended?
 - Question (meisenbach-stat6250): Using the VMware Horizon Client supposedly offers better performance and features. I've successfully installed the client but typing into SAS stops working when I switch away from the client window? I don't have problems using the browser. Am I missing out on a lot if I just use the browser?
+- Question (dlee117−stat6250): What is the benefit of adding put statements to your code when debugging?
+
