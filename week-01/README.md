@@ -44,6 +44,7 @@ The instructor will then review the pull request and make comments should furthe
  *Question* (aalshehry−stat6250): What are the five practices that will be applied to adapt a growth mindset?
 
 *Answer* (aalshehry−stat6250): The five practices are: 
+
 1- Reading for Depth
 2- Team-based Problem Solving
 3- Reading for Breadth
@@ -73,6 +74,7 @@ The instructor will then review the pull request and make comments should furthe
 [hello-world SAS Recipe (from Week 1 Setup Instructions)]
 
  *Question* (aalshehry−stat6250): Is there code-autocompletion feature in SAS?
+ 
 *Answer* (aalshehry−stat6250): Yes, in SAS University and enterprise editions.
 
 
