@@ -15,6 +15,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
+- Question (yyan11−stat6250): When students can get their assignments feedback from professor?
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -30,6 +31,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
+- Question (yyan11−stat6250): The Final Exam will tentatively consist of 65 multiple-choice, with a time limit of 110 minutes, if I can not finish the final exam, can I pass?
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
@@ -50,3 +52,4 @@ swallow.
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
+- Question (yyan11−stat6250): How can I get the SAS and install it in my computer? And how long I can use SAS via BayCloud after this course?
