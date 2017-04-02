@@ -14,46 +14,38 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 1]
-- Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-- *Answer* (lwang30-stat6250) : The word "repository" is always abbreviated as "repo".
+- *Question* (lwang30-stat6250) : What's the purpose of using multiple technologies including Blackboard, Slack, GitHub for this course ?
+- *Answer* (lwang30-stat6250) : The application of multiple technologies is to ensure sufficient communication considering this is an online class. In particular, GitHub will be an effective tool for students to work on the team projects.
 
 [Course Structure Quiz, Problem 2]
-- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-- Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
+- *Question* (lwang30-stat6250) : Why are most assignments graded on a "complete/incomplete" scale ?
+- *Answer* (lwang30-stat6250) : The major intention of the weekly quizzes and forums is to motivate students to learn and participate into the class setting. Instead, the team projects and the final exam will test students on a knowledge base.
 
 [Course Structure Quiz, Problem 3]
-- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-- *Answer* (lwang30-stat6250) : Both; however, students are encouraged to do all the weekly quizzes, which can be used as a study guide for the final exam.
+- *Question* (lwang30-stat6250) : Why is it important that the students check all relevant communication media daily ?
+- *Answer* (lwang30-stat6250) : This class has no meeting time, and there are at least 1 quiz, 1 forum due each week, along with 2 team projects through the whole quarter. Checking all communication media daily will assure students not to miss any important updates or deadline for assignments. 
 
 [Course Structure Quiz, Problem 4]
-- Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
-- Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
+- *Question* (lwang30-stat6250) : Why does a completion of 8 out of 10 weekly quizzes give students **Reading for Depth** achievement ?
 
 [Course Structure Quiz, Problem 5]
-- Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
-- Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
+- *Question* (lwang30-stat6250) : What other goals are weekly quizzes able to serve for, except for earning the achievement ?
 
 [Course Structure Quiz, Problem 6]
-- Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
-- *Answer* (lwang30-stat6250) : Yes, students who earn all 5 achievements will be awarded the grade **A**.
+- *Question* (lwang30-stat6250) : How do the students earn the **Building General Knowledge** achievement ?
 
 [Course Structure Quiz, Problem 7]
-- Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
-- *Answer* (lwang30-stat6250 : The goal is to help students fully understand the concepts by finishing each assignment completely. The projects can definitely contribute to student's work-sample portfolios, but there should be no conflicts between the weekly assignments and the projects.
+- *Question* (lwang30-stat6250) : Why is the resubmission of incomplete assingment at the instructor's discretion allowed ?
 
 [Course Structure Quiz, Problem 8]
-- Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
-- *Answer* (lwang30-stat6250) : Both. Even professors or experienced programmer can make typo, and students are encouraged to help professor proofread course materials. Giving extra credit can also motivate the student's participance in such an online class.
+- *Question* (lwang30-stat6250) : In what ways are students able to earn extra credits ?
 
 [Course Structure Quiz, Problem 9]
-- Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
-- Answer (ilankham−stat6250): An African swallow maybe, but not a European
-swallow.
+- *Question* (lwang30-stat6250) : What are the two suggested approach to contact the professor ?
 
 [Course Structure Quiz, Problem 10]
-- Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
-- *Answer* (lwang30-stat6250) : Yes, students should log in to their GitHub account at least once in a day, to make sure they do not miss any professor's updates.
+- *Question* (lwang30-stat6250) : What's the major intention to let students do the weekly forum ?
 
-[hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
-- Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
-- *Answer* (lwang30-stat6250) : Yes, using the code *proc print* will generate the output in HTML format in a separate window. 
+[hello-world SAS Recipe]
+- *Question* (lwang30-stat6250) : Except for displaying the output, what other primary purpose is the SAS log window used for ?
+- *Answer* (lwang30-stat6250) : The log window will indicate where errors occur in the codes and the corresponding explanation for those errors.
