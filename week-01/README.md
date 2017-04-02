@@ -21,9 +21,9 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 2]
 
-*Question* (aalshehry−stat6250): What is the most effective way to stay up to date with the latest SAS trends?
+* *Question* (aalshehry−stat6250): What is the most effective way to stay up to date with the latest SAS trends?
 
-*Answer* (aalshehry−stat6250): Using RSS feeds reader, like Feedly, NewsBlur, Feeder.co or other readers, could help to collect news from different sources and save time rather than browsing each website separately.
+* *Answer* (aalshehry−stat6250): Using RSS feeds reader, like Feedly, NewsBlur, Feeder.co or other readers, could help to collect news from different sources and save time rather than browsing each website separately.
 
 [Course Structure Quiz, Problem 3]
 
