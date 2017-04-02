@@ -68,6 +68,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Can we use reference materials during the final exam?
 - Answer (meisenbach-stat6250): No, "You have completed all problems without the assistance of any reference materials or
 other persons."
+- Question (meisenbach-stat6250): How did the instructor determine the professional practices that would promote a growth mindset?
 - *Question* (lwang30-stat6250) : How do the students earn the **Building General Knowledge** achievement ?
 
 [Course Structure Quiz, Problem 7]
