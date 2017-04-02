@@ -14,8 +14,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 1]
-- *Question* (yren10−stat6250): What should stay6205 student check for stat6205 class everyday?
+- *Question* (yren10−stat6250): What should STAT6250 student check for STAT6250 class everyday?
 - *Answer* (yren10m−stat6250): Slack, blackboard, github， school email（horzion.csueastbay.edu）
+
 [Course Structure Quiz, Problem 2]
 -*Question* (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - *Answer* (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
