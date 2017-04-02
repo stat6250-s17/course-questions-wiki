@@ -15,9 +15,9 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 
-*Question* (aalshehry−stat6250): Why should students complete *all* steps in week one to earn _Initial Setup Achievement_?
+* *Question* (aalshehry−stat6250): Why should students complete *all* steps in week one to earn _Initial Setup Achievement_?
 
-*Answer* (aalshehry−stat6250): Because in any project, investing enough time in setting up the tools and being familiar with them will save a lot of time later and makes it easy to collaborate and interact effectively.
+* *Answer* (aalshehry−stat6250): Because in any project, investing enough time in setting up the tools and being familiar with them will save a lot of time later and makes it easy to collaborate and interact effectively.
 
 [Course Structure Quiz, Problem 2]
 
@@ -36,14 +36,14 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 5]
 
- *Question* (aalshehry−stat6250): What is the format of final exam? 
+*  *Question* (aalshehry−stat6250): What is the format of final exam? 
 
 
 [Course Structure Quiz, Problem 6]
 
- *Question* (aalshehry−stat6250): What are the five practices that will be applied to adapt a growth mindset?
+* *Question* (aalshehry−stat6250): What are the five practices that will be applied to adapt a growth mindset?
 
-*Answer* (aalshehry−stat6250): The five practices are: 
+* *Answer* (aalshehry−stat6250): The five practices are: 
 
 1- Reading for Depth
 2- Team-based Problem Solving
@@ -53,12 +53,12 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 7]
 
- *Question* (aalshehry−stat6250): Are late submissions acceptable?
+* *Question* (aalshehry−stat6250): Are late submissions acceptable?
 
 
 [Course Structure Quiz, Problem 8]
 
- *Question* (aalshehry−stat6250): Is there a credit for contributions to the Course Questions Wiki after the Week 10 Quiz deadline?
+* *Question* (aalshehry−stat6250): Is there a credit for contributions to the Course Questions Wiki after the Week 10 Quiz deadline?
 
 
 [Course Structure Quiz, Problem 9]
@@ -68,13 +68,13 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 10]
 
- *Question* (aalshehry−stat6250): What are the most valuable advantages for each of collaboration tools that we will use during this course? (Slack, Github, Blackboard)
+* *Question* (aalshehry−stat6250): What are the most valuable advantages for each of collaboration tools that we will use during this course? (Slack, Github, Blackboard)
 
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions)]
 
- *Question* (aalshehry−stat6250): Is there code-autocompletion feature in SAS?
+* *Question* (aalshehry−stat6250): Is there code-autocompletion feature in SAS?
  
-*Answer* (aalshehry−stat6250): Yes, in SAS University and enterprise editions.
+* *Answer* (aalshehry−stat6250): Yes, in SAS University and enterprise editions.
 
 
