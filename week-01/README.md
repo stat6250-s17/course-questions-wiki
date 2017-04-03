@@ -110,7 +110,7 @@ swallow.
 - Answer (kveng-stat6250): I think the instructor would quickly respond within a day.
 - Question (meisenbach-stat6250): Doesn't it bother the professor to be getting Slack messages at random times throughout the day?
 - *Question* (lwang30-stat6250) : What are the two suggested approach to contact the professor ?
- *Question* (aalshehry−stat6250): Why Slack is considered as the best way to contact with your team and the instructor?
+* *Question* (aalshehry−stat6250): Why Slack is considered as the best way to contact with your team and the instructor?
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
