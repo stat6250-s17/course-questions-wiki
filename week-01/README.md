@@ -36,7 +36,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
@@ -57,6 +56,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What is the benefit of using a news aggregator service like feedly.com to look for recent articles relating to SAS?
 - Answer (dlee117-stat6250): Using a news aggregator service lets you look at recent article posts from all of the sources that you want. In this way, all of the articles from different websites are in one place so you don't have to search through many websites.
 - Question (aoneill2-stat6250): Do weekly forum questions have to be directly relatable to SAS programming (or Python or R), or could they be related to general ethical questions around privacy and big data, for instance?
+
+
+
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Question (cyuan10-stat6250): Do the weekly quizzes focuse on content from the textbook, supplementary material, videos, postings, or possibly of all the above?
@@ -124,9 +126,6 @@ The instructor will then review the pull request and make comments should furthe
 other persons."
 - Question (yyan11−stat6250): If I don not have enough time to finish all question from the final exam, can I pass?
 - Answer (yyan11−stat6250): 70 percent or higher required to earn the Building General Knowledge achievement in the course.
-
-
-[Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 - Question (cyuan10-stat6250): How will “teams” be assigned and how many per a team maximum?
 - Question (meisenbach-stat6250): How did the instructor determine the professional practices that would promote a growth mindset?
@@ -166,7 +165,6 @@ other persons."
 
 
 
-
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 - Question (cyuan10-stat6250): I’m not very familiar with Github but if we contribute to the Course Question Wiki after week 10 quiz deadline - will it automatically let you know an update has been made or should we inform you another way?
@@ -182,7 +180,6 @@ other persons."
 - Question (dlee117−stat6250): What is the benefit of continuing to contribute to the Course Questions Wiki when preparing for the final exam?
 - Answer (dlee117-stat6250): Asking and answering substantive questions helps you understand and remember important course concepts, which will help you study for the final exam.
 - Question (aoneill2-stat6250): Can we get extra credit for building projects and programs on repositories on GitHub as part of a portfolio?
-
 
 
 
@@ -204,6 +201,7 @@ other persons."
 - Question (aliang5−stat6250): Does making grammatic errors offend professor?
 - Question (dlee117−stat6250): Why is sending a message to the Professor through Slack generally the preferred method of communication?
 - Question (aoneill2-stat6250): Is the professor pretty much available any time the snoozing autoreply message is not received in response?
+
 
 
 [Course Structure Quiz, Problem 10]
