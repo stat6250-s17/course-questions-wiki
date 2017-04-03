@@ -13,7 +13,6 @@ The instructor will then review the pull request and make comments should furthe
 ********************************************************************************
 
 
-
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 - Question (cyuan10-stat6250): Is there a benefit to using so many different method of “communications” such as both Blackboard (forum) and Slack? 
@@ -22,6 +21,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): In slack, how do you create a "group" chat which would be useful for chatting just with your project team?
 - *Question* (lwang30-stat6250) : What's the purpose of using multiple technologies including Blackboard, Slack, GitHub for this course ?
 - *Answer* (lwang30-stat6250) : The application of multiple technologies is to ensure sufficient communication considering this is an online class. In particular, GitHub will be an effective tool for students to work on the team projects.
+* *Question* (aalshehry−stat6250): Why should students complete *all* steps in week one to earn _Initial Setup Achievement_?
+* *Answer* (aalshehry−stat6250): Because in any project, investing enough time in setting up the tools and being familiar with them will save a lot of time later and makes it easy to collaborate and interact effectively.
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -33,6 +34,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): Because it allows the instructor to automate grading and provides practice following directions (response from instructor via Slack direct message)
 - *Question* (lwang30-stat6250) : Why are most assignments graded on a "complete/incomplete" scale ?
 - *Answer* (lwang30-stat6250) : The major intention of the weekly quizzes and forums is to motivate students to learn and participate into the class setting. Instead, the team projects and the final exam will test students on a knowledge base.
+* *Question* (aalshehry−stat6250): What is the most effective way to stay up to date with the latest SAS trends?
+* *Answer* (aalshehry−stat6250): Using RSS feeds reader, like Feedly, NewsBlur, Feeder.co or other readers, could help to collect news from different sources and save time rather than browsing each website separately.
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -42,6 +45,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): No, quizzes are graded on a "complete/incomplete" scale.
 - *Question* (lwang30-stat6250) : Why is it important that the students check all relevant communication media daily ?
 - *Answer* (lwang30-stat6250) : This class has no meeting time, and there are at least 1 quiz, 1 forum due each week, along with 2 team projects through the whole quarter. Checking all communication media daily will assure students not to miss any important updates or deadline for assignments. 
+* *Question* (aalshehry−stat6250): What kind of activities should students practice daily to gain _Reading for Depth Achievement_.
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
@@ -50,6 +54,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng-stat6250): Where are the Team Project 1 and Team Project 2 instructions handouts? How many people in a team? How do we choose our team? How do we report slacker in our team? 
 - Question (meisenbach-stat6250): Where will the data for the projects come from?
 - *Question* (lwang30-stat6250) : Why does a completion of 8 out of 10 weekly quizzes give students **Reading for Depth** achievement ?
+* *Question* (aalshehry−stat6250): How many steps in team projects and how many steps should each member complete?
 
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
@@ -58,6 +63,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng-stat6250): How much time do we have to invest on this class daily in order to do well on the final exam? 
 - Answer (kveng-stat6250): Depend on the individual students some would take more time to learn the materials and some would take less time to learn the materials. 
 - *Question* (lwang30-stat6250) : What other goals are weekly quizzes able to serve for, except for earning the achievement ?
+* *Question* (aalshehry−stat6250): What is the format of final exam? 
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
@@ -69,6 +75,14 @@ The instructor will then review the pull request and make comments should furthe
 other persons."
 - Question (meisenbach-stat6250): How did the instructor determine the professional practices that would promote a growth mindset?
 - *Question* (lwang30-stat6250) : How do the students earn the **Building General Knowledge** achievement ?
+* *Question* (aalshehry−stat6250): What are the five practices that will be applied to adapt a growth mindset?
+* *Answer* (aalshehry−stat6250): The five practices are: 
+1- Reading for Depth
+2- Team-based Problem Solving
+3- Reading for Breadth
+4- Building General Knowledge
+5- Initial Setup
+
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
@@ -76,6 +90,7 @@ other persons."
 - Question (kveng-stat6250): How strict are you on the late submissions policy? What if we are only one hour past the due date, would that be okay? 
 - Question (meisenbach-stat6250): Why are assignments are graded for only for completeness?
 - *Question* (lwang30-stat6250) : Why is the resubmission of incomplete assingment at the instructor's discretion allowed ?
+* *Question* (aalshehry−stat6250): Are late submissions acceptable?
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
@@ -83,6 +98,7 @@ other persons."
 - Question (kveng-stat6250): I understand that you would give extra credit to pointing out typos, give substantive suggestions, and contribute to the course questions wiki after the week 10 quiz deadline. I would like to know how much weight does this extra credit has on the overall grade? Is it half of one achievement or less than half or one whole achievement itself? 
 - Question (meisenbach-stat6250): Does contributing to the Course Question Wiki after the week 10 quiz mean answering other people's questions?
 - *Question* (lwang30-stat6250) : In what ways are students able to earn extra credits ?
+* *Question* (aalshehry−stat6250): Is there a credit for contributions to the Course Questions Wiki after the Week 10 Quiz deadline?
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
@@ -94,6 +110,7 @@ swallow.
 - Answer (kveng-stat6250): I think the instructor would quickly respond within a day.
 - Question (meisenbach-stat6250): Doesn't it bother the professor to be getting Slack messages at random times throughout the day?
 - *Question* (lwang30-stat6250) : What are the two suggested approach to contact the professor ?
+* *Question* (aalshehry−stat6250): Why Slack is considered as the best way to contact with your team and the instructor?
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
@@ -102,6 +119,7 @@ swallow.
 - Question (kveng-stat6250): Why do we have weekly forum on Blackboard? Why don't we post the weekly forum on slack instead of on Blackboard? 
 - Question (meisenbach-stat6250): Is there a way to sign up for push notification from GitHub?
 - *Question* (lwang30-stat6250) : What's the major intention to let students do the weekly forum ?
+* *Question* (aalshehry−stat6250): What are the most valuable advantages for each of collaboration tools that we will use during this course? (Slack, Github, Blackboard)
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
@@ -110,4 +128,5 @@ swallow.
 - Question (meisenbach-stat6250): Using the VMware Horizon Client supposedly offers better performance and features. I've successfully installed the client but typing into SAS stops working when I switch away from the client window? I don't have problems using the browser. Am I missing out on a lot if I just use the browser?
 - *Question* (lwang30-stat6250) : Except for displaying the output, what other primary purpose is the SAS log window used for ?
 - *Answer* (lwang30-stat6250) : The log window will indicate where errors occur in the codes and the corresponding explanation for those errors.
-
+* *Question* (aalshehry−stat6250): Is there code-autocompletion feature in SAS?
+* *Answer* (aalshehry−stat6250): Yes, in SAS University and enterprise editions.
