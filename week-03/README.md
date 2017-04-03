@@ -69,14 +69,14 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[recipe_to_check_for_duplicates SAS Recipe (from Week 3 Overview)]
+[recipe_to_check_for_duplicates (from Week 3 Overview)]
 
 
 
-[recipe_for_sorting_data SAS Recipe (from Week 3 Overview)]
+[recipe_for_sorting_data (from Week 3 Overview)]
 
 
 
-[recipe_for_printing_values SAS Recipe (from Week 3 Overview)]
+[recipe_for_printing_values (from Week 3 Overview)]
 
 
