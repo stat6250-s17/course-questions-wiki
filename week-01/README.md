@@ -30,6 +30,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aliang5−stat6250): Screenshot is not a good way to review programming codes when the codes get too complicate however since SAS hello-world recipe is a short code that it’s fine to use screenshot for review.
 - Question (dlee117−stat6250): What must you do if your Horizon email address is already associated with a GitHub account?
 - Answer (dlee117-stat6250): You can change the username on the account or you can change the account's email address which allows you to create a new account. This way, you have a GitHub account solely for STAT 6250.
+- Question (aoneill2-stat6250): Are there any specific minimum RAM and ROM requirements for an appropriate laptop to use for this course, or processor type?  
 
 
 
@@ -52,6 +53,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aliang5−stat6250): How come weekly forum post don’t include published journal articles as resource of reading? 
 - Question (dlee117−stat6250): What is the benefit of using a news aggregator service like feedly.com to look for recent articles relating to SAS?
 - Answer (dlee117-stat6250): Using a news aggregator service lets you look at recent article posts from all of the sources that you want. In this way, all of the articles from different websites are in one place so you don't have to search through many websites.
+- Question (aoneill2-stat6250): Do weekly forum questions have to be directly relatable to SAS programming (or Python or R), or could they be related to general ethical questions around privacy and big data, for instance?
 
 
 
@@ -71,6 +73,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aliang5−stat6250): Is there a time limit on how long a student should spend their time on weekly quizzes?
 - Answer (aliang5−stat6250): Quizzes are due by their assigned due dates. However, since the final is timed, I should invest unlimited time to understand quizzes concepts and then use the quizzes as practice problems to prepare for final exams (without looking at reference materials). 
 - Question (dlee117−stat6250): When you submit your Weekly quiz, will the Professor automatically merge your pull request? 
+- Question (aoneill2-stat6250): Are all future quizzes similar to this, where we will take the questions from the html-based server, then complete it as we complete this exercise, problem for problem? 
+- Question (aoneill2-stat6250): Is there a separate list of the quiz problems to use to prepare this exercise separately, or is it recommended that we just copy and paste the questions to a Word document to use later?
 
 
 
@@ -87,6 +91,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aliang5−stat6250): Will we work with the same partners/groups for the two projects?
 - Question (dlee117−stat6250): What are the goals of the two team projects (besides getting good grades on them)?
 - Answer (dlee117-stat6250): To collaboratively work toward creative solutions and adding value to each team-member's work-sample portfolio. If your code doesn't work, someone else can take a look with fresh eyes and see if they can come up with a solution. This fosters teamwork and communication.
+- Question (aoneill2-stat6250): Will we have to merge data files in the first project?
 
 
 
@@ -102,6 +107,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lzhao4−stat6250): When will the final exam available on blackboard?
 - Question (aliang5−stat6250): What is the passing scores for SAS 9 credential exam? It’s similar to the passing scores for the final exam? It’s why Professor pick 70% as the passing grade for complete?
 - Question (dlee117−stat6250): Which chapters do you need to study out of the course textbook for the final exam and what should you focus on?
+- Question (aoneill2-stat6250): Will the final results be curved?
 
 
 
@@ -128,6 +134,7 @@ other persons."
 - Question (lzhao4−stat6250): Which achievement is most challenge for a first-time SAS programing learner?
 - Question (aliang5−stat6250): How do team project will be evaluated? It’s based on the project result?
 - Question (dlee117−stat6250): How can you use the five professional practices to get more out of this class than just a letter grade? Basically, what can they teach you outside of the classroom?
+- Question (aoneill2-stat6250): What is the highest possible grade if only 4 of the 5 achievements are satisfactorily completed?
 
  
 
@@ -143,6 +150,7 @@ other persons."
 - Question (lzhao4−stat6250): Will student receive a “complete” grade if they did good for their resubmission?
 - Question (aliang5−stat6250): If I have special reason that I couldn’t complete the assignments before the due dates and if I communicate with the Professor ahead of time, will the professor accept late assignments as on-time?
 - Question (dlee117−stat6250): If you find yourself not meeting assignment expectations or deadlines, what can you do so that you can succeed in this course?
+- Question (aoneill2-stat6250): Is it possible to reconsider prior late submissions at the end of the quareter for possible grading status change?
 
 
 
@@ -159,6 +167,7 @@ other persons."
 - Question (aliang5−stat6250): Why does professor encourage students to catch mistakes by giving out extra credit?
 - Question (dlee117−stat6250): What is the benefit of continuing to contribute to the Course Questions Wiki when preparing for the final exam?
 - Answer (dlee117-stat6250): Asking and answering substantive questions helps you understand and remember important course concepts, which will help you study for the final exam.
+- Question (aoneill2-stat6250): Can we get extra credit for building projects and programs on repositories on GitHub as part of a portfolio?
 
 
 
@@ -179,6 +188,7 @@ other persons."
 - Answer (lzhao4−stat6250): Yes Slack is good for group discussion that many companies are using it.
 - Question (aliang5−stat6250): Does making grammatic errors offend professor?
 - Question (dlee117−stat6250): Why is sending a message to the Professor through Slack generally the preferred method of communication?
+- Question (aoneill2-stat6250): Is the professor pretty much available any time the snoozing autoreply message is not received in response?
 
 
 
@@ -196,6 +206,12 @@ other persons."
 - Question (aliang5−stat6250): How should I not get distracted from so many information?
 - Answer (aliang5−stat6250): Use reading schedule in syllables to help find out the weekly assignment due dates and use activities and assignment map to find out the detail tasks.
 - Question (dlee117−stat6250): Why should you check all of the course technologies daily? 
+- Question (aoneill2-stat6250): Does all GitHub activity automatically notify users through Slack?
+- Answer (aoneill2-stat6250): Yes, if notifications are set to "all activity" you will be notified through Slack app of all of your team members' pull requests in real time (remember you can also set your offline Slack autoreply option to "snoozing" to not be disturbed at all hours, or to set such options on the phone itself), so you can respond in a meaningful length of time to have input before agreeing to merge the file with the team's master file.
+- Question (aoneill2-stat6250): Is there an app for Slack for i-phones and androids?
+- Answer (aoneill2-stat6250): Yes, there are Slack apps for all smart phones.
+- Question (aoneill2-stat6250): Is there a desktop app for PCs and Apple computers?
+- Answer (aoneill2-stat6250): Yes, there are Slack apps for Macs and PCs and you can activate desktop notifications so you don't have to be logged on to BB to access Slack and actively 'check' for new messages or activity.
 
 
 
@@ -213,3 +229,7 @@ other persons."
 - Question (lzhao4−stat6250): I was accessing SAS via BayCloud VLC on my mac but its working so slow. Is there any way to resolve it? 
 - Question (aliang5−stat6250): How to organize codes in SAS so it’s easy to read? What is the coding convention for SAS? 
 - Question (dlee117−stat6250): What is the benefit of adding put statements to your code when debugging?
+- Question (aoneill2-stat6250): If saving a SAS file to a working directory on a flash drive, will I get an error if I don't create the working directory first, or is the named working directory created with the data statement?
+- Answer (aoneill2-stat6250): An error is generated that the directory does not exist if it has not already been created.
+- Question (aoneill2-stat6250): Is the use of an external flash drive required when using the html-based virtual university server to run SAS? 
+- Answer (aoneill2-stat6250): Absolutely! Otherwise all your working files will be deleted as temporary, which apparently happens upon logging off your account on the server, and the only way to save a repository of working files is on a flash drive, because the SAS program is looking for a drive external to machine accessing the university server.
