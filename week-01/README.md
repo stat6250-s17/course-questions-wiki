@@ -117,8 +117,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 6]
-- Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
-- Question (cyuan10-stat6250): How will “teams” be assigned and how many per a team maximum? 
 - Question (kveng-stat6250): Why does this class grade based on achievements instead of the normal grading system, for example final exam is 25% of the grade instead of just one achievement?
 - Question (cyuan10-stat6250): 110 minutes feel a rushed for 65 questions - have you had past students not finishing the final exam?'
 - Question (meisenbach-stat6250): Can we use reference materials during the final exam?
@@ -127,11 +125,8 @@ other persons."
 - Question (yyan11−stat6250): If I don not have enough time to finish all question from the final exam, can I pass?
 - Answer (yyan11−stat6250): 70 percent or higher required to earn the Building General Knowledge achievement in the course.
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
-- Question (cyuan10-stat6250): How will “teams” be assigned and how many per a team maximum?
-- Question (meisenbach-stat6250): How did the instructor determine the professional practices that would promote a growth mindset?
 - Question (yyan11−stat6250): Can I make up any homework assignment?
 - Question (nly13-stat6250):Why is the achievement for the final called building general knowledge? Shouldn’t it be mastery of knowledge?
-- Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 - Question (cyuan10-stat6250): How will “teams” be assigned and how many per a team maximum?
 - Question (meisenbach-stat6250): How did the instructor determine the professional practices that would promote a growth mindset?
 - *Question* (lwang30-stat6250) : How do the students earn the **Building General Knowledge** achievement ?
