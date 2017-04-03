@@ -16,32 +16,47 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 1, Problem 1]
 
 
+
 [Course Textbook Chapter 1, Problem 2]
+
 
 
 [Course Textbook Chapter 1, Problem 3]
 
 
+
 [Course Textbook Chapter 1, Problem 4]
+
 
 
 [Course Textbook Chapter 1, Problem 5]
 
 
+
 [Course Textbook Chapter 1, Problem 8]
+
 
 
 [Course Textbook Chapter 2, Problem 3]
 
 
+
 [Course Textbook Chapter 2, Problem 7]
+
 
 
 [Course Textbook Chapter 2, Problem 8]
 
 
+
 [Course Textbook Chapter 2, Problem 9]
 
 
+
 [basic_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
+
+
+
+[optional: bonus_advanced_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
+
 
