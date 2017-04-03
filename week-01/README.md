@@ -28,6 +28,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lzhao4−stat6250): Do weekly quizzes allow multiple attempts?
 - Question (aliang5−stat6250): Why do we submit screenshot instead of actual source code of SAS hello-world recipe in the Slack Channel?
 - Answer (aliang5−stat6250): Screenshot is not a good way to review programming codes when the codes get too complicate however since SAS hello-world recipe is a short code that it’s fine to use screenshot for review.
+- Question (dlee117−stat6250): What must you do if your Horizon email address is already associated with a GitHub account?
+- Answer (dlee117-stat6250): You can change the username on the account or you can change the account's email address which allows you to create a new account. This way, you have a GitHub account solely for STAT 6250.
+
 
 
 
@@ -47,6 +50,9 @@ The instructor will then review the pull request and make comments should furthe
 * *Answer* (aalshehry−stat6250): Using RSS feeds reader, like Feedly, NewsBlur, Feeder.co or other readers, could help to collect news from different sources and save time rather than browsing each website separately.
 - Question (lzhao4−stat6250): Can we review all submitted quiz questions when needed?
 - Question (aliang5−stat6250): How come weekly forum post don’t include published journal articles as resource of reading? 
+- Question (dlee117−stat6250): What is the benefit of using a news aggregator service like feedly.com to look for recent articles relating to SAS?
+- Answer (dlee117-stat6250): Using a news aggregator service lets you look at recent article posts from all of the sources that you want. In this way, all of the articles from different websites are in one place so you don't have to search through many websites.
+
 
 
 
@@ -64,6 +70,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lzhao4−stat6250): Professor provide students with flexible requirements in case of any uncertain situation. Complete all weekly quizzes is necessary which help students to understand all concepts.
 - Question (aliang5−stat6250): Is there a time limit on how long a student should spend their time on weekly quizzes?
 - Answer (aliang5−stat6250): Quizzes are due by their assigned due dates. However, since the final is timed, I should invest unlimited time to understand quizzes concepts and then use the quizzes as practice problems to prepare for final exams (without looking at reference materials). 
+- Question (dlee117−stat6250): When you submit your Weekly quiz, will the Professor automatically merge your pull request? 
 
 
 
@@ -78,6 +85,9 @@ The instructor will then review the pull request and make comments should furthe
 * *Question* (aalshehry−stat6250): How many steps in team projects and how many steps should each member complete?
 - Question (lzhao4−stat6250): How will the team-based projects exactly work? Students in this course will be assign in different groups?
 - Question (aliang5−stat6250): Will we work with the same partners/groups for the two projects?
+- Question (dlee117−stat6250): What are the goals of the two team projects (besides getting good grades on them)?
+- Answer (dlee117-stat6250): To collaboratively work toward creative solutions and adding value to each team-member's work-sample portfolio. If your code doesn't work, someone else can take a look with fresh eyes and see if they can come up with a solution. This fosters teamwork and communication.
+
 
 
 [Course Structure Quiz, Problem 5]
@@ -91,6 +101,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question* (aalshehry−stat6250): What is the format of final exam? 
 - Question (lzhao4−stat6250): When will the final exam available on blackboard?
 - Question (aliang5−stat6250): What is the passing scores for SAS 9 credential exam? It’s similar to the passing scores for the final exam? It’s why Professor pick 70% as the passing grade for complete?
+- Question (dlee117−stat6250): Which chapters do you need to study out of the course textbook for the final exam and what should you focus on?
 
 
 
@@ -116,6 +127,8 @@ other persons."
 5- Initial Setup
 - Question (lzhao4−stat6250): Which achievement is most challenge for a first-time SAS programing learner?
 - Question (aliang5−stat6250): How do team project will be evaluated? It’s based on the project result?
+- Question (dlee117−stat6250): How can you use the five professional practices to get more out of this class than just a letter grade? Basically, what can they teach you outside of the classroom?
+
  
 
 
@@ -129,6 +142,8 @@ other persons."
 * *Question* (aalshehry−stat6250): Are late submissions acceptable?
 - Question (lzhao4−stat6250): Will student receive a “complete” grade if they did good for their resubmission?
 - Question (aliang5−stat6250): If I have special reason that I couldn’t complete the assignments before the due dates and if I communicate with the Professor ahead of time, will the professor accept late assignments as on-time?
+- Question (dlee117−stat6250): If you find yourself not meeting assignment expectations or deadlines, what can you do so that you can succeed in this course?
+
 
 
 
@@ -142,6 +157,9 @@ other persons."
 * *Question* (aalshehry−stat6250): Is there a credit for contributions to the Course Questions Wiki after the Week 10 Quiz deadline?
 - Question (lzhao4−stat6250): Besides 3 options professor mentioned, do we possible to get extra credits if we complete 10 of 10 forum posts or 10 of 10 weekly quizzes?
 - Question (aliang5−stat6250): Why does professor encourage students to catch mistakes by giving out extra credit?
+- Question (dlee117−stat6250): What is the benefit of continuing to contribute to the Course Questions Wiki when preparing for the final exam?
+- Answer (dlee117-stat6250): Asking and answering substantive questions helps you understand and remember important course concepts, which will help you study for the final exam.
+
 
 
 
@@ -160,6 +178,8 @@ other persons."
 - Question (lzhao4−stat6250): Slack is the best way for team-based project discussion?
 - Answer (lzhao4−stat6250): Yes Slack is good for group discussion that many companies are using it.
 - Question (aliang5−stat6250): Does making grammatic errors offend professor?
+- Question (dlee117−stat6250): Why is sending a message to the Professor through Slack generally the preferred method of communication?
+
 
 
 [Course Structure Quiz, Problem 10]
@@ -175,6 +195,8 @@ other persons."
 - Answer (lzhao4−stat6250):Yes grades will be post on BB.
 - Question (aliang5−stat6250): How should I not get distracted from so many information?
 - Answer (aliang5−stat6250): Use reading schedule in syllables to help find out the weekly assignment due dates and use activities and assignment map to find out the detail tasks.
+- Question (dlee117−stat6250): Why should you check all of the course technologies daily? 
+
 
 
 
@@ -190,3 +212,4 @@ other persons."
 * *Answer* (aalshehry−stat6250): Yes, in SAS University and enterprise editions.
 - Question (lzhao4−stat6250): I was accessing SAS via BayCloud VLC on my mac but its working so slow. Is there any way to resolve it? 
 - Question (aliang5−stat6250): How to organize codes in SAS so it’s easy to read? What is the coding convention for SAS? 
+- Question (dlee117−stat6250): What is the benefit of adding put statements to your code when debugging?
