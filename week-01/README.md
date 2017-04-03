@@ -15,7 +15,6 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-- Question (yyan11−stat6250): When students can get their assignments feedback from professor?
 - Question (cyuan10-stat6250): Is there a benefit to using so many different method of “communications” such as both Blackboard (forum) and Slack? 
 - Question (kveng-stat6250): After we complete everything, where can we check the status of our achievements?
 - Answer (kveng-stat6250): We can keep track of our achievements on BlackBoard by clicking on "Course Gradebook" and "Course Achievements"
@@ -31,6 +30,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng-stat6250): Since we only need 8 out 10 to earn the reading for breadth achievement, will students who complete 10 out of the 10 weekly forum posts get some sort of extra credit?
 - Question (meisenbach-stat6250): Why are we using our name as the subject for the new thread?
 - Answer (meisenbach-stat6250): Because it allows the instructor to automate grading and provides practice following directions (response from instructor via Slack direct message)
+- Question (yyan11−stat6250): When students can get their assignments feedback from professor?
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -38,6 +38,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng-stat6250): Since we only need 8 out 10 to earn the reading for depth achievement, will students who complete 10 out of the 10 weekly quizzes get some sort of extra credit?
 - Question (meisenbach-stat6250): Does our score for the weekly quiz matter?
 - Answer (meisenbach-stat6250): No, quizzes are graded on a "complete/incomplete" scale.
+- Question (yyan11−stat6250): How many questions in weekly quizzes?
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
@@ -45,13 +46,13 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): I could not find the instructions for the projects, can you provide more directions about the projects?
 - Question (kveng-stat6250): Where are the Team Project 1 and Team Project 2 instructions handouts? How many people in a team? How do we choose our team? How do we report slacker in our team? 
 - Question (meisenbach-stat6250): Where will the data for the projects come from?
+- Question (yyan11−stat6250): How to set up a team?
 
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 - Question (yyan11−stat6250): How many questions in the Final Exam?
 - Answer (yyan11−stat6250): The Final Exam will tentatively consist of 65 multiple-choice, with a time limit of 110 minutes.
-- Question (yyan11−stat6250): If I can not finish the final exam, can I pass?
 - Question (cyuan10-stat6250): 110 minutes feel a rushed for 65 questions - have you had past students not finishing the final exam?
 - Question (kveng-stat6250): How much time do we have to invest on this class daily in order to do well on the final exam? 
 - Answer (kveng-stat6250): Depend on the individual students some would take more time to learn the materials and some would take less time to learn the materials. 
@@ -64,17 +65,22 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Can we use reference materials during the final exam?
 - Answer (meisenbach-stat6250): No, "You have completed all problems without the assistance of any reference materials or
 other persons."
+- Question (yyan11−stat6250): If I don not have enough time to finish all question from the final exam, can I pass?
+- Answer (yyan11−stat6250): 70 percent or higher required to earn the Building General Knowledge achievement in the course.
+
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 - Question (cyuan10-stat6250): How will “teams” be assigned and how many per a team maximum?
 - Question (meisenbach-stat6250): How did the instructor determine the professional practices that would promote a growth mindset?
+- Question (yyan11−stat6250): Can I make up any homework assignment?
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 - Question (cyuan10-stat6250): Why accept incomplete submissions but not late submissions? If a submission is late, can you still review it and provide feedback (even if it is not counted for our grades?).
 - Question (kveng-stat6250): How strict are you on the late submissions policy? What if we are only one hour past the due date, would that be okay? 
 - Question (meisenbach-stat6250): Why are assignments are graded for only for completeness?
+- Question (yyan11−stat6250): How to make appointment to meet professor?
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
@@ -93,6 +99,7 @@ swallow.
 - Question (kveng-stat6250): How fast will the instructor respond when a student asked a question via direct message sent through Slack?
 - Answer (kveng-stat6250): I think the instructor would quickly respond within a day.
 - Question (meisenbach-stat6250): Doesn't it bother the professor to be getting Slack messages at random times throughout the day?
+- Question (yyan11−stat6250): How to get extra credit?
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
@@ -100,6 +107,8 @@ swallow.
 - Answer (cyuan10-stat6250): It is best to check all channels of communications on a daily basis.
 - Question (kveng-stat6250): Why do we have weekly forum on Blackboard? Why don't we post the weekly forum on slack instead of on Blackboard? 
 - Question (meisenbach-stat6250): Is there a way to sign up for push notification from GitHub?
+- Question (yyan11−stat6250): where students can find the text book?
+- Answer (yyan11−stat6250): Text book can be purchased at the CSUEB Pioneer Bookstore and in various electronic formats
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
