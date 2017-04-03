@@ -14,6 +14,36 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 1]
+
+- *Question* (yren10−stat6250): What should STAT6250 student check for STAT6250 class everyday?
+- *Answer* (yren10m−stat6250): Slack, blackboard, github， school email（horzion.csueastbay.edu）
+
+[Course Structure Quiz, Problem 2]
+- *Question* (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+- *Answer* (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
+
+[Course Structure Quiz, Problem 3]
+- *Question* (yren10−stat6250): Do we have a office hour for this on-line class?
+- *Answer* (yren10m−stat6250): Yes, by appointment.
+
+[Course Structure Quiz, Problem 4]
+- *Question* (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
+- *Answer* (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
+
+[Course Structure Quiz, Problem 5]
+- *Question* (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
+- *Answer* (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
+
+[Course Structure Quiz, Problem 6]
+- *Question* (yren10−stat6250): what is the best way to contact professor?
+- *Answer* (yren10m−stat6250): Send direct message to professor.
+
+[Course Structure Quiz, Problem 7]
+- *Question* (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
+
+[Course Structure Quiz, Problem 8]
+- *Question* (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+=======
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 - Question (cyuan10-stat6250): Is there a benefit to using so many different method of “communications” such as both Blackboard (forum) and Slack? 
 - Question (kveng-stat6250): After we complete everything, where can we check the status of our achievements?
@@ -115,9 +145,10 @@ other persons."
 - *Question* (lwang30-stat6250) : In what ways are students able to earn extra credits ?
 * *Question* (aalshehry−stat6250): Is there a credit for contributions to the Course Questions Wiki after the Week 10 Quiz deadline?
 
+
 [Course Structure Quiz, Problem 9]
-- Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
-- Answer (ilankham−stat6250): An African swallow maybe, but not a European
+- *Question* (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
+- *Answer* (ilankham−stat6250): An African swallow maybe, but not a European
 swallow.
 - Question (cyuan10-stat6250): Are there certain hours (like office hours) where you will be available?
 - Answer (cyuan10-stat6250): Regardless of office hours, students can send messages to the professor who will respond when possible. Students can also sent messages to other classmates to discuss any questions.
@@ -130,6 +161,13 @@ swallow.
 * *Question* (aalshehry−stat6250): Why Slack is considered as the best way to contact with your team and the instructor?
 
 [Course Structure Quiz, Problem 10]
+
+- *Question* (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
+
+[hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
+- *Question* (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
+- *Answer* (yren10-stat6205): We can use the PRINTTO procedure(PROC PRINTTO) to print the SAS to a different output destination than the log, redirect it to an alternate location.
+
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 - Question (cyuan10-stat6250): Will information be shared across different channels? For example, I get similar notices on Blackboard as I do on Slack. will this continue or will one channel be more of a “primary”?
 - Answer (cyuan10-stat6250): It is best to check all channels of communications on a daily basis.
