@@ -43,5 +43,5 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 2, Problem 9]
 
 
-[loading_data_from_remote_Excel_file SAS Recipe (from Week 2 Overview)]
+[basic_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
 
