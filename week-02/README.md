@@ -15,7 +15,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 1]
 
-* Question (aalshehry−stat6250): Will the following procedure print observations > 6 or variables > 7?
+* Question (aalshehry−stat6250): Will the following procedure print observations > 6 or variables > 6?
 
 ```php
 proc print data=sashelp.cars;
