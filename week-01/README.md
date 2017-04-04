@@ -1,52 +1,38 @@
 ## Course Structure Quiz Problems
 
-This document should be edited to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
-
-All edits should conform to GitHub Markdown specifications (https://guides.github.com/features/mastering-markdown/) and should be committed to a branch named "week-01" in your fork of this repo. Then, after all edits have been made/committed, your Week 1 Quiz should be submitted by initiating a pull request using
-
-- the master branch of the stat6250/course_questions_wiki repo as the base fork and
-
-- the week-01 branch of your version of the repo as the head fork.
-
-The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
-
-********************************************************************************
-
 
 [Course Structure Quiz, Problem 1]
-- Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
+- *Question* (yren10-stat6250): Since this is on-line class, are we still having a face to face office hour with professor? or we are just having a online office hour by appointment.
 
 [Course Structure Quiz, Problem 2]
-- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-- Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
+- *Question* (yren10-stat6250): Do we still have a chance to resubmit our assignment if we had a insufficient quality in assignment?
+- *Answer* (yren10-stat6250): An insufficient quality may only be resubmitted at the instructor’s discretion.
 
 [Course Structure Quiz, Problem 3]
-- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+- *Question* (yren10-stat6250): How to earn a Reading for Depth Achievement toward their course grade? and does the score for each quiz matters?
+- *Answer* (yren10-stat6250): - students should successfully complete at least 8 of the 10 scheduled quizzes, and the score will only be marked as complete/incomplete.
 
 [Course Structure Quiz, Problem 4]
-- Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
-- Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
+- *Question* (yren10-stat6250): I did not see the week2 quiz details on blackboard, but I saw it on Github. So are we going to have quiz details on both blackboard and Github or just Github in the future?
 
 [Course Structure Quiz, Problem 5]
-- Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
-- Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
+- *Question* (yren10-stat6250): Does other SAS text book we had in other class helps? or focus on our text book will be a better way for study?
 
 [Course Structure Quiz, Problem 6]
-- Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
+- *Question* (yren10-stat6250): For the team projects, are you going to randomly pick groups or there is another way we are going to do?
 
 [Course Structure Quiz, Problem 7]
-- Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
+- *Question* (yren10-stat6250): Can we have get together have real group meeting with classmates for projects or assignments?
 
-[Course Structure Quiz, Problem 8]
-- Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+[Course Structure Quiz, Problem 8] 
+- *Question* (yren10-stat6250): What if you didn't make any mistakes till end of the quarter? are we all going to get a extra point for the perfection?
 
 [Course Structure Quiz, Problem 9]
-- Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
-- Answer (ilankham−stat6250): An African swallow maybe, but not a European
-swallow.
+- *Question* (yren10-stat6250): Is sending e-maill faster than direct message on Slack if we want to contact professor?
+- *Answer* (yren10-stat6250): I think it's a yes, professor usually checks email first befor he checks Slack.
 
 [Course Structure Quiz, Problem 10]
-- Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
+- *Question* (yren10-stat6250): Should we read text book more or focus on watching the on-line video little more?
 
-[hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
-- Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
+[hello-world SAS Recipe (from Week 1 Setup Instructions)]
+- *Question* (yren10-stat6250): I have a Mac, and by using the Bay Cloud VLC, the biggest issue for me probably will be the saving and import my files, is there a better way to do this? Or install SAS on a PC is the better way.
