@@ -1,4 +1,4 @@
-## Course Structure Quiz Problems
+## Week 3 Quiz Problems
 
 In order to prepare your Week 3 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
 
