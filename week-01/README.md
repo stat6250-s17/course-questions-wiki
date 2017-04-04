@@ -14,7 +14,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 - Question (cyuan10-stat6250): Is there a benefit to using so many different method of “communications” such as both Blackboard (forum) and Slack? 
@@ -40,6 +39,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): Are there any specific minimum RAM and ROM requirements for an appropriate laptop to use for this course, or processor type?
 - Answer (ilankham−stat6250): Nothing specific; per the course syllabus, though, you will need to be able to use Google Hangouts in an up-to-date version of Google Chrome, Slack, and the VMware Horizon Client.  
 - *Question* (yren10-stat6250): Since this is on-line class, are we still having a face to face office hour with professor? or we are just having a online office hour by appointment.
+- Answer (ilankham−stat6250): All office hours appointments are held online.
 
 
 [Course Structure Quiz, Problem 2]
@@ -122,6 +122,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): Will we have to merge data files in the first project?
 - Answer (ilankham−stat6250): No; merging datasets will tentatively be part of Project 2.
 - *Question* (yren10-stat6250): I did not see the week2 quiz details on blackboard, but I saw it on Github. So are we going to have quiz details on both blackboard and Github or just Github in the future?
+- Answer (ilankham−stat6250): All Weekly Quiz Problems are available in Blackboard.
 
 
 [Course Structure Quiz, Problem 5]
@@ -146,8 +147,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Which chapters do you need to study out of the course textbook for the final exam and what should you focus on?
 - Answer (ilankham−stat6250): All of them. Everything covered in the course textbook.
 - Question (aoneill2-stat6250): Will the final results be curved?
-- Answer (ilankham−stat6250)- *Question* (yren10-stat6250): Does other SAS text book we had in other class helps? or focus on our text book will be a better way for study?: No.
-
+- Answer (ilankham−stat6250): No.
+- *Question* (yren10-stat6250): Does other SAS text book we had in other class helps? or focus on our text book will be a better way for study?
+- Answer (ilankham−stat6250): I recommend reading as many books on SAS as possible since different authors will explain concepts in different ways, but the course textbook should be sufficient for this course.
 
 
 [Course Structure Quiz, Problem 6]
@@ -164,6 +166,7 @@ other persons."
 - Question (nly13-stat6250):Why is the achievement for the final called building general knowledge? Shouldn’t it be mastery of knowledge?
 - Answer (ilankham−stat6250): Mastery tends to result from years of experience, not weeks.
 - Question (cyuan10-stat6250): How will “teams” be assigned and how many per a team maximum?
+- *Question* (yren10-stat6250): For the team projects, are you going to randomly pick groups or there is another way we are going to do?
 - Answer (ilankham−stat6250): The instructor will tentatively assign teams during Week 3.
 - Question (meisenbach-stat6250): How did the instructor determine the professional practices that would promote a growth mindset?
 - Answer (ilankham−stat6250): Personal experience.
@@ -184,7 +187,6 @@ other persons."
 - Answer (ilankham−stat6250): In the instructor's experience, the five professional practices are the most essential components of a successful career in a data-oriented profession.
 - Question (aoneill2-stat6250): What is the highest possible grade if only 4 of the 5 achievements are satisfactorily completed?
 - Answer (ilankham−stat6250): An A-, at the instructor's discretion.
-- *Question* (yren10-stat6250): For the team projects, are you going to randomly pick groups or there is another way we are going to do?
 
 
 [Course Structure Quiz, Problem 7]
@@ -212,6 +214,7 @@ other persons."
 - Question (aoneill2-stat6250): Is it possible to reconsider prior late submissions at the end of the quareter for possible grading status change?
 - Answer (ilankham−stat6250): No.
 - *Question* (yren10-stat6250): Can we have get together have real group meeting with classmates for projects or assignments?
+- Answer (ilankham−stat6250): There's no reason not to; however, the instructor will be unable to join in-person meetings.
 
 
 [Course Structure Quiz, Problem 8]
@@ -238,6 +241,7 @@ other persons."
 - Question (aoneill2-stat6250): Can we get extra credit for building projects and programs on repositories on GitHub as part of a portfolio?
 - Answer (ilankham−stat6250): Possibly; please DM in Slack to discuss specific ideas.
 - *Question* (yren10-stat6250): What if you didn't make any mistakes till end of the quarter? are we all going to get a extra point for the perfection?
+- Answer (ilankham−stat6250): No.
 
 
 [Course Structure Quiz, Problem 9]
@@ -297,6 +301,7 @@ other persons."
 - Question (aoneill2-stat6250): Is there a desktop app for PCs and Apple computers?
 - Answer (aoneill2-stat6250): Yes, there are Slack apps for Macs and PCs and you can activate desktop notifications so you don't have to be logged on to BB to access Slack and actively 'check' for new messages or activity.
 - *Question* (yren10-stat6250): Should we read text book more or focus on watching the on-line video little more?
+- Answer (ilankham−stat6250): I'd recommend treating both equally.
 
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
@@ -325,3 +330,4 @@ other persons."
 - Question (aoneill2-stat6250): Is the use of an external flash drive required when using the html-based virtual university server to run SAS? 
 - Answer (aoneill2-stat6250): Absolutely! Otherwise all your working files will be deleted as temporary, which apparently happens upon logging off your account on the server, and the only way to save a repository of working files is on a flash drive, because the SAS program is looking for a drive external to machine accessing the university server.
 - *Question* (yren10-stat6250): I have a Mac, and by using the Bay Cloud VLC, the biggest issue for me probably will be the saving and import my files, is there a better way to do this? Or install SAS on a PC is the better way.
+- Answer (ilankham−stat6250): If you're using the VMWare Horizon Client, then you can access local files that are stored on flash drives.
