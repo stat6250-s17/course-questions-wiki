@@ -15,35 +15,32 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 1]
 
-* Question (aalshehry−stat6250): Does the following procedure will print all the observations > 6 or variables > 7?
+* Question (aalshehry−stat6250): Will the following procedure print observations > 6 or variables > 7?
 
 ```php
 proc print data=sashelp.cars;
-var Make Model;
-where Cylinders>6;
+    var Make Model;
+    where Cylinders>6;
 run;
 ```
 
 [Course Textbook Chapter 1, Problem 2]
 
-* Question (aalshehry−stat6250): At the end of each step, does “run;” requeued?
+* Question (aalshehry−stat6250): Why should we use “run;” steatment many times within SAS program instead of one time at the end?
 
-
-* Answer (aalshehry−stat6250): The run; is often not strictly required, as SAS will assume you want to start a new step when it sees data or proc. However your code will be clearer and easier to understand if you make the end of each step explicit.
+* Answer (aalshehry−stat6250): The "run;" statement is often not strictly required, as SAS will assume you want to start a new step when it sees data or proc. However your code will be clearer and easier to understand if you make the end of each step explicit.
 
 [Course Textbook Chapter 1, Problem 3]
 
 * Question (aalshehry−stat6250): How many type of variables does SAS support?
 
-
 [Course Textbook Chapter 1, Problem 4]
 
-* Question (aalshehry−stat6250): How  to represent missing data?
+* Question (aalshehry−stat6250): How  to represent missing data in SAS dataset?
 
 [Course Textbook Chapter 1, Problem 5]
 
 * Question (aalshehry−stat6250): Can a character variable begins with a number?
-
 
 [Course Textbook Chapter 1, Problem 8]
 
