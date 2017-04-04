@@ -15,14 +15,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 1]
 
-* *Question (aalshehry−stat6250):* Will the following procedure print all the observations > 6 or variables > 6?
-
-```php
-proc print data=sashelp.cars;
-    var Make Model;
-    where Cylinders> 6;
-run;
-```
+* *Question (aalshehry−stat6250):* Wht is themaximum number of observations per dataset? What about variables/columns?
 
 [Course Textbook Chapter 1, Problem 2]
 
