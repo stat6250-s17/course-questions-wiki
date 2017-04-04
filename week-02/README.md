@@ -46,7 +46,7 @@ run;
 
 * Question (aalshehry−stat6250): Considering all numeric variables have a default length of 8 bytes, what is the maximum value that can SAS accept for a numeric variable?
 
-* vAnswer (aalshehry−stat6250): ***************************
+* Answer (aalshehry−stat6250): ![Image of Yaktocat] (https://github.com/aalshehry-stat6250/course-questions-wiki/blob/Week-2/week-02/8byte.JPG)
 
 [Course Textbook Chapter 2, Problem 3]
 
