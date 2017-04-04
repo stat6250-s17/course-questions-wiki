@@ -1,4 +1,4 @@
-## Course Structure Quiz Problems
+## Week 1 Quiz Questions and Answers
 
 In order to prepare your Week 1 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
 
