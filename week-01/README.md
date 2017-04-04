@@ -101,10 +101,9 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (yren10-stat6250): - students should successfully complete at least 8 of the 10 scheduled quizzes, and the score will only be marked as complete/incomplete.
 
 
-
-
 [Course Structure Quiz, Problem 4]
-- *Question* (yren10-stat6250): I did not see the week2 quiz details on blackboard, but I saw it on Github. So are we going to have quiz details on both blackboard and Github or just Github in the future?
+- Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?		
+- Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
 * *Question* (aalshehry−stat6250): How many steps in team projects and how many steps should each member complete?
 - Question (cyuan10-stat6250): I could not find the instructions for the projects, can you provide more directions about the projects?
 - Question (kveng-stat6250): Where are the Team Project 1 and Team Project 2 instructions handouts? How many people in a team? How do we choose our team? How do we report slacker in our team? 
@@ -121,7 +120,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dlee117-stat6250): To collaboratively work toward creative solutions and adding value to each team-member's work-sample portfolio. If your code doesn't work, someone else can take a look with fresh eyes and see if they can come up with a solution. This fosters teamwork and communication.
 - Question (aoneill2-stat6250): Will we have to merge data files in the first project?
 - Answer (ilankham−stat6250): No; merging datasets will tentatively be part of Project 2.
-
+- *Question* (yren10-stat6250): I did not see the week2 quiz details on blackboard, but I saw it on Github. So are we going to have quiz details on both blackboard and Github or just Github in the future?
 
 
 [Course Structure Quiz, Problem 5]
