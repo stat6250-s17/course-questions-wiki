@@ -40,6 +40,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): Nothing specific; per the course syllabus, though, you will need to be able to use Google Hangouts in an up-to-date version of Google Chrome, Slack, and the VMware Horizon Client.  
 - *Question* (yren10-stat6250): Since this is on-line class, are we still having a face to face office hour with professor? or we are just having a online office hour by appointment.
 - Answer (ilankham−stat6250): All office hours appointments are held online.
+- Question (yzhu12-stat6250): How many team-based projects do you have and how many discrete steps does each project have?
+- Answer (yzhu12-stat6250): We have 2 projects and each of them has four discrete steps. We need to complete all the steps to earn a team-based problem solving achievement in the course.
+
 
 
 [Course Structure Quiz, Problem 2]
@@ -69,6 +72,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): Any post/article from the recommended sources should be okay, but please feel free to DM in Slack if you have something specific in mind that you'd like to post about.
 - *Question* (yren10-stat6250): Do we still have a chance to resubmit our assignment if we had a insufficient quality in assignment?
 - *Answer* (yren10-stat6250): An insufficient quality may only be resubmitted at the instructor’s discretion.
+- Question (yzhu12-stat6250): Is it fine for students to skip the setup quiz since there are still nine quizzes left for them to earn a reading for depth achievement in the course?
+- Answer (yzhu12-stat6250): No, although the setup quiz does not have a grade scale, it's an important step included in the initial setup, which aligns with CLO1. 
+
 
 
 [Course Structure Quiz, Problem 3]
@@ -100,6 +106,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): I'd recommend using a text editor like Notepad++ or TextWrangler, not a Word document.
 - *Question* (yren10-stat6250): How to earn a Reading for Depth Achievement toward their course grade? and does the score for each quiz matters?
 - *Answer* (yren10-stat6250): - students should successfully complete at least 8 of the 10 scheduled quizzes, and the score will only be marked as complete/incomplete.
+- Question (yzhu12-stat6250): Besides posting your own forums onto BB each week, what else you can do to help yourself and others learning?
+- Answer (yzhu12-stat6250): We can read others' posts carefully and leave our own perspectives under the reply section to learn from each other.
+
 
 
 [Course Structure Quiz, Problem 4]
@@ -123,6 +132,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): No; merging datasets will tentatively be part of Project 2.
 - *Question* (yren10-stat6250): I did not see the week2 quiz details on blackboard, but I saw it on Github. So are we going to have quiz details on both blackboard and Github or just Github in the future?
 - Answer (ilankham−stat6250): All Weekly Quiz Problems are available in Blackboard.
+- Question (yzhu12-stat6250): How can we maximize the space while coding in SAS?
+- Answer (yzhu12-stat6250): You click on Window and screw down to the one named "tie vertically", which allows you to code in a maximized space, especially useful when you prepare for long project. 
+
 
 
 [Course Structure Quiz, Problem 5]
@@ -150,6 +162,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): No.
 - *Question* (yren10-stat6250): Does other SAS text book we had in other class helps? or focus on our text book will be a better way for study?
 - Answer (ilankham−stat6250): I recommend reading as many books on SAS as possible since different authors will explain concepts in different ways, but the course textbook should be sufficient for this course.
+- Question (yzhu12-stat6250): How many problems do you have for final exam and how long is the exam? How does the exam graded?
+- Answer (yzhu12-stat6250): We have 65 multiple-choice questions and we have 110 minutes to complete it. We need to earn at least 70% of the questions to earn the building general knowledge achievement in the course. 
+
 
 
 [Course Structure Quiz, Problem 6]
@@ -187,6 +202,9 @@ other persons."
 - Answer (ilankham−stat6250): In the instructor's experience, the five professional practices are the most essential components of a successful career in a data-oriented profession.
 - Question (aoneill2-stat6250): What is the highest possible grade if only 4 of the 5 achievements are satisfactorily completed?
 - Answer (ilankham−stat6250): An A-, at the instructor's discretion.
+- Question (yzhu12-stat6250): How can a student earn some extra credit for this course?
+- Answer (yzhu12-stat6250): A student can earn extra credit if they can point out errors in the course material or raise up valuable questions that contribute to developing a deeper understanding of the material.
+
 
 
 [Course Structure Quiz, Problem 7]
@@ -215,6 +233,9 @@ other persons."
 - Answer (ilankham−stat6250): No.
 - *Question* (yren10-stat6250): Can we have get together have real group meeting with classmates for projects or assignments?
 - Answer (ilankham−stat6250): There's no reason not to; however, the instructor will be unable to join in-person meetings.
+- Question (yzhu12-stat6250): What is the fastest way to contact the instructor?
+- Answer (yzhu12-stat6250): Through Slack team.
+
 
 
 [Course Structure Quiz, Problem 8]
@@ -242,6 +263,11 @@ other persons."
 - Answer (ilankham−stat6250): Possibly; please DM in Slack to discuss specific ideas.
 - *Question* (yren10-stat6250): What if you didn't make any mistakes till end of the quarter? are we all going to get a extra point for the perfection?
 - Answer (ilankham−stat6250): No.
+- Question (yzhu12-stat6250): What materials you need to study to prepare for the rest quizzes?
+- Answer (yzhu12-stat6250): Each week will be assigned for one quiz and we need to study the corresponding chapters to prepare for them.
+- Question (yzhu12-stat6250): Do we obtain the knowledge that's necessary for base SAS exam the moment we finish this course?
+- Answer (ilankham−stat6250): Most likely, though additional review of the course textbook after the quarter ends is recommended.
+
 
 
 [Course Structure Quiz, Problem 9]
@@ -270,6 +296,9 @@ other persons."
 - Answer (ilankham−stat6250): My availability varies, but I'll respond to messages in Slack as quickly as I can.
 - *Question* (yren10-stat6250): Is sending e-maill faster than direct message on Slack if we want to contact professor?
 - *Answer* (yren10-stat6250): I think it's a yes, professor usually checks email first befor he checks Slack.
+- Question (yzhu12-stat6250): What's the function of pull request in GitHub?
+- Answer (yzhu12-stat6250): It shows the difference of the content between the master branch and the "changed" branch. 
+
 
 
 [Course Structure Quiz, Problem 10]
@@ -302,6 +331,9 @@ other persons."
 - Answer (aoneill2-stat6250): Yes, there are Slack apps for Macs and PCs and you can activate desktop notifications so you don't have to be logged on to BB to access Slack and actively 'check' for new messages or activity.
 - *Question* (yren10-stat6250): Should we read text book more or focus on watching the on-line video little more?
 - Answer (ilankham−stat6250): I'd recommend treating both equally.
+- Question (yzhu12-stat6250): Besides GitHub and Slack, are we going to learn other software for this course?
+- Answer (ilankham−stat6250): Yes, we will primarily emphasize learning SAS.
+
 
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
@@ -331,3 +363,5 @@ other persons."
 - Answer (aoneill2-stat6250): Absolutely! Otherwise all your working files will be deleted as temporary, which apparently happens upon logging off your account on the server, and the only way to save a repository of working files is on a flash drive, because the SAS program is looking for a drive external to machine accessing the university server.
 - *Question* (yren10-stat6250): I have a Mac, and by using the Bay Cloud VLC, the biggest issue for me probably will be the saving and import my files, is there a better way to do this? Or install SAS on a PC is the better way.
 - Answer (ilankham−stat6250): If you're using the VMWare Horizon Client, then you can access local files that are stored on flash drives.
+- Question (yzhu12-stat6250): Is there difference between the output from different version of SAS?
+- Answer (ilankham−stat6250): Yes, older versions of SAS tend to have lower quality output.
