@@ -1,17 +1,4 @@
 ## Course Structure Quiz Problems
-
-
-[Course Structure Quiz, Problem 1]
-- *Question* (yren10-stat6250): Since this is on-line class, are we still having a face to face office hour with professor? or we are just having a online office hour by appointment.
-
-[Course Structure Quiz, Problem 2]
-- *Question* (yren10-stat6250): Do we still have a chance to resubmit our assignment if we had a insufficient quality in assignment?
-- *Answer* (yren10-stat6250): An insufficient quality may only be resubmitted at the instructor’s discretion.
-
-[Course Structure Quiz, Problem 3]
-- *Question* (yren10-stat6250): How to earn a Reading for Depth Achievement toward their course grade? and does the score for each quiz matters?
-- *Answer* (yren10-stat6250): - students should successfully complete at least 8 of the 10 scheduled quizzes, and the score will only be marked as complete/incomplete.
-
 In order to prepare your Week 1 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
 
 All edits should conform to GitHub Markdown specifications (https://guides.github.com/features/mastering-markdown/) and should be committed to a branch named "week-1" or "week-01" in your fork of this repo. Then, after all edits have been made/committed, your Week 1 Quiz should be submitted by initiating a pull request using
@@ -23,6 +10,8 @@ All edits should conform to GitHub Markdown specifications (https://guides.githu
 The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
 
 ********************************************************************************
+
+
 
 
 [Course Structure Quiz, Problem 1]
@@ -49,7 +38,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dlee117-stat6250): You can change the username on the account or you can change the account's email address which allows you to create a new account. This way, you have a GitHub account solely for STAT 6250.
 - Question (aoneill2-stat6250): Are there any specific minimum RAM and ROM requirements for an appropriate laptop to use for this course, or processor type?
 - Answer (ilankham−stat6250): Nothing specific; per the course syllabus, though, you will need to be able to use Google Hangouts in an up-to-date version of Google Chrome, Slack, and the VMware Horizon Client.  
-
+- *Question* (yren10-stat6250): Since this is on-line class, are we still having a face to face office hour with professor? or we are just having a online office hour by appointment.
 
 
 [Course Structure Quiz, Problem 2]
@@ -77,7 +66,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dlee117-stat6250): Using a news aggregator service lets you look at recent article posts from all of the sources that you want. In this way, all of the articles from different websites are in one place so you don't have to search through many websites.
 - Question (aoneill2-stat6250): Do weekly forum questions have to be directly relatable to SAS programming (or Python or R), or could they be related to general ethical questions around privacy and big data, for instance?
 - Answer (ilankham−stat6250): Any post/article from the recommended sources should be okay, but please feel free to DM in Slack if you have something specific in mind that you'd like to post about.
-
+- *Question* (yren10-stat6250): Do we still have a chance to resubmit our assignment if we had a insufficient quality in assignment?
+- *Answer* (yren10-stat6250): An insufficient quality may only be resubmitted at the instructor’s discretion.
 
 
 [Course Structure Quiz, Problem 3]
@@ -107,13 +97,14 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): Yes and no; most quiz problems will come from the course textbook, but some will be based on content in Blackboard (e.g., SAS recipes included in Weekly Overview videos).
 - Question (aoneill2-stat6250): Is there a separate list of the quiz problems to use to prepare this exercise separately, or is it recommended that we just copy and paste the questions to a Word document to use later?
 - Answer (ilankham−stat6250): I'd recommend using a text editor like Notepad++ or TextWrangler, not a Word document.
+- *Question* (yren10-stat6250): How to earn a Reading for Depth Achievement toward their course grade? and does the score for each quiz matters?
+- *Answer* (yren10-stat6250): - students should successfully complete at least 8 of the 10 scheduled quizzes, and the score will only be marked as complete/incomplete.
 
 
 
 
 [Course Structure Quiz, Problem 4]
 - *Question* (yren10-stat6250): I did not see the week2 quiz details on blackboard, but I saw it on Github. So are we going to have quiz details on both blackboard and Github or just Github in the future?
-
 * *Question* (aalshehry−stat6250): How many steps in team projects and how many steps should each member complete?
 - Question (cyuan10-stat6250): I could not find the instructions for the projects, can you provide more directions about the projects?
 - Question (kveng-stat6250): Where are the Team Project 1 and Team Project 2 instructions handouts? How many people in a team? How do we choose our team? How do we report slacker in our team? 
@@ -122,7 +113,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lzhao4−stat6250): How will the team-based projects exactly work? Students in this course will be assign in different groups?
 - Question (aliang5−stat6250): Will we work with the same partners/groups for the two projects?
 - Answer (ilankham−stat6250): Project Instructions will be added to BB as they're needed/available. Teams will be created at the instructors discretion, tentatively during Week 3 and remaining fixes through the end of the course. DM me in Slack should there be time dynamics issues.
-
 - Question (meisenbach-stat6250): Where will the data for the projects come from?
 - Answer (ilankham−stat6250): Any source you'd like, but recommended sources are provided in BB.
 - *Question* (lwang30-stat6250) : Why does a completion of 8 out of 10 weekly quizzes give students **Reading for Depth** achievement ?
@@ -135,28 +125,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 5]
-
-- *Question* (yren10-stat6250): Does other SAS text book we had in other class helps? or focus on our text book will be a better way for study?
-
-[Course Structure Quiz, Problem 6]
-- *Question* (yren10-stat6250): For the team projects, are you going to randomly pick groups or there is another way we are going to do?
-
-[Course Structure Quiz, Problem 7]
-- *Question* (yren10-stat6250): Can we have get together have real group meeting with classmates for projects or assignments?
-
-[Course Structure Quiz, Problem 8] 
-- *Question* (yren10-stat6250): What if you didn't make any mistakes till end of the quarter? are we all going to get a extra point for the perfection?
-
-[Course Structure Quiz, Problem 9]
-- *Question* (yren10-stat6250): Is sending e-maill faster than direct message on Slack if we want to contact professor?
-- *Answer* (yren10-stat6250): I think it's a yes, professor usually checks email first befor he checks Slack.
-
-[Course Structure Quiz, Problem 10]
-- *Question* (yren10-stat6250): Should we read text book more or focus on watching the on-line video little more?
-
-[hello-world SAS Recipe (from Week 1 Setup Instructions)]
-- *Question* (yren10-stat6250): I have a Mac, and by using the Bay Cloud VLC, the biggest issue for me probably will be the saving and import my files, is there a better way to do this? Or install SAS on a PC is the better way.
-
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 - Question (yyan11−stat6250): How many questions in the Final Exam?
@@ -178,7 +146,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Which chapters do you need to study out of the course textbook for the final exam and what should you focus on?
 - Answer (ilankham−stat6250): All of them. Everything covered in the course textbook.
 - Question (aoneill2-stat6250): Will the final results be curved?
-- Answer (ilankham−stat6250): No.
+- Answer (ilankham−stat6250)- *Question* (yren10-stat6250): Does other SAS text book we had in other class helps? or focus on our text book will be a better way for study?: No.
 
 
 
@@ -216,7 +184,8 @@ other persons."
 - Answer (ilankham−stat6250): In the instructor's experience, the five professional practices are the most essential components of a successful career in a data-oriented profession.
 - Question (aoneill2-stat6250): What is the highest possible grade if only 4 of the 5 achievements are satisfactorily completed?
 - Answer (ilankham−stat6250): An A-, at the instructor's discretion.
- 
+- *Question* (yren10-stat6250): For the team projects, are you going to randomly pick groups or there is another way we are going to do?
+
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
@@ -242,7 +211,7 @@ other persons."
 - Answer (ilankham−stat6250): DM the instructor in Slack to discuss specific details.
 - Question (aoneill2-stat6250): Is it possible to reconsider prior late submissions at the end of the quareter for possible grading status change?
 - Answer (ilankham−stat6250): No.
-
+- *Question* (yren10-stat6250): Can we have get together have real group meeting with classmates for projects or assignments?
 
 
 [Course Structure Quiz, Problem 8]
@@ -257,11 +226,9 @@ other persons."
 - Answer (yyan11−stat6250): Email or direct-message in Slack.
 - Question (nly13-stat6250):Can I make an extra credit suggestion now? Rather than having us look around the blackboard site like a “Where’s Waldo?” book, why not just have all this quiz 1 information in one pdf? We would still have to read it, but it would save a lot more time.
 - Answer (ilankham−stat6250): Thanks; I appreciate the suggestion and welcome any further feedback you might have about the course design.
-
 - *Question* (lwang30-stat6250) : In what ways are students able to earn extra credits ?
 - Question (aliang5−stat6250): Why does professor encourage students to catch mistakes by giving out extra credit?
 - Answer (ilankham−stat6250): Mostly by finding my mistakes; I want to reward students for helping me make the best course materials possible.
-
 * *Question* (aalshehry−stat6250): Is there a credit for contributions to the Course Questions Wiki after the Week 10 Quiz deadline?
 - Answer (ilankham−stat6250): Tentatively, yes, with details to be announced later.
 - Question (lzhao4−stat6250): Besides 3 options professor mentioned, do we possible to get extra credits if we complete 10 of 10 forum posts or 10 of 10 weekly quizzes?
@@ -270,7 +237,7 @@ other persons."
 - Answer (dlee117-stat6250): Asking and answering substantive questions helps you understand and remember important course concepts, which will help you study for the final exam.
 - Question (aoneill2-stat6250): Can we get extra credit for building projects and programs on repositories on GitHub as part of a portfolio?
 - Answer (ilankham−stat6250): Possibly; please DM in Slack to discuss specific ideas.
-
+- *Question* (yren10-stat6250): What if you didn't make any mistakes till end of the quarter? are we all going to get a extra point for the perfection?
 
 
 [Course Structure Quiz, Problem 9]
@@ -297,7 +264,8 @@ other persons."
 - Answer (ilankham−stat6250): When he makes them, yes.
 - Question (aoneill2-stat6250): Is the professor pretty much available any time the snoozing autoreply message is not received in response?
 - Answer (ilankham−stat6250): My availability varies, but I'll respond to messages in Slack as quickly as I can.
-
+- *Question* (yren10-stat6250): Is sending e-maill faster than direct message on Slack if we want to contact professor?
+- *Answer* (yren10-stat6250): I think it's a yes, professor usually checks email first befor he checks Slack.
 
 
 [Course Structure Quiz, Problem 10]
@@ -328,17 +296,15 @@ other persons."
 - Answer (aoneill2-stat6250): Yes, there are Slack apps for all smart phones.
 - Question (aoneill2-stat6250): Is there a desktop app for PCs and Apple computers?
 - Answer (aoneill2-stat6250): Yes, there are Slack apps for Macs and PCs and you can activate desktop notifications so you don't have to be logged on to BB to access Slack and actively 'check' for new messages or activity.
-
+- *Question* (yren10-stat6250): Should we read text book more or focus on watching the on-line video little more?
 
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
 - Answer (ilankham−stat6250): Yes, procedures fo this.
-
 - Question (kveng-stat6250): Will I still be able to use SAS via BayCloud after this course ended?
 - Question (yyan11−stat6250): How can I get the SAS and install it in my computer? And how long I can use SAS via BayCloud after this course?
 - Answer (ilankham−stat6250): BayCloud will only be available during Spring quarter. Please DM me in Slack if you have a particular use case that might require access beyond this.
-
 - Question (cyuan10-stat6250): Is there any different between running SAS on your desktop vs. BayCloud (virtual desktop)?
 - Answer (ilankham−stat6250): A locally installed copy of SAS doesn't require a constant internet connection.
 - Question (meisenbach-stat6250): Using the VMware Horizon Client supposedly offers better performance and features. I've successfully installed the client but typing into SAS stops working when I switch away from the client window? I don't have problems using the browser. Am I missing out on a lot if I just use the browser?
@@ -358,4 +324,4 @@ other persons."
 - Answer (aoneill2-stat6250): An error is generated that the directory does not exist if it has not already been created.
 - Question (aoneill2-stat6250): Is the use of an external flash drive required when using the html-based virtual university server to run SAS? 
 - Answer (aoneill2-stat6250): Absolutely! Otherwise all your working files will be deleted as temporary, which apparently happens upon logging off your account on the server, and the only way to save a repository of working files is on a flash drive, because the SAS program is looking for a drive external to machine accessing the university server.
-
+- *Question* (yren10-stat6250): I have a Mac, and by using the Bay Cloud VLC, the biggest issue for me probably will be the saving and import my files, is there a better way to do this? Or install SAS on a PC is the better way.
