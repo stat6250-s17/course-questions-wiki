@@ -15,48 +15,71 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 1]
 
+* Question (aalshehry−stat6250): Does the following procedure will print all the observations > 6 or variables > 7?
 
+```php
+proc print data=sashelp.cars;
+var Make Model;
+where Cylinders>6;
+run;
+```
 
 [Course Textbook Chapter 1, Problem 2]
 
+* Question (aalshehry−stat6250): At the end of each step, does “run;” requeued?
 
+
+* Answer (aalshehry−stat6250): The run; is often not strictly required, as SAS will assume you want to start a new step when it sees data or proc. However your code will be clearer and easier to understand if you make the end of each step explicit.
 
 [Course Textbook Chapter 1, Problem 3]
 
+* Question (aalshehry−stat6250): How many type of variables does SAS support?
 
 
 [Course Textbook Chapter 1, Problem 4]
 
-
+* Question (aalshehry−stat6250): How  to represent missing data?
 
 [Course Textbook Chapter 1, Problem 5]
 
+* Question (aalshehry−stat6250): Can a character variable begins with a number?
 
 
 [Course Textbook Chapter 1, Problem 8]
 
+* Question (aalshehry−stat6250): Considering all numeric variables have a default length of 8 bytes, what is the maximum value that can SAS accept for a numeric variable?
 
+* Answer (aalshehry−stat6250): ***************************
 
 [Course Textbook Chapter 2, Problem 3]
 
+* Question (aalshehry−stat6250): Where and how to use YEARCUTOFF option?
 
 
 [Course Textbook Chapter 2, Problem 7]
 
+* Question (aalshehry−stat6250): How to save your dataset in the permanent library?
 
 
 [Course Textbook Chapter 2, Problem 8]
 
+* Question (aalshehry−stat6250): Without using the YEARCUTOFF= option, how would SAS interpret 11/11/20? Is it 1920 or 2020?
+
+* Answer (aalshehry−stat6250): The default value of YEARCUTOFF= is 1920.
 
 
 [Course Textbook Chapter 2, Problem 9]
 
+* Question (aalshehry−stat6250): If a SAS session is ended or a libref is deleted, does the library still exist?
 
+* Answer (aalshehry−stat6250): In these cases, SAS no longer has access to the files in the library.
 
 [basic_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
 
+* Question (aalshehry−stat6250): Is it mandatory to use “filename tempfile clear;” step? Why?
 
 
 [optional: bonus_advanced_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
 
+* Question (aalshehry−stat6250): 
 
