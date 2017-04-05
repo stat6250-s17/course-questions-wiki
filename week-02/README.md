@@ -1,4 +1,4 @@
-## Course Structure Quiz Problems
+## Week 2 Quiz Problems: Ch 1 & Ch 2
 
 In order to prepare your Week 2 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
 
@@ -14,34 +14,37 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
-
+- Question (aoneill2−stat6250): Are observations always equivalent to the number of rows of data regardless of whether any specific row has null data fields?
 
 [Course Textbook Chapter 1, Problem 2]
-
+- Question (aoneill2−stat6250): What are program steps? Do they consist of a set of statements ending in a semicolon that end with a run statement? Or are they just statements that end in semicolons?
 
 [Course Textbook Chapter 1, Problem 3]
-
+- Question (aoneill2−stat6250): If a variable type is not specified, what is the default?
 
 [Course Textbook Chapter 1, Problem 4]
-
+- Question (aoneill2−stat6250): Does a numeric variable have to be specified as such to be treated as a number for calculations?
 
 [Course Textbook Chapter 1, Problem 5]
-
+- Question (aoneill2−stat6250): If a variable is not named correctly, does it generate an error in naming, or is the error type hard to pin dow?
 
 [Course Textbook Chapter 1, Problem 8]
-
+- Question (aoneill2−stat6250): How can you tell what the default lenght for a numeric variable is beyond the digits and decimal point that are shown for the entries? Is there a typical default length for decimal numbers?
 
 [Course Textbook Chapter 2, Problem 3]
-
+- Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question?
 
 [Course Textbook Chapter 2, Problem 7]
-
+- Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question?
+Is "set" the key word to referencing a SAS data file?
 
 [Course Textbook Chapter 2, Problem 8]
-
+- Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question?
+How do you determine the YEARCUTOFF= option if you are not syure about whether the years entered would be within a 100-yr interval?
 
 [Course Textbook Chapter 2, Problem 9]
-
+- Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question?
+When would libref statements not be included in a SAS program to reference the permanent SAS library automatically when the program is submitted?
 
 [loading_data_from_remote_Excel_file SAS Recipe (from Week 2 Overview)]
 
