@@ -114,7 +114,4 @@ session.
 
 [optional: bonus_advanced_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
 
-- Question (aalshehry−stat6250):* Is it mandatory to use “filename tempfile clear;” step? Why?
-- Question (lzhao−stat6250): Do we possible to transfer data from SAS dataset to an excel file? How? 
-- Question (yzhu12-stat6250): What do these two function command mean in SAS: % and &. 
 
