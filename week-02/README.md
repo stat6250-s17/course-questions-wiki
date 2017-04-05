@@ -14,7 +14,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
-
 - Question (yzhu12-stat6250): In a SAS table, what does the rows and columns represent?
 - Answer (yzhu12-stat6250): The number of the rows represents observations, the number of the columns represents the variables.
 
