@@ -14,11 +14,11 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 1]
-- Question (mcardoso3ˆ’stat6250): Is one component of the Week 1 Setup instructions more important to comprehend than the others for the purpose of understanding the Initial Setup Achievement?
+- Question (mcardoso3~stat6250): Is one component of the Week 1 Setup instructions more important to comprehend than the others for the purpose of understanding the Initial Setup Achievement?
 
 [Course Structure Quiz, Problem 2]
-- Question (mcardoso3ˆ’stat6250): What are the requirements to earning "complete" mark in the Weekly Forum Posts?
-- Answer (mcardoso3ˆ’stat6250):  Earning a "complete" mark in the Weekly Forum posts require including the title, complete URL, synopsis, and article choice along with the proper amount of detail provided.
+- Question (mcardoso3~stat6250): What are the requirements to earning "complete" mark in the Weekly Forum Posts?
+- Answer (mcardoso3~stat6250):  Earning a "complete" mark in the Weekly Forum posts require including the title, complete URL, synopsis, and article choice along with the proper amount of detail provided.
 
 [Course Structure Quiz, Problem 3]
 - Question (mcardoso3~stat6250):  Is the submitting the weekly quizzes portion a more crucial concept to look over more than the formulation of the quizzes and answers?
