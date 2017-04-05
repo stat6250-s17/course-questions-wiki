@@ -14,34 +14,37 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
-
+- Question (yren10−stat6250): When comparing two observations in one data set, if one observation missing 1 variable value, are we still able to do the comparison? Are we still getting a correct result?
 
 [Course Textbook Chapter 1, Problem 2]
-
+- Question (yren10−stat6250): Can we usually use a single letter like "U" or “U.T” in stead "user.table"?
 
 [Course Textbook Chapter 1, Problem 3]
-
+- Question (yren10−stat6250): Does a variable named like "Account number" means it's has to be a numeric variable?
+- Answer (yren10−stat6250): No, name can't decide the type.
 
 [Course Textbook Chapter 1, Problem 4]
-
+- Question (yren10−stat6250): Does a missing value in a variable column affects the type of the variable?
+- Answer (yren10−stat6250): No, a blank dpesn't represent anything, the missing value is indcated by a period. 
 
 [Course Textbook Chapter 1, Problem 5]
-
+- Question (yren10−stat6250): Can a variable name contains other symbol like "$" or "#"?
+- Answer (yren10−stat6250): No,can only contains numbers, letters or underscores.
 
 [Course Textbook Chapter 1, Problem 8]
-
+- Question (yren10−stat6250): If all numbers are integers, are they going to have different default length compare to non-integers?
 
 [Course Textbook Chapter 2, Problem 3]
-
+- Question (yren10−stat6250): Does the date affect the value of YEARCUTOFF=option ?
 
 [Course Textbook Chapter 2, Problem 7]
-
+- Question (yren10−stat6250): Can a SAS engine access other format except SAS file format?
 
 [Course Textbook Chapter 2, Problem 8]
-
+- Question (yren10−stat6250): “YEARCUTOFF=” specifies 100-year span, what if we need a 200-year span or more?
 
 [Course Textbook Chapter 2, Problem 9]
-
+- Question (yren10−stat6250): What is the difference or relation between library and libref?
 
 [loading_data_from_remote_Excel_file SAS Recipe (from Week 2 Overview)]
-
+- Question (yren10−stat6250): Are we actually able to find the tempfile in our PC after all? 
