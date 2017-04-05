@@ -47,4 +47,5 @@ Question (nly13-stat6250): Can YEARCUTOFF be used for a millennium or is there a
 Question (nly13-stat6250): How do you manually clear libref while still in a SAS session?
 
 [loading_data_from_remote_Excel_file SAS Recipe (from Week 2 Overview)]
+Question (nly13-stat6250): Is formatting ever an issue when getting data from a URL to Excel to SAS?
 
