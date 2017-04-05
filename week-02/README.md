@@ -49,4 +49,4 @@ How do you determine the YEARCUTOFF= option if you are not syure about whether t
 When would libref statements not be included in a SAS program to reference the permanent SAS library automatically when the program is submitted?
 
 [loading_data_from_remote_Excel_file SAS Recipe (from Week 2 Overview)]
-
+- Question (aoneill2−stat6250): What data step follows the proc http data step in importing an online file into a temporary working file?
