@@ -27,6 +27,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): What is the difference between variables and observations in data set?
 - Answer (hhu9−stat6250): Rows represent observations and columns represent variables.
 - Question (nly13-stat6250): Is it possible to set the name as an ID?
++- Question (meisenbach-stat6250): Are there any other variable types? Datetime? Boolean?
++- Answer (meisenbach-stat6250): No but... "SAS converts date, time, and datetime values back and forth between calendar dates and clock times with SAS language elements called formats and informats" - SAS 9.4 Language Reference.
 
 
 
@@ -45,6 +47,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9−stat6250): Yes, since all RUN statement follow DATA steps and PROC steps. 
 - Question (nly13-stat6250): What’s the difference between  infile and set?
 - Answer (nly13-stat6250): From what I’ve researched, infile allows you to pull data records from external files.
++- Question (meisenbach-stat6250): Is indenting within steps necessary?
++- Answer (meisenbach-stat6250): No, but it helps with code readability.
 
 
 
@@ -62,6 +66,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9−stat6250): we can see the value including which kind of characaters.
 - Question (nly13-stat6250):How are some of the values read as character under AcctNum if there are numbers?
 - Answer (nly13-stat6250): By adding a $ at the end of AcctNum, it makes all of its values a character.
++- Question (meisenbach-stat6250): What happens when you try to assign a character value to a numeric variable and vice versa?
 
 
 
@@ -78,6 +83,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): Who to represent missing value?
 - Answer (hhu9−stat6250): Blank or a period.
 - Question (nly13-stat6250): Can SAS read determine value types automatically when reading in a mixed data set?
++- Question (meisenbach-stat6250): SAS uses floating point representation for a numeric values? Does this cause inaccuracies when working with integer values?
 
 
 
@@ -93,6 +99,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): What is the rules of SAS data set names and variable names?
 - Answer (hhu9−stat6250): Variable names follow the same rules as SAS data set names. They can be 1 to 32 characters long, must begin with a letter (A-Z, either uppercase or lowercase) or an underscore, and can continue with any combination of numerals, letters, or underscores.
 - Question (nly13-stat6250): In the text it says a variable can only begin with a letter or an underscore, but if does converting it to a character with $ make a difference?
++- Question (meisenbach-stat6250): Is SAS case sensitive? 
++- Answer (meisenbach-stat6250): No
 
 
 
@@ -111,6 +119,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9−stat6250): No matter how many digits they contain, the default length is 8.
 - Question (nly13-stat6250): Is there a maximum length for character variables?
 - Answer (nly13-stat6250): character variables can be 1-32 characters long.
++- Question (meisenbach-stat6250): What happens when you try to assign a value larger than the defined length of the variable?
 
 
 
@@ -126,6 +135,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): Does the YEARCUTOFF=option has affect on 4 digit value?
 - Answer (hhu9−stat6250): No, you set an informat with correct field width.
 - Question (nly13-stat6250): In the text it says yearcutoff option really only applies for 2-digit years due to the fact that the century leading two digits may be ambigious. So how would it distinguish between 05 (1905) and 05 (2005)?
++- Question (meisenbach-stat6250): If possible, should you always store dates using four digits?
 
 
 
@@ -140,6 +150,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): Whats the rules for librefs?
 - Answer (hhu9−stat6250): Librefs must be 1 to 8 characters, and only contains letters,numerals,underscores.
 - Question (nly13-stat6250): How do you remove permanently saved data in SAS?
++- Question (meisenbach-stat6250): Why are librefs limited to 8 characters?
 
 
 
@@ -156,6 +167,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): Can we reset the default value of YEARCUTOFF=option? 
 - Answer (hhu9−stat6250): Yes , we can reset its first year.
 - Question (nly13-stat6250): Can YEARCUTOFF be used for a millennium or is there a different code for that? 
++- Question (meisenbach-stat6250): What is the default value for YEARCUTOFF=? Does this default update with newer versions of SAS?
++- Answer (meisenbach-stat6250): 1926 for SAS 9.4 and beyond. It might. Previously the default was 1920.
 
 
 
@@ -172,6 +185,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): whats the meaning of special SAS window in this question? and what can we do more with it?
 - Answer (hhu9−stat6250): Still try to solve this problem.
 - Question (nly13-stat6250): How do you manually clear libref while still in a SAS session?
++- Question (meisenbach-stat6250): <libref.>_ALL_ requests a listing of all files in the library. What happens with you name a dataset _all_ (which is a legal name)?
 
 
 
@@ -184,6 +198,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng-stat6250): Where does the “tempfile” is stored after we run the code. Is it stored in a local computer or SAS server? Can we have it stored in our personal computer? 
 - Question (hhu9−stat6250):  there is a technology that transfer PDF to word, is it can be used to transfer image data to excel, and then to SAS data set? 
 - Question (nly13-stat6250): Is formatting ever an issue when getting data from a URL to Excel to SAS?
++- Question (meisenbach-stat6250): What happens if I misspell something (e.g dbms → dms)?
++- Answer (meisenbach-stat6250): You get a warning that the interpretor assumed symbol DBMS was misspelled as "dms" and the statement executes correctly.
 
 
 
