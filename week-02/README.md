@@ -31,6 +31,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): No but... "SAS converts date, time, and datetime values back and forth between calendar dates and clock times with SAS language elements called formats and informats" - SAS 9.4 Language Reference.
 - Question (aoneill2−stat6250): Are observations always equivalent to the number of rows of data regardless of whether any specific row has null data fields?
 - Answer (aoneill2−stat6250): Yes, each row of data is an "observation," whether all data fields have data or not.
+- Question (cyuan10−stat6250): Is the observations always the “rows” and variable always the columns?
 
 
 
@@ -53,6 +54,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): No, but it helps with code readability.
 - Question (aoneill2−stat6250): What are program steps? Do they consist of a set of statements ending in a semicolon that end with a run statement? Or are they just statements that end in semicolons?
 - Answer (aoneill2−stat6250): Program steps are defined as beginning with "data" or "proc". Program steps are then usually each terminated by a "run" statement.
+- Question (cyuan10−stat6250): In this example, what is the difference between having 3 different “steps” or “runs” versus a single run at the end?
 
 
 
@@ -72,6 +74,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nly13-stat6250): By adding a $ at the end of AcctNum, it makes all of its values a character.
 - Question (meisenbach-stat6250): What happens when you try to assign a character value to a numeric variable and vice versa?
 - Question (aoneill2−stat6250): If a variable type is not specified, what is the default?
+- Question (cyuan10-stat6250): If a single cell contains characters, does that make the entire column a “character variable”?
 
 
 
@@ -90,6 +93,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Can SAS read determine value types automatically when reading in a mixed data set?
 - Question (meisenbach-stat6250): SAS uses floating point representation for a numeric values? Does this cause inaccuracies when working with integer values?
 - Question (aoneill2−stat6250): Does a numeric variable have to be specified as such to be treated as a number for calculations?
+- Question (cyuan10−stat6250): What happens to the “.” missing numeric value when you calculate that variable? Is it simply ignored? What is the default action?
 
 
 
@@ -108,6 +112,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Is SAS case sensitive? 
 - Answer (meisenbach-stat6250): No
 - Question (aoneill2−stat6250): If a variable is not named correctly, does it generate an error in naming, or is the error type hard to pin dow?
+- Question (cyuan10−stat6250): Are variable names case-sensitive and what other ‘rules’ or ‘guidelines’ are there around what makes a good variable name?
+- Answer (cyuan10−stat6250): Some basic rule is to name the file so that you the user or any other users will understand what it is. Use case or “_” to help distinguish between words.
 
 
 
@@ -128,6 +134,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nly13-stat6250): character variables can be 1-32 characters long.
 - Question (meisenbach-stat6250): What happens when you try to assign a value larger than the defined length of the variable?
 - Question (aoneill2−stat6250): How can you tell what the default length for a numeric variable is beyond the digits and decimal point that are shown for the entries? Is there a typical default length for decimal numbers?
+- Question (cyuan10−stat6250): In this example, does a leading “0” count as part of the length? For example, is 097.45 a different length than 97.45? 
 
 
 
@@ -145,6 +152,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): In the text it says yearcutoff option really only applies for 2-digit years due to the fact that the century leading two digits may be ambigious. So how would it distinguish between 05 (1905) and 05 (2005)?
 - Question (meisenbach-stat6250): If possible, should you always store dates using four digits?
 - Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question?
+- Question (cyuan10−stat6250): How do we deal with a larger year range? For example 1800-2000? 
 
 
 
@@ -162,6 +170,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Why are librefs limited to 8 characters?
 - Question (aoneill2−stat6250): Is "set" the key word to referencing a SAS data file?
 - Answer (aoneill2−stat6250): Yes, "set" is used to reference a SAS file. The file name specified after the proc or data keyword is the name of the file created after program is run on the "set" statement-specified file.
+- Question (cyuan10−stat6250): What are the different use cases for a permanent library vs. a temporary library?
+- Answer (cyuan10−stat6250): Having a permanent library vs. a temporary library would be helpful to keep things organized so that you don’t end up with 20 versions. Instead, you can work on 20 different versions during the same sessions and make the “final” version a permanent but delete all the temp. This will keep your files organized.
 
 
 
@@ -181,6 +191,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What is the default value for YEARCUTOFF=? Does this default update with newer versions of SAS?
 - Answer (meisenbach-stat6250): 1926 for SAS 9.4 and beyond. It might. Previously the default was 1920.
 - Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question? How do you determine the YEARCUTOFF= option if you are not syure about whether the years entered would be within a 100-yr interval?
+- Question (cyuan10−stat6250): Does the YEARCUTOFF= option always start from the low-end and count up or can it start from the high end and count down?
 
 
 
@@ -199,7 +210,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): How do you manually clear libref while still in a SAS session?
 - Question (meisenbach-stat6250): <libref.>_ALL_ requests a listing of all files in the library. What happens with you name a dataset _all_ (which is a legal name)?
 - Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question? When would libref statements not be included in a SAS program to reference the permanent SAS library automatically when the program is submitted?
-
+- Question (cyuan10−stat6250): Are all syntax written in all CAPs?
+- Answer (cyuan10−stat6250): No, like all programming languages, there are different ways of distinguish between synatx. It looks like the text uses all caps to help show the difference.
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
@@ -214,11 +226,13 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What happens if I misspell something (e.g dbms → dms)?
 - Answer (meisenbach-stat6250): You get a warning that the interpretor assumed symbol DBMS was misspelled as "dms" and the statement executes correctly.
 - Question (aoneill2−stat6250): What data step follows the proc http data step in importing an online file into a temporary working file?
+- Question (cyuan10−stat6250): What is the difference between a comma-separated values format vs. a tab-separate values format and how does this affect how the dataset is “read” in SAS?
 
 
 
 [optional: bonus_advanced_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
 - Question (yzhu12-stat6250): What's the meaning of two command % and & in SAS?
 - *Question* (lwang30-stat6250) : In the macro, what are the functions of **%** and **&** respectively ? What is the advantage of using a macro ? 
+- Question (cyuan10−stat6250): Does this macro only compare names? Is there a way to compare the content within so that if there are two versions, the users to check to see if the content is different?
 
 
