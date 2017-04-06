@@ -32,6 +32,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): Are observations always equivalent to the number of rows of data regardless of whether any specific row has null data fields?
 - Answer (aoneill2−stat6250): Yes, each row of data is an "observation," whether all data fields have data or not.
 - Question (cyuan10−stat6250): Is the observations always the “rows” and variable always the columns?
+- Question (yren10−stat6250): When comparing two observations in one data set, if one observation missing 1 variable value, are we still able to do the comparison? Are we still getting a correct result?
 
 
 
@@ -55,6 +56,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): What are program steps? Do they consist of a set of statements ending in a semicolon that end with a run statement? Or are they just statements that end in semicolons?
 - Answer (aoneill2−stat6250): Program steps are defined as beginning with "data" or "proc". Program steps are then usually each terminated by a "run" statement.
 - Question (cyuan10−stat6250): In this example, what is the difference between having 3 different “steps” or “runs” versus a single run at the end?
+- Question (yren10−stat6250): Can we usually use a single letter like "U" or “U.T” in stead "user.table"?
 
 
 
@@ -75,6 +77,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What happens when you try to assign a character value to a numeric variable and vice versa?
 - Question (aoneill2−stat6250): If a variable type is not specified, what is the default?
 - Question (cyuan10-stat6250): If a single cell contains characters, does that make the entire column a “character variable”?
+- Question (yren10−stat6250): Does a variable named like "Account number" means it's has to be a numeric variable?
+- Answer (yren10−stat6250): No, name can't decide the type.
 
 
 
@@ -94,6 +98,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): SAS uses floating point representation for a numeric values? Does this cause inaccuracies when working with integer values?
 - Question (aoneill2−stat6250): Does a numeric variable have to be specified as such to be treated as a number for calculations?
 - Question (cyuan10−stat6250): What happens to the “.” missing numeric value when you calculate that variable? Is it simply ignored? What is the default action?
+- Question (yren10−stat6250): Does a missing value in a variable column affects the type of the variable?
+- Answer (yren10−stat6250): No, a blank dpesn't represent anything, the missing value is indcated by a period. 
 
 
 
@@ -114,6 +120,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): If a variable is not named correctly, does it generate an error in naming, or is the error type hard to pin dow?
 - Question (cyuan10−stat6250): Are variable names case-sensitive and what other ‘rules’ or ‘guidelines’ are there around what makes a good variable name?
 - Answer (cyuan10−stat6250): Some basic rule is to name the file so that you the user or any other users will understand what it is. Use case or “_” to help distinguish between words.
+- Question (yren10−stat6250): Can a variable name contains other symbol like "$" or "#"?
+- Answer (yren10−stat6250): No,can only contains numbers, letters or underscores.
 
 
 
@@ -135,6 +143,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What happens when you try to assign a value larger than the defined length of the variable?
 - Question (aoneill2−stat6250): How can you tell what the default length for a numeric variable is beyond the digits and decimal point that are shown for the entries? Is there a typical default length for decimal numbers?
 - Question (cyuan10−stat6250): In this example, does a leading “0” count as part of the length? For example, is 097.45 a different length than 97.45? 
+- Question (yren10−stat6250): If all numbers are integers, are they going to have different default length compare to non-integers?
 
 
 
@@ -153,6 +162,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): If possible, should you always store dates using four digits?
 - Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question?
 - Question (cyuan10−stat6250): How do we deal with a larger year range? For example 1800-2000? 
+- Question (yren10−stat6250): Does the date affect the value of YEARCUTOFF=option ?
 
 
 
@@ -172,6 +182,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2−stat6250): Yes, "set" is used to reference a SAS file. The file name specified after the proc or data keyword is the name of the file created after program is run on the "set" statement-specified file.
 - Question (cyuan10−stat6250): What are the different use cases for a permanent library vs. a temporary library?
 - Answer (cyuan10−stat6250): Having a permanent library vs. a temporary library would be helpful to keep things organized so that you don’t end up with 20 versions. Instead, you can work on 20 different versions during the same sessions and make the “final” version a permanent but delete all the temp. This will keep your files organized.
+- Question (yren10−stat6250): Can a SAS engine access other format except SAS file format?
 
 
 
@@ -192,6 +203,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): 1926 for SAS 9.4 and beyond. It might. Previously the default was 1920.
 - Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question? How do you determine the YEARCUTOFF= option if you are not syure about whether the years entered would be within a 100-yr interval?
 - Question (cyuan10−stat6250): Does the YEARCUTOFF= option always start from the low-end and count up or can it start from the high end and count down?
+- Question (yren10−stat6250): “YEARCUTOFF=” specifies 100-year span, what if we need a 200-year span or more?
 
 
 
@@ -212,6 +224,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question? When would libref statements not be included in a SAS program to reference the permanent SAS library automatically when the program is submitted?
 - Question (cyuan10−stat6250): Are all syntax written in all CAPs?
 - Answer (cyuan10−stat6250): No, like all programming languages, there are different ways of distinguish between synatx. It looks like the text uses all caps to help show the difference.
+- Question (yren10−stat6250): What is the difference or relation between library and libref?
+
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
@@ -227,6 +241,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): You get a warning that the interpretor assumed symbol DBMS was misspelled as "dms" and the statement executes correctly.
 - Question (aoneill2−stat6250): What data step follows the proc http data step in importing an online file into a temporary working file?
 - Question (cyuan10−stat6250): What is the difference between a comma-separated values format vs. a tab-separate values format and how does this affect how the dataset is “read” in SAS?
+- Question (yren10−stat6250): Are we actually able to find the tempfile in our PC after all? 
 
 
 
