@@ -42,7 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): All office hours appointments are held online.
 - Question (yzhu12-stat6250): How many team-based projects do you have and how many discrete steps does each project have?
 - Answer (yzhu12-stat6250): We have 2 projects and each of them has four discrete steps. We need to complete all the steps to earn a team-based problem solving achievement in the course.
-
+- Question (akumar30-stat6250): Do i need to use any markdwon software for this program ?
 
 
 [Course Structure Quiz, Problem 2]
@@ -74,7 +74,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (yren10-stat6250): An insufficient quality may only be resubmitted at the instructor’s discretion.
 - Question (yzhu12-stat6250): Is it fine for students to skip the setup quiz since there are still nine quizzes left for them to earn a reading for depth achievement in the course?
 - Answer (yzhu12-stat6250): No, although the setup quiz does not have a grade scale, it's an important step included in the initial setup, which aligns with CLO1. 
-
+- Question (akumar30-stat6250): What is the advantage of slack over other colloboartive tools ?
+- Answer (akumar30-stat6250): Slack integrates with many pieces of software, allowing the other software that you use to post messages in your Slack conversations.
 
 
 [Course Structure Quiz, Problem 3]
@@ -108,7 +109,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (yren10-stat6250): - students should successfully complete at least 8 of the 10 scheduled quizzes, and the score will only be marked as complete/incomplete.
 - Question (yzhu12-stat6250): Besides posting your own forums onto BB each week, what else you can do to help yourself and others learning?
 - Answer (yzhu12-stat6250): We can read others' posts carefully and leave our own perspectives under the reply section to learn from each other.
-
+- Question (akumar30-stat6250): What is the advantage of slack over other colloboartive tools ?
+- Answer (akumar30-stat6250): hastle to setup audio and video call than skype. 
 
 
 [Course Structure Quiz, Problem 4]
@@ -134,7 +136,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): All Weekly Quiz Problems are available in Blackboard.
 - Question (yzhu12-stat6250): How can we maximize the space while coding in SAS?
 - Answer (yzhu12-stat6250): You click on Window and screw down to the one named "tie vertically", which allows you to code in a maximized space, especially useful when you prepare for long project. 
-
+- Question (akumar30-stat6250): What must you do if your Horizon email address is already associated with a GitHub account?
+- Answer (akumar30-stat6250): You can change the username of the existing account. 
 
 
 [Course Structure Quiz, Problem 5]
@@ -164,7 +167,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): I recommend reading as many books on SAS as possible since different authors will explain concepts in different ways, but the course textbook should be sufficient for this course.
 - Question (yzhu12-stat6250): How many problems do you have for final exam and how long is the exam? How does the exam graded?
 - Answer (yzhu12-stat6250): We have 65 multiple-choice questions and we have 110 minutes to complete it. We need to earn at least 70% of the questions to earn the building general knowledge achievement in the course. 
-
+- Question (akumar30-stat6250): Is this program good for working professionals taking two more classes this quarter ?
 
 
 [Course Structure Quiz, Problem 6]
@@ -204,7 +207,7 @@ other persons."
 - Answer (ilankham−stat6250): An A-, at the instructor's discretion.
 - Question (yzhu12-stat6250): How can a student earn some extra credit for this course?
 - Answer (yzhu12-stat6250): A student can earn extra credit if they can point out errors in the course material or raise up valuable questions that contribute to developing a deeper understanding of the material.
-
+- Question (akumar30-stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 
 
 [Course Structure Quiz, Problem 7]
@@ -235,7 +238,7 @@ other persons."
 - Answer (ilankham−stat6250): There's no reason not to; however, the instructor will be unable to join in-person meetings.
 - Question (yzhu12-stat6250): What is the fastest way to contact the instructor?
 - Answer (yzhu12-stat6250): Through Slack team.
-
+- Question (akumar30-stat6250): Do weekly quizzes allow late attempts?
 
 
 [Course Structure Quiz, Problem 8]
@@ -267,7 +270,8 @@ other persons."
 - Answer (yzhu12-stat6250): Each week will be assigned for one quiz and we need to study the corresponding chapters to prepare for them.
 - Question (yzhu12-stat6250): Do we obtain the knowledge that's necessary for base SAS exam the moment we finish this course?
 - Answer (ilankham−stat6250): Most likely, though additional review of the course textbook after the quarter ends is recommended.
-
+- Question (akumar30-stat6250): How to get extra credit in this course.
+- Answer (akumar30-stat6250):  By finding mistakes in course material. 
 
 
 [Course Structure Quiz, Problem 9]
@@ -298,7 +302,8 @@ other persons."
 - *Answer* (yren10-stat6250): I think it's a yes, professor usually checks email first befor he checks Slack.
 - Question (yzhu12-stat6250): What's the function of pull request in GitHub?
 - Answer (yzhu12-stat6250): It shows the difference of the content between the master branch and the "changed" branch. 
-
+- Question (akumar30-stat6250): How to check your gardes ?
+- Answer (akumar30-stat6250): Grades will be updated on blackboard after each week.
 
 
 [Course Structure Quiz, Problem 10]
@@ -333,7 +338,7 @@ other persons."
 - Answer (ilankham−stat6250): I'd recommend treating both equally.
 - Question (yzhu12-stat6250): Besides GitHub and Slack, are we going to learn other software for this course?
 - Answer (ilankham−stat6250): Yes, we will primarily emphasize learning SAS.
-
+- Question (akumar30-stat6250): Is this course will be sufficent enough for SAS Certification prepeartion.
 
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
@@ -365,3 +370,4 @@ other persons."
 - Answer (ilankham−stat6250): If you're using the VMWare Horizon Client, then you can access local files that are stored on flash drives.
 - Question (yzhu12-stat6250): Is there difference between the output from different version of SAS?
 - Answer (ilankham−stat6250): Yes, older versions of SAS tend to have lower quality output.
+- Question (akumar30-stat6250): How to get good understanding of SAS User Interface ?
