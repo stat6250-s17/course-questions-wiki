@@ -22,6 +22,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): In a SAS table, what does the rows and columns represent?
 - Answer (yzhu12-stat6250): The number of the rows represents observations, the number of the columns represents the variables.
 - *Question* (lwang30-stat6250) : If only the column of variable age is presented, do we still consider it to have four observations considering the missing value ?
+- Question (kveng-stat6250): Is “.” represent missing value in a data set?
+- Answer (kveng-stat6250): Yes, “.” Represents numeric missing value in a data set?
 
 
 
@@ -34,6 +36,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): What kind of statement in SAS represent executing previous steps in the program?
 - Answer (yzhu12-stat6250): data, proc or run statement.
 - *Question* (lwang30-stat6250) : How many variables does the final output totally have ?
+- Question (kveng-stat6250): What does “proc” refer to?
+- Answer (kveng-stat6250): “proc” refers to procedure in SAS.
 
 
 
@@ -45,6 +49,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): What's the difference between character variable and numeric variable?
 - Answer (yzhu12-stat6250): character variables can contain any values while numeric variables can contain only numeric values. 
 - *Question* (lwang30-stat6250) : What are the other names for numeric and character variables ?
+- Question (kveng-stat6250): Can a single variable (a column) contain multiple data types?
+- Answer (kveng-stat6250): A single variable (a column) can’t  contain multiple data types.
 
 
 
@@ -57,6 +63,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): The missing value is recorded in the SAS data set automatically.
 - *Question* (lwang30-stat6250) : How is the missing value displayed for both numeric and character variables ?
 - *Answer* (lwang30-stat6250) : The missing value appears as a period for numeric variables, and blank for character variables.
+- Question (kveng-stat6250): Does SAS exclude missing value when doing the calculation? 
 
 
 
@@ -68,6 +75,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): No, it's not a valid name because it must begin with a letter (A–Z, either uppercase or lowercase) or an underscore, and can continue with any combination of numbers, letters, or underscores. 
 - *Question* (lwang30-stat6250) : What are the rules for variable names ?
 - *Answer* (lwang30-stat6250) : Variable names must begin with a letter or an underscore, and continue with any combination of numerals, letters, or underscores.
+- Question (kveng-stat6250): Can a variable name contain special characters?
 
 
 
@@ -81,6 +89,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): What's the default length of the numeric variable Oyster?
 - Answer (yzhu12-stat6250): 6
 - *Question* (lwang30-stat6250) : What would SAS output if we input a numeric value that exceeds 8 bytes ? Would it be rounded up to the first 8 digits including decimal points ?
+- Question (kveng-stat6250): Can set a default length different than 8 bytes?
 
 
 
@@ -92,6 +101,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): How to define library?
 - Answer (yzhu12-stat6250): You assign a library name (a libref) to it and specify a path, such as a directory path and use the libref as the first part of the file's two-level name (libref.filename) to reference the file within the library. You can use programming statements to assign library names. 
 - *Question* (lwang30-stat6250) : Is there a way to let SAS read and process more than 100 years ?
+- Question (kveng-stat6250): Is “YEARCUTOFF” a function in SAS? 
 
 
 
@@ -102,6 +112,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): How can you modify system options?
 - Answer (yzhu12-stat6250): I submit an OPTIONS statement and place an OPTIONS statement anywhere in a SAS program to change the current settings. Because the OPTIONS statement is global, the settings remain in effect until you modify them or until you end your SAS session. 
 - *Question* (lwang30-stat6250) : What are the functions of *proc freq* statement ?
+- Question (kveng-stat6250): What does this part mean: “if totalsales>50000; run;”?
 
 
 
@@ -114,6 +125,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): We must assign a libref.
 - *Question* (lwang30-stat6250) : What is the oldest date that SAS can trace back to ? 
 - *Answer* (lwang30-stat6250) : All versions of SAS represent dates correctly from 1582 A.D. to 20,000 A.D..
+- Question (kveng-stat6250): Does the YEARCUTOFF always has 100-year span? Can we modify YEARCUTOFF?
 
 
 
@@ -125,6 +137,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): What option do we add to suppress detailed information about the files?
 - Answer (yzhu12-stat6250): NODS.
 - *Question* (lwang30-stat6250) : Without a *libname* statement, what is the default place where SAS read and write data ? 
+- Question (kveng-stat6250): What is Librefs?
+- Answer (kveng-stat6250): A libref is a temporary name that you associate with the physical name of the SAS data library during each SAS job or session.
 
 
 
@@ -134,6 +148,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What does it mean to assign TEMP to the file name tempfile?
 - Question (yzhu12-stat6250): Besides the method using "get" function to download URL, what other methods can be the substitute?
 - *Question* (lwang30-stat6250) : Why can some statement lines not end with a semicolon ?
+- Question (kveng-stat6250): Where does the “tempfile” is stored after we run the code. Is it stored in a local computer or SAS server? Can we have it stored in our personal computer? 
 
 
 
