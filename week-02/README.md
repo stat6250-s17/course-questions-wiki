@@ -24,6 +24,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : If only the column of variable age is presented, do we still consider it to have four observations considering the missing value ?
 - Question (kveng-stat6250): Is “.” represent missing value in a data set?
 - Answer (kveng-stat6250): Yes, “.” Represents numeric missing value in a data set?
++- Question (hhu9−stat6250): What is the difference between variables and observations in data set?
++- Answer (hhu9−stat6250): Rows represent observations and columns represent variables.
 
 
 
@@ -38,6 +40,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : How many variables does the final output totally have ?
 - Question (kveng-stat6250): What does “proc” refer to?
 - Answer (kveng-stat6250): “proc” refers to procedure in SAS.
++- Question (hhu9−stat6250): Can we calulate problem steps just by RUN statement?
++- Answer (hhu9−stat6250): Yes, since all RUN statement follow DATA steps and PROC steps. 
 
 
 
@@ -51,6 +55,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : What are the other names for numeric and character variables ?
 - Question (kveng-stat6250): Can a single variable (a column) contain multiple data types?
 - Answer (kveng-stat6250): A single variable (a column) can’t  contain multiple data types.
++- Question (hhu9−stat6250): How to distinguish the type of variables?
++- Answer (hhu9−stat6250): we can see the value including which kind of characaters.
 
 
 
@@ -64,6 +70,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : How is the missing value displayed for both numeric and character variables ?
 - *Answer* (lwang30-stat6250) : The missing value appears as a period for numeric variables, and blank for character variables.
 - Question (kveng-stat6250): Does SAS exclude missing value when doing the calculation? 
++- Question (hhu9−stat6250): Who to represent missing value?
++- Answer (hhu9−stat6250): Blank or a period.
 
 
 
@@ -76,6 +84,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : What are the rules for variable names ?
 - *Answer* (lwang30-stat6250) : Variable names must begin with a letter or an underscore, and continue with any combination of numerals, letters, or underscores.
 - Question (kveng-stat6250): Can a variable name contain special characters?
++- Question (hhu9−stat6250): What is the rules of SAS data set names and variable names?
++- Answer (hhu9−stat6250): Variable names follow the same rules as SAS data set names. They can be 1 to 32 characters long, must begin with a letter (A-Z, either uppercase or lowercase) or an underscore, and can continue with any combination of numerals, letters, or underscores.
 
 
 
@@ -90,7 +100,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): 6
 - *Question* (lwang30-stat6250) : What would SAS output if we input a numeric value that exceeds 8 bytes ? Would it be rounded up to the first 8 digits including decimal points ?
 - Question (kveng-stat6250): Can set a default length different than 8 bytes?
-
++- Question (hhu9−stat6250): What is the default length for the numeric variable Balance?
++- Answer (hhu9−stat6250): No matter how many digits they contain, the default length is 8.
 
 
 [Course Textbook Chapter 2, Problem 3]
@@ -102,6 +113,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): You assign a library name (a libref) to it and specify a path, such as a directory path and use the libref as the first part of the file's two-level name (libref.filename) to reference the file within the library. You can use programming statements to assign library names. 
 - *Question* (lwang30-stat6250) : Is there a way to let SAS read and process more than 100 years ?
 - Question (kveng-stat6250): Is “YEARCUTOFF” a function in SAS? 
++- Question (hhu9−stat6250): Does the YEARCUTOFF=option has affect on 4 digit value?
++- Answer (hhu9−stat6250): No, you set an informat with correct field width.
 
 
 
@@ -113,6 +126,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): I submit an OPTIONS statement and place an OPTIONS statement anywhere in a SAS program to change the current settings. Because the OPTIONS statement is global, the settings remain in effect until you modify them or until you end your SAS session. 
 - *Question* (lwang30-stat6250) : What are the functions of *proc freq* statement ?
 - Question (kveng-stat6250): What does this part mean: “if totalsales>50000; run;”?
++- Question (hhu9−stat6250): Whats the rules for librefs?
++- Answer (hhu9−stat6250): Librefs must be 1 to 8 characters, and only contains letters,numerals,underscores.
 
 
 
@@ -126,6 +141,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : What is the oldest date that SAS can trace back to ? 
 - *Answer* (lwang30-stat6250) : All versions of SAS represent dates correctly from 1582 A.D. to 20,000 A.D..
 - Question (kveng-stat6250): Does the YEARCUTOFF always has 100-year span? Can we modify YEARCUTOFF?
++- Question (hhu9−stat6250): Can we reset the default value of YEARCUTOFF=option? 
++- Answer (hhu9−stat6250): Yes , we can reset its first year.
 
 
 
@@ -139,6 +156,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : Without a *libname* statement, what is the default place where SAS read and write data ? 
 - Question (kveng-stat6250): What is Librefs?
 - Answer (kveng-stat6250): A libref is a temporary name that you associate with the physical name of the SAS data library during each SAS job or session.
++- Question (hhu9−stat6250): whats the meaning of special SAS window in this question? and what can we do more with it?
++- Answer (hhu9−stat6250): Still try to solve this problem.
 
 
 
@@ -149,7 +168,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): Besides the method using "get" function to download URL, what other methods can be the substitute?
 - *Question* (lwang30-stat6250) : Why can some statement lines not end with a semicolon ?
 - Question (kveng-stat6250): Where does the “tempfile” is stored after we run the code. Is it stored in a local computer or SAS server? Can we have it stored in our personal computer? 
-
++- Question (hhu9−stat6250):  there is a technology that transfer PDF to word, is it can be used to transfer image data to excel, and then to SAS data set? 
 
 
 [optional: bonus_advanced_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
