@@ -353,6 +353,13 @@ other persons."
 - Question (mcardoso3-stat6250): Which technology should we check more often for this class?
 - Answer (ilankham−stat6250): Blackboard, followed by Slack, followed by email, followed by GitHub.
 
+* Question * (pbarlota-stat6250) : How many questions we are supposed to add every week.
+* Question * (pbarlota-stat6250) : Even if I read the text book and watch online vedio, if I am unclear of any SAS concepts, can we post the questions anytime on slack to get it clear?
+* Question * (pbarlota-stat6250) : Is SAS object oriented language and case sensitive?
+* Question * (pbarlota-stat6250) : Do I have to be very good in SAS programming to clear final exam or good knowledge of concept is enough.
+* Question * (pbarlota-stat6250) : Is the team project based on the study I do in that week?
+* Question * (pbarlota-stat6250) : To complete the SAS receipe do I just have to copy paste the code in Bay Cloud?
+* Question * (pbarlota-stat6250) : If I want to make any correction to the assignment after submission what I need to do?
 
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
