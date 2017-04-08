@@ -360,6 +360,7 @@ other persons."
 * Question * (pbarlota-stat6250) : Is the team project based on the study I do in that week?
 * Question * (pbarlota-stat6250) : To complete the SAS receipe do I just have to copy paste the code in Bay Cloud?
 * Question * (pbarlota-stat6250) : If I want to make any correction to the assignment after submission what I need to do?
+* Question * (pbarlota-stat6250) : I see there are so many tools we are using at the same time, also many pdf files to read and understand every activity. Initially it is difficult but what would be the ideal way to learn all these things and still not get confused or is there any better way to complete these acivities?
 
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
