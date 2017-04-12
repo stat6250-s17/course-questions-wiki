@@ -34,7 +34,6 @@ The instructor will then review the pull request and make comments should furthe
 ```SAS
 PROC SORT;
       BY variable-1 ... variable-n;
-      
 ```
 - Question (yzhu12-stat6250): How to correct the program that contains syntax error?
 - Answer (yzhu12-stat6250): You can correct the errors in the Editor window and then resubmit the revised program. You can delete any error-free steps from a revised program before resubmitting it. 
