@@ -21,6 +21,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Does the code still work without indenting the statements within step?
 - Answer (kveng−stat6250): I tested it. The code still work but it's a good idea indeed to indent the statements for better reading.
 -*Question* (lwang30-stat6250) : What are the consequences if you do not end with a *run* statement ?
+- Question (rluo-stat6250): In what kind of situation do we use "include" command to open a SAS program?
 
 
 [Course Textbook Chapter 3, Problem 2]
@@ -30,6 +31,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Do we need to clear the log window?
 - Answer (kveng−stat6250): I tested it. Even we don't clear the log window, we still can correct the errors and resubmit the program.
 -*Question* (lwang30-stat6250) : What would the log window display if you commit a syntax error ?
+- Question (rluo-stat6250): What is abbreviation and its function?
+- Answer (rluo-stat6250): Abbreviation is marco that inserts one or more lines of text, and it can reduce the length of character string.
 
 
 [Course Textbook Chapter 3, Problem 3]
@@ -44,6 +47,7 @@ PROC SORT;
 - Question (kveng−stat6250): The error in this problem is that it didn't close the quote in proc print statement?
 - Answer (kveng−stat6250): Yes, it's supposed to be 'Recovery Heart Rate' not 'Recovery Heart Rate. 
 -*Question* (lwang30-stat6250) : What is the function of the *label* option in the *proc print* statement ? 
+ - Question (rluo-stat6250): What is the command that clears the contents of output window, editor window, and log window?
  
  
 [Course Textbook Chapter 3, Problem 4]
@@ -53,6 +57,8 @@ PROC SORT;
 - Answer (yzhu12-stat6250): A log message will appear to notify you that the option is not valid or recognized.
 - Question (kveng−stat6250): Does SAS have any better system to detect syntax error like with Microsoft Visual studio where it shows immediately if you have made any syntax error on the editor script.
 -*Question* (lwang30-stat6250) : What are considered syntax errors ? Give some examples. 
+- Question (rluo-stat6250): What is synetx error?
+- Answer (rluo-stat6250): Synetx error is SAS language grammar error that happens when program statements do not obey the rules of the SAS language.
 
 
 [Course Textbook Chapter 3, Problem 5]
@@ -60,6 +66,7 @@ PROC SORT;
 - Question (yzhu12-stat6250): Will missing RUN statements, missing semicolons, unbalanced quotation marks, and invalid options cause error or just make SAS produce a warning message?
 - Question (kveng−stat6250): What is the best way to get better and memorizing syntax?
 -*Question* (lwang30-stat6250) : What other kinds of error is log window able to show ?
+- Question (rluo-stat6250): To save the system resources, what actions can be taken to reduce the usage of recall buffer?
 
 
 [Course Textbook Chapter 3, Problem 6]
@@ -68,6 +75,7 @@ PROC SORT;
 - Question (kveng−stat6250): What does the word "option" refers to in SAS? Is this like a function?
 -*Question* (lwang30-stat6250) : What are other ways by which you can detect an invalid option ?
 -*Answer* (lwang30-stat6250) : Appropriate use of valid options will be shown in different colors in the enhanced editor window.
+- Question (rluo-stat6250): Which kind of error does missing "run" statement belongs to?
 
 
 [Course Textbook Chapter 3, Problem 7]
@@ -76,6 +84,7 @@ PROC SORT;
 - Answer (yzhu12-stat6250): Three types of errors can be detected: syntax, execution-time and data. 
 - Question (kveng−stat6250): Does SAS always has to start with "proc" and end with "run"?
 -*Question* (lwang30-stat6250) : In what situations do you need to use the quotation mark ?
+- Question (rluo-stat6250): How does the DATA step debugger work?
 
 
 [Course Textbook Chapter 3, Problem 10]
@@ -83,6 +92,7 @@ PROC SORT;
 - Question (yzhu12-stat6250): How to look for and replace text using the editor Window?
 - Question (kveng−stat6250): Is it always the case that when we forget to end the DATA step with a RUN statement, the window always displays the message "DATA step running"?
 -*Question* (lwang30-stat6250) : What are the options that you can use in a data step ?
+- Question (rluo-stat6250): Logic error is more harder to detect, and is there other ways to detect it except the DATA step debugger?
 
 
 [Course Textbook Chapter 4, Problem 1]
@@ -91,6 +101,7 @@ PROC SORT;
 - Answer (yzhu12-stat6250): You can also select which variables and observations are processed.
 - Question (kveng−stat6250): What other statements can be controlled in the PRINT procedure in SAS? Like ID, VAR, SUM, etc?
 -*Question* (lwang30-stat6250) : What would the output be if the variable *date* is not specified in the *id* option ?
+- Question (rluo-stat6250): How many variables would the PROC PRINT step list in a data set?
 
 
 [Course Textbook Chapter 4, Problem 3]
@@ -98,6 +109,7 @@ PROC SORT;
 - Question (yzhu12-stat6250): In Where statement, Character values must be enclosed in quotation marks and must be in the same case as in the data set, is that true?
 - Question (kveng−stat6250): Are the text data always in string format which is why we have to use quote? 
 -*Question* (lwang30-stat6250) : What are the functions of parentheses and quotation mark in the *where* option ?
+- Question (rluo-stat6250): Can WHERE statement control which variables would be printed?
 
 
 [Course Textbook Chapter 4, Problem 4]
@@ -106,6 +118,7 @@ PROC SORT;
 - Question (kveng−stat6250): What other statements can be controlled in the SORT procedure in SAS? Like NODUPLICATES, NODUPKEY, etc?
 -*Question* (lwang30-stat6250) : Is it okay not to include **work.** in the *out=* option ?
 - *Answer* (lwang30-stat6250) : Yes, the work library is the default temperary library in the current SAS session, and a one-level filename is automatically considered to be in the work library.
+- Question (rluo-stat6250): What is the function of DESCENDING option?
 
 
 [Course Textbook Chapter 4, Problem 7]
@@ -113,6 +126,7 @@ PROC SORT;
 - Question (yzhu12-stat6250): Why does the step PROC SORT fails if it doesn't contain BY statement?
 - Question (kveng−stat6250): Why does PROC SORT step generate errors and stops processing with this code?
 -*Question* (lwang30-stat6250) : In what other proc step is "BY" statement required ?
+- Question (rluo-stat6250): How long will the TITLE and FOOTNOTE statement remain in effect?
 
 
 [Course Textbook Chapter 4, Problem 9]
@@ -122,6 +136,8 @@ PROC SORT;
 - Question (kveng−stat6250): Does "eq" refer to equal sign in SAS?
 -*Question* (lwang30-stat6250) : What rules does SAS follow to perform calculations in the *where* option ?
 -*Answer* (lwang30-stat6250) : The rules are the same as that in mathematical calculations. For example, what's in the parentheses will be calculated first. 
+- Question (rluo-stat6250): Is formatting data value necessary? Explain why.
+- Answer (rluo-stat6250): Formatting data value is necessary because it can make the data values more understandable when they display.
 
 
 [Course Textbook Chapter 4, Problem 10]
@@ -130,6 +146,7 @@ PROC SORT;
 - Answer (yzhu12-stat6250): VAR, WHERE and SUM.
 - Question (kveng−stat6250): Can we customize the PROC PRINT output like choosing which font we want and how big the table is?
 -*Question* (lwang30-stat6250) : Which option can you use to alternate the observation column to a variable that you want to display on the far left side ? 
+- Question (rluo-stat6250): In what kind of situation do we use permanent labels?
 
 
 [recipe_to_check_for_duplicates (from Week 3 Overview)]
@@ -137,6 +154,7 @@ PROC SORT;
 - Question (yzhu12-stat6250): If the out=option is set to anything other than the null data set _null_, then a deduplicated could also be formed- so what other function will cause the same problem?
 - Question (kveng−stat6250): What does w.r.t mean?
 -*Question* (lwang30-stat6250) : How do we tell from the log window if the dataset we are using has duplicates or not ?
+- Question (rluo-stat6250): Is there any situation that two rows contain the same data and both of them are useful data but not duplicated data?
 
 
 [recipe_for_sorting_data (from Week 3 Overview)]
@@ -144,6 +162,7 @@ PROC SORT;
 - Question (yzhu12-stat6250): How can we sort numerical variables out of all the variables and assign specific group of values to them using SAS?
 - Question (kveng−stat6250): After we sort we make a copy and keep the original file. How and where does the sorted copy file is stored?
 -*Question* (lwang30-stat6250) : When several variable appear in the *sort* option, what is the order by which those variables will be sorted by SAS ? Will the variable on the left be sorted first ?
+- Question (rluo-stat6250): Can we sort data in ascending and descending order simultaneously?
 
 
 [recipe_for_printing_values (from Week 3 Overview)]
@@ -151,4 +170,6 @@ PROC SORT;
 - Question (yzhu12-stat6250): In the example, SAS print out var and id as rows and columns. How does "Explorer" look like when it print out and when should we use "Explorer"?
 - Question (kveng−stat6250): Can we perform some calculation in a PRINT procedure like performing average on the variable then print only the data that are above average?
 -*Question* (lwang30-stat6250) : What other modifications of the data is the *proc print* step able to do ?
+- Question (rluo-stat6250): Can the "Explorer" convert the dataset to different file type such as excel?
+
 
