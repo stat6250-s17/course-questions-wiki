@@ -88,6 +88,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_for_printing_values (from Week 3 Overview)]
-- Question (hhu9−stat6250): I see sometimes too many variables lead to dislocation in output, How to deal with it?
+- Question (hhu9−stat6250): I see sometimes too many variables lead to dislocation in output, How to deal with it.
 
 
