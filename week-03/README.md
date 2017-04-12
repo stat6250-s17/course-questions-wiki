@@ -13,96 +13,53 @@ The instructor will then review the pull request and make comments should furthe
 ********************************************************************************
 
 
+[ Chapter 3, qustion 1]
+* *Question (aalamri−stat6250):* What is the first step to write a program in SAS?
 
-[Course Textbook Chapter 3, Problem 1]
-* *Question (aalshehry−stat6250):* Why code formatting is important?
-* *Answer (aalshehry−stat6250):* Even though, SAS statements can be written in any format, a consistent layout improve readability and helps understand the program's purpose easily.
+[ Chapter 3, qustion 2]
+* *Question (aalamri−stat6250):* To fix a program in SAS that has a spelling error, what should we do in the Log window after correcting the error?
+* *Answer (aalamri−stat6250):* We should clear the Log window.
 
+[ Chapter 3, qustion 4]
+* *Question (aalamri−stat6250):* Give an example where the SAS program stops processing.
+* *Answer (aalamri−stat6250):* There is an error in the syntax.
 
+[ Chapter 3, qustion 5]
+* *Question (aalamri−stat6250):* Yes/No: syntax error occurs when the program statements do not conform to the SAS language?
+* *Answer (aalamri−stat6250):* Yes.
 
-[Course Textbook Chapter 3, Problem 2]
-* *Question (aalshehry−stat6250):* How can we clear the output window and the log window?
+[ Chapter 3, qustion 6]
+* *Question (aalamri−stat6250):* When the massage “Proc running” appears in SAS, what does that tell us?
 
-
-
-[Course Textbook Chapter 3, Problem 3]
-* *Question (aalshehry−stat6250):* Can we specify more than one “BY variable”?
-* *Answer (aalshehry−stat6250):*  You can specify as many BY variables as you wish for example:
-```SAS
-PROC SORT;
-      BY variable-1 ... variable-n;
-```
- 
- 
- 
-[Course Textbook Chapter 3, Problem 4]
-* *Question (aalshehry−stat6250):* What will SAS display in the log window when a syntax error detected?
-* *Answer (aalshehry−stat6250):*  it will displays the word ERROR, identifies the possible location of the error, and gives an explanation of the error.
+[ Chapter 3, qustion 9]
+* *Question (aalamri−stat6250):* Does the command “open ’d:\ program\sas\newprog.sas\” open a file in a code editing window?
 
 
+[ Chapter 3, qustion 9]
+* *Question (aalamri−stat6250):* What happens when the “RUN” statement is not included in a SAS program?
 
-[Course Textbook Chapter 3, Problem 5]
-* *Question (aalshehry−stat6250):* What type of errors can SAS detect?
+[ Chapter 4, qustion 1]
+* *Question (aalamri−stat6250):* Write the command (option) that specifies the data that is used in a SAS program?
 
+[ Chapter 4, qustion 2]
+* *Question (aalamri−stat6250):* Write the correct syntax to run the “PROC PRINT” command (using data name (6520)).
 
+[ Chapter 4, qustion 4]
+* *Question (aalamri−stat6250):* What is the command “ PROC SORT” used for?
 
-[Course Textbook Chapter 3, Problem 6]
-* *Question (aalshehry−stat6250):* What is an invalid option?
+[ Chapter 4, qustion 5]
+* *Question (aalamri−stat6250):* When printing the data, what is the option “NUMBER” used for?
 
+[ Chapter 4, qustion 5]
+* *Question (aalamri−stat6250):* When printing the data, what is the option “DATE” used for?
 
-
-[Course Textbook Chapter 3, Problem 7]
-* *Question (aalshehry−stat6250):* What are data errors?
-
-
-
-[Course Textbook Chapter 3, Problem 10]
-* *Question (aalshehry−stat6250):* Is there a situation where “Run;” statement is not required?
-
-
-
-[Course Textbook Chapter 4, Problem 1]
-* *Question (aalshehry−stat6250):* How to change the name of a variable(column)?
+[ Chapter 4, qustion 6]
+* *Question (aalamri−stat6250):* Which command is used to sum two variables in a dataset?
 
 
-
-[Course Textbook Chapter 4, Problem 3]
-* *Question (aalshehry−stat6250):* How to use WHERE statement to select multiple values from numerical observations?
-
+[ Chapter 4, qustion 8]
+* *Question (aalamri−stat6250):* In SAS, when using a table to display the sum of tow observations, where does the total usually appear?
 
 
-[Course Textbook Chapter 4, Problem 4]
-* *Question (aalshehry−stat6250):* What will happen if you run a PROC SORT statement without OUT= option?
-
-
-
-[Course Textbook Chapter 4, Problem 7]
-* *Question (aalshehry−stat6250):* Is “BY” statement required in “PROC SORT”?
-
-
-
-[Course Textbook Chapter 4, Problem 9]
-* *Question (aalshehry−stat6250):* What symbols represent “not equal to” operator in SAS?
-
-
-
-[Course Textbook Chapter 4, Problem 10]
-* *Question (aalshehry−stat6250):* What does “NOOBS” in “PROC PRINT” do?
-
-
-
-[recipe_to_check_for_duplicates (from Week 3 Overview)]
-* *Question (aalshehry−stat6250):* Does “DUPOUT” save unique observations without the duplicated rows or does it save only the duplicated observations?
-
-
-
-[recipe_for_sorting_data (from Week 3 Overview)]
-* *Question (aalshehry−stat6250):* What is the default sorting option? Is it ascending or descending?
-
-
-
-[recipe_for_printing_values (from Week 3 Overview)]
-* *Question (aalshehry−stat6250):* How to PROC PRINT to print a specific range of data (i.e. rows from 20 to 30)?
-
-
-
+[ Chapter 4, qustion 10]
+* *Question (aalamri−stat6250):* To display all observations, which command should we use?
