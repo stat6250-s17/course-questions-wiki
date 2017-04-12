@@ -60,6 +60,6 @@ The instructor will then review the pull request and make comments should furthe
 [ Chapter 4, qustion 8]
 * *Question (aalamri−stat6250):* In SAS, when using a table to display the sum of tow observations, where does the total usually appear?
 
-
+ 
 [ Chapter 4, qustion 10]
 * *Question (aalamri−stat6250):* To display all observations, which command should we use?
