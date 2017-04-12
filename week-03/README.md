@@ -13,6 +13,7 @@ The instructor will then review the pull request and make comments should furthe
 ********************************************************************************
 
 
+
 [Course Textbook Chapter 3, Problem 1]
 * *Question (aalshehry−stat6250):* Why code formatting is important?
 * *Answer (aalshehry−stat6250):* Even though, SAS statements can be written in any format, a consistent layout improve readability and helps understand the program's purpose easily.
