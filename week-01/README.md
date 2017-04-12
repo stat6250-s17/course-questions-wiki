@@ -42,7 +42,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): All office hours appointments are held online.
 - Question (yzhu12-stat6250): How many team-based projects do you have and how many discrete steps does each project have?
 - Answer (yzhu12-stat6250): We have 2 projects and each of them has four discrete steps. We need to complete all the steps to earn a team-based problem solving achievement in the course.
-
+- Question (mcardoso3-stat6250): Is one component of the Week 1 Setup instructions more important to comprehend than the others for the purpose of understanding the Initial Setup Achievement?
+- Answer (ilankham−stat6250): No.
 
 
 [Course Structure Quiz, Problem 2]
@@ -74,6 +75,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (yren10-stat6250): An insufficient quality may only be resubmitted at the instructor’s discretion.
 - Question (yzhu12-stat6250): Is it fine for students to skip the setup quiz since there are still nine quizzes left for them to earn a reading for depth achievement in the course?
 - Answer (yzhu12-stat6250): No, although the setup quiz does not have a grade scale, it's an important step included in the initial setup, which aligns with CLO1. 
+- Question (mcardoso3-stat6250): What are the requirements to earning "complete" mark in the Weekly Forum Posts?
+- Answer (mcardoso3-stat6250):  Earning a "complete" mark in the Weekly Forum posts require including the title, complete URL, synopsis, and article choice along with the proper amount of detail provided.
 
 
 
@@ -108,6 +111,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (yren10-stat6250): - students should successfully complete at least 8 of the 10 scheduled quizzes, and the score will only be marked as complete/incomplete.
 - Question (yzhu12-stat6250): Besides posting your own forums onto BB each week, what else you can do to help yourself and others learning?
 - Answer (yzhu12-stat6250): We can read others' posts carefully and leave our own perspectives under the reply section to learn from each other.
+- Question (mcardoso3-stat6250):  Is the submitting the weekly quizzes portion a more crucial concept to look over more than the formulation of the quizzes and answers?
+- Answer (ilankham−stat6250): I think they're equally important since they provide practice with different skills.
 
 
 
@@ -134,6 +139,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): All Weekly Quiz Problems are available in Blackboard.
 - Question (yzhu12-stat6250): How can we maximize the space while coding in SAS?
 - Answer (yzhu12-stat6250): You click on Window and screw down to the one named "tie vertically", which allows you to code in a maximized space, especially useful when you prepare for long project. 
+- Question (mcardoso3-stat6250): Can the steps for the team projects be submitted indivdually?  Or is everything turned in once per group?
+- Answer (ilankham−stat6250): Either; more details soon.
 
 
 
@@ -164,6 +171,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): I recommend reading as many books on SAS as possible since different authors will explain concepts in different ways, but the course textbook should be sufficient for this course.
 - Question (yzhu12-stat6250): How many problems do you have for final exam and how long is the exam? How does the exam graded?
 - Answer (yzhu12-stat6250): We have 65 multiple-choice questions and we have 110 minutes to complete it. We need to earn at least 70% of the questions to earn the building general knowledge achievement in the course. 
+- Question (mcardoso3-stat6250):  Will the final exam questions be centered more towards the first half of this course, or more towards the second half?
+- Answer (mcardoso3-stat6250): The final exam will be accumulative with questions coming from chapters 1–8, 10–17, and 19–20 of the course textbook.  Therefore, it is important to study for each part of the material equally.
 
 
 
@@ -204,6 +213,8 @@ other persons."
 - Answer (ilankham−stat6250): An A-, at the instructor's discretion.
 - Question (yzhu12-stat6250): How can a student earn some extra credit for this course?
 - Answer (yzhu12-stat6250): A student can earn extra credit if they can point out errors in the course material or raise up valuable questions that contribute to developing a deeper understanding of the material.
+- Question (mcardoso3-stat6250):  If we have already received the other 4 achievements, could we skip the final exam and still receive an A-?
+- Answer (mcardoso3-stat6250):  Yes according to the grading criteria.  However, it is not good practice to skip the final exam (or any exam) because one should always strive for the best and the exam is an indicator to show how much a student has learned over the 10 weeks.
 
 
 
@@ -235,6 +246,8 @@ other persons."
 - Answer (ilankham−stat6250): There's no reason not to; however, the instructor will be unable to join in-person meetings.
 - Question (yzhu12-stat6250): What is the fastest way to contact the instructor?
 - Answer (yzhu12-stat6250): Through Slack team.
+- Question (mcardoso3-stat6250):  How late are we allowed to turn in a late submission if we already have permission from the instructor?
+- Answer (ilankham−stat6250): As late as the instructor permits?
 
 
 
@@ -267,6 +280,8 @@ other persons."
 - Answer (yzhu12-stat6250): Each week will be assigned for one quiz and we need to study the corresponding chapters to prepare for them.
 - Question (yzhu12-stat6250): Do we obtain the knowledge that's necessary for base SAS exam the moment we finish this course?
 - Answer (ilankham−stat6250): Most likely, though additional review of the course textbook after the quarter ends is recommended.
+- Question (mcardoso3-stat6250): Why is there no extra credit for completing 10 out of 10 weekly forum posts or quizzes, but there is for pointing out typos?  
+- Answer (ilankham−stat6250): Because I freely admit to making mistakes and hope to have the classes help in creating the best quality course materials possible.
 
 
 
@@ -298,6 +313,8 @@ other persons."
 - *Answer* (yren10-stat6250): I think it's a yes, professor usually checks email first befor he checks Slack.
 - Question (yzhu12-stat6250): What's the function of pull request in GitHub?
 - Answer (yzhu12-stat6250): It shows the difference of the content between the master branch and the "changed" branch. 
+- Question (mcardoso3-stat6250): What happens if my internet is down and I am unable to send an email or slack diretct message online?
+- Answer (ilankham−stat6250): I'd recommend using a computer at the CSUEB Library, or perhaps a cell phone with a data plan.
 
 
 
@@ -333,6 +350,8 @@ other persons."
 - Answer (ilankham−stat6250): I'd recommend treating both equally.
 - Question (yzhu12-stat6250): Besides GitHub and Slack, are we going to learn other software for this course?
 - Answer (ilankham−stat6250): Yes, we will primarily emphasize learning SAS.
+- Question (mcardoso3-stat6250): Which technology should we check more often for this class?
+- Answer (ilankham−stat6250): Blackboard, followed by Slack, followed by email, followed by GitHub.
 
 
 
@@ -365,3 +384,7 @@ other persons."
 - Answer (ilankham−stat6250): If you're using the VMWare Horizon Client, then you can access local files that are stored on flash drives.
 - Question (yzhu12-stat6250): Is there difference between the output from different version of SAS?
 - Answer (ilankham−stat6250): Yes, older versions of SAS tend to have lower quality output.
+- Question (mcardoso3-stat6250): Should we run every SAS command to view the output, or only when necessary? 
+- Answer (ilankham−stat6250): It depends on how you learn best. I personally prefer to run everything for practice.
+
+
