@@ -18,8 +18,8 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* Why code formatting is important?
 * *Answer (aalshehry−stat6250):* Even though, SAS statements can be written in any format, a consistent layout improve readability and helps understand the program's purpose easily.
 
-- Question (yzhu12-stat6250): When a Syntex error occurs and SAS displays the word ERROR, what information will it identify?
-- Answer (yzhu12-stat6250): It will identify the location of the error and explans the cause of error.
+- Question (yzhu12-stat6250): It's a good idea to begin DATA steps, proc steps, and RUN statements on which side to indent statements within a step?
+- Answer (yzhu12-stat6250): On the left side.
 
 
 
