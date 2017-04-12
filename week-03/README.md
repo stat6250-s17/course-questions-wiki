@@ -12,7 +12,6 @@ The instructor will then review the pull request and make comments should furthe
 
 ********************************************************************************
 
-
 [Course Textbook Chapter 3, Problem 1]
 - Question (akumar30−stat6250): Is it necessary to include a RUN statement after every DATA step or PROC step?
 
