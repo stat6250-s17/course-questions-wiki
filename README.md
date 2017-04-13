@@ -76,4 +76,4 @@ You only need to fork this repo once. Then, for each Weekly Quiz, please follow 
 - Answer (mcardoso3-stat6250):  Though it is not required, the filename clear statement can be useful for freeing the filename and temporary storage location in order to better use resources.
 
 [optional: bonus_advanced_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
-- Question (mcardoso3-stat6250): How important is it for someone working in statistics to learn about macros?# Course Questions Wiki                                  This repo contains questions and answers corresponding to readings from course materials.
+- Question (mcardoso3-stat6250): How important is it for someone working in statistics to learn about macros?# Course Questions Wiki                                  This repo contains questions and answers corresponding to readings from course materials. 
