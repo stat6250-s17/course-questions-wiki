@@ -22,8 +22,10 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): I tested it. The code still work but it's a good idea indeed to indent the statements for better reading.
 - *Question* (lwang30-stat6250) : What are the consequences if you do not end with a *run* statement ?
 - Question (meisenbach-stat6250): Should you place a run statement after every DATA or PROC step?
--Question (nly13-stat6250): Some SAS code has QUIT; after RUN;, does this make a significant difference in procedural steps?
--Answer (nly13-stat6250): QUIT can be optional, as it will end the procedure.
+- Question (nly13-stat6250): Some SAS code has QUIT; after RUN;, does this make a significant difference in procedural steps?
+- Answer (nly13-stat6250): QUIT can be optional, as it will end the procedure.
+- Question (yyan11−stat6250): How to write SAS statements?
+- Answer (yyan11−stat6250): Although you can write SAS statements in almost any format, a consistent layout enhances readability and helps you understand the program’s purpose. It's a good idea to begin DATA and PROC steps in column one, indent statements within a step, begin RUN statements in column one, include a RUN statement after every DATA step or PROC step. 
 
 
 
@@ -35,7 +37,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): I tested it. Even we don't clear the log window, we still can correct the errors and resubmit the program.
 - *Question* (lwang30-stat6250) : What would the log window display if you commit a syntax error ?
 - Question (meisenbach-stat6250): What is the difference between the Program Editor and the Editor?
--Question (nly13-stat6250): R is CAPS sensitive, is there are reason why SAS isn’t?
+- Question (nly13-stat6250): R is CAPS sensitive, is there are reason why SAS isn’t?
+- Question (yyan11−stat6250): How to correct the error?
+- Answer (yyan11−stat6250): To correct the error: 1. Remove or replace the invalid option, and check your statement syntax as needed. 2. Resubmit the corrected program. 3. Check the SAS log again to make sure there are no other errors. 
 
 
 
@@ -52,7 +56,9 @@ PROC SORT;
 - Answer (kveng−stat6250): Yes, it's supposed to be 'Recovery Heart Rate' not 'Recovery Heart Rate. 
 - *Question* (lwang30-stat6250) : What is the function of the *label* option in the *proc print* statement ? 
 - Question (meisenbach-stat6250): What state is the program in when there is an unbalanced quote and the rest of the program is fairly short?
--Question (nly13-stat6250): Can sets of ‘’ and “ “ be used as interchangeable sets in single program?
+- Question (nly13-stat6250): Can sets of ‘’ and “ “ be used as interchangeable sets in single program?
+ - Question (yyan11−stat6250): What are syntax errors?
+- Answer (yyan11−stat6250): Syntax errors, such as misspelled words, generally cause SAS to stop processing the step in which the error occurred.
 
 
  
@@ -65,7 +71,9 @@ PROC SORT;
 - *Question* (lwang30-stat6250) : What are considered syntax errors ? Give some examples. 
 - Question (meisenbach-stat6250): How can you prevent syntax errors?
 - Answer (meisenbach-stat6250): In the Enhanced Editor, text with syntax error is colored red.
--Question (nly13-stat6250): Is there software that helps fix SAS code, for minor mistakes like spell check?
+- Question (nly13-stat6250): Is there software that helps fix SAS code, for minor mistakes like spell check?
+- Question (yyan11−stat6250): What happened when an error is submitted?
+- Answer (yyan11−stat6250):  When a program that contains an error is submitted, messages regarding the problem also appear in the SAS log. When a syntax error is detected, the SAS log displays the word ERROR, identifies the possible location of the error, and gives an explanation of the error.
 
 
 
@@ -75,7 +83,9 @@ PROC SORT;
 - Question (kveng−stat6250): What is the best way to get better and memorizing syntax?
 - *Question* (lwang30-stat6250) : What other kinds of error is log window able to show ?
 - Question (meisenbach-stat6250): What are other types of errors?
--Question (nly13-stat6250): Does SAS ever glitch where it ignores a syntax error and produces incomplete results?
+- Question (nly13-stat6250): Does SAS ever glitch where it ignores a syntax error and produces incomplete results?
+- Question (yyan11−stat6250): What can help me identify syntax errors?
+- Answer (yyan11−stat6250): Some SAS system options, features of the Editor window, and the DATA step debugger can help you identify syntax errors. Other types of errors include data errors, semantic errors, and execution-time errors.
 
 
 
@@ -87,8 +97,10 @@ PROC SORT;
 - *Answer* (lwang30-stat6250) : Appropriate use of valid options will be shown in different colors in the enhanced editor window.
 - Question (meisenbach-stat6250): How should you correct an invalid option?
 - Answer (meisenbach-stat6250): After checking for typos, read the error message for suggestions for what a valid option would be in that statement.
--Question (nly13-stat6250): Can you save log data from a SAS session?
--Answer: Yes, you can export the SAS log external files.
+- Question (nly13-stat6250): Can you save log data from a SAS session?
+- Answer: Yes, you can export the SAS log external files.
+- Question (yyan11−stat6250): What should I do when the statement contains an invalid option?
+- Answer (yyan11−stat6250): When you submit a SAS statement that contains an invalid option, a log message notifies you that the option is not valid or not recognized. You should recall the program, remove or replace the invalid option, check your statement syntax as needed, and resubmit the corrected program.
 
 
 
@@ -99,7 +111,9 @@ PROC SORT;
 - Question (kveng−stat6250): Does SAS always has to start with "proc" and end with "run"?
 - *Question* (lwang30-stat6250) : In what situations do you need to use the quotation mark ?
 - Question (meisenbach-stat6250): When is SAS able to correct misspelled keywords?
--Question (nly13-stat6250): Does SAS list errors by priority or in order of how they happen?
+- Question (nly13-stat6250): Does SAS list errors by priority or in order of how they happen?
+- Question (yyan11−stat6250): What happened when the data step contains a misspelled keyword?
+- Answer (yyan11−stat6250): This is such a common (and easily interpretable) error that SAS produces only a warning message, not an error.
 
 
 
@@ -110,8 +124,10 @@ PROC SORT;
 - *Question* (lwang30-stat6250) : What are the options that you can use in a data step ?
 - Question (meisenbach-stat6250): How can you catch unbalanced quotation marks?
 - Answer (meisenbach-stat6250): Quoted text is purple. If the rest of the program is also purple, there is an unmatched quote somewhere in the purple block.
--Question (nly13-stat6250): If you have RUN statements multiple times at the end of a program, will it run faster?
--Answer: No, RUN only needs to be used once.
+- Question (nly13-stat6250): If you have RUN statements multiple times at the end of a program, will it run faster?
+- Answer: No, RUN only needs to be used once.
+- Question (yyan11−stat6250): What are data errors?
+- Answer (yyan11−stat6250): Data errors that occur when some data values are not appropriate for the SAS statements that are specified in a program.
 
 
 
@@ -123,6 +139,8 @@ PROC SORT;
 - *Question* (lwang30-stat6250) : What would the output be if the variable *date* is not specified in the *id* option ?
 - Question (meisenbach-stat6250): Is the variable for the ID statement required to be unique?
 Question (nly13-stat6250): Do labels exist permanently in a dataset?
+- Question (yyan11−stat6250): What is the WHERE statement?
+- Answer (yyan11−stat6250): In the WHERE statement you can specify any variable in the SAS data set, not just the variables that are specified in the VAR statement. The WHERE statement works for both character and numeric variables.
 
 
 
@@ -133,6 +151,8 @@ Question (nly13-stat6250): Do labels exist permanently in a dataset?
 - *Question* (lwang30-stat6250) : What are the functions of parentheses and quotation mark in the *where* option ?
 - Question (meisenbach-stat6250): Does using the IN operatior in the WHERE statement help the code to be more readable?
 Question (nly13-stat6250): Can other types of brackets work for ‘in (content)’ statement, such as [ ]?
+- Question (yyan11−stat6250): How to write the IN operator in the WHERE statement?
+- Answer (yyan11−stat6250): In the WHERE statement, the IN operator enables you to select observations based on several values. You specify values in parentheses and separate them by spaces or commas. Character values must be enclosed in quotation marks and must be in the same case as in the data set.
 
 
 
@@ -144,6 +164,8 @@ Question (nly13-stat6250): Can other types of brackets work for ‘in (content)�
 - *Answer* (lwang30-stat6250) : Yes, the work library is the default temperary library in the current SAS session, and a one-level filename is automatically considered to be in the work library.
 - Question (meisenbach-stat6250): What kind of error do you get if you leave out the BY statement?
 Question (nly13-stat6250): Can the process of data to output be reverse, where you use the output to get the original data?
+- Question (yyan11−stat6250): What should I do if I do not want my original data to be sorted?
+- Answer (yyan11−stat6250): If you do not want your original data to be sorted permanently, you must create an output data set that contains the data in sorted order. The OUT= option in the PROC SORT statement specifies an output data set. 
 
 
 
@@ -154,6 +176,8 @@ Question (nly13-stat6250): Can the process of data to output be reverse, where y
 - *Question* (lwang30-stat6250) : In what other proc step is "BY" statement required ?
 - Question (meisenbach-stat6250): Why does SAS continue execution of a program when a step fails?
 Question (nly13-stat6250): Can you have multiple ‘out’ outputs in the same statement if they are sorted by different means?
+- Question (yyan11−stat6250): What can I do when I want to subtotal numeric variables?
+- Answer (yyan11−stat6250): To produce subtotals, add both a SUM statement and a BY statement to your PROC PRINT step.
 
 
 
@@ -165,6 +189,8 @@ Question (nly13-stat6250): Can you have multiple ‘out’ outputs in the same s
 - *Question* (lwang30-stat6250) : What rules does SAS follow to perform calculations in the *where* option ?
 - *Answer* (lwang30-stat6250) : The rules are the same as that in mathematical calculations. For example, what's in the parentheses will be calculated first. 
 Question (nly13-stat6250): Does the where statements every use ‘if then’ statements? 
+- Question (yyan11−stat6250): Which operator could link sequence of expressions into compound expressions?
+- Answer (yyan11−stat6250): To link a sequence of expressions into compound expressions, you use logical operators, including AND or &, OR or |.
 
 
 
@@ -175,7 +201,9 @@ Question (nly13-stat6250): Does the where statements every use ‘if then’ sta
 - Question (kveng−stat6250): Can we customize the PROC PRINT output like choosing which font we want and how big the table is?
 - *Question* (lwang30-stat6250) : Which option can you use to alternate the observation column to a variable that you want to display on the far left side ? 
 - Question (meisenbach-stat6250): What happens if you don’t group conditions with parentheses?
--Question (nly13-stat6250): How do you control the order of results of PROC PRINT?
+- Question (nly13-stat6250): How do you control the order of results of PROC PRINT?
+- Question (yyan11−stat6250): What does a PROC PRINT step list by default?
+- Answer (yyan11−stat6250): By default, a PROC PRINT step lists all the observations in a data set. 
 
 
 
@@ -187,6 +215,7 @@ Question (nly13-stat6250): Does the where statements every use ‘if then’ sta
 - Question (meisenbach-stat6250): What does PROC SORT using  NODUPKEY use to determine what a duplicate row is?
 - Answer (meisenbach-stat6250): The criteria is the variables specified in the BY statement. So in the recipe example, if there are rows with the same County_Code, District_Code, and School_Code, they would be considered duplicates.
 Question (nly13-stat6250): What would the code be if you wanted to remove all duplicates except for exactly 2 copies of each data point?
+- Question (yyan11−stat6250): Does every data in a SAS dataset have a duplicate?
 
 
 
@@ -198,6 +227,7 @@ Question (nly13-stat6250): What would the code be if you wanted to remove all du
 - Question (meisenbach-stat6250): Is it generally a bad idea to overwrite the original dataset with the sorted one?
 - Answer (meisenbach-stat6250): Yes, there may be information in the original order of the data.
 Question (nly13-stat6250): Instead of sorting by categories, can you sort by length?
+- Question (yyan11−stat6250): What would happen if I do not write anything before “out=”?
 
 
 
@@ -209,5 +239,5 @@ Question (nly13-stat6250): Instead of sorting by categories, can you sort by len
 - Question (meisenbach-stat6250): What is the purpose of the ID statement within PROC PRINT? Does the index have to be unique?
 - Answer (meisenbach-stat6250): “Identifies observations by using the formatted values of the variables that you list instead of by using observation numbers.” - SAS documentation. It does not appear to have to be unique. In the example, County_Name District_Name is not unique.
 Question (nly13-stat6250): In the proc print statement, if obs= controls how many observations, can be it set to show specific rows of observations, such as evens or odds?
-
+- Question (yyan11−stat6250): How to copy SAS data to the system clipboard?
 
