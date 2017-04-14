@@ -14,10 +14,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
-
-
-
 [Course Textbook Chapter 1, Problem 1]
 * *Question (aalshehry−stat6250):* Wht is themaximum number of observations per dataset? What about variables/columns?
 - Question (lzhao4−stat6250): Do missing values affect the structure of the data set?
@@ -39,6 +35,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2−stat6250): Yes, each row of data is an "observation," whether all data fields have data or not.
 - Question (cyuan10−stat6250): Is the observations always the “rows” and variable always the columns?
 - Question (yren10−stat6250): When comparing two observations in one data set, if one observation missing 1 variable value, are we still able to do the comparison? Are we still getting a correct result?
+- Question (akumar30−stat6250): Does missing value has any impact on total number of observation or variables in SAS Datasets?
 
 
 
@@ -65,6 +62,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2−stat6250): Program steps are defined as beginning with "data" or "proc". Program steps are then usually each terminated by a "run" statement.
 - Question (cyuan10−stat6250): In this example, what is the difference between having 3 different “steps” or “runs” versus a single run at the end?
 - Question (yren10−stat6250): Can we usually use a single letter like "U" or “U.T” in stead "user.table"?
+- Question (akumar30−stat6250): What is the default sorting format in SAS and how to format multiple variables in different sorting order?
 
 
 
@@ -89,6 +87,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): If a single cell contains characters, does that make the entire column a “character variable”?
 - Question (yren10−stat6250): Does a variable named like "Account number" means it's has to be a numeric variable?
 - Answer (yren10−stat6250): No, name can't decide the type.
+- Question (akumar30−stat6250): If a character variable contains only numeric data, can we changed the variable type in SAS from character to numeric?
+- Answer (akumar30−stat6250): A variable can be defined as only one type, so you cannot use the same variable name to convert the values. You create a new variable with the values converted using input function.
 
 
 
@@ -113,6 +113,8 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (cyuan10−stat6250): What happens to the “.” missing numeric value when you calculate that variable? Is it simply ignored? What is the default action?
 - Question (yren10−stat6250): Does a missing value in a variable column affects the type of the variable?
 - Answer (yren10−stat6250): No, a blank dpesn't represent anything, the missing value is indcated by a period. 
+- Question (akumar30−stat6250): How to distinguish between different types of missing values (e.g missing values because of non-response or missing values because of invalid data entry)?
+- Answer (akumar30−stat6250):  In SAS, letters A-Z and underscore "_" to indicate the type of missing values.
 
 
 
@@ -137,6 +139,8 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Answer (cyuan10−stat6250): Some basic rule is to name the file so that you the user or any other users will understand what it is. Use case or “_” to help distinguish between words.
 - Question (yren10−stat6250): Can a variable name contains other symbol like "$" or "#"?
 - Answer (yren10−stat6250): No,can only contains numbers, letters or underscores.
+- Question (akumar30−stat6250): What is the maximum size of character data type variables? 
+- Answer (akumar30−stat6250): Character variables can be up to 32,767 bytes long.
 
 
 
@@ -161,6 +165,8 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (aoneill2−stat6250): How can you tell what the default length for a numeric variable is beyond the digits and decimal point that are shown for the entries? Is there a typical default length for decimal numbers?
 - Question (cyuan10−stat6250): In this example, does a leading “0” count as part of the length? For example, is 097.45 a different length than 97.45? 
 - Question (yren10−stat6250): If all numbers are integers, are they going to have different default length compare to non-integers?
+- Question (akumar30−stat6250):  What is the default length of numeric variables?
+- Answer (akumar30−stat6250): All numeric variables have a default length of 8 bytes.
 
 
 
@@ -182,6 +188,8 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question?
 - Question (cyuan10−stat6250): How do we deal with a larger year range? For example 1800-2000? 
 - Question (yren10−stat6250): Does the date affect the value of YEARCUTOFF=option ?
+- Question (akumar30−stat6250):  What is the default value of YEARCUTOFF option in SAS for two-digit year?
+- Answer (akumar30−stat6250): The default value of YEARCUTOFF= is 1920.
 
 
 
@@ -204,6 +212,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (cyuan10−stat6250): What are the different use cases for a permanent library vs. a temporary library?
 - Answer (cyuan10−stat6250): Having a permanent library vs. a temporary library would be helpful to keep things organized so that you don’t end up with 20 versions. Instead, you can work on 20 different versions during the same sessions and make the “final” version a permanent but delete all the temp. This will keep your files organized.
 - Question (yren10−stat6250): Can a SAS engine access other format except SAS file format?
+- Question (akumar30−stat6250): Doe dataset saved in permanent library accessible after end of SAS Session?
 
 
 
@@ -227,6 +236,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question? How do you determine the YEARCUTOFF= option if you are not syure about whether the years entered would be within a 100-yr interval?
 - Question (cyuan10−stat6250): Does the YEARCUTOFF= option always start from the low-end and count up or can it start from the high end and count down?
 - Question (yren10−stat6250): “YEARCUTOFF=” specifies 100-year span, what if we need a 200-year span or more?
+- Question (akumar30−stat6250): Does YEARCUTOFF option in SAS has any impact on a date value that contains four digit year?
 
 
 
@@ -249,6 +259,8 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (cyuan10−stat6250): Are all syntax written in all CAPs?
 - Answer (cyuan10−stat6250): No, like all programming languages, there are different ways of distinguish between synatx. It looks like the text uses all caps to help show the difference.
 - Question (yren10−stat6250): What is the difference or relation between library and libref?
+- Question (akumar30−stat6250): What is the default default libref for a temporary SAS data library?
+- Answer (akumar30−stat6250): Work is the libref for a temporary SAS data library
 
 
 
@@ -267,6 +279,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (aoneill2−stat6250): What data step follows the proc http data step in importing an online file into a temporary working file?
 - Question (cyuan10−stat6250): What is the difference between a comma-separated values format vs. a tab-separate values format and how does this affect how the dataset is “read” in SAS?
 - Question (yren10−stat6250): Are we actually able to find the tempfile in our PC after all? 
+- Question (akumar30−stat6250):  What type of files are supported using proc http statement in SAS?
 
 
 
