@@ -188,7 +188,7 @@ PROC SORT;
 - Answer (akumar30−stat6250): No.
 - Question (hhu9−stat6250): what is the result except for 'running error' if you do not write a complete statement? 
 - Question (aoneill2-stat6250): Besides syntax errors and data errors, what is the third type of error that SAS can detect?
-- Question (aoneill2-stat6250): SAS can detect syntax, data, and execution-time errors.
+- Answer (aoneill2-stat6250): SAS can detect syntax, data, and execution-time errors.
 
 
 
@@ -287,7 +287,7 @@ Question (nly13-stat6250): Does the where statements every use ‘if then’ sta
 - Question (akumar30−stat6250):  Can we do grouping and sorting of variable in SAS together?
 - Question (hhu9−stat6250): what is the diffirence between '=' and 'eq'? 
 - Question (aoneill2-stat6250): When are ranges of data appropriate as conditions in a WHERE statement and when not?
--*Answer* (lwang30-stat6250) : The rules are the same as that in mathematical calculations. For example, what's in the parentheses will be calculated first.
+- Answer (aoneill2-stat6250) : The rules are the same as that in mathematical calculations. For example, what's in the parentheses will be calculated first.
 
 
 [Course Textbook Chapter 4, Problem 10]
