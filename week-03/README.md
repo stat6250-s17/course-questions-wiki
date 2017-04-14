@@ -80,4 +80,3 @@ The instructor will then review the pull request and make comments should furthe
 
 [recipe_for_printing_values (from Week 3 Overview)]
 - Question (cyuan10-stat6250): How do we specify certain formating of numbers (rounding) or letters (all case vs. lower case)
-
