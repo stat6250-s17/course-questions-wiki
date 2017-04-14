@@ -44,6 +44,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): We have 2 projects and each of them has four discrete steps. We need to complete all the steps to earn a team-based problem solving achievement in the course.
 - Question (mcardoso3-stat6250): Is one component of the Week 1 Setup instructions more important to comprehend than the others for the purpose of understanding the Initial Setup Achievement?
 - Answer (ilankham−stat6250): No.
+* Question * (pbarlota-stat6250) : Even if I read the text book and watch online video, if I am unclear of any SAS concepts, can we post the questions anytime on slack to get it clear?
 
 
 [Course Structure Quiz, Problem 2]
@@ -77,7 +78,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): No, although the setup quiz does not have a grade scale, it's an important step included in the initial setup, which aligns with CLO1. 
 - Question (mcardoso3-stat6250): What are the requirements to earning "complete" mark in the Weekly Forum Posts?
 - Answer (mcardoso3-stat6250):  Earning a "complete" mark in the Weekly Forum posts require including the title, complete URL, synopsis, and article choice along with the proper amount of detail provided.
-
+* Question * (pbarlota-stat6250) : Is the team project based on the study I do in that week?
 
 
 [Course Structure Quiz, Problem 3]
@@ -113,6 +114,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): We can read others' posts carefully and leave our own perspectives under the reply section to learn from each other.
 - Question (mcardoso3-stat6250):  Is the submitting the weekly quizzes portion a more crucial concept to look over more than the formulation of the quizzes and answers?
 - Answer (ilankham−stat6250): I think they're equally important since they provide practice with different skills.
+* Question * (pbarlota-stat6250) : To complete the SAS receipe do I just have to copy paste the code in Bay Cloud?
 
 
 
@@ -141,6 +143,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): You click on Window and screw down to the one named "tie vertically", which allows you to code in a maximized space, especially useful when you prepare for long project. 
 - Question (mcardoso3-stat6250): Can the steps for the team projects be submitted indivdually?  Or is everything turned in once per group?
 - Answer (ilankham−stat6250): Either; more details soon.
+* Question * (pbarlota-stat6250) : If I want to make any correction to the assignment after submission what I need to do?
+
 
 
 
@@ -173,6 +177,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): We have 65 multiple-choice questions and we have 110 minutes to complete it. We need to earn at least 70% of the questions to earn the building general knowledge achievement in the course. 
 - Question (mcardoso3-stat6250):  Will the final exam questions be centered more towards the first half of this course, or more towards the second half?
 - Answer (mcardoso3-stat6250): The final exam will be accumulative with questions coming from chapters 1–8, 10–17, and 19–20 of the course textbook.  Therefore, it is important to study for each part of the material equally.
+* Question * (pbarlota-stat6250) : I see there are so many tools we are using at the same time, also many pdf files to read and understand every activity. Initially it is difficult but what would be the ideal way to learn all these things and still not get confused or is there any better way to complete these acivities?
+* Answer * (pbarlota-stat6250) : I think is a good self learning experience to do initial set up on your own.
 
 
 
@@ -215,7 +221,7 @@ other persons."
 - Answer (yzhu12-stat6250): A student can earn extra credit if they can point out errors in the course material or raise up valuable questions that contribute to developing a deeper understanding of the material.
 - Question (mcardoso3-stat6250):  If we have already received the other 4 achievements, could we skip the final exam and still receive an A-?
 - Answer (mcardoso3-stat6250):  Yes according to the grading criteria.  However, it is not good practice to skip the final exam (or any exam) because one should always strive for the best and the exam is an indicator to show how much a student has learned over the 10 weeks.
-
+* Question * (pbarlota-stat6250) : After submitting my quiz for week If I want to add more questions, can I again create another pull request?
 
 
 [Course Structure Quiz, Problem 7]
@@ -248,7 +254,7 @@ other persons."
 - Answer (yzhu12-stat6250): Through Slack team.
 - Question (mcardoso3-stat6250):  How late are we allowed to turn in a late submission if we already have permission from the instructor?
 - Answer (ilankham−stat6250): As late as the instructor permits?
-
+* Question * (pbarlota-stat6250) : If I submit the assigment but its not upto the instructors expectation can I get instructors advise on how to improve it?
 
 
 [Course Structure Quiz, Problem 8]
@@ -282,6 +288,7 @@ other persons."
 - Answer (ilankham−stat6250): Most likely, though additional review of the course textbook after the quarter ends is recommended.
 - Question (mcardoso3-stat6250): Why is there no extra credit for completing 10 out of 10 weekly forum posts or quizzes, but there is for pointing out typos?  
 - Answer (ilankham−stat6250): Because I freely admit to making mistakes and hope to have the classes help in creating the best quality course materials possible.
+* Question * (pbarlota-stat6250) : How many hours of daily practice is need to become good SAS programmer ? 
 
 
 
@@ -315,6 +322,7 @@ other persons."
 - Answer (yzhu12-stat6250): It shows the difference of the content between the master branch and the "changed" branch. 
 - Question (mcardoso3-stat6250): What happens if my internet is down and I am unable to send an email or slack diretct message online?
 - Answer (ilankham−stat6250): I'd recommend using a computer at the CSUEB Library, or perhaps a cell phone with a data plan.
+* Question * (pbarlota-stat6250) : Does the team assignment contains SAS programming?
 
 
 
@@ -353,6 +361,7 @@ other persons."
 - Question (mcardoso3-stat6250): Which technology should we check more often for this class?
 - Answer (ilankham−stat6250): Blackboard, followed by Slack, followed by email, followed by GitHub.
 
+* Question * (pbarlota-stat6250) : How many questions we are supposed to add every week.
 
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
@@ -386,5 +395,11 @@ other persons."
 - Answer (ilankham−stat6250): Yes, older versions of SAS tend to have lower quality output.
 - Question (mcardoso3-stat6250): Should we run every SAS command to view the output, or only when necessary? 
 - Answer (ilankham−stat6250): It depends on how you learn best. I personally prefer to run everything for practice.
+* Question * (pbarlota-stat6250) : Is SAS object oriented language or procedural language?
+* Answer * (pbarlota−stat6250) : SAS is primarily a procedural language.
+* Question * (pbarlota-stat6250) : Is SAS case sensitive?
+* Answer * (pbarlota−stat6250) : SAS is not case-sensitive. You can use capital or lowercase letters in your SAS variables.
+* Question * (pbarlota-stat6250) : Do I have to be very good in SAS programming to clear final exam or good knowledge of SAS concepts is enough.
+
 
 
