@@ -42,7 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 2]
--Question (mcardoso3-stat6250):  Why does each SAS line end with a semicolon?
+- Question (mcardoso3-stat6250):  Why does each SAS line end with a semicolon?
 * *Question (aalshehry−stat6250):* Why should we use “run;” steatment many times within SAS program instead of one time at the end?
 * *Answer (aalshehry−stat6250):* The "run;" statement is often not strictly required, as SAS will assume you want to start a new step when it sees data or proc. However your code will be clearer and easier to understand if you make the end of each step explicit.
 - Question (lzhao4−stat6250): Add run statement after each program step is an essential?character variable is valid when contains letters and underscores.
