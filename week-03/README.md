@@ -23,8 +23,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Does the code still work without indenting the statements within step?
 - Answer (kveng−stat6250): I tested it. The code still work but it's a good idea indeed to indent the statements for better reading.
 - *Question* (lwang30-stat6250) : What are the consequences if you do not end with a *run* statement ?
-- Question (meisenbach-stat6250): Should you place a run statement after every DATA or PROC step?
-- Question (nly13-stat6250): Some SAS code has QUIT; after RUN;, does this make a significant difference in procedural steps?
+- Question (meisenbach-stat6250): Should you place a run statement after every DATA or PROC step?- Question (nly13-stat6250): Some SAS code has QUIT; after RUN;, does this make a significant difference in procedural steps?
 - Answer (nly13-stat6250): QUIT can be optional, as it will end the procedure.
 - Question (yyan11−stat6250): How to write SAS statements?
 - Answer (yyan11−stat6250): Although you can write SAS statements in almost any format, a consistent layout enhances readability and helps you understand the program’s purpose. It's a good idea to begin DATA and PROC steps in column one, indent statements within a step, begin RUN statements in column one, include a RUN statement after every DATA step or PROC step. 
@@ -167,7 +166,6 @@ PROC SORT;
 - Question (dlee117−stat6250): How do you resolve an invalid option error?
 - Question (akumar30−stat6250):  What happens when SAS statement that contains an invalid option is submitted? Why this happen?
 - Answer (akumar30−stat6250): A message will appears in the Log window indicating that the option is not valid or not recognized. An invalid option error occurs when you specify an option that is not valid in a particular statement.
-
 - Question (hhu9−stat6250): How can you realize that you have specified an invalid option?
 - Answer (hhu9−stat6250): The log message will remind you.
 - Question (aoneill2-stat6250): Can you know you have a data error by just looking at the log window, or by just looking at the output window, or do you need to figure it out from looking at both?
@@ -277,7 +275,6 @@ where fee in (‘124’,’178’);
 [Course Textbook Chapter 4, Problem 4]
 - Question (mcardoso3-stat6250):  Given their similarities in math, how often does SAS create accounting statements?
 * *Question (aalshehry−stat6250):* What will happen if you run a PROC SORT statement without OUT= option?
-
 - Question (yzhu12-stat6250): In a PROC SORT step, what method should you use for specifying an output data?
 - Question (kveng−stat6250): What other statements can be controlled in the SORT procedure in SAS? Like NODUPLICATES, NODUPKEY, etc?
 - *Question* (lwang30-stat6250) : Is it okay not to include **work.** in the *out=* option ?
@@ -311,7 +308,6 @@ Question (nly13-stat6250): Can you have multiple ‘out’ outputs in the same s
 - Question (rluo-stat6250): How long will the TITLE and FOOTNOTE statement remain in effect?
 - Question (dlee117−stat6250): Does the PROC SORT step permanently sort the input data set?
 - Question (akumar30−stat6250): What will happen if no option define for OUT while sorting the dataset in SAS? 
-
 - Answer (akumar30−stat6250):  The PROC SORT step permanently sorts the input data set.
 - Question (hhu9−stat6250): If one step of all is wrong, what is the effect?
 - Question (aoneill2-stat6250): Does PROC PRINT fail if a BY statement is included?
@@ -357,7 +353,6 @@ Question (nly13-stat6250): Does the where statements every use ‘if then’ sta
 - Answer (yyan11−stat6250): By default, a PROC PRINT step lists all the observations in a data set. 
 - Question (rluo-stat6250): In what kind of situation do we use permanent labels?
 - Question (dlee117−stat6250): What does the Obs column represent and how do you remove the Obs column in your program?
-
 - Question (akumar30−stat6250):   Can we change the default properties of PROC PRINT?
 - Question (hhu9−stat6250): how to change the default setting of displaying?
 - Question (aoneill2-stat6250): It's a good idea to begin DATA steps, proc steps, and RUN statements on which side to indent statements within a step?
@@ -383,7 +378,6 @@ Question (nly13-stat6250): What would the code be if you wanted to remove all du
 - Question (aoneill2-stat6250): How can obs numbers be suppressed in a print statement without the use of the noobs option?
 - Question (yren10-stat6250) : What is the default settig for the sorting option?
 - Question (cyuan10-stat6250): Is this case-sensitive?
-
 
 
 
