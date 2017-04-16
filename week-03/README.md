@@ -343,7 +343,7 @@ Question (nly13-stat6250): Does the where statements every use ‘if then’ sta
 
 [Course Textbook Chapter 4, Problem 10]
 - Question (mcardoso3-stat6250):  What are all of the requirements for completing a PROC PRINT statement?
-- Question (mcardoso3-stat6250):  Why don't many data analysis tasks require sorting data?-Answer (mcardoso3-stat6250):  The dataset intended to be displayed needs to be specified and you need to insert the "run;" command to successfully complete a PROC PRINT statement.
+-Answer (mcardoso3-stat6250):  The dataset intended to be displayed needs to be specified and you need to insert the "run;" command to successfully complete a PROC PRINT statement.
 * *Question (aalshehry−stat6250):* What does “NOOBS” in “PROC PRINT” do?
 - Question (yzhu12-stat6250): What statements do remain in effect only for the PROC step in which they appear?
 - Answer (yzhu12-stat6250): VAR, WHERE and SUM.
