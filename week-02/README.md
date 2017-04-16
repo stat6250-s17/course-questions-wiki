@@ -1,3 +1,4 @@
+
 ## Week 2 Quiz Questions and Answers
 
 In order to prepare your Week 2 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
@@ -41,6 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 2]
+-Question (mcardoso3-stat6250):  Why does each SAS line end with a semicolon?
 * *Question (aalshehry−stat6250):* Why should we use “run;” steatment many times within SAS program instead of one time at the end?
 * *Answer (aalshehry−stat6250):* The "run;" statement is often not strictly required, as SAS will assume you want to start a new step when it sees data or proc. However your code will be clearer and easier to understand if you make the end of each step explicit.
 - Question (lzhao4−stat6250): Add run statement after each program step is an essential?character variable is valid when contains letters and underscores.
@@ -68,6 +70,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 3]
+- Question (mcardoso3-stat6250):  How do you indicate which variables are numeric and which are variables are characters when entering in SAS?
+- Answer (mcardoso3-stat6250):  When each variable is being input into the SAS statement, the numeric varialbes are followed by a $ sign.
 * *Question (aalshehry−stat6250):* How many type of variables does SAS support?
 - Question (lzhao4−stat6250): Can numeric variable contains letter and underscore?
 - Answer (lzhao4−stat6250): A numeric variable can only contain numeric values. A 
@@ -94,6 +98,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 4]
+- Question (mcardoso3-stat6250):  Why are there some missing values in certain datasets?
+- Answer (mcardoso3-stat6250):  Some datasets are more difficult to collect the entire data for than others, which is reasonable considering error is a part of statistics.  Therefore, there will sometimes be an occasional missing value when the data is collected.
 * *Question (aalshehry−stat6250):* How to represent missing data in SAS dataset?
 - Question (lzhao4−stat6250): Can missing value indicates a different type of variable?
 - Question (yyan11−stat6250): What are Numeric variables?
@@ -120,6 +126,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 
 
 [Course Textbook Chapter 1, Problem 5]
+- Question (mcardoso3-stat6250): Why do the variable names need to start with a letter or underscore?
 * *Question (aalshehry−stat6250):* Can a character variable begins with a number?
 - Question (lzhao4−stat6250): What is the basic rule to set a valid variable name in SAS?
 - Question (yyan11−stat6250): What are valid variable names? 
@@ -146,6 +153,8 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 
 
 [Course Textbook Chapter 1, Problem 8]
+- Question (mcardoso3-stat6250): Will the default length for numeric data always be 8?
+- Answer (mcardoso3-stat6250):  Yes, numeric values are stored in 8 bytes of storage no matter how many digits they contain.
 * *Question (aalshehry−stat6250):* Considering all numeric variables have a default length of 8 bytes, what is the maximum value that can SAS accept for a numeric variable?
 * *Answer (aalshehry−stat6250):* 
 ![8 byte](https://github.com/aalshehry-stat6250/course-questions-wiki/blob/Week-2/week-02/8byte.JPG?raw=true)
@@ -172,6 +181,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 
 
 [Course Textbook Chapter 2, Problem 3]
+- Question (mcardoso3-stat6250):  Why does te YEARCUTOFF=option affect two-digit year values, but not four-digit year values?
 * *Question (aalshehry−stat6250):* Where and how to use YEARCUTOFF option?
 - Question (lzhao4−stat6250):  YEARCUTOFF= option has no effect in some cases?
 - Answer (lzhao4−stat6250): The YEARCUTOFF= option has no effect when processing dates with four-digits years, processing dates already stored as SAS date values, and displaying dates with SAS date formats.
@@ -195,6 +205,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 
 
 [Course Textbook Chapter 2, Problem 7]
+- Question (mcardoso3-stat6250): How much storage does a permanent SAS library contain?
 * *Question (aalshehry−stat6250):* How to save your dataset in the permanent library?
 - Question (lzhao4−stat6250): How to correctly assign a SAS libref?
 - Question (yyan11−stat6250): How long are Librefs?
@@ -218,6 +229,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 
 
 [Course Textbook Chapter 2, Problem 8]
+- Question (mcardoso3-stat6250): Why does the YEARCUTOFF=option only start from the year listed and moving forward instead of containing the prior years?
 * *Question (aalshehry−stat6250):* Without using the YEARCUTOFF= option, how would SAS interpret 11/11/20? Is it 1920 or 2020?
 * *Answer (aalshehry−stat6250):* The default value of YEARCUTOFF= is 1920.
 - Question (lzhao4−stat6250): How does YEARCUTOFF= option work on the interpretation of two-digits years?
@@ -242,6 +254,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 
 
 [Course Textbook Chapter 2, Problem 9]
+- Question (mcardoso3-stat6250): Is using SAS code better or worse than using special SAS windows?
 * *Question (aalshehry−stat6250):* If a SAS session is ended or a libref is deleted, does the library still exist?
 * **Answer (aalshehry−stat6250): In these cases, SAS no longer has access to the files in the library.
 - Question (lzhao4−stat6250): Libref exists only during the session in which it is created?
@@ -266,6 +279,8 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
+- Question (mcardoso3-stat6250): Is it necessary to add the filename clear statement in SAS?
+- Answer (mcardoso3-stat6250):  Though it is not required, the filename clear statement can be useful for freeing the filename and temporary storage location in order to better use resources.
 * *Question (aalshehry−stat6250):* Is it mandatory to use “filename tempfile clear;” step? Why?
 - Question (lzhao−stat6250): Do we possible to transfer data from SAS dataset to an excel file? How? 
 - Question (yyan11−stat6250): What would happen if we do not provide a URL while making a GET request?
@@ -285,6 +300,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 
 
 [optional: bonus_advanced_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
+- Question (mcardoso3-stat6250): How important is it for someone working in statistics to learn about macros?
 - Question (yzhu12-stat6250): What's the meaning of two command % and & in SAS?
 - *Question* (lwang30-stat6250) : In the macro, what are the functions of **%** and **&** respectively ? What is the advantage of using a macro ? 
 - Question (cyuan10−stat6250): Does this macro only compare names? Is there a way to compare the content within so that if there are two versions, the users to check to see if the content is different?
