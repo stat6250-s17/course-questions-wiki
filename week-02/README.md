@@ -15,6 +15,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
+- Question (mcardoso3-stat6250): How many observations and variables are needed for a large enough sample size to draw a strong conclusion from the data provided?
 * *Question (aalshehry−stat6250):* Wht is themaximum number of observations per dataset? What about variables/columns?
 - Question (lzhao4−stat6250): Do missing values affect the structure of the data set?
 - Question (yyan11−stat6250): What are observations and variables?
