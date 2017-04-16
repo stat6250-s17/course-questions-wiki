@@ -1,4 +1,5 @@
 
+
 ## Week 3 Quiz Questions and Answers
 
 In order to prepare your Week 3 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
@@ -23,7 +24,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Does the code still work without indenting the statements within step?
 - Answer (kveng−stat6250): I tested it. The code still work but it's a good idea indeed to indent the statements for better reading.
 - *Question* (lwang30-stat6250) : What are the consequences if you do not end with a *run* statement ?
-- Question (meisenbach-stat6250): Should you place a run statement after every DATA or PROC step?- Question (nly13-stat6250): Some SAS code has QUIT; after RUN;, does this make a significant difference in procedural steps?
+- Question (meisenbach-stat6250): Should you place a run statement after every DATA or PROC step?
+- Question (nly13-stat6250): Some SAS code has QUIT; after RUN;, does this make a significant difference in procedural steps?
 - Answer (nly13-stat6250): QUIT can be optional, as it will end the procedure.
 - Question (yyan11−stat6250): How to write SAS statements?
 - Answer (yyan11−stat6250): Although you can write SAS statements in almost any format, a consistent layout enhances readability and helps you understand the program’s purpose. It's a good idea to begin DATA and PROC steps in column one, indent statements within a step, begin RUN statements in column one, include a RUN statement after every DATA step or PROC step. 
