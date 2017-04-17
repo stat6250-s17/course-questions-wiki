@@ -66,7 +66,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[the recipe_for_summarizing_qualitative_values (from Week 4 Overview)]
+[recipe_for_summarizing_qualitative_values (from Week 4 Overview)]
 
 
 
