@@ -83,9 +83,18 @@ Whose values can be described as categorical, and whose values are best summariz
 [Course Textbook Chapter 8, Problem 10]
 - Question (akumar30−stat6250):  Can we restrict PROC FREQ output to not display Percent and Cumulative Percent Column?
 
+[recipe_for_summarizing_quantitative_values (from Week 4 Overview)]
+- Question (akumar30−stat6250): Does SAS By default include observations with a missing value specified in CLASS or BY statement?  
+- Answer (akumar30−stat6250): No, We need to specify MISSING statement to summarize the missing values.
+
+[recipe_for_summarizing_qualitative_values (from Week 4 Overview)]
+- Question (akumar30−stat6250): What is the significance of using NLEVEL in PROC FREQ statement? 
 
 
-[Recipes TBA]
-- Question (akumar30−stat6250): 
-- Answer (akumar30−stat6250):  
+[recipe_for_temporarily_binning_values discussed (from Week 4 Overview)]
+- Question (akumar30−stat6250): what is the scope of format in SAS ? (Limited to SAS session or Stored permanently in SAS)
+
+
+
+
 
