@@ -44,6 +44,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): We have 2 projects and each of them has four discrete steps. We need to complete all the steps to earn a team-based problem solving achievement in the course.
 - Question (mcardoso3-stat6250): Is one component of the Week 1 Setup instructions more important to comprehend than the others for the purpose of understanding the Initial Setup Achievement?
 - Answer (ilankham−stat6250): No.
+- Question (akumar30-stat6250): Do i need to use any markdwon software for this program ?
+- Answer (ilankham−stat6250): No.
+
 
 
 [Course Structure Quiz, Problem 2]
@@ -77,6 +80,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): No, although the setup quiz does not have a grade scale, it's an important step included in the initial setup, which aligns with CLO1. 
 - Question (mcardoso3-stat6250): What are the requirements to earning "complete" mark in the Weekly Forum Posts?
 - Answer (mcardoso3-stat6250):  Earning a "complete" mark in the Weekly Forum posts require including the title, complete URL, synopsis, and article choice along with the proper amount of detail provided.
+- Question (akumar30-stat6250): What is the advantage of slack over other colloboartive tools ?
+- Answer (akumar30-stat6250): Slack integrates with many pieces of software, allowing the other software that you use to post messages in your Slack conversations.
 
 
 
@@ -113,6 +118,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): We can read others' posts carefully and leave our own perspectives under the reply section to learn from each other.
 - Question (mcardoso3-stat6250):  Is the submitting the weekly quizzes portion a more crucial concept to look over more than the formulation of the quizzes and answers?
 - Answer (ilankham−stat6250): I think they're equally important since they provide practice with different skills.
+- Question (akumar30-stat6250): What is the disadvantage of slack over other colloboartive tools ?
+- Answer (akumar30-stat6250): hastle to setup audio and video call than skype. 
 
 
 
@@ -141,6 +148,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): You click on Window and screw down to the one named "tie vertically", which allows you to code in a maximized space, especially useful when you prepare for long project. 
 - Question (mcardoso3-stat6250): Can the steps for the team projects be submitted indivdually?  Or is everything turned in once per group?
 - Answer (ilankham−stat6250): Either; more details soon.
+- Question (akumar30-stat6250): What must you do if your Horizon email address is already associated with a GitHub account?
+- Answer (akumar30-stat6250): You can change the username of the existing account. 
 
 
 
@@ -173,6 +182,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): We have 65 multiple-choice questions and we have 110 minutes to complete it. We need to earn at least 70% of the questions to earn the building general knowledge achievement in the course. 
 - Question (mcardoso3-stat6250):  Will the final exam questions be centered more towards the first half of this course, or more towards the second half?
 - Answer (mcardoso3-stat6250): The final exam will be accumulative with questions coming from chapters 1–8, 10–17, and 19–20 of the course textbook.  Therefore, it is important to study for each part of the material equally.
+- Question (akumar30-stat6250): Is this program good for working professionals taking two more classes this quarter ?
+- Answer (ilankham−stat6250): It depends on the working professional.
 
 
 
@@ -215,6 +226,8 @@ other persons."
 - Answer (yzhu12-stat6250): A student can earn extra credit if they can point out errors in the course material or raise up valuable questions that contribute to developing a deeper understanding of the material.
 - Question (mcardoso3-stat6250):  If we have already received the other 4 achievements, could we skip the final exam and still receive an A-?
 - Answer (mcardoso3-stat6250):  Yes according to the grading criteria.  However, it is not good practice to skip the final exam (or any exam) because one should always strive for the best and the exam is an indicator to show how much a student has learned over the 10 weeks.
+- Question (akumar30-stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
+- Answer (ilankham−stat6250): Yes.
 
 
 
@@ -248,6 +261,8 @@ other persons."
 - Answer (yzhu12-stat6250): Through Slack team.
 - Question (mcardoso3-stat6250):  How late are we allowed to turn in a late submission if we already have permission from the instructor?
 - Answer (ilankham−stat6250): As late as the instructor permits?
+- Question (akumar30-stat6250): Do weekly quizzes allow late attempts?
+- Answer (ilankham−stat6250): No.
 
 
 
@@ -282,6 +297,8 @@ other persons."
 - Answer (ilankham−stat6250): Most likely, though additional review of the course textbook after the quarter ends is recommended.
 - Question (mcardoso3-stat6250): Why is there no extra credit for completing 10 out of 10 weekly forum posts or quizzes, but there is for pointing out typos?  
 - Answer (ilankham−stat6250): Because I freely admit to making mistakes and hope to have the classes help in creating the best quality course materials possible.
+- Question (akumar30-stat6250): How to get extra credit in this course.
+- Answer (akumar30-stat6250):  By finding mistakes in course material. 
 
 
 
@@ -315,6 +332,8 @@ other persons."
 - Answer (yzhu12-stat6250): It shows the difference of the content between the master branch and the "changed" branch. 
 - Question (mcardoso3-stat6250): What happens if my internet is down and I am unable to send an email or slack diretct message online?
 - Answer (ilankham−stat6250): I'd recommend using a computer at the CSUEB Library, or perhaps a cell phone with a data plan.
+- Question (akumar30-stat6250): How to check your gardes ?
+- Answer (akumar30-stat6250): Grades will be updated on blackboard after each week.
 
 
 
@@ -352,6 +371,8 @@ other persons."
 - Answer (ilankham−stat6250): Yes, we will primarily emphasize learning SAS.
 - Question (mcardoso3-stat6250): Which technology should we check more often for this class?
 - Answer (ilankham−stat6250): Blackboard, followed by Slack, followed by email, followed by GitHub.
+- Question (akumar30-stat6250): Is this course will be sufficent enough for SAS Certification prepeartion.
+- Answer (ilankham−stat6250): Most likely, though additional review of the course textbook after the quarter ends is recommended.
 
 
 
@@ -386,5 +407,5 @@ other persons."
 - Answer (ilankham−stat6250): Yes, older versions of SAS tend to have lower quality output.
 - Question (mcardoso3-stat6250): Should we run every SAS command to view the output, or only when necessary? 
 - Answer (ilankham−stat6250): It depends on how you learn best. I personally prefer to run everything for practice.
-
-
+- Question (akumar30-stat6250): How to get good understanding of SAS User Interface ?
+- Answer (ilankham−stat6250): Trial and error, per a growth mindset.

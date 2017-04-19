@@ -84,3 +84,4 @@ The instructor will then review the pull request and make comments should furthe
 [recipe_for_temporarily_binning_values discussed (from Week 4 Overview)]
 
 - Question (yzhu12-stat6250): How does SAS sort discrete quantitative variable, qualitative variable, continuous quantitative variable?
+
