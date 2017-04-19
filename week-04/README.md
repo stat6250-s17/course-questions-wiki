@@ -86,17 +86,23 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_for_summarizing_quantitative_values (from Week 4 Overview)]
+
 - Question (yyan11−stat6250): To limit decimal places, use the MAXDEC= option in the PROC MEANS statement. Is that have a maximum number?
 
 
 
+
 [recipe_for_summarizing_qualitative_values (from Week 4 Overview)]
+
 - Question (yyan11−stat6250): How many variables I can compute?
 
 
 
+
 [recipe_for_temporarily_binning_values discussed (from Week 4 Overview)]
+
 - Question (yyan11−stat6250): What different if the values are numbers?
 - Answer (yyan11−stat6250): When the specified values are numeric values, they are not enclosed in quotation marks, and the format's name should not begin with a dollar sign ($). 
+
 
 
