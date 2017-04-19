@@ -19,7 +19,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 4]
--*Question* (lwang30-stat6250) : What should be done prior to the *proc format* step ?
+-*Question* (lwang30-stat6250) : What should be done prior to the *proc format* step to indicate where the new format will be stored ?
 
 
 
@@ -49,11 +49,12 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 8, Problem 4]
 -*Question* (lwang30-stat6250) : Which procedure should be performed prior to the BY group processing in *proc means* ?
+-*Answer* (lwang30-stat6250) : The data should be sorted by *proc sort* statement first before BY group processing is performed in *proc means*.
 
 
 [Course Textbook Chapter 8, Problem 7]
 -*Question* (lwang30-stat6250) : What other statistics does *proc freq* create in the output ?
-
+-*Answer* (lwang30-stat6250) : By default, *proc freq* also prints cumulative frequency and cumulative percent in the output.
 
 [Course Textbook Chapter 8, Problem 8]
 -*Question* (lwang30-stat6250) : How do we limit the frequency distribution output to categorical values only ?
@@ -64,13 +65,13 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_for_summarizing_quantitative_values (from Week 4 Overview)]
-
+-*Question* (lwang30-stat6250) : How to suppress the output statistics to mean and standard deviation only ?
 
 
 [recipe_for_summarizing_qualitative_values (from Week 4 Overview)]
-
+-*Question* (lwang30-stat6250) : How would SAS deal with the output if more than 2 variables are crosstabulated ?
 
 
 [recipe_for_temporarily_binning_values discussed (from Week 4 Overview)]
-
-
+-*Question* (lwang30-stat6250) : What is the change in the variable type after those 2 quantitative variables are formatted ?
+-*Answer* (lwang30-stat6250) : Both the discrete and continuous quantitative variables are reformatted into categorical variables by *proc format* statement.
