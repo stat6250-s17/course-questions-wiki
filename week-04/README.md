@@ -40,27 +40,27 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 8, Problem 1]
-- Question (kveng−stat6250):
+- Question (kveng−stat6250): What's the procedure to perform median and range?
 
 
 [Course Textbook Chapter 8, Problem 2]
-- Question (kveng−stat6250):
+- Question (kveng−stat6250): What does "var" referred to when used in PROC MEANS?
 
 
 [Course Textbook Chapter 8, Problem 4]
-- Question (kveng−stat6250):
+- Question (kveng−stat6250): What is CLASS processing versus BY group processing?
 
 
 [Course Textbook Chapter 8, Problem 7]
-- Question (kveng−stat6250):
+- Question (kveng−stat6250): Can PROC FREQ create a table of frequencies for all variables in the data set?
 
 
 [Course Textbook Chapter 8, Problem 8]
-- Question (kveng−stat6250):
+- Question (kveng−stat6250): What is frequency distributions?
 
 
 [Course Textbook Chapter 8, Problem 10]
-- Question (kveng−stat6250):
+- Question (kveng−stat6250): Is there any better way to create a more better looking frequency table than PROC FREQ?
 
 
 [Recipes TBA]
