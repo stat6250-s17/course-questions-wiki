@@ -68,9 +68,9 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (yren10−stat6250): what statistics explicitly would be listed in the PROC MEANS statement?
 
 [recipe_for_summarizing_qualitative_values (from Week 4 Overview)]
-- *Question* (yren10−stat6250): Are we still able to check the codes back 1970s?
+- *Question* (yren10−stat6250): How people keep datas and use SAS 50 years ago？ since they don't have any hi-tech computer like now we do，do they use sas to solve problems like what we do now?
 
 
 [recipe_for_temporarily_binning_values discussed (from Week 4 Overview)]
-- *Question* (yren10−stat6250): Who deceide the format that syntax use?
+- *Question* (yren10−stat6250): What situations we cannot be using formats?
 
