@@ -16,7 +16,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 7, Problem 3]
 - Question (rluo-stat6250): What format catalog would be stored if we do not specify the LIBRARY = option?
-- Naswer (rluo-stat6250): The format catalog named Work.Formats would be stored.
+- Answer (rluo-stat6250): The format catalog named Work.Formats would be stored.
 
 
 [Course Textbook Chapter 7, Problem 4]
@@ -67,13 +67,13 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_for_summarizing_quantitative_values (from Week 4 Overview)]
-- Question (rluo-stat6250): 
+- Question (rluo-stat6250): What are the most basic statistical procs in the SAS?
 
 
 [recipe_for_summarizing_qualitative_values (from Week 4 Overview)]
-- Question (rluo-stat6250): 
+- Question (rluo-stat6250): What is the function of the nlevel option?
 
 
 [recipe_for_temporarily_binning_values discussed (from Week 4 Overview)]
-- Question (rluo-stat6250): 
+- Question (rluo-stat6250): Why is formats powerful in the SAS, and what can it achieve?
 
