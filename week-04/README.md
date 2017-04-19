@@ -15,51 +15,62 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 3]
+*	Question (aalamri−stat6250): what should the VALUE statement begin?
+* Answer: It should begin with a dollar($) sign. 
 
 
-
-[Course Textbook Chapter 7, Problem 4]
-
-
+ [Course Textbook Chapter 7, Problem 4]
+* Question(aalamri−stat6250):  Do we have to put a semicolon after the “PROC FORMAT”? 
+* Answer: Yes.
 
 [Course Textbook Chapter 7, Problem 5]
-
+* Question (aalamri−stat6250):  True or False: when entering values, we need to separate each value by a comma.
+* Answer: True.
 
 
 [Course Textbook Chapter 7, Problem 6]
 
-
+* Question (aalamri−stat6250): When labeling, can we use more than 256 characters?
 
 [Course Textbook Chapter 7, Problem 7]
 
-
+* Question (aalamri−stat6250): Name a keyword than can be programmed to label any missing value?
 
 [Course Textbook Chapter 7, Problem 8]
 
-
+* Question (aalamri−stat6250): In SAS, Which statement is used to permanently associate the format with variables?
 
 [Course Textbook Chapter 8, Problem 1]
 
-
+* Question (aalamri−stat6250):     In SAS, when using the “PROC MEANS” statement, name some of the of the statistics quantity outcomes.
 
 [Course Textbook Chapter 8, Problem 2]
-
+* Question (aalamri−stat6250):   What does the “VAR” statement do when it is used with the “PROC MEANS” statement?
 
 
 [Course Textbook Chapter 8, Problem 4]
 
-
+* Question (aalamri−stat6250): True or False: BY variables should be either indexed or sorted.
 
 [Course Textbook Chapter 8, Problem 7]
 
-
+* Question (aalamri−stat6250):   What statement creates a table frequency for numeric variables?
 
 [Course Textbook Chapter 8, Problem 8]
 
-
+* Question (aalamri−stat6250):   What type of values that should variables contain to make better frequency distributions?
 
 [Course Textbook Chapter 8, Problem 10]
 
+*Question (aalamri−stat6250):   What does the “NOCOL” do when we use it with the “PROC FREQ” statement?
 
+[recipe_for_summarizing_qualitative_values (from Week 4 Overview)]
 
-[Recipes TBA]
+* Where can we find the classification variables when using the “PROC FREQ” statement?
+
+[recipe_for_summarizing_qualitative_values (from Week 4 Overview)]
+* Where can we find the quantitative variables when using the “PROC FREQ” statement? 
+
+[recipe_for_temporarily_binning_values discussed (from Week 4 Overview)]
+* What are the “Low” and “High” options used for when dealing with continuous variables?
+
