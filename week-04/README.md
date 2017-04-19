@@ -64,3 +64,4 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Recipes TBA]
+- Question (kveng−stat6250): In the PROC MEANS statement, what if we don't want all the default statistics in the result, we only want like mean and std dev?
