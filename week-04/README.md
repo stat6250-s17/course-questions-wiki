@@ -34,7 +34,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 7, Problem 7]
 
-* Question (aalamri−stat6250): Name a keyword than can be programmed to label any missing value?
+* Question (aalamri−stat6250): Name a keyword thaT can be programmed to label any missing value?
 
 [Course Textbook Chapter 7, Problem 8]
 
@@ -42,7 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 8, Problem 1]
 
-* Question (aalamri−stat6250):     In SAS, when using the “PROC MEANS” statement, name some of the of the statistics quantity outcomes.
+* Question (aalamri−stat6250):   In SAS, when using the “PROC MEANS” statement, name some of the of the statistics quantity outcomes.
 
 [Course Textbook Chapter 8, Problem 2]
 * Question (aalamri−stat6250):   What does the “VAR” statement do when it is used with the “PROC MEANS” statement?
@@ -50,7 +50,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 8, Problem 4]
 
-* Question (aalamri−stat6250): True or False: BY variables should be either indexed or sorted.
+* Question (aalamri−stat6250):   True or False: BY variables should be either indexed or sorted.
 
 [Course Textbook Chapter 8, Problem 7]
 
