@@ -15,51 +15,51 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 3]
-
-
+- Question (kveng−stat6250): When creating a format with the VALUE statement, do we only use the sign ($) if used with a character varaible? 
+- Answer (kveng−stat6250): Yes, if it's number then we don't need to begin with the dollar sign.
 
 [Course Textbook Chapter 7, Problem 4]
-
+- Question (kveng−stat6250):
 
 
 [Course Textbook Chapter 7, Problem 5]
-
+- Question (kveng−stat6250):
 
 
 [Course Textbook Chapter 7, Problem 6]
-
+- Question (kveng−stat6250):
 
 
 [Course Textbook Chapter 7, Problem 7]
-
+- Question (kveng−stat6250):
 
 
 [Course Textbook Chapter 7, Problem 8]
-
+- Question (kveng−stat6250):
 
 
 [Course Textbook Chapter 8, Problem 1]
-
+- Question (kveng−stat6250):
 
 
 [Course Textbook Chapter 8, Problem 2]
-
+- Question (kveng−stat6250):
 
 
 [Course Textbook Chapter 8, Problem 4]
-
+- Question (kveng−stat6250):
 
 
 [Course Textbook Chapter 8, Problem 7]
-
+- Question (kveng−stat6250):
 
 
 [Course Textbook Chapter 8, Problem 8]
-
+- Question (kveng−stat6250):
 
 
 [Course Textbook Chapter 8, Problem 10]
-
+- Question (kveng−stat6250):
 
 
 [Recipes TBA]
