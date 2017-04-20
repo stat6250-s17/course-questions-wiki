@@ -25,6 +25,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250):Why the new format's name can not be the name of data set variable?
 - Question (yyan11−stat6250): How to create a new format's name of the VALUE statement?
 - Answer (yyan11−stat6250): Where format-name must begin with a dollar sign ($) if the format applies to character data, must be a valid SAS name, cannot be the name of an existing SAS format, cannot end in a number, does not end in a period when specified in a VALUE statement.
+- Question (aoneill2-stat6250): Is there a way to permanently assign a libref statement for a user-defined library?
 
 
 
@@ -39,6 +40,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-stat6250)  : semicolon means a complete process.
 - Question (yyan11−stat6250): How to write the FORMAT procedures?
 - Answer (yyan11−stat6250): The statement begins with the keyword VALUE and ends with a semicolon after all the labels have been defined. 
+- Question (aoneill2-stat6250): What kind of error is generated if the proc format statement is lacking a semicolon or has one too many? 
 
 
 
@@ -53,6 +55,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-stat6250)  : No, the list must contain either all nnumberic values or all character values.
 - Question (yyan11−stat6250): How many values could be displayed when use the VALUE statement to define a format?
 - Answer (yyan11−stat6250): You can use the VALUE statement to define a format for displaying one or more values.
+- Question (aoneill2-stat6250): Is it possible to mix numbers and characters in a range of values in a user-defined proc format statement?
+- Answer (aoneill2-stat6250): No, it is not possible to mix them. A character format name must start with a $ sign.
 
 
 
@@ -67,6 +71,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-stat6250)  : 256
 - Question (yyan11−stat6250): How can I do if I want an apostrophe to appear on the label?
 - Answer (yyan11−stat6250): Use two single quotation marks if you want an apostrophe to appear in the label.
+- Question (aoneill2-stat6250): Why must a label specifically be limited to 256 characters? Is that the byte size?
 
 
 
@@ -80,6 +85,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): Should we remenber all key words in SAS statement?
 - Question (yyan11−stat6250): Which keyword can I use to specify the lower and upper limits of a variable's value range?
 - Answer (yyan11−stat6250): You can also use the keywords LOW and HIGH to specify the lower and upper limits of a variable's value range. The keyword LOW does not include missing numeric values. The keyword OTHER can be used to label missing values as well as any values that are not specifically addressed in a range.
+- Question (aoneill2-stat6250): Are missing values included in "low" values?
+- Answer (aoneill2-stat6250): Yes, missing values can be included in "low" values, as it includes anything lower than the specified value as well as any 'other' missing values.
 
 
 
@@ -94,6 +101,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-stat6250)  : No, There are two different steps(DATA step and PROC step) for placing FORMAT statement.
 - Question (yyan11−stat6250): Can I place the FORMAT statement in a DATA step?
 - Answer (yyan11−stat6250): Yes, you can place the FORMAT statement in either a DATA step or a PROC step. By placing the FORMAT statement in a DATA step, you can permanently associate a format with a variable. Note that you do not have to specify a width value when using a user-defined format.
+- Question (aoneill2-stat6250): Are FORMAT statements permanently available to a SAS program when they are included in the DATA step or in the PROC step or both?
+- Question (aoneill2-stat6250): FORMAT statements are only made permantently available to a SAS program when they are cinluded in the DATA step.
 
 
 
@@ -106,6 +115,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): Can we reset default MEANS procedure to obtain other values?
 - Question (yyan11−stat6250): What are the MEANS procedure when the default statistics produced?
 - Answer (yyan11−stat6250): In its simplest form, PROC MEANS prints the n-count (number of nonmissing values), the mean, the standard deviation, and the minimum and maximum values of every numeric variable in a data set.
+- Question (aoneill2-stat6250): What statistical measures do you get from the PROC MEANS statement if no specific measures are included in the statement?
 
 
 
@@ -120,6 +130,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): What should we do if we want to specify some variables that PROC MEANS analysis?
 - Answer (hhu9-stat6250)  : Write a var statement.
 - Question (yyan11−stat6250): What can I do when I want to focus on a few variables?
+- Question (aoneill2-stat6250): What is the primary difference between specifying variables with the var statement and the class statement?
 
 
 
@@ -131,6 +142,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): What's the difference between BY group processing and CLASS processing?
 - Question (yyan11−stat6250): The BY statement like the CLASS statement specifies variables to use for categorizing observations, are they same require?
 - Answer (yyan11−stat6250): No, BY processing requires that your data already be sorted or indexed in the order of the BY variables. Unless data set observations are already sorted, you will need to run the SORT procedure before using PROC MEANS with any BY group.
+- Question (aoneill2-stat6250): Can BY statements be used in other commands besides PROC MEANS?
 
 
 
@@ -143,6 +155,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-stat6250)  : Yes.
 - Question (yyan11−stat6250): which data set variables could be created by the FREQ procedure?
 - Answer (yyan11−stat6250): By default, the FREQ procedure creates frequency tables for every variable in your data set. To specify the variables to analyze, include them in a TABLES statement.
+- Question (aoneill2-stat6250): Why are categorical variables the best choice for table values in a PROC FREQ statement?
 
 
 
@@ -156,6 +169,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): Why continuous values can result in meaningless tables?
 - Question (yyan11−stat6250): Which variable is the best with frequency distributions work?
 - Answer (yyan11−stat6250): The FREQ procedure creates frequency tables for every variable in your data set. But this isn't always what you want. A variable that has continuous numeric values—such as DateTime—can result in a lengthy and meaningless table. Likewise, a variable that has a unique value for each observation—such as FullName—is unsuitable for PROC FREQ processing. Frequency distributions work best with variables whose values can be described as categorical, and whose values are best summarized by counts rather than by averages.
+- Question (aoneill2-stat6250): What is the greatest barrier to using continuous variables for frequency distributions?
 
 
 
@@ -167,6 +181,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): What kind of table can be made via more than 2 kinds of variables?
 - Question (yyan11−stat6250): How to control the depth of crosstabulation results?
 - Answer (yyan11−stat6250): NOFREQ suppresses cell frequencies, NOPERCENT suppresses cell percentages, NOROW suppresses row percentages, NOCOL suppresses column percentages.
+- Question (aoneill2-stat6250): When would it be advantageous to specify no rows or no columns in a PROC FREQ statement when generating a table?
 
 
 
@@ -178,6 +193,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): What are the most basic statistical procs in the SAS?
 - Question (hhu9−stat6250): How to use T-test?
 - Question (yyan11−stat6250): To limit decimal places, use the MAXDEC= option in the PROC MEANS statement. Is that have a maximum number?
+- Question (aoneill2-stat6250): Are PROC FREQ statements most effective for summarizing quantitative values?
 
 
 
@@ -188,6 +204,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): What is the function of the nlevel option?
 - Question (hhu9−stat6250): According to the guidelines, 17 results can be obtained, so can we use other   intuitive ways to express result instead of table?
 - Question (yyan11−stat6250): How many variables I can compute?
+- Question (aoneill2-stat6250): What types of PROC FORMAT statements are most effective for summarizing qualitative data?
 
 
 
@@ -199,5 +216,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): How many ways can make bins in SAS?
 - Question (yyan11−stat6250): What different if the values are numbers?
 - Answer (yyan11−stat6250): When the specified values are numeric values, they are not enclosed in quotation marks, and the format's name should not begin with a dollar sign ($). 
+- Question (aoneill2-stat6250): What happens if bin values overlap? Does the program stop running?
 
 
