@@ -32,6 +32,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Is it possible to take a range of items, and format them into a number?
 - Question (kveng−stat6250): When creating a format with the VALUE statement, do we only use the sign ($) if used with a character varaible?
 - Answer (kveng−stat6250): Yes, if it's number then we don't need to begin with the dollar sign.
+- *Question* (lwang30-stat6250) : In what situations does the new format's name have to end with a period ?
 
 
 
@@ -53,6 +54,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): In most cases, if there is a missing value, will other=’unknown’ just replace the ‘.’ For missing vlaules with ‘unknown’?
 - Question (kveng−stat6250): What is FORMAT procedures for?
 - Answer (kveng−stat6250): Using the FORMAT procedure, you can define your own formats for variables. You can store your formats temporarily or permanently, and you can display a list of all your formats and descriptions of their values.
+- *Question* (lwang30-stat6250) : What should be done prior to the *proc format* step to indicate where the new format will be stored ?
 
 
 
@@ -76,6 +78,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250):  If there are a mix of numeric and characters in a range, is the best course of action to use 2 separate VALUE statements?
 - Question (kveng−stat6250): Can we specify a ranges in the VALUE statement with both numberic and character type of data?
 - Answer (kveng−stat6250): No, we can't have multiple types of data when specifying a ranges in the VALUE statement.
+- *Question* (lwang30-stat6250) : When are the single and double quotation mark used respectively in the *value* statement ?
 
 
 
@@ -95,6 +98,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Does other work for missing character values? 
 - Question (nly13-stat6250): Does the limit of characters on Label have to with how many bytes it can store?
 - Question (kveng−stat6250): Is 256 characters is the maximum number of chacracters that we can use in a label?
+- *Question* (lwang30-stat6250) : How many characters can be used in a variable's name ?
 
 
 
@@ -114,6 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Does OTHER work for missing character values? 
 - Question (nly13-stat6250): if you use the value statement ‘Low-High’ will that cover the entire range?
 - Question (kveng−stat6250): is "OTHER" a built-in keyword in VALUE statement in SAS?
+- *Question* (lwang30-stat6250) : What other keywords can also be used to label ?
 
 
 
@@ -134,6 +139,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Are permanently associated formats also available for use elsewhere?
 - Question (nly13-stat6250): Can your format an output statement?
 - Question (kveng−stat6250): What happens when you place the FORMAT statement in PROC step?
+- *Question* (lwang30-stat6250) : What happens when you place the *format* statement in a PROC step ?
 
 
 
@@ -151,6 +157,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): How do you select which statistics to include?
 - Question (nly13-stat6250): Why are median and range not set as a default of PROC MEANS?
 - Question (kveng−stat6250): What's the procedure to perform median and range?
+- *Question* (lwang30-stat6250) : Which keyword represents standard deviation in the MEANS procedure ?
 
 
 
@@ -171,6 +178,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Does the order of the specified variables in PROC MEANS determine the order of the output?
 - Answer (nly13-stat6250): Generally yes, since SAS usually processes statements in the order given.
 - Question (kveng−stat6250): What does "var" referred to when used in PROC MEANS?
+- *Question* (lwang30-stat6250) : What would the output be if the variables specified in *proc means* have both numeric and character types ?
 
 
 
@@ -188,6 +196,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): What are the differences between CLASS and BY?
 - Answer (nly13-stat6250): BY processing requires that the data is already sorted or indexed.
 - Question (kveng−stat6250): What is CLASS processing versus BY group processing?
+- *Question* (lwang30-stat6250) : Which procedure should be performed prior to the BY group processing in *proc means* ?
+- *Answer* (lwang30-stat6250) : The data should be sorted by *proc sort* statement first before BY group processing is performed in *proc means*.
 
 
 
@@ -207,6 +217,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): How does PROC FREQ order the tables?
 - Answer (nly13-stat6250): the order of variables for the ‘tables’ statement determines the order.
 - Question (kveng−stat6250): Can PROC FREQ create a table of frequencies for all variables in the data set?
+- *Question* (lwang30-stat6250) : What other statistics does *proc freq* create in the output ?
+- *Answer* (lwang30-stat6250) : By default, *proc freq* also prints cumulative frequency and cumulative percent in the output.
 
 
 
@@ -226,6 +238,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What happens if you run PROC FREQ on non-categorical values?
 - Question (nly13-stat6250): If you only have numeric values, is it best to turn them into a categorical variable of a range, ex. ‘1- 10’ and then using PROC FREQ?
 - Question (kveng−stat6250): What is frequency distributions?
+- *Question* (lwang30-stat6250) : How do we limit the frequency distribution output to categorical values only ?
 
 
 
@@ -243,6 +256,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): A series of two-way tables is produced with a table for each level of the other variable.
 - Question (nly13-stat6250): Are ‘nofreq’, ‘nocol’, ‘norow’, and ‘nopercent’ only used for PROC FREQ?
 - Question (kveng−stat6250): Is there any better way to create a more better looking frequency table than PROC FREQ?
+- *Question* (lwang30-stat6250) : In what situations shall we prefer to use */list* to generate a listing output for crosstabulation tables ?
 
 
 
@@ -261,6 +275,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): From the PROC MEANS var statement, it generates a column for variable and label, is there a reason why it
 does both since they are the same?
 - Question (kveng−stat6250): In the PROC MEANS statement, what if we don't want all the default statistics in the result, we only want like mean and std dev?
+- *Question* (lwang30-stat6250) : How to suppress the output statistics to mean and standard deviation only ?
 
 
 
@@ -277,6 +292,7 @@ does both since they are the same?
 - Answer (meisenbach-stat6250): It indicates that what comes after are options and not variables.
 - Question (nly13-stat6250): Is it better to use the list option for comparing multiple variables for PROC Freq, rather than letting the standard cross?
 - Question (kveng−stat6250): Instead of making a table, can PROC FREQ statement make a graph instead?
+- *Question* (lwang30-stat6250) : How would SAS deal with the output if more than 2 variables are crosstabulated ?
 
 
 
@@ -293,5 +309,7 @@ does both since they are the same?
 - Question (meisenbach-stat6250): Isn’t it a bad idea to hard code the quantiles?
 - Question (nly13-stat6250): If there is a ‘low’ and high’ value setting, is there something that indicates the mean or median for the range?
 - Question (kveng−stat6250): How to make theese binning values permanent and store in somewhere?
+- *Question* (lwang30-stat6250) : What is the change in the variable type after those 2 quantitative variables are formatted ?
+- *Answer* (lwang30-stat6250) : Both the discrete and continuous quantitative variables are reformatted into categorical variables by *proc format* statement.
 
 
