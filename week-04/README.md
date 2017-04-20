@@ -48,7 +48,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 8, Problem 1]
-
+- Question (meisenbach-stat6250): How do you select which statistics to include?
+ 
 
 
 [Course Textbook Chapter 8, Problem 2]
