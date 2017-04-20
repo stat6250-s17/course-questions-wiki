@@ -28,6 +28,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): Is there a way to permanently assign a libref statement for a user-defined library?
 - *Question* (yren10−stat6250): What is the format when creating with a VALUE statemen?
 - *Answer* (yren10−stat6250): Must begin with a dollar sign($) if it applies to a character variable.
+- Question (meisenbach-stat6250): Why would the name ending with number be a problem?
 
 
 
@@ -44,6 +45,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): The statement begins with the keyword VALUE and ends with a semicolon after all the labels have been defined. 
 - Question (aoneill2-stat6250): What kind of error is generated if the proc format statement is lacking a semicolon or has one too many? 
 - *Question* (yren10−stat6250): How exactly sign (;) does in SAS format?
+- Question (meisenbach-stat6250): Are you able to specify strings in the value range (e.g. ‘’CA” = “California”)?
+- Answer (meisenbach-stat6250): Yes (according to SAS documentation)
 
 
 
@@ -62,6 +65,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2-stat6250): No, it is not possible to mix them. A character format name must start with a $ sign.
 - *Question* (yren10−stat6250): Can we list values separated by commas?
 - *Answer* (yren10−stat6250): You can list values separated by commas, but need to be either all numeric values or all character values.
+- Question (meisenbach-stat6250): Why can’t you mix character and numeric values?
+- Answer (meisenbach-stat6250): Because the formats are defined as either character or numeric
 
 
 
@@ -78,6 +83,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): Use two single quotation marks if you want an apostrophe to appear in the label.
 - Question (aoneill2-stat6250): Why must a label specifically be limited to 256 characters? Is that the byte size?
 - *Question* (yren10−stat6250): Does a label need to enclose in a quitation marks?
+- Question (meisenbach-stat6250): Does other work for missing character values? 
 
 
 
@@ -94,6 +100,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): Are missing values included in "low" values?
 - Answer (aoneill2-stat6250): Yes, missing values can be included in "low" values, as it includes anything lower than the specified value as well as any 'other' missing values.
 - *Question* (yren10−stat6250): What is keyword LOW does in SAS?
+- Question (meisenbach-stat6250): Does OTHER work for missing character values? 
 
 
 
@@ -111,6 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): Are FORMAT statements permanently available to a SAS program when they are included in the DATA step or in the PROC step or both?
 - Question (aoneill2-stat6250): FORMAT statements are only made permantently available to a SAS program when they are cinluded in the DATA step.
 - *Question* (yren10−stat6250): What happens when you place the FORMAT statement in a PROC step?
+- Question (meisenbach-stat6250): Are permanently associated formats also available for use elsewhere?
 
 
 
@@ -125,6 +133,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): In its simplest form, PROC MEANS prints the n-count (number of nonmissing values), the mean, the standard deviation, and the minimum and maximum values of every numeric variable in a data set.
 - Question (aoneill2-stat6250): What statistical measures do you get from the PROC MEANS statement if no specific measures are included in the statement?
 - *Question* (yren10−stat6250): Are we able to change the default statistics produced by the MEANS procedure and how?
+- Question (meisenbach-stat6250): How do you select which statistics to include?
 
 
 
@@ -141,6 +150,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What can I do when I want to focus on a few variables?
 - Question (aoneill2-stat6250): What is the primary difference between specifying variables with the var statement and the class statement?
 - *Question* (yren10−stat6250): Is there another statement can limits a PROC MEANS analysis to the variables Boarded, Transfer, and Dep?
+- Question (meisenbach-stat6250): In a PROC MEANS statement, is the order of the variables significant?
 
 
 
@@ -154,6 +164,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): No, BY processing requires that your data already be sorted or indexed in the order of the BY variables. Unless data set observations are already sorted, you will need to run the SORT procedure before using PROC MEANS with any BY group.
 - Question (aoneill2-stat6250): Can BY statements be used in other commands besides PROC MEANS?
 - *Question* (yren10−stat6250): Can BY-group processing be mixed with indexed and sorted?
+- Question (meisenbach-stat6250): When is it preferable to use BY instead of CLASS?
 
 
 
@@ -168,6 +179,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): By default, the FREQ procedure creates frequency tables for every variable in your data set. To specify the variables to analyze, include them in a TABLES statement.
 - Question (aoneill2-stat6250): Why are categorical variables the best choice for table values in a PROC FREQ statement?
 - *Question* (yren10−stat6250): How to creat both both character and numeric variables?
+- Question (meisenbach-stat6250): How can you specify which variable to include in PROC FREQ?
+- Answer (meisenbach-stat6250): Use a TABLES variables statement.
 
 
 
@@ -184,6 +197,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): What is the greatest barrier to using continuous variables for frequency distributions?
 - *Question* (yren10−stat6250): Does Frequency distributions can work good with all these four types of values?
 - *Answer* (yren10−stat6250): No. Both continuous values and many unique values can result in lengthy and meaningless tables. Frequency distributions work best with categorical values.
+- Question (meisenbach-stat6250): What happens if you run PROC FREQ on non-categorical values?
 
 
 
@@ -197,6 +211,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): NOFREQ suppresses cell frequencies, NOPERCENT suppresses cell percentages, NOROW suppresses row percentages, NOCOL suppresses column percentages.
 - Question (aoneill2-stat6250): When would it be advantageous to specify no rows or no columns in a PROC FREQ statement when generating a table?
 - *Question* (yren10−stat6250): What does the star sign acrtually do in this command?
+- Question (meisenbach-stat6250): What is the output of an n-way table?
+- Answer (meisenbach-stat6250): A series of two-way tables is produced with a table for each level of the other variable.
 
 
 
@@ -210,6 +226,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): To limit decimal places, use the MAXDEC= option in the PROC MEANS statement. Is that have a maximum number?
 - Question (aoneill2-stat6250): Are PROC FREQ statements most effective for summarizing quantitative values?
 - *Question* (yren10−stat6250): what statistics explicitly would be listed in the PROC MEANS statement?
+- Question (meisenbach-stat6250): What does the MISSING option do?
+- Answer (meisenbach-stat6250): It includes rows with missing values for the variable being summerized.
 
 
 
@@ -222,6 +240,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How many variables I can compute?
 - Question (aoneill2-stat6250): What types of PROC FORMAT statements are most effective for summarizing qualitative data?
 - *Question* (yren10−stat6250): How people keep datas and use SAS 50 years ago？ since they don't have any hi-tech computer like now we do，do they use sas to solve problems like what we do now?
+- Question (meisenbach-stat6250): What does the slash (/) do in the PROC FREQ statement?
+- Answer (meisenbach-stat6250): It indicates that what comes after are options and not variables.
 
 
 
@@ -235,5 +255,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): When the specified values are numeric values, they are not enclosed in quotation marks, and the format's name should not begin with a dollar sign ($). 
 - Question (aoneill2-stat6250): What happens if bin values overlap? Does the program stop running?
 - *Question* (yren10−stat6250): What situations we cannot be using formats?
+- Question (meisenbach-stat6250): Isn’t it a bad idea to hard code the quantiles?
 
 
