@@ -40,7 +40,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 8, Problem 1]
-- Question (cyuan10-stat6250): 
+- Question (cyuan10-stat6250): Will PROC Summary produce the same set of default output (Mean, Median, Max, Min)?
 
 
 [Course Textbook Chapter 8, Problem 2]
@@ -61,9 +61,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (cyuan10-stat6250): It would be nice if a histogram plot or box-whisker plot is given.
 
 
-
 [Course Textbook Chapter 8, Problem 10]
 - Question (cyuan10-stat6250): How do we switch the rows and columns in this example? Can we specify in SAS that we want to columns variables as the rows and the row variables as the columns?
+
 
 
 
