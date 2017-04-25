@@ -14,7 +14,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Textbook Chapter 5, Problem 1]
 - Question (akumar30−stat6250): What is the significance of aggregate storage location in SAS?
 
@@ -22,19 +21,19 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 5, Problem 2]
 - Question (akumar30−stat6250):  Can I reference multiple external file with a fileref that points to an aggregate storage location?
-- Answer (akumar30−stat6250):  Yes, The * and ? wildcards can be used in either the external file name. Wildcards are supported for input only in the FILENAME and INFILE statements, and in member name syntax (aggregate syntax).
-Also allfiles command can be used to reads all files in the current working directory: 
-
+- Answer (akumar30−stat6250):  Yes, The * and ? wildcards can be used in either the external file name. Wildcards are supported for input only in the FILENAME and INFILE statements, and in member name syntax (aggregate syntax). Also allfiles command can be used to reads all files in the current working directory.
 
 
 [Course Textbook Chapter 5, Problem 6]
-- Question (akumar30−stat6250): Can I assign a static text or conditional text (e.g.  Yes or No) to a variable in input statement?  	
+- Question (akumar30−stat6250): Can I assign a static text or conditional text (e.g.  Yes or No) to a variable in input statement?  	    
 - Answer (akumar30−stat6250):  Yes, using SAS expression new variable can be created to calculate measures or display value based on certain conditions.
 
 
 
 [Course Textbook Chapter 5, Problem 7]
 - Question (akumar30−stat6250): Can we changed the order of existing raw dataset file permanently using SAS?
+
+
 
 [Course Textbook Chapter 5, Problem 8]
 - Question (akumar30−stat6250): How to delete a column in SAS output?
@@ -75,10 +74,12 @@ Also allfiles command can be used to reads all files in the current working dire
 
 
 [basic_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
-- Question (akumar30−stat6250): Can we create new dataset from existing multiple dataset in SAS data step? (without using pro sql)
-- Answer (akumar30−stat6250):  
+- Question (akumar30−stat6250): Can we create new dataset from existing multiple dataset in SAS data step? (without using proc sql)
+
+
 
 [optional: adv_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
 - Question (akumar30−stat6250):  can we create new variable using proc sql statement in SAS?
 - Answer (akumar30−stat6250):  Yes, using LABEL = option we can create new variable using SAS proc sql statement.
+
 
