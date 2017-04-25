@@ -84,3 +84,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): Is there a limit number of specific rows or columns data that will be the subset of an SAS data set?
 
 
+
+[optional: adv_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
+
