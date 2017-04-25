@@ -25,7 +25,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Textbook Chapter 5, Problem 2]
 - Question (akumar30−stat6250):  Can I reference multiple external file with a fileref that points to an aggregate storage location?
 - Answer (akumar30−stat6250):  Yes, The * and ? wildcards can be used in either the external file name. Wildcards are supported for input only in the FILENAME and INFILE statements, and in member name syntax (aggregate syntax). Also allfiles command can be used to reads all files in the current working directory.
@@ -46,6 +45,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): The INPUT statement describes the fields of raw data to be read and placed into the SAS data set.
 - Question (dlee117−stat6250): When using the INPUT statement to describe the fields of raw data to be read and placed into the SAS data set, what does the dollar sign ($) do?
 - Answer (dlee117-stat6250): It identifies the variable type as character.
+
 
 
 [Course Textbook Chapter 5, Problem 7]
@@ -114,6 +114,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Why does the value of the automatic variable _ERROR_ only go from 0 to 1?
 
 
+
 [Course Textbook Chapter 6, Problem 6]
 - Question (akumar30−stat6250): if there are independent SAS code, can we change the SAS execution processing from sequential to parallel for faster processing?
 * *Question (aalshehry−stat6250):* Why SAS assigns variables in the program data vector to missing before each execution of the DATA step?
@@ -136,4 +137,5 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (akumar30−stat6250):  Yes, using LABEL = option we can create new variable using SAS proc sql statement.
 * *Question (aalshehry−stat6250):* In SQL inquery, what is the substitue of proc means and proc freq?
 - Question (dlee117−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
+
 
