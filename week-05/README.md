@@ -20,6 +20,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Answer (aalshehry−stat6250):* FILENAME fileref 'filename';
 
 
+
 [Course Textbook Chapter 5, Problem 2]
 - Question (akumar30−stat6250):  Can I reference multiple external file with a fileref that points to an aggregate storage location?
 - Answer (akumar30−stat6250):  Yes, The * and ? wildcards can be used in either the external file name. Wildcards are supported for input only in the FILENAME and INFILE statements, and in member name syntax (aggregate syntax). Also allfiles command can be used to reads all files in the current working directory.
