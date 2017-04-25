@@ -51,4 +51,4 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mcardoso3-stat6250):  An iteration is a loop or cycle of execution, which repetitively executes statements to read data values and create observations one by one.
 
 [basic_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
-- Question (mcardoso3-stat6250):  How much practice would it typically take for one to fully understand the programming data vector in SAS?
+- Question (mcardoso3-stat6250):  How much practice would it typically take for one to fully understand the programming data vector in SAS? 
