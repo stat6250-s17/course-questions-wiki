@@ -20,6 +20,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Answer (aalshehry−stat6250):* FILENAME fileref 'filename';
 - Question (yyan11−stat6250): Can I using a FILENAME Statement referencing a Raw Data File?
 - Answer (yyan11−stat6250): Yes, when reading raw data, you can use the FILENAME statement to point to the location of the external file that contains the data. Just as you assign a libref by using a LIBNAME statement, you assign a fileref by using a FILENAME statement.
+- Question (meisenbach-stat6250): What error message do you get if you do not use the quote marks?
 
 
 
@@ -29,6 +30,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* Why does Fileref statement lose its information after ending SAS session?
 - Question (yyan11−stat6250): How to view active filerefs?
 - Answer (yyan11−stat6250): Like librefs, the filerefs currently defined for your SAS session are listed in the SAS Explorer window. To view details about a referenced file, double-click File Shortcuts (or select File Shortcuts and then Open from the pop-up menu). Then select View→Details. Information for each file (name, size, type, and host path name) is listed.
+- Question (meisenbach-stat6250): Can you save filenames permanently?
 
 
 
@@ -39,6 +41,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Answer (aalshehry−stat6250):* INPUT variable <$> startcol-endcol . . .; The dollar sign ($) identifies the variable type as character (if the variable is numeric, then nothing appears here), startcol represents the starting column for this variable, and endcol represents the ending column for this variable.
 - Question (yyan11−stat6250): Can I use the INPUT statement to describing the data?
 - Answer (yyan11−stat6250): The INPUT statement describes the fields of raw data to be read and placed into the SAS data set.
+- Question (meisenbach-stat6250): What happens when you change the order of the variables in the INPUT statement?
 
 
 
@@ -47,6 +50,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* What information should be provided to use INPUT statement?
 - Question (yyan11−stat6250): How to write an INPUT statement?
 - Answer (yyan11−stat6250): For each field of raw data that you want to read into your SAS data set, you must specify the following information in the INPUT statement: a valid SAS variable name; a type (character or numeric); a range (starting column and ending column).
+- Question (meisenbach-stat6250): What happens when you read in try to read in a numeric field as character or vice versa?
 
 
 
@@ -56,6 +60,8 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* When you re-define the value of a variable, can you restore the orginal values?
 - Question (yyan11−stat6250): How to evaluate the expression when a variable name appears on both sides of the equal sign?
 - Answer (yyan11−stat6250): When a variable name appears on both sides of the equal sign, the original value on the right side is used to evaluate the expression. The result is assigned to the variable on the left side of the equal sign.
+- Question (meisenbach-stat6250): How do you use comparison and logical operators with variables?
+- Answer (meisenbach-stat6250): With an IF-THEN statement (e.g. IF age > 40 AND gender ‘F’ THEN test = ‘T’)
 
 
 
@@ -66,6 +72,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Answer (aalshehry−stat6250):* The descriptor portion of the new data set will be created.
 - Question (yyan11−stat6250): What are program data vectors?
 - Answer (yyan11−stat6250): The program data vector contains two automatic variables that can be used for processing but which are not written to the data set as part of an observation. _N_ counts the number of times that the DATA step begins to execute. _ERROR_ signals the occurrence of an error that is caused by the data during execution. 
+- Question (meisenbach-stat6250): The descriptor portion is created at the end of the compilation phase. How does the program know how many observations there are before the data is read?
 
 
 
@@ -75,6 +82,8 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* What type of syntax errors does SAS can recognize? 
 - Question (yyan11−stat6250): What is syntax checking?
 - Answer (yyan11−stat6250): During the compilation phase, SAS also scans each statement in the DATA step, looking for syntax errors. 
+- Question (meisenbach-stat6250): What are incorrect values and format?
+- Answer (meisenbach-stat6250): Incorrect values refers to the values of variables. Incorrect format probably refers to the data format not matching what you expect (character when you are expecting numeric)
 
 
 
@@ -83,6 +92,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* How to change/redirect the defult Data statem?
 - Question (yyan11−stat6250): How SAS Processes Programs if the DATA step compiles successfully?
 - Answer (yyan11−stat6250): If the DATA step compiles successfully, then the execution phase begins. During the execution phase, the DATA step reads and processes the input data. The DATA step executes once for each record in the input file, unless otherwise directed.
+- Question (meisenbach-stat6250): What would cause the DATA step to stop before excuting once per record? 
 
 
 
@@ -91,6 +101,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* What is the function of _N_ and _ERROR_?
 - Question (yyan11−stat6250): What is initializing variables?
 - Answer (yyan11−stat6250): The remaining variables are initialized to missing. Missing numeric values are represented by periods, and missing character values are represented by blanks.
+- Question (meisenbach-stat6250): Why does SAS initalize the variables in the data vector to missing at the beginning of the execution step?
 
 
 
@@ -99,6 +110,8 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* What values can _ERROR_ takes?
 - Question (yyan11−stat6250):What is the value of the automatic variable _ERROR_ when the observation that contains any error?
 - Answer (yyan11−stat6250): _ERROR_ signals the occurrence of an error that is caused by the data during execution. The default value is 0, which means there is no error. When one or more errors occur, the value is set to 1.
+- Question (meisenbach-stat6250): When there is an error, does the DATA step stop executing?
+- Answer (meisenbach-stat6250): No, the value where the error occured will be missing and the program continues to read data.
 
 
 
@@ -107,6 +120,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* Why SAS assigns variables in the program data vector to missing before each execution of the DATA step?
 - Question (yyan11−stat6250): What is the value of the automatic variable _N_?
 - Answer (yyan11−stat6250): _N_ counts the number of times that the DATA step begins to execute.
+- Question (meisenbach-stat6250): Why would the _ERROR_ variable be reset to 0 at the beginning of an iteration of the DATA step?
 
 
 
@@ -114,12 +128,14 @@ The instructor will then review the pull request and make comments should furthe
 - Question (akumar30−stat6250): Can we create new dataset from existing multiple dataset in SAS data step? (without using proc sql)
 * *Question (aalshehry−stat6250):* What is the difference between "Retain" and "Keep" in DATA statement?
 - Question (yyan11−stat6250): Is there a limit number of specific rows or columns data that will be the subset of an SAS data set?
-
+- Question (meisenbach-stat6250): What does the SET statement in the DATA step do?
+- Answer (meisenbach-stat6250): It tells SAS to read an observation from one or more SAS data sets. If more than one data set name appears in the SET statement, the resulting output data set is a concatenation of all the data sets that are listed. 
 
 
 [optional: adv_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
 - Question (akumar30−stat6250):  can we create new variable using proc sql statement in SAS?
 - Answer (akumar30−stat6250):  Yes, using LABEL = option we can create new variable using SAS proc sql statement.
 * *Question (aalshehry−stat6250):* In SQL inquery, what is the substitue of proc means and proc freq?
+- Question (meisenbach-stat6250): Does using PROC SQL create a different data structure than using the DATA statement? If I want to sort data using PROC SQL, does the data need to be read into a TABLE?
 
 
