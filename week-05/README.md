@@ -116,12 +116,12 @@ The instructor will then review the pull request and make comments should furthe
 - Question (akumar30−stat6250): Can we create new dataset from existing multiple dataset in SAS data step? (without using proc sql)
 * *Question (aalshehry−stat6250):* What is the difference between "Retain" and "Keep" in DATA statement?
 - Question (yyan11−stat6250): Is there a limit number of specific rows or columns data that will be the subset of an SAS data set?
-- Question (rluo-stat6250): 
+- Question (rluo-stat6250): How can we actually use program data vector function?
 
 
 [optional: adv_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
 - Question (akumar30−stat6250):  can we create new variable using proc sql statement in SAS?
 - Answer (akumar30−stat6250):  Yes, using LABEL = option we can create new variable using SAS proc sql statement.
 * *Question (aalshehry−stat6250):* In SQL inquery, what is the substitue of proc means and proc freq?
-- Question (rluo-stat6250): 
+
 
