@@ -26,6 +26,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Is there a FILEREF statement in SAS?
 - Answer (kveng−stat6250): I don't think there is such a statement in SAS. Fileref is a name that you associate with an external file. It's not a statement in SAS. 
 - *Question* (lwang30-stat6250): In what situations should the single quotation marks be eliminated when we are referencing the location of the file ?
+- Question (aoneill2−stat6250): Can you access files in your SAS user file without a LIBREF statement?
 
 
 
@@ -40,6 +41,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dlee117-stat6250): LIBNAME references a SAS library while FILENAME references an external file.
 - Question (kveng−stat6250): Can we set the Filerefs to permanently in effect?
 - *Question* (lwang30-stat6250): What are the other global statements except *libname* and *filename* ?
+- Question (aoneill2−stat6250): Do explicit fileref statements using full pathnames render the use of a LIBREF statement unneccessary?
 
 
 
@@ -57,6 +59,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): the dollar sign ($) identifies the varaible taype as character with start collumn and end column for the variable.
 - *Question* (lwang30-stat6250): In the *input* statement, what kind of variable do we use the dollar sign for ?
 - *Answer* (lwang30-stat6250): The dollar sign is used to input a character variable.
+- Question (aoneill2−stat6250): When SAS encounters invalid data in a file that is run in a data step using an infile statement, does SAS stop processing the program?
+- Answer (aoneill2−stat6250): No, SAS continues to run, even though an invalid data error is generated.
 
 
 
@@ -71,6 +75,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Is there a better way of creating a table from raw data instead of using column input? Can we just specify the column name and SAS will know the column numbers automatically?
 - *Question* (lwang30-stat6250): By what means can we check a comprehensive discription of a dataset, such as each variable's data type?
 - *Answer* (lwang30-stat6250): By using a *proc contents* statement, we are able to output the discriptors of a dataset including the data types for each variable.
+- Question (aoneill2−stat6250): What kind of error is generated when data is read in using an infile statement with incorrect column numbers?
 
 
 
@@ -86,6 +91,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Does this method permanent re-define the values of the varaible?
 - Answer (kveng-stat6250): Yes, it will.
 - *Question* (lwang30-stat6250): What is the order for arithmetic operator's processing ?
+- Question (aoneill2−stat6250): Must assignment statements for operations on variables use explicit mention of the variable, or can it be implied, such as count=+1?
 
 
 
@@ -99,7 +105,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): The descriptor portion is created at the end of the compilation phase. How does the program know how many observations there are before the data is read?
 - Question (dlee117−stat6250): What are the two automatic variables that can be used for processing contained in the program data vector?
 - Question (kveng−stat6250): What is compilation phase?
+- Answer (aoneill2−stat6250): During the compilation phase, each statement is scanned for syntax errors.
 - *Question* (lwang30-stat6250): What are the two phases of a data step process ?
+- Question (aoneill2−stat6250): What heppens during the execution phase of a SAS DATA step?
 
 
 
@@ -112,9 +120,11 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What are incorrect values and format?
 - Answer (meisenbach-stat6250): Incorrect values refers to the values of variables. Incorrect format probably refers to the data format not matching what you expect (character when you are expecting numeric)
 - Question (dlee117−stat6250): What happens when SAS finds a syntax error during the compilation phase?
+- Answer (aoneill2−stat6250): If an error is found during the compilation phase, SAS tries to interpret it if possible.
 - Question (kveng−stat6250): What is data step?
 - *Question* (lwang30-stat6250): What commands can we use to detect invalid data in SAS ?
 - *Answer* (lwang30-stat6250): *proc print, proc freq, proc means* are the statements that we can use to detect invalid data in SAS. 
+- Question (aoneill2−stat6250): What happens if SAS cannot interpret a syntax error during compliation phase?
 
 
 
@@ -127,6 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): A raw data file with 20 records on the file executes how many times during the DATA step?
 - Question (kveng−stat6250): Can we execute more than once per each record in the input file?
 - *Question* (lwang30-stat6250): Which phase of the data step process works like a loop ?
+- Question (aoneill2−stat6250): Can more than one input file be read in in a single DATA step?
 
 
 
@@ -139,6 +150,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): If I was missing the item name, what symbol would represent this missing value?
 - Question (kveng−stat6250): Why do the remaining variables are initialized to missing?
 - *Question* (lwang30-stat6250): What are the values of _N_ , _ERROR_ , and the remaining variables before the second observation starts to be read ? 
+- Question (aoneill2−stat6250): How can you use the assignment of values to variables in a SAS file during execution to track the execution of a DATA step?
 
 
 
@@ -152,6 +164,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Why does the value of the automatic variable _ERROR_ only go from 0 to 1?
 - Question (kveng−stat6250): How do we know if we have multiple erros if the system only show the value of 1 despite having multiple erros?
 - *Question* (lwang30-stat6250): Is **_ERROR_** in the execution phase a dummy variable ?
+- Question (aoneill2−stat6250): Does the value of the automatic variable _ERROR_ equal the number of actual errors encountered?
 
 
 
@@ -164,6 +177,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Why are the values of variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
 - Question (kveng−stat6250): Why the values of varaible creating in programming statements are re-set to missing in the program data vector?
 - *Question* (lwang30-stat6250): At which phase is the descriptor portion of the data written in a data step process ? 
+- Question (aoneill2−stat6250): Are values of the variables set to missing as part of the initial execution step of a DATA step, or does that happen at the beginning of the compilation phase?
 
 
 
@@ -176,6 +190,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Even though it looks redundant to have the same variables in both the RETAIN and KEEP statements, why is this necessary?
 - Question (kveng−stat6250): Is there any statement that would incorporate both RETAIN and KEEP into a single process?
 - *Question* (lwang30-stat6250): Except the data step, is there any other statement where the program data vector (PDV) will be used in SAS ?
+- Question (aoneill2−stat6250): Can a retain statement be sufficient in itself, given that it specifies the order of the existing variables?
+- Answer (aoneill2−stat6250): No, a retain statement must always be accompanied by either a "keep" or "drop" statement. The retain statement only specifies order, wherease the "keep' or "drop" statement determines the existence of the variables in the program.
 
 
 
@@ -187,5 +203,13 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
 - Question (kveng−stat6250): What happens if we don't sepecify the program to quit at the end?
 - *Question* (lwang30-stat6250): If *prog glm* is an interactive proc, why can we still run other statement without enclosing *proc glm* by a "quit" ? 
+- Question (aoneill2−stat6250): What statement can be left out of the recipe without affecting its output?
+- Answer (aoneill2−stat6250): The WHERE statement can be omitted.
+- Question (aoneill2−stat6250): What is the PROC step used in the advanced recipe for creating analytic datasets?
+- Answer (aoneill2−stat6250): The PROC SQL step is used.
+- Question (aoneill2−stat6250): What is one advantage of a PROC SQL step?
+- Answer (aoneill2−stat6250): The PROC SQL statement uses les code that a DATA step.
+- Question (aoneill2−stat6250): How do you end a PROC SQL step?
+- Answer (aoneill2−stat6250): A PROC SQL step must end with a QUIT statement.
 
 
