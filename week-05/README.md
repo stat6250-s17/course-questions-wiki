@@ -69,8 +69,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to evaluate the expression when a variable name appears on both sides of the equal sign?
 - Answer (yyan11−stat6250): When a variable name appears on both sides of the equal sign, the original value on the right side is used to evaluate the expression. The result is assigned to the variable on the left side of the equal sign.
 - Question (dlee117−stat6250): When you use more than one arithmetic operator in an expression, how do you control the order of operations?
-- Question (kveng−stat6250):
-
+- Question (kveng−stat6250): Does this method permanent re-define the values of the varaible?
+- Answer (kveng-stat6250): Yes, it will.
 
 
 [Course Textbook Chapter 6, Problem 1]
@@ -81,7 +81,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What are program data vectors?
 - Answer (yyan11−stat6250): The program data vector contains two automatic variables that can be used for processing but which are not written to the data set as part of an observation. _N_ counts the number of times that the DATA step begins to execute. _ERROR_ signals the occurrence of an error that is caused by the data during execution. 
 - Question (dlee117−stat6250): What are the two automatic variables that can be used for processing contained in the program data vector?
-
+- Question (kveng−stat6250): What is compilation phase?
 
 
 [Course Textbook Chapter 6, Problem 2]
@@ -91,7 +91,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What is syntax checking?
 - Answer (yyan11−stat6250): During the compilation phase, SAS also scans each statement in the DATA step, looking for syntax errors. 
 - Question (dlee117−stat6250): What happens when SAS finds a syntax error during the compilation phase?
-
+- Question (kveng−stat6250): What is data step?
 
 
 [Course Textbook Chapter 6, Problem 3]
@@ -100,7 +100,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How SAS Processes Programs if the DATA step compiles successfully?
 - Answer (yyan11−stat6250): If the DATA step compiles successfully, then the execution phase begins. During the execution phase, the DATA step reads and processes the input data. The DATA step executes once for each record in the input file, unless otherwise directed.
 - Question (dlee117−stat6250): A raw data file with 20 records on the file executes how many times during the DATA step?
-
+- Question (kveng−stat6250): Can we execute more than once per each record in the input file?
 
 
 [Course Textbook Chapter 6, Problem 4]
@@ -109,7 +109,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What is initializing variables?
 - Answer (yyan11−stat6250): The remaining variables are initialized to missing. Missing numeric values are represented by periods, and missing character values are represented by blanks.
 - Question (dlee117−stat6250): If I was missing the item name, what symbol would represent this missing value?
-
+- Question (kveng−stat6250): Why do the remaining variables are initialized to missing?
 
 
 [Course Textbook Chapter 6, Problem 5]
@@ -118,7 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250):What is the value of the automatic variable _ERROR_ when the observation that contains any error?
 - Answer (yyan11−stat6250): _ERROR_ signals the occurrence of an error that is caused by the data during execution. The default value is 0, which means there is no error. When one or more errors occur, the value is set to 1.
 - Question (dlee117−stat6250): Why does the value of the automatic variable _ERROR_ only go from 0 to 1?
-
+- Question (kveng−stat6250): How do we know if we have multiple erros if the system only show the value of 1 despite having multiple erros?
 
 
 [Course Textbook Chapter 6, Problem 6]
@@ -127,6 +127,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What is the value of the automatic variable _N_?
 - Answer (yyan11−stat6250): _N_ counts the number of times that the DATA step begins to execute.
 - Question (dlee117−stat6250): Why are the values of variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
+- Question (kveng−stat6250): Why the values of varaible creating in programming statements are re-set to missing in the program data vector?
 
 
 
@@ -135,6 +136,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* What is the difference between "Retain" and "Keep" in DATA statement?
 - Question (yyan11−stat6250): Is there a limit number of specific rows or columns data that will be the subset of an SAS data set?
 - Question (dlee117−stat6250): Even though it looks redundant to have the same variables in both the RETAIN and KEEP statements, why is this necessary?
+- Question (kveng−stat6250): Is there any statement that would incorporate both RETAIN and KEEP into a single process?
 
 
 
@@ -143,5 +145,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (akumar30−stat6250):  Yes, using LABEL = option we can create new variable using SAS proc sql statement.
 * *Question (aalshehry−stat6250):* In SQL inquery, what is the substitue of proc means and proc freq?
 - Question (dlee117−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
+- Question (kveng−stat6250): What happens if we don't sepecify the program to quit at the end?
 
 
