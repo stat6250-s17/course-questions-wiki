@@ -22,6 +22,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): Yes, when reading raw data, you can use the FILENAME statement to point to the location of the external file that contains the data. Just as you assign a libref by using a LIBNAME statement, you assign a fileref by using a FILENAME statement.
 - Question (dlee117−stat6250): To read a raw data file, what four instructions must 	the DATA step provide to SAS?
 - Answer (dlee117-stat6250): The location or name of the external text file, the name for the new SAS data set, the reference that identifies the external file, and a description of the data values to be read.
+- Question (kveng−stat6250): Is there a FILEREF statement in SAS?
+- Answer (kveng−stat6250): I don't think there is such a statement in SAS. Fileref is a name that you associate with an external file. It's not a statement in SAS. 
 
 
 
@@ -33,6 +35,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): Like librefs, the filerefs currently defined for your SAS session are listed in the SAS Explorer window. To view details about a referenced file, double-click File Shortcuts (or select File Shortcuts and then Open from the pop-up menu). Then select View→Details. Information for each file (name, size, type, and host path name) is listed.
 - Question (dlee117−stat6250): What is the difference between the LIBNAME and FILENAME statements?
 - Answer (dlee117-stat6250): LIBNAME references a SAS library while FILENAME references an external file.
+- Question (kveng−stat6250): Can we set the Filerefs to permanently in effect?
 
 
 
@@ -45,7 +48,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): The INPUT statement describes the fields of raw data to be read and placed into the SAS data set.
 - Question (dlee117−stat6250): When using the INPUT statement to describe the fields of raw data to be read and placed into the SAS data set, what does the dollar sign ($) do?
 - Answer (dlee117-stat6250): It identifies the variable type as character.
-
+- Question (kveng−stat6250): What is the $ sign use din the input statement?
+- Answer (kveng−stat6250): the dollar sign ($) identifies the varaible taype as character with start collumn and end column for the variable.
 
 
 [Course Textbook Chapter 5, Problem 7]
@@ -54,7 +58,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to write an INPUT statement?
 - Answer (yyan11−stat6250): For each field of raw data that you want to read into your SAS data set, you must specify the following information in the INPUT statement: a valid SAS variable name; a type (character or numeric); a range (starting column and ending column).
 - Question (dlee117−stat6250): If you wanted to name a new variable NewBalance, when do you need to specify it in the exact case you wanted stored and when can you specify the name in uppercase, lowercase, or mixed case?
-
+- Answer (dlee117-stat6250): It identifies the variable type as character.
+- Question (kveng−stat6250): Is there a better way of creating a table from raw data instead of using column input? Can we just specify the column name and SAS will know the column numbers automatically?
 
 
 [Course Textbook Chapter 5, Problem 8]
@@ -64,6 +69,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to evaluate the expression when a variable name appears on both sides of the equal sign?
 - Answer (yyan11−stat6250): When a variable name appears on both sides of the equal sign, the original value on the right side is used to evaluate the expression. The result is assigned to the variable on the left side of the equal sign.
 - Question (dlee117−stat6250): When you use more than one arithmetic operator in an expression, how do you control the order of operations?
+- Question (kveng−stat6250):
 
 
 
