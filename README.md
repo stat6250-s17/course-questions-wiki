@@ -18,13 +18,13 @@ Also, for each Weekly Quiz, your edits should be to the file named README.md in 
 
 - Week 1 Quiz: Course Structure Quiz Problems 1-10 and the hello-world recipe from Week 1 Setup Instructions.
 
-- Week 2 Quiz: Chap 1: 1-5 & 8 and Chap 2: 3 & 7-9 from the course textbook and the basic_recipe_for_loading_data_from_remote_Excel_file discussed in the video "Weekly Summaries" -> STAT6250-02_s17-week02_overview-video-02APR2017.mp4 in Blackboard.
+- Week 2 Quiz: Chap 1: 1-5 & 8 and Chap 2: 3 & 7-9 from the course textbook along with the basic_recipe_for_loading_data_from_remote_Excel_file discussed in the video STAT6250-02_s17-week02_overview-video-02APR2017.mp4 in Blackboard.
 
-- Week 3 Quiz: Chap 3: 1-7 & 10 and Chap 4: 1,3-4,7 & 9-10 from the course textbook and the recipe_to_check_for_duplicates, the recipe_for_sorting_data, and the recipe_for_printing_values discussed in the video [TBA] in Blackboard.
+- Week 3 Quiz: Chap 3: 1-7 & 10 and Chap 4: 1,3-4,7 & 9-10 from the course textbook along with the recipe_to_check_for_duplicates, the recipe_for_sorting_data, and the recipe_for_printing_values discussed in the video STAT6250-02_s17-week03_overview-video-09APR2017.mp4 in Blackboard.
 
-- Week 4 Quiz: Chap 7: 3-8 and Chap 8: 1-2,4,7-8 & 10 from the course textbook and [TBA] in Blackboard.
+- Week 4 Quiz: Chap 7: 3-8 and Chap 8: 1-2,4,7-8 & 10 from the course textbook along with the recipe_for_summarizing_quantitative_values, the recipe_for_summarizing_qualitative_values, and the recipe_for_temporarily_binning_values discussed in the video STAT6250-02_s17-week04_overview-video-16APR2017.mp4 in Blackboard.
 
-- Week 5 Quiz: Chap 5: 1-2 & 6-8 and Chap 6: 1-6 from the course textbook and [TBA] in Blackboard.
+- Week 5 Quiz: Chap 5: 1-2 & 6-8 and Chap 6: 1-6 from the course textbook and basic_recipe_for_creating_analytic_datasets discussed in the video STAT6250-02_s17-week05_overview-video-23APR2017.mp4 in Blackboard.
 
 - Week 6 Quiz: Chap 12: 1-5,7 & 9 from the course textbook and [TBA] in Blackboard.
 
