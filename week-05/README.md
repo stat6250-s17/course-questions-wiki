@@ -25,8 +25,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Is there a FILEREF statement in SAS?
 - Answer (kveng−stat6250): I don't think there is such a statement in SAS. Fileref is a name that you associate with an external file. It's not a statement in SAS. 
 - *Question* (lwang30-stat6250): In what situations should the single quotation marks be eliminated when we are referencing the location of the file ?
-
-
+- Question (yren10−stat6250): How can we assign a fileref?
+- Answer (yren10−stat6250): You assign a fileref by using a FILENAME statement in the same way that you assign a libref
+by using a LIBNAME statement.
 
 [Course Textbook Chapter 5, Problem 2]
 - Question (akumar30−stat6250):  Can I reference multiple external file with a fileref that points to an aggregate storage location?
@@ -39,8 +40,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dlee117-stat6250): LIBNAME references a SAS library while FILENAME references an external file.
 - Question (kveng−stat6250): Can we set the Filerefs to permanently in effect?
 - *Question* (lwang30-stat6250): What are the other global statements except *libname* and *filename* ?
-
-
+- Question (yren10−stat6250): LIBNAME statement remain effect utill?
+- Answer (yren10−stat6250): Same as FILENAME remain in effect until you change them, cancel them, or end your SAS session.
 
 [Course Textbook Chapter 5, Problem 6]
 - Question (akumar30−stat6250): Can I assign a static text or conditional text (e.g.  Yes or No) to a variable in input statement?  	    
@@ -56,7 +57,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): the dollar sign ($) identifies the varaible taype as character with start collumn and end column for the variable.
 - *Question* (lwang30-stat6250): In the *input* statement, what kind of variable do we use the dollar sign for ?
 - *Answer* (lwang30-stat6250): The dollar sign is used to input a character variable.
-
+- Question (yren10−stat6250): In the INPUT statement, does variable name we assign will show exactly in data set?
+- Answer (yren10−stat6250): Yes, when we write an INPUT statement, we need to specify the variable names
+exactly as we want them to appear in the SAS data set.
 
 
 [Course Textbook Chapter 5, Problem 7]
@@ -70,7 +73,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Is there a better way of creating a table from raw data instead of using column input? Can we just specify the column name and SAS will know the column numbers automatically?
 - *Question* (lwang30-stat6250): By what means can we check a comprehensive discription of a dataset, such as each variable's data type?
 - *Answer* (lwang30-stat6250): By using a *proc contents* statement, we are able to output the discriptors of a dataset including the data types for each variable.
-
+- Question (yren10−stat6250): What is the rule when we are using $ in INPUT statement, should we use it between variable name and numbers?
 
 
 [Course Textbook Chapter 5, Problem 8]
@@ -85,7 +88,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Does this method permanent re-define the values of the varaible?
 - Answer (kveng-stat6250): Yes, it will.
 - *Question* (lwang30-stat6250): What is the order for arithmetic operator's processing ?
-
+- Question (yren10−stat6250): Does expression has to be on the left of the equal sign?
 
 
 [Course Textbook Chapter 6, Problem 1]
@@ -99,7 +102,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What are the two automatic variables that can be used for processing contained in the program data vector?
 - Question (kveng−stat6250): What is compilation phase?
 - *Question* (lwang30-stat6250): What are the two phases of a data step process ?
-
+- Question (yren10−stat6250): So where is the data set descriptor created?
 
 
 [Course Textbook Chapter 6, Problem 2]
@@ -114,7 +117,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): What is data step?
 - *Question* (lwang30-stat6250): What commands can we use to detect invalid data in SAS ?
 - *Answer* (lwang30-stat6250): *proc print, proc freq, proc means* are the statements that we can use to detect invalid data in SAS. 
-
+- Question (yren10−stat6250): Does syntax checks the values of variables or the correctness of formats?
 
 
 [Course Textbook Chapter 6, Problem 3]
@@ -126,7 +129,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): A raw data file with 20 records on the file executes how many times during the DATA step?
 - Question (kveng−stat6250): Can we execute more than once per each record in the input file?
 - *Question* (lwang30-stat6250): Which phase of the data step process works like a loop ?
-
+- Question (yren10−stat6250): Will the DARA step executes more than once in any siutation? 
 
 
 [Course Textbook Chapter 6, Problem 4]
@@ -138,7 +141,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): If I was missing the item name, what symbol would represent this missing value?
 - Question (kveng−stat6250): Why do the remaining variables are initialized to missing?
 - *Question* (lwang30-stat6250): What are the values of _N_ , _ERROR_ , and the remaining variables before the second observation starts to be read ? 
-
+- Question (yren10−stat6250): What are missing values will represent in output?
 
 
 [Course Textbook Chapter 6, Problem 5]
@@ -151,7 +154,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Why does the value of the automatic variable _ERROR_ only go from 0 to 1?
 - Question (kveng−stat6250): How do we know if we have multiple erros if the system only show the value of 1 despite having multiple erros?
 - *Question* (lwang30-stat6250): Is **_ERROR_** in the execution phase a dummy variable ?
-
+- Question (yren10−stat6250): What does default _ERROR_ equal to zero actually means? 
 
 
 [Course Textbook Chapter 6, Problem 6]
@@ -163,7 +166,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Why are the values of variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
 - Question (kveng−stat6250): Why the values of varaible creating in programming statements are re-set to missing in the program data vector?
 - *Question* (lwang30-stat6250): At which phase is the descriptor portion of the data written in a data step process ? 
-
+- Question (yren10−stat6250): What is the default at the end of the DATA step will do?
 
 
 [basic_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
@@ -175,7 +178,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Even though it looks redundant to have the same variables in both the RETAIN and KEEP statements, why is this necessary?
 - Question (kveng−stat6250): Is there any statement that would incorporate both RETAIN and KEEP into a single process?
 - *Question* (lwang30-stat6250): Except the data step, is there any other statement where the program data vector (PDV) will be used in SAS ?
-
+- Question (yren10−stat6250): How we ise "Retain" exactly, and what it does in DATA statement?
 
 
 [optional: adv_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
@@ -186,5 +189,5 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
 - Question (kveng−stat6250): What happens if we don't sepecify the program to quit at the end?
 - *Question* (lwang30-stat6250): If *prog glm* is an interactive proc, why can we still run other statement without enclosing *proc glm* by a "quit" ? 
-
+- Question (yren10−stat6250): How to use PROC SQL to do the subset and make concatenate datasets?
 
