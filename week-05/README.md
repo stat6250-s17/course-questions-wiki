@@ -13,7 +13,6 @@ The instructor will then review the pull request and make comments should furthe
 ********************************************************************************
 
 
-
 [Course Textbook Chapter 5, Problem 1]
 - Question (akumar30−stat6250): What is the significance of aggregate storage location in SAS?
 * *Question (aalshehry−stat6250):* What is the general form of using FILENAME statement?
