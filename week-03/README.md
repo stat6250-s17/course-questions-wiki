@@ -1,3 +1,5 @@
+
+
 ## Week 3 Quiz Questions and Answers
 
 In order to prepare your Week 3 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
@@ -14,6 +16,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 3, Problem 1]
+- Question (mcardoso3-stat6250):  Why must each SAS statement begin with a DATA or PROC?
 * *Question (aalshehry−stat6250):* Why code formatting is important?
 * *Answer (aalshehry−stat6250):* Even though, SAS statements can be written in any format, a consistent layout improve readability and helps understand the program's purpose easily.
 - Question (yzhu12-stat6250): It's a good idea to begin DATA steps, proc steps, and RUN statements on which side to indent statements within a step?
@@ -41,6 +44,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 3, Problem 2]
+- Question (mcardoso3-stat6250):  Is there a quicker way in editing mistakes made in SAS statements?
 * *Question (aalshehry−stat6250):* How can we clear the output window and the log window?
 - Question (yzhu12-stat6250): When a Syntex error occurs and SAS displays the word ERROR, what information will it identify?
 - Answer (yzhu12-stat6250): It will identify the location of the error and explans the cause of error.
@@ -65,7 +69,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
+
 [Course Textbook Chapter 3, Problem 3]
+- Question (mcardoso3-stat6250):  Is there any difference to having a space between SAS statements or not?
 * *Question (aalshehry−stat6250):* Can we specify more than one “BY variable”?
 * *Answer (aalshehry−stat6250):*  You can specify as many BY variables as you wish for example:
 ```SAS
@@ -95,6 +101,7 @@ PROC SORT;
 
  
 [Course Textbook Chapter 3, Problem 4]
+- Question (mcardoso3-stat6250): How many different possible syntax errors are there?
 * *Question (aalshehry−stat6250):* What will SAS display in the log window when a syntax error detected?
 * *Answer (aalshehry−stat6250):*  it will displays the word ERROR, identifies the possible location of the error, and gives an explanation of the error.
 - Question (yzhu12-stat6250): What does SAS reflect if you submit a statement that contains an invalid option?
@@ -121,6 +128,7 @@ PROC SORT;
 
 
 [Course Textbook Chapter 3, Problem 5]
+- Question (mcardoso3-stat6250):  What other type of errors are there in SAS aside from syntax errors?
 * *Question (aalshehry−stat6250):* What type of errors can SAS detect?
 - Question (yzhu12-stat6250): Will missing RUN statements, missing semicolons, unbalanced quotation marks, and invalid options cause error or just make SAS produce a warning message?
 - Question (kveng−stat6250): What is the best way to get better and memorizing syntax?
@@ -144,6 +152,7 @@ PROC SORT;
 
 
 [Course Textbook Chapter 3, Problem 6]
+- Question (mcardoso3-stat6250):  What other type of errors are there in SAS aside from syntax errors?
 * *Question (aalshehry−stat6250):* What is an invalid option?
 - Question (yzhu12-stat6250): What will cause syntax error and what will cause data error? What is the difference between the main causes?
 - Question (kveng−stat6250): What does the word "option" refers to in SAS? Is this like a function?
@@ -168,6 +177,8 @@ PROC SORT;
 
 
 [Course Textbook Chapter 3, Problem 7]
+- Question (mcardoso3-stat6250):  What happend if a syntax error isn't corrected?
+-Answer (mcardoso3-stat6250):  SAS would show the error in the Log window and would be unable to display the statement output until the error(s) has been corrected.
 * *Question (aalshehry−stat6250):* What are data errors?
 - Question (yzhu12-stat6250): When a SAS program that contains errors is submitted, error messages appear in the Log window. How many types of SAS errors can be detected?
 - Answer (yzhu12-stat6250): Three types of errors can be detected: syntax, execution-time and data. 
@@ -191,6 +202,7 @@ PROC SORT;
 
 
 [Course Textbook Chapter 3, Problem 10]
+- Question (mcardoso3-stat6250):  How quick does the active window display a data step running before it becomes too long?
 * *Question (aalshehry−stat6250):* Is there a situation where “Run;” statement is not required?
 - Question (yzhu12-stat6250): How to look for and replace text using the editor Window?
 - Question (kveng−stat6250): Is it always the case that when we forget to end the DATA step with a RUN statement, the window always displays the message "DATA step running"?
@@ -214,6 +226,8 @@ PROC SORT;
 
 
 [Course Textbook Chapter 4, Problem 1]
+- Question (mcardoso3-stat6250):  What does the "where" statement indicate in a PROC Print statement?
+-Answer (mcardoso3-stat6250):  The "where" statement specifies a codition for selecting obsservtions.
 * *Question (aalshehry−stat6250):* How to change the name of a variable(column)?
 - Question (yzhu12-stat6250): You can refine a basic report by sort the data, generate columns totals for numeric variables or?
 - Answer (yzhu12-stat6250): You can also select which variables and observations are processed.
@@ -236,6 +250,7 @@ Question (nly13-stat6250): Do labels exist permanently in a dataset?
 
 
 [Course Textbook Chapter 4, Problem 3]
+- Question (mcardoso3-stat6250):  What happens if you enter "where style='RANCH' or 'SPLIT' or 'TWOSTORY';?
 * *Question (aalshehry−stat6250):* How to use WHERE statement to select multiple values from numerical observations?
 - Question (yzhu12-stat6250): In Where statement, Character values must be enclosed in quotation marks and must be in the same case as in the data set, is that true?
 - Question (kveng−stat6250): Are the text data always in string format which is why we have to use quote? 
@@ -260,6 +275,7 @@ where fee in (‘124’,’178’);
 
 
 [Course Textbook Chapter 4, Problem 4]
+- Question (mcardoso3-stat6250):  Given their similarities in math, how often does SAS create accounting statements?
 * *Question (aalshehry−stat6250):* What will happen if you run a PROC SORT statement without OUT= option?
 - Question (yzhu12-stat6250): In a PROC SORT step, what method should you use for specifying an output data?
 - Question (kveng−stat6250): What other statements can be controlled in the SORT procedure in SAS? Like NODUPLICATES, NODUPKEY, etc?
@@ -282,6 +298,7 @@ Question (nly13-stat6250): Can the process of data to output be reverse, where y
 
 
 [Course Textbook Chapter 4, Problem 7]
+- Question (mcardoso3-stat6250):  How many variables can you sort under the "PROC SORT" command?
 * *Question (aalshehry−stat6250):* Is “BY” statement required in “PROC SORT”?
 - Question (yzhu12-stat6250): Why does the step PROC SORT fails if it doesn't contain BY statement?
 - Question (kveng−stat6250): Why does PROC SORT step generate errors and stops processing with this code?
@@ -302,6 +319,7 @@ Question (nly13-stat6250): Can you have multiple ‘out’ outputs in the same s
 
 
 [Course Textbook Chapter 4, Problem 9]
+- Question (mcardoso3-stat6250):  How similar are SAS tables compared toExcel tables?
 * *Question (aalshehry−stat6250):* What symbols represent “not equal to” operator in SAS?
 - Question (yzhu12-stat6250): How can we assign a descriptive label to a variable?
 - Answer (yzhu12-stat6250): We use the LABEL statement.
@@ -324,6 +342,8 @@ Question (nly13-stat6250): Does the where statements every use ‘if then’ sta
 
 
 [Course Textbook Chapter 4, Problem 10]
+- Question (mcardoso3-stat6250):  What are all of the requirements for completing a PROC PRINT statement?
+-Answer (mcardoso3-stat6250):  The dataset intended to be displayed needs to be specified and you need to insert the "run;" command to successfully complete a PROC PRINT statement.
 * *Question (aalshehry−stat6250):* What does “NOOBS” in “PROC PRINT” do?
 - Question (yzhu12-stat6250): What statements do remain in effect only for the PROC step in which they appear?
 - Answer (yzhu12-stat6250): VAR, WHERE and SUM.
@@ -344,6 +364,7 @@ Question (nly13-stat6250): Does the where statements every use ‘if then’ sta
 
 
 [recipe_to_check_for_duplicates (from Week 3 Overview)]
+- Question (mcardoso3-stat6250):  How is the unique ID formed when checking for duplicates?
 * *Question (aalshehry−stat6250):* Does “DUPOUT” save unique observations without the duplicated rows or does it save only the duplicated observations?
 - Question (yzhu12-stat6250): If the out=option is set to anything other than the null data set _null_, then a deduplicated could also be formed- so what other function will cause the same problem?
 - Question (kveng−stat6250): What does w.r.t mean?
@@ -363,6 +384,7 @@ Question (nly13-stat6250): What would the code be if you wanted to remove all du
 
 
 [recipe_for_sorting_data (from Week 3 Overview)]
+- Question (mcardoso3-stat6250):  Why don't many data analysis tasks require sorting data?
 * *Question (aalshehry−stat6250):* What is the default sorting option? Is it ascending or descending?
 - Question (yzhu12-stat6250): How can we sort numerical variables out of all the variables and assign specific group of values to them using SAS?
 - Question (kveng−stat6250): After we sort we make a copy and keep the original file. How and where does the sorted copy file is stored?
@@ -383,6 +405,7 @@ Question (nly13-stat6250): Instead of sorting by categories, can you sort by len
 
 
 [recipe_for_printing_values (from Week 3 Overview)]
+- Question (mcardoso3-stat6250):  How much easier is it to use the "ViewTable" option than to to scan content from PROC PRINT? 
 * *Question (aalshehry−stat6250):* How to PROC PRINT to print a specific range of data (i.e. rows from 20 to 30)?
 - Question (yzhu12-stat6250): In the example, SAS print out var and id as rows and columns. How does "Explorer" look like when it print out and when should we use "Explorer"?
 - Question (kveng−stat6250): Can we perform some calculation in a PRINT procedure like performing average on the variable then print only the data that are above average?
