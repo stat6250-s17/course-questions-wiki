@@ -117,7 +117,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): What is data step?
 - *Question* (lwang30-stat6250): What commands can we use to detect invalid data in SAS ?
 - *Answer* (lwang30-stat6250): *proc print, proc freq, proc means* are the statements that we can use to detect invalid data in SAS. 
-
+- Question (mcardoso3-stat6250):  If incorrect values and formats in each statement in the DATA step aren't considered syntax errors, what are they considered as?
 
 
 [Course Textbook Chapter 6, Problem 3]
@@ -129,7 +129,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): A raw data file with 20 records on the file executes how many times during the DATA step?
 - Question (kveng−stat6250): Can we execute more than once per each record in the input file?
 - *Question* (lwang30-stat6250): Which phase of the data step process works like a loop ?
-
+- Question (mcardoso3-stat6250):  Where and how often would DATA steps be executed if otherwise directed?
 
 
 [Course Textbook Chapter 6, Problem 4]
@@ -141,7 +141,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): If I was missing the item name, what symbol would represent this missing value?
 - Question (kveng−stat6250): Why do the remaining variables are initialized to missing?
 - *Question* (lwang30-stat6250): What are the values of _N_ , _ERROR_ , and the remaining variables before the second observation starts to be read ? 
-
+- Question (mcardoso3-stat6250):  Why are the values of the remaining variables at the start of the execution phase set to "missing"?
 
 
 [Course Textbook Chapter 6, Problem 5]
@@ -154,7 +154,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Why does the value of the automatic variable _ERROR_ only go from 0 to 1?
 - Question (kveng−stat6250): How do we know if we have multiple erros if the system only show the value of 1 despite having multiple erros?
 - *Question* (lwang30-stat6250): Is **_ERROR_** in the execution phase a dummy variable ?
-
+- Question (mcardoso3-stat6250):  When would it be necessary to reset the automatic variable_ERROR_ to 0?
 
 
 [Course Textbook Chapter 6, Problem 6]
@@ -166,7 +166,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Why are the values of variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
 - Question (kveng−stat6250): Why the values of varaible creating in programming statements are re-set to missing in the program data vector?
 - *Question* (lwang30-stat6250): At which phase is the descriptor portion of the data written in a data step process ? 
-
+- Question (mcardoso3-stat6250):  What does an iteration of the DATA step mean?
+- Answer (mcardoso3-stat6250):  An iteration is a loop or cycle of execution, which repetitively executes statements to read data values and create observations one by one.
 
 
 [basic_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
@@ -178,7 +179,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Even though it looks redundant to have the same variables in both the RETAIN and KEEP statements, why is this necessary?
 - Question (kveng−stat6250): Is there any statement that would incorporate both RETAIN and KEEP into a single process?
 - *Question* (lwang30-stat6250): Except the data step, is there any other statement where the program data vector (PDV) will be used in SAS ?
-
+- Question (mcardoso3-stat6250):  How much practice would it typically take for one to fully understand the programming data vector in SAS?
 
 
 [optional: adv_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
@@ -189,5 +190,5 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
 - Question (kveng−stat6250): What happens if we don't sepecify the program to quit at the end?
 - *Question* (lwang30-stat6250): If *prog glm* is an interactive proc, why can we still run other statement without enclosing *proc glm* by a "quit" ? 
-
+- Question (mcardoso3-stat6250):  How important is PROC SQL command in comparison to the other SAS commands?
 
