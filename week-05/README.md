@@ -26,7 +26,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Is there a FILEREF statement in SAS?
 - Answer (kveng−stat6250): I don't think there is such a statement in SAS. Fileref is a name that you associate with an external file. It's not a statement in SAS. 
 - *Question* (lwang30-stat6250): In what situations should the single quotation marks be eliminated when we are referencing the location of the file ?
-
+- Question (mcardoso3-stat6250):  Is there an easier way to input the data set other than to include the data file in the SAS statement?
 
 
 [Course Textbook Chapter 5, Problem 2]
@@ -40,7 +40,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dlee117-stat6250): LIBNAME references a SAS library while FILENAME references an external file.
 - Question (kveng−stat6250): Can we set the Filerefs to permanently in effect?
 - *Question* (lwang30-stat6250): What are the other global statements except *libname* and *filename* ?
-
+- Question (mcardoso3-stat6250):  What is the benefit to having a fileref?
+- Answer (mcardoso3-stat6250):  Filerefs temporarily point to a storage location for data and they reference external files.  It is a good function to have if you need to find a specific dataset that has been saved.
 
 
 [Course Textbook Chapter 5, Problem 6]
@@ -57,7 +58,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): the dollar sign ($) identifies the varaible taype as character with start collumn and end column for the variable.
 - *Question* (lwang30-stat6250): In the *input* statement, what kind of variable do we use the dollar sign for ?
 - *Answer* (lwang30-stat6250): The dollar sign is used to input a character variable.
-
+- Question (mcardoso3-stat6250):  How much differently, if at all, would variables be inputed in an INFILE statement as opposed to a DATALINES  statement?
 
 
 [Course Textbook Chapter 5, Problem 7]
@@ -71,7 +72,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Is there a better way of creating a table from raw data instead of using column input? Can we just specify the column name and SAS will know the column numbers automatically?
 - *Question* (lwang30-stat6250): By what means can we check a comprehensive discription of a dataset, such as each variable's data type?
 - *Answer* (lwang30-stat6250): By using a *proc contents* statement, we are able to output the discriptors of a dataset including the data types for each variable.
-
+- Question (mcardoso3-stat6250):  What happens if the input variables are entered out of order?
+- Answer (mcardoso3-stat6250):  If the variables are entered out of order, the columns will have inaccurate names and therefore the dataset would appear confusing to interpret.
 
 
 [Course Textbook Chapter 5, Problem 8]
@@ -86,7 +88,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Does this method permanent re-define the values of the varaible?
 - Answer (kveng-stat6250): Yes, it will.
 - *Question* (lwang30-stat6250): What is the order for arithmetic operator's processing ?
-
+- Question (mcardoso3-stat6250):  What other variables can define values as percentages besides Income?
 
 
 [Course Textbook Chapter 6, Problem 1]
@@ -100,7 +102,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What are the two automatic variables that can be used for processing contained in the program data vector?
 - Question (kveng−stat6250): What is compilation phase?
 - *Question* (lwang30-stat6250): What are the two phases of a data step process ?
-
+- Question (mcardoso3-stat6250):  What is the purpose of the compilation phase in SAS?
 
 
 [Course Textbook Chapter 6, Problem 2]
