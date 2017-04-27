@@ -15,47 +15,61 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 5, Problem 1]
-
+- Question (hhu9−stat6250): What is the function about"'" after "crime"?
 
 
 [Course Textbook Chapter 5, Problem 2]
-
-
+- Question (hhu9−stat6250): can we change filerefs during using it? why?
+- Answer (hhu9−stat6250): No, we can not change or cancel files during using it. 
 
 [Course Textbook Chapter 5, Problem 6]
-
+- Question (hhu9−stat6250): In this table, we can see obs, why we dont need to input "OBS $ x-x"? 
 
 
 [Course Textbook Chapter 5, Problem 7]
-
+- Question (hhu9−stat6250): How to make variables readed in order?
+- Answer (hhu9−stat6250): we can ues column input to read files in order.
 
 
 [Course Textbook Chapter 5, Problem 8]
+- Question (hhu9−stat6250): What is the difference between "income*2" and "income *2.00"?
 
 
 
 [Course Textbook Chapter 6, Problem 1]
-
+- Question (hhu9−stat6250): descriptor portion contains which context?
+- Answer (hhu9−stat6250): the name of the data set; the number of observatons and variables; the names and 
+                          attributes of the variables.
 
 
 [Course Textbook Chapter 6, Problem 2]
-
+- Question (hhu9−stat6250):What is the fuction of syntax checking?
+- Answer (hhu9−stat6250): Syntax checking can detect common errors.
 
 
 [Course Textbook Chapter 6, Problem 3]
-
+- Question (hhu9−stat6250): Why DATA step exe once for each records in the input files unless otherwise directed?
+- Answer (hhu9−stat6250):
 
 
 [Course Textbook Chapter 6, Problem 4]
-
+- Question (hhu9−stat6250):How to represent remaining variables?
+- Answer (hhu9−stat6250): they are initialized to missing, missing numeric values are represented by period,
+                          and character values are represented by blanks.
 
 
 [Course Textbook Chapter 6, Problem 5]
-
+- Question (hhu9−stat6250): what is the two values of _ERROR_? 
+- Answer (hhu9−stat6250): there are just 0 and 1 for _ERROR_, 0 represent no error, 1 represent there is one or more errors.
 
 
 [Course Textbook Chapter 6, Problem 6]
+- Question (hhu9−stat6250): Why the automatic variable_N_ is incremented by 1?
+
+[basic_recepi_for_creating_analytic_datasets (from week 5 Overview)]
+- Question (hhu9−stat6250): How important is the data itself? can we get the result that what we want by using specific method?
 
 
-
-[Recipes TBA]
+[Recipes TBA] 
+[optional: adv_recipe_for_creating_analytic_datasets (from week 5 Overview)]
+- Question (hhu9−stat6250): Why we can not use "where" and "group by" together?
