@@ -35,7 +35,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : In what situations does the new format's name have to end with a period ?
 - Question (cyuan10-stat6250): Can you use a mix of values that includes both character values as well as numeric values?
 - Answer (cyuan10-stat6250): There are particular keywords you can use together with numeric values such as "LOW" and "OTHER" but cannot be a combination of character and numeric values.
-
+- Question (yzhu12-stat6250): Which sign do we must begin with when the name of a format that is created with a VALUE statement?
+- Answer (yzhu12-stat6250): A dollar sign must be used.
 
 
 [Course Textbook Chapter 7, Problem 4]
@@ -58,6 +59,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): Using the FORMAT procedure, you can define your own formats for variables. You can store your formats temporarily or permanently, and you can display a list of all your formats and descriptions of their values.
 - *Question* (lwang30-stat6250) : What should be done prior to the *proc format* step to indicate where the new format will be stored ?
 - Question (cyuan10-stat6250): Can we reformat "text" or character values with numeric values instead? How would we approach this?
+- Question (yzhu12-stat6250): What does VALUE statement begin with and end with?
+- Answer (yzhu12-stat6250): A VALUE statement begins with VALUE and ends with a semicolon after all the labels are defined. 
 
 
 
@@ -83,6 +86,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): No, we can't have multiple types of data when specifying a ranges in the VALUE statement.
 - *Question* (lwang30-stat6250) : When are the single and double quotation mark used respectively in the *value* statement ?
 - Question (cyuan10-stat6250): What is the largest numeric value we can use? What about character values - does it go beyond Z such as restarting with AA?
+- Question (yzhu12-stat6250): If a value is combined with both numeric and characters, what will happen?
+- Answer (yzhu12-stat6250): A value must contain either all numeric or character, or an error will be occurred.
 
 
 
@@ -104,6 +109,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Is 256 characters is the maximum number of chacracters that we can use in a label?
 - *Question* (lwang30-stat6250) : How many characters can be used in a variable's name ?
 - Question (cyuan10-stat6250): Why is the characters used in the label limited to 256? 
+- Question (yzhu12-stat6250): What do you use when you want an apostrophe to appear in a label?
+- Answer (yzhu12-stat6250): We need to use two double quotation marks.
+
 
 
 
@@ -125,7 +133,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): is "OTHER" a built-in keyword in VALUE statement in SAS?
 - *Question* (lwang30-stat6250) : What other keywords can also be used to label ?
 - Question (cyuan10-stat6250): Are there other keywords available, what are they and does this mean we cannot use these key words as a value?
-
+- Question (yzhu12-stat6250): Why MISS and MISSING are invalid keywords in SAS?
 
 
 [Course Textbook Chapter 7, Problem 8]
@@ -147,7 +155,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): What happens when you place the FORMAT statement in PROC step?
 - *Question* (lwang30-stat6250) : What happens when you place the *format* statement in a PROC step ?
 - Question (cyuan10-stat6250): What is the advantages or reason why one would use PROC FORMAT vs. DATA FORMAT?
-
+- Question (yzhu12-stat6250): How to  associate user-defined formats with variables in the FORMAT statement?
+- Answer (yzhu12-stat6250): We use the same format names in both the FORMAT and VALUE statements, but place a period at the end of the format name when it is used in the FORMAT statement.
 
 
 [Course Textbook Chapter 8, Problem 1]
@@ -166,7 +175,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): What's the procedure to perform median and range?
 - *Question* (lwang30-stat6250) : Which keyword represents standard deviation in the MEANS procedure ?
 - Question (cyuan10-stat6250): Will PROC Summary produce the same set of default output (Mean, Median, Max, Min)?
-
+- Question (yzhu12-stat6250): What happens if PROC REPORT can't create groups?
+- Answer (yzhu12-stat6250): It displays group variables as order variables.
 
 
 [Course Textbook Chapter 8, Problem 2]
@@ -188,7 +198,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): What does "var" referred to when used in PROC MEANS?
 - *Question* (lwang30-stat6250) : What would the output be if the variables specified in *proc means* have both numeric and character types ?
 - Question (cyuan10-stat6250): If we use a combination of var and by, can we produce a cross tabulation of MEANS statistics by selected variables?
-
+- Question (yzhu12-stat6250): What's the difference between the output when you use PROC REPORT in a windowing and a nonwindowing mode?
 
 
 [Course Textbook Chapter 8, Problem 4]
@@ -208,7 +218,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : Which procedure should be performed prior to the BY group processing in *proc means* ?
 - *Answer* (lwang30-stat6250) : The data should be sorted by *proc sort* statement first before BY group processing is performed in *proc means*.
 - Question (cyuan10-stat6250): What happens if the BY variables are not indexed or sorted? Would we get an error?
-
+- Question (yzhu12-stat6250): What happens if PROC REPORT can't create groups?
+- Answer (yzhu12-stat6250): It displays group variables as order variables.
 
 
 [Course Textbook Chapter 8, Problem 7]
@@ -231,7 +242,9 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (lwang30-stat6250) : By default, *proc freq* also prints cumulative frequency and cumulative percent in the output.
 - Question (cyuan10-stat6250): How should we handle numeric variable in PROC FREQ? 
 - Answer (cyuan10-stat6250): We can re-format the numeric variables and create a shorter list of ranges.
-
+- Question (yzhu12-stat6250): When will PROC REPORT try to consolidate into one row all observations from the data set
+that have a unique combination of values for all group variables?
+- Answer (yzhu12-stat6250): If a report contains one or more group variables.
 
 
 [Course Textbook Chapter 8, Problem 8]
@@ -253,7 +266,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : How do we limit the frequency distribution output to categorical values only ?
 - Question (cyuan10-stat6250): What other outputs would be useful to understand FREQ data?
 - Answer (cyuan10-stat6250): It would be nice if a histogram plot or box-whisker plot is given.
-
+- Question (yzhu12-stat6250): Under what kind of option settings, your PROC REPORT output will appear as HTML and/or as SAS listing
+output?
 
 
 [Course Textbook Chapter 8, Problem 10]
@@ -272,7 +286,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Is there any better way to create a more better looking frequency table than PROC FREQ?
 - *Question* (lwang30-stat6250) : In what situations shall we prefer to use */list* to generate a listing output for crosstabulation tables ?
 - Question (cyuan10-stat6250): How do we switch the rows and columns in this example? Can we specify in SAS that we want to columns variables as the rows and the row variables as the columns?
-
+- Question (yzhu12-stat6520): Under what situation we need to use DEFINE statement?
 
 
 [recipe_for_summarizing_quantitative_values (from Week 4 Overview)]
@@ -292,7 +306,7 @@ does both since they are the same?
 - Question (kveng−stat6250): In the PROC MEANS statement, what if we don't want all the default statistics in the result, we only want like mean and std dev?
 - *Question* (lwang30-stat6250) : How to suppress the output statistics to mean and standard deviation only ?
 - Question (cyuan10-stat6250): Can we have multiple classes and how can we decide it is appended vs. nested?
-
+- Question (yzhu12-stat6250): Besides the statement we used in the video to summarize the quantitative variables, is there any other methods we can apply?
 
 
 [recipe_for_summarizing_qualitative_values (from Week 4 Overview)]
@@ -310,7 +324,7 @@ does both since they are the same?
 - Question (kveng−stat6250): Instead of making a table, can PROC FREQ statement make a graph instead?
 - *Question* (lwang30-stat6250) : How would SAS deal with the output if more than 2 variables are crosstabulated ?
 - Question (cyuan10-stat6250): Can we still use PROC MEANS on qualititative variables?
-
+- Question (yzhu12-stat6250): How does SAS sort among nocol, norow, nopercent?
 
 
 [recipe_for_temporarily_binning_values (from Week 4 Overview)]
@@ -329,5 +343,5 @@ does both since they are the same?
 - *Question* (lwang30-stat6250) : What is the change in the variable type after those 2 quantitative variables are formatted ?
 - *Answer* (lwang30-stat6250) : Both the discrete and continuous quantitative variables are reformatted into categorical variables by *proc format* statement.
 - Question (cyuan10-stat6250): Is a temporary variable created when you group variables? How do you make it permanent on the dataset?
-
+- Question (yzhu12-stat6250): How do we handle with the missing data when we apply the low and high option?
 
