@@ -30,6 +30,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): You must create a fileref.
 - Question (nly13-stat6250): Is there a limit to the types of files we can associate to?
 - Question (rluo-stat6250): What is a raw data file, and what are its features?
+- Question (aoneill2−stat6250): Can you access files in your SAS user file without a LIBREF statement?
 
 
 
@@ -49,6 +50,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Will Fileref be in effect if you save your SAS session?
 - Answer (nly13-stat6250): No, it ends when the SAS session ends.
 - Question (rluo-stat6250): In order to read the raw data file, what DATA steps must be provided?
+- Question (aoneill2−stat6250): Do explicit fileref statements using full pathnames render the use of a LIBREF statement unneccessary?
 
 
 
@@ -71,6 +73,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): In the INPUT statement, what does the $ represent?
 - Answer (nly13-stat6250): The $ is used to label variables as characters.
 - Question (rluo-stat6250): Besides we correct the invalid data in the data file, is there other ways that can help us deal with the invalid data without modify them?
+- Question (aoneill2−stat6250): When SAS encounters invalid data in a file that is run in a data step using an infile statement, does SAS stop processing the program?
+- Answer (aoneill2−stat6250): No, SAS continues to run, even though an invalid data error is generated.
 
 
 
@@ -89,6 +93,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): When assigning the range for characters, what happens if there is overlap? Example 1-3 and 3-6.
 - Question (rluo-stat6250): Does assignment statement begin with the keyword?
 - Answer (rluo-stat6250): Assignment statement does not begin with the keyword.
+- Question (aoneill2−stat6250): What kind of error is generated when data is read in using an infile statement with incorrect column numbers?
 
 
 
@@ -108,6 +113,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): You can use an assignment statement in any DATA step.
 - Question (nly13-stat6250): Will income=income+income; generate the same result?
 - Question (rluo-stat6250): Does the subsetting IF statement have iteration function?
+- Question (aoneill2−stat6250): Must assignment statements for operations on variables use explicit mention of the variable, or can it be implied, such as count=+1?
 
 
 
@@ -127,6 +133,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): What types of variables can be used in a data vector?
 - Question (rluo-stat6250): What are the two phases of SAS DATA step process?
 - Answer (rluo-stat6250): Compilation phase and the execution phase.
+- Question (aoneill2−stat6250): What heppens during the execution phase of a SAS DATA step?
 
 
 
@@ -146,6 +153,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): Missing semicolons, misspelled keywords, and invalid options will cause syntax error.
 - Question (nly13-stat6250): Why do format errors not count as a syntax error?
 - Question (rluo-stat6250): What are the two automatic variables the program data vector contain?
+- Question (aoneill2−stat6250): What happens if SAS cannot interpret a syntax error during compliation phase?
+- Answer (aoneill2−stat6250): If an error is found during the compilation phase, SAS tries to interpret it if possible.
 
 
 
@@ -161,6 +170,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): In what situation that SAS can’t interpret the error?
 - Question (nly13-stat6250): Can a Data step be executed more than once for each record in the input file?
 - Question (rluo-stat6250): What does the descriptor portion of the data set include?
+- Question (aoneill2−stat6250): Can more than one input file be read in in a single DATA step?
 
 
 
@@ -177,6 +187,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): Numeric represents missing numeric values and blanks represent missing character values.
 - Question (nly13-stat6250): Can you extract the _N_ value?
 - Question (rluo-stat6250): Can the execution phase only input a portion of the dataset?
+- Question (aoneill2−stat6250): How can you use the assignment of values to variables in a SAS file during execution to track the execution of a DATA step?
 
 
 
@@ -194,6 +205,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Can you extract the _ERROR_ value?
 - Question (rluo-stat6250): How to clean the data?
 - Answer (rluo-stat6250): Use IF-THEN statement or IF-THEN-ELSE statement to valid the data.
+- Question (aoneill2−stat6250): Does the value of the automatic variable _ERROR_ equal the number of actual errors encountered?
 
 
 
@@ -209,6 +221,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): What kind of errors will raise when you use a wrong method to test your programs?
 - Question (nly13-stat6250): Why are variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
 - Question (rluo-stat6250): What is the function of the PUT Statement?
+- Question (aoneill2−stat6250): Are values of the variables set to missing as part of the initial execution step of a DATA step, or does that happen at the beginning of the compilation phase?
 
 
 
@@ -225,6 +238,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): If retain and keep have to be the same, why isn’t there a single statement that is simplified to do both? 
 - Answer (nly13-stat6250): The simplified version would be proc sql, uses less code for same result, however it is limited by memory.
 - Question (rluo-stat6250): How can we actually use program data vector function?
+- Question (aoneill2−stat6250): Can a retain statement be sufficient in itself, given that it specifies the order of the existing variables?
+- Answer (aoneill2−stat6250): No, a retain statement must always be accompanied by either a "keep" or "drop" statement. The retain statement only specifies order, wherease the "keep' or "drop" statement determines the existence of the variables in the program.
 
 
 
@@ -238,5 +253,13 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250): If *prog glm* is an interactive proc, why can we still run other statement without enclosing *proc glm* by a "quit" ? 
 - Question (yzhu12-stat6250): How does SAS run sql and what’s the difference of the coding language between sql and SAS?
 - Question (nly13-stat6250): What is the memory limit to proc sql?
+- Question (aoneill2−stat6250): What statement can be left out of the recipe without affecting its output?
+- Answer (aoneill2−stat6250): The WHERE statement can be omitted.
+- Question (aoneill2−stat6250): What is the PROC step used in the advanced recipe for creating analytic datasets?
+- Answer (aoneill2−stat6250): The PROC SQL step is used.
+- Question (aoneill2−stat6250): What is one advantage of a PROC SQL step?
+- Answer (aoneill2−stat6250): The PROC SQL statement uses les code that a DATA step.
+- Question (aoneill2−stat6250): How do you end a PROC SQL step?
+- Answer (aoneill2−stat6250): A PROC SQL step must end with a QUIT statement.
 
 
