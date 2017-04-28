@@ -28,6 +28,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250): In what situations should the single quotation marks be eliminated when we are referencing the location of the file ?
 - Question (yzhu12-stat6250): How do you reference the raw data file before you can read your raw data?
 - Answer (yzhu12-stat6250): You must create a fileref.
+- Question (nly13-stat6250): Is there a limit to the types of files we can associate to?
 
 
 
@@ -44,6 +45,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250): What are the other global statements except *libname* and *filename* ?
 - Question (yzhu12-stat6250): What do you must specify in the INPUT statement when you read each field of raw data into your SAS data set?
 - Answer (yzhu12-stat6250): You must specify a valid SAS variable name, a type, a starting column, and if necessary, an ending column.
+- Question (nly13-stat6250): Will Fileref be in effect if you save your SAS session?
+- Answer (nly13-stat6250): No, it ends when the SAS session ends.
 
 
 
@@ -63,6 +66,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (lwang30-stat6250): The dollar sign is used to input a character variable.
 - Question (yzhu12-stat6250): What’s the reason to use the keyword _NULL_ when the goal of your SAS program is to create a raw data file and not a SAS data set?
 - Answer (yzhu12-stat6250): It allows the power of the DATA step without actually creating a SAS data set. A SET statement specifies the SAS data set that you want to read from.
+- Question (nly13-stat6250): In the INPUT statement, what does the $ represent?
+- Answer (nly13-stat6250): The $ is used to label variables as characters.
 
 
 
@@ -78,7 +83,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250): By what means can we check a comprehensive discription of a dataset, such as each variable's data type?
 - *Answer* (lwang30-stat6250): By using a *proc contents* statement, we are able to output the discriptors of a dataset including the data types for each variable.
 - Question (yzhu12-stat6250): How can we fix the data that’s not have standard character and numeric values to fit in the column input?
-
+- Question (nly13-stat6250): When assigning the range for characters, what happens if there is overlap? Example 1-3 and 3-6.
 
 
 
@@ -96,6 +101,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250): What is the order for arithmetic operator's processing ?
 - Question (yzhu12-stat6250): How to modify existing values or to create new variables?
 - Answer (yzhu12-stat6250): You can use an assignment statement in any DATA step.
+- Question (nly13-stat6250): Will income=income+income; generate the same result?
+
 
 
 
@@ -112,6 +119,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250): What are the two phases of a data step process ?
 - Question (yzhu12-stat6250): What’s the usage of the DATA statement step?
 - Answer (yzhu12-stat6250): They are used to check for syntax errors, such as invalid options or misspellings.
+- Question (nly13-stat6250): What types of variables can be used in a data vector?
+
 
 
 [Course Textbook Chapter 6, Problem 2]
@@ -128,6 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (lwang30-stat6250): *proc print, proc freq, proc means* are the statements that we can use to detect invalid data in SAS. 
 - Question (yzhu12-stat6250): What will cause syntax error?
 - Answer (yzhu12-stat6250): Missing semicolons, misspelled keywords, and invalid options will cause syntax error.
+- Question (nly13-stat6250): Why do format errors not count as a syntax error?
 
 
 
@@ -141,7 +151,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Can we execute more than once per each record in the input file?
 - *Question* (lwang30-stat6250): Which phase of the data step process works like a loop ?
 - Question (yzhu12-stat6250): In what situation that SAS can’t interpret the error?
-
+- Question (nly13-stat6250): Can a Data step be executed more than once for each record in the input file?
 
 
 
@@ -156,6 +166,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250): What are the values of _N_ , _ERROR_ , and the remaining variables before the second observation starts to be read ? 
 - Question (yzhu12-stat6250): What does numeric and blanks represent, respectively?
 - Answer (yzhu12-stat6250): Numeric represents missing numeric values and blanks represent missing character values.
+- Question (nly13-stat6250): Can you extract the _N_ value?
 
 
 
@@ -170,6 +181,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): How do we know if we have multiple erros if the system only show the value of 1 despite having multiple erros?
 - *Question* (lwang30-stat6250): Is **_ERROR_** in the execution phase a dummy variable ?
 - Question (yzhu12-stat6250): What’s the difference between the errors that raised during the compilation phrase and execution phrase?
+- Question (nly13-stat6250): Can you extract the _ERROR_ value?
+
 
 
 [Course Textbook Chapter 6, Problem 6]
@@ -182,6 +195,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Why the values of varaible creating in programming statements are re-set to missing in the program data vector?
 - *Question* (lwang30-stat6250): At which phase is the descriptor portion of the data written in a data step process ? 
 - Question (yzhu12-stat6250): What kind of errors will raise when you use a wrong method to test your programs?
+- Question (nly13-stat6250): Why are variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
+
 
 
 [basic_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
@@ -194,6 +209,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Is there any statement that would incorporate both RETAIN and KEEP into a single process?
 - *Question* (lwang30-stat6250): Except the data step, is there any other statement where the program data vector (PDV) will be used in SAS ?
 - Question (yzhu12-stat6250): How can we tell an error that is from execute phrase or compile phrase?
+- Question (nly13-stat6250): If retain and keep have to be the same, why isn’t there a single statement that is simplified to do both? 
+- Answer (nly13-stat6250): The simplified version would be proc sql, uses less code for same result, however it is limited by memory.
+
 
 
 [optional: adv_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
@@ -205,4 +223,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): What happens if we don't sepecify the program to quit at the end?
 - *Question* (lwang30-stat6250): If *prog glm* is an interactive proc, why can we still run other statement without enclosing *proc glm* by a "quit" ? 
 - Question (yzhu12-stat6250): How does SAS run sql and what’s the difference of the coding language between sql and SAS?
+- Question (nly13-stat6250): What is the memory limit to proc sql?
+
 
