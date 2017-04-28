@@ -29,6 +29,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): How do you reference the raw data file before you can read your raw data?
 - Answer (yzhu12-stat6250): You must create a fileref.
 - Question (nly13-stat6250): Is there a limit to the types of files we can associate to?
+- Question (rluo-stat6250): What is a raw data file, and what are its features?
 
 
 
@@ -47,6 +48,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): You must specify a valid SAS variable name, a type, a starting column, and if necessary, an ending column.
 - Question (nly13-stat6250): Will Fileref be in effect if you save your SAS session?
 - Answer (nly13-stat6250): No, it ends when the SAS session ends.
+- Question (rluo-stat6250): In order to read the raw data file, what DATA steps must be provided?
 
 
 
@@ -68,6 +70,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): It allows the power of the DATA step without actually creating a SAS data set. A SET statement specifies the SAS data set that you want to read from.
 - Question (nly13-stat6250): In the INPUT statement, what does the $ represent?
 - Answer (nly13-stat6250): The $ is used to label variables as characters.
+- Question (rluo-stat6250): Besides we correct the invalid data in the data file, is there other ways that can help us deal with the invalid data without modify them?
 
 
 
@@ -84,6 +87,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (lwang30-stat6250): By using a *proc contents* statement, we are able to output the discriptors of a dataset including the data types for each variable.
 - Question (yzhu12-stat6250): How can we fix the data that’s not have standard character and numeric values to fit in the column input?
 - Question (nly13-stat6250): When assigning the range for characters, what happens if there is overlap? Example 1-3 and 3-6.
+- Question (rluo-stat6250): Does assignment statement begin with the keyword?
+- Answer (rluo-stat6250): Assignment statement does not begin with the keyword.
 
 
 
@@ -102,7 +107,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): How to modify existing values or to create new variables?
 - Answer (yzhu12-stat6250): You can use an assignment statement in any DATA step.
 - Question (nly13-stat6250): Will income=income+income; generate the same result?
-
+- Question (rluo-stat6250): Does the subsetting IF statement have iteration function?
 
 
 
@@ -120,6 +125,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): What’s the usage of the DATA statement step?
 - Answer (yzhu12-stat6250): They are used to check for syntax errors, such as invalid options or misspellings.
 - Question (nly13-stat6250): What types of variables can be used in a data vector?
+- Question (rluo-stat6250): What are the two phases of SAS DATA step process?
+- Answer (rluo-stat6250): Compilation phase and the execution phase.
 
 
 
@@ -138,6 +145,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): What will cause syntax error?
 - Answer (yzhu12-stat6250): Missing semicolons, misspelled keywords, and invalid options will cause syntax error.
 - Question (nly13-stat6250): Why do format errors not count as a syntax error?
+- Question (rluo-stat6250): What are the two automatic variables the program data vector contain?
 
 
 
@@ -152,6 +160,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250): Which phase of the data step process works like a loop ?
 - Question (yzhu12-stat6250): In what situation that SAS can’t interpret the error?
 - Question (nly13-stat6250): Can a Data step be executed more than once for each record in the input file?
+- Question (rluo-stat6250): What does the descriptor portion of the data set include?
 
 
 
@@ -167,6 +176,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): What does numeric and blanks represent, respectively?
 - Answer (yzhu12-stat6250): Numeric represents missing numeric values and blanks represent missing character values.
 - Question (nly13-stat6250): Can you extract the _N_ value?
+- Question (rluo-stat6250): Can the execution phase only input a portion of the dataset?
 
 
 
@@ -182,6 +192,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250): Is **_ERROR_** in the execution phase a dummy variable ?
 - Question (yzhu12-stat6250): What’s the difference between the errors that raised during the compilation phrase and execution phrase?
 - Question (nly13-stat6250): Can you extract the _ERROR_ value?
+- Question (rluo-stat6250): How to clean the data?
+- Answer (rluo-stat6250): Use IF-THEN statement or IF-THEN-ELSE statement to valid the data.
 
 
 
@@ -196,6 +208,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250): At which phase is the descriptor portion of the data written in a data step process ? 
 - Question (yzhu12-stat6250): What kind of errors will raise when you use a wrong method to test your programs?
 - Question (nly13-stat6250): Why are variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
+- Question (rluo-stat6250): What is the function of the PUT Statement?
 
 
 
@@ -211,6 +224,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): How can we tell an error that is from execute phrase or compile phrase?
 - Question (nly13-stat6250): If retain and keep have to be the same, why isn’t there a single statement that is simplified to do both? 
 - Answer (nly13-stat6250): The simplified version would be proc sql, uses less code for same result, however it is limited by memory.
+- Question (rluo-stat6250): How can we actually use program data vector function?
 
 
 
