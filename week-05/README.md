@@ -34,6 +34,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10−stat6250): Raw data files can be converted to SAS datasets. Can we also use filename statement to convert a SAS dataset into a different software file like excel?
 - Question (yren10−stat6250): How can we assign a fileref?
 - Answer (yren10−stat6250): You assign a fileref by using a FILENAME statement in the same way that you assign a libref by using a LIBNAME statement.
+- Question (mcardoso3-stat6250):  Is there an easier way to input the data set other than to include the data file in the SAS statement?
 
 
 
@@ -57,6 +58,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10−stat6250): How do we make filerefs permanent? 
 - Question (yren10−stat6250): LIBNAME statement remain effect utill?
 - Answer (yren10−stat6250): Same as FILENAME remain in effect until you change them, cancel them, or end your SAS session.
+- Question (mcardoso3-stat6250):  What is the benefit to having a fileref?
+- Answer (mcardoso3-stat6250):  Filerefs temporarily point to a storage location for data and they reference external files.  It is a good function to have if you need to find a specific dataset that has been saved.
 
 
 
@@ -85,6 +88,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (cyuan10−stat6250): This was done for stylistic reasons. The line code ends with the semi-colon.
 - Question (yren10−stat6250): In the INPUT statement, does variable name we assign will show exactly in data set?
 - Answer (yren10−stat6250): Yes, when we write an INPUT statement, we need to specify the variable names exactly as we want them to appear in the SAS data set.
+- Question (mcardoso3-stat6250):  How much differently, if at all, would variables be inputed in an INFILE statement as opposed to a DATALINES  statement?
 
 
 
@@ -107,6 +111,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10−stat6250): In the example, are ending "0" such as 33.990 the same as 33.99 read as the same in SAS?
 - Answer (cyuan10−stat6250): Yes. These two values are equal.
 - Question (yren10−stat6250): What is the rule when we are using $ in INPUT statement, should we use it between variable name and numbers?
+- Question (mcardoso3-stat6250):  What happens if the input variables are entered out of order?
+- Answer (mcardoso3-stat6250):  If the variables are entered out of order, the columns will have inaccurate names and therefore the dataset would appear confusing to interpret.
 
 
 
@@ -129,6 +135,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): Must assignment statements for operations on variables use explicit mention of the variable, or can it be implied, such as count=+1?
 - Question (cyuan10−stat6250): Is there a difference in output if we use 2 vs. 2.00? Would our results end with decimals?
 - Question (yren10−stat6250): Does expression has to be on the left of the equal sign?
+- Question (mcardoso3-stat6250):  What other variables can define values as percentages besides Income?
 
 
 
@@ -152,6 +159,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10−stat6250): What can prevent or block the descriptors during the compilation phrase?
 - Answer (cyuan10−stat6250): Syntax errors may prevent the compilation phrase from moving forward successfully.
 - Question (yren10−stat6250): So where is the data set descriptor created?
+- Question (mcardoso3-stat6250):  What is the purpose of the compilation phase in SAS?
 
 
 
@@ -175,6 +183,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2−stat6250): If an error is found during the compilation phase, SAS tries to interpret it if possible.
 - Question (cyuan10−stat6250): Is there a memory limitation with the input buffer?
 - Question (yren10−stat6250): Does syntax checks the values of variables or the correctness of formats?
+- Question (mcardoso3-stat6250):  If incorrect values and formats in each statement in the DATA step aren't considered syntax errors, what are they considered as?
 
 
 
@@ -193,6 +202,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): Can more than one input file be read in in a single DATA step?
 - Question (cyuan10−stat6250): Can variables names be changed permanently in the data file as part of the the DATA step so that we're correctly issues with the file rather than the code?
 - Question (yren10−stat6250): Will the DATA step executes more than once in any siutation? 
+- Question (mcardoso3-stat6250):  Where and how often would DATA steps be executed if otherwise directed?
 
 
 
@@ -212,6 +222,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): How can you use the assignment of values to variables in a SAS file during execution to track the execution of a DATA step?
 - Question (cyuan10−stat6250): Is there a way to add more "descriptors" to the Descriptor Portion beyond was is currently in the output?
 - Question (yren10−stat6250): What are missing values will represent in output?
+- Question (mcardoso3-stat6250):  Why are the values of the remaining variables at the start of the execution phase set to "missing"?
 
 
 
@@ -232,6 +243,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): Does the value of the automatic variable _ERROR_ equal the number of actual errors encountered?
 - Question (cyuan10−stat6250): Will ERRORS help us identify exactly how many errors there are in the Data step?
 - Question (yren10−stat6250): What does default _ERROR_ equal to zero actually means? 
+- Question (mcardoso3-stat6250):  When would it be necessary to reset the automatic variable_ERROR_ to 0?
 
 
 
@@ -250,6 +262,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): Are values of the variables set to missing as part of the initial execution step of a DATA step, or does that happen at the beginning of the compilation phase?
 - Question (cyuan10−stat6250): Why are ERROR and the program data vector reset to zero at the end of the data step? 
 - Question (yren10−stat6250): What is the default at the end of the DATA step will do?
+- Question (mcardoso3-stat6250):  What does an iteration of the DATA step mean?
+- Answer (mcardoso3-stat6250):  An iteration is a loop or cycle of execution, which repetitively executes statements to read data values and create observations one by one.
 
 
 
@@ -270,6 +284,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2−stat6250): No, a retain statement must always be accompanied by either a "keep" or "drop" statement. The retain statement only specifies order, wherease the "keep' or "drop" statement determines the existence of the variables in the program.
 - Question (cyuan10−stat6250): Can we create a single SAS data set from mulitple external raw data sets?
 - Question (yren10−stat6250): How we ise "Retain" exactly, and what it does in DATA statement?
+- Question (mcardoso3-stat6250):  How much practice would it typically take for one to fully understand the programming data vector in SAS?
 
 
 
@@ -292,5 +307,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): How do you end a PROC SQL step?
 - Answer (aoneill2−stat6250): A PROC SQL step must end with a QUIT statement.
 - Question (yren10−stat6250): How to use PROC SQL to do the subset and make concatenate datasets?
+- Question (mcardoso3-stat6250):  How important is PROC SQL command in comparison to the other SAS commands?
 
 
