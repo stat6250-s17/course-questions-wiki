@@ -31,6 +31,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Is there a limit to the types of files we can associate to?
 - Question (rluo-stat6250): What is a raw data file, and what are its features?
 - Question (aoneill2−stat6250): Can you access files in your SAS user file without a LIBREF statement?
+- Question (cyuan10−stat6250): Raw data files can be converted to SAS datasets. Can we also use filename statement to convert a SAS dataset into a different software file like excel?
 
 
 
@@ -51,6 +52,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nly13-stat6250): No, it ends when the SAS session ends.
 - Question (rluo-stat6250): In order to read the raw data file, what DATA steps must be provided?
 - Question (aoneill2−stat6250): Do explicit fileref statements using full pathnames render the use of a LIBREF statement unneccessary?
+- Question (cyuan10−stat6250): How do we make filerefs permanent? 
 
 
 
@@ -75,6 +77,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): Besides we correct the invalid data in the data file, is there other ways that can help us deal with the invalid data without modify them?
 - Question (aoneill2−stat6250): When SAS encounters invalid data in a file that is run in a data step using an infile statement, does SAS stop processing the program?
 - Answer (aoneill2−stat6250): No, SAS continues to run, even though an invalid data error is generated.
+- Question (cyuan10−stat6250): How is the code format determined for the input line where we have 2 variables in the first line then 2 more variables in the second line? Can we have all four in the same line or each individually? 
+- Answer (cyuan10−stat6250): This was done for stylistic reasons. The line code ends with the semi-colon.
 
 
 
@@ -94,6 +98,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): Does assignment statement begin with the keyword?
 - Answer (rluo-stat6250): Assignment statement does not begin with the keyword.
 - Question (aoneill2−stat6250): What kind of error is generated when data is read in using an infile statement with incorrect column numbers?
+- Question (cyuan10−stat6250): In the example, are ending "0" such as 33.990 the same as 33.99 read as the same in SAS?
+- Answer (cyuan10−stat6250): Yes. These two values are equal.
 
 
 
@@ -114,6 +120,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Will income=income+income; generate the same result?
 - Question (rluo-stat6250): Does the subsetting IF statement have iteration function?
 - Question (aoneill2−stat6250): Must assignment statements for operations on variables use explicit mention of the variable, or can it be implied, such as count=+1?
+- Question (cyuan10−stat6250): Is there a difference in output if we use 2 vs. 2.00? Would our results end with decimals?
 
 
 
@@ -134,6 +141,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): What are the two phases of SAS DATA step process?
 - Answer (rluo-stat6250): Compilation phase and the execution phase.
 - Question (aoneill2−stat6250): What heppens during the execution phase of a SAS DATA step?
+- Question (cyuan10−stat6250): What can prevent or block the descriptors during the compilation phrase?
+- Answer (cyuan10−stat6250): Syntax errors may prevent the compilation phrase from moving forward successfully.
 
 
 
@@ -155,6 +164,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): What are the two automatic variables the program data vector contain?
 - Question (aoneill2−stat6250): What happens if SAS cannot interpret a syntax error during compliation phase?
 - Answer (aoneill2−stat6250): If an error is found during the compilation phase, SAS tries to interpret it if possible.
+- Question (cyuan10−stat6250): Is there a memory limitation with the input buffer?
 
 
 
@@ -171,6 +181,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Can a Data step be executed more than once for each record in the input file?
 - Question (rluo-stat6250): What does the descriptor portion of the data set include?
 - Question (aoneill2−stat6250): Can more than one input file be read in in a single DATA step?
+- Question (cyuan10−stat6250): Can variables names be changed permanently in the data file as part of the the DATA step so that we're correctly issues with the file rather than the code?
 
 
 
@@ -188,6 +199,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Can you extract the _N_ value?
 - Question (rluo-stat6250): Can the execution phase only input a portion of the dataset?
 - Question (aoneill2−stat6250): How can you use the assignment of values to variables in a SAS file during execution to track the execution of a DATA step?
+- Question (cyuan10−stat6250): Is there a way to add more "descriptors" to the Descriptor Portion beyond was is currently in the output?
 
 
 
@@ -206,6 +218,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): How to clean the data?
 - Answer (rluo-stat6250): Use IF-THEN statement or IF-THEN-ELSE statement to valid the data.
 - Question (aoneill2−stat6250): Does the value of the automatic variable _ERROR_ equal the number of actual errors encountered?
+- Question (cyuan10−stat6250): Will ERRORS help us identify exactly how many errors there are in the Data step?
 
 
 
@@ -222,6 +235,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Why are variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
 - Question (rluo-stat6250): What is the function of the PUT Statement?
 - Question (aoneill2−stat6250): Are values of the variables set to missing as part of the initial execution step of a DATA step, or does that happen at the beginning of the compilation phase?
+- Question (cyuan10−stat6250): Why are ERROR and the program data vector reset to zero at the end of the data step? 
 
 
 
@@ -240,6 +254,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): How can we actually use program data vector function?
 - Question (aoneill2−stat6250): Can a retain statement be sufficient in itself, given that it specifies the order of the existing variables?
 - Answer (aoneill2−stat6250): No, a retain statement must always be accompanied by either a "keep" or "drop" statement. The retain statement only specifies order, wherease the "keep' or "drop" statement determines the existence of the variables in the program.
+- Question (cyuan10−stat6250): Can we create a single SAS data set from mulitple external raw data sets?
 
 
 
