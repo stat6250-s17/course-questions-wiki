@@ -18,6 +18,7 @@ The instructor will then review the pull request and make comments should furthe
 
 * *Answer (aalshehry−stat6250):* 
 
+By using the following syntax: 
 
 DATA SAS-data-set;
        SET SAS-data-set1 SAS-data-set2 ...;
