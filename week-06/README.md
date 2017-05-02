@@ -14,9 +14,10 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 12, Problem 1]
 
-* *Question (aalshehry−stat6250):* What is the right way to combine two datasets in a new one?
+* *Question (aalshehry−stat6250):* What is the right way to concatenate two datasets in a new one?
 
 * *Answer (aalshehry−stat6250):* 
+
 
 DATA SAS-data-set;
        SET SAS-data-set1 SAS-data-set2 ...;
@@ -25,13 +26,13 @@ RUN;
 
 [Course Textbook Chapter 12, Problem 2]
 
-* *Question (aalshehry−stat6250):* What the main difference between using SET and Merge statements in DATA step?
+* *Question (aalshehry−stat6250):* What is the main difference between using SET and Merge statements in DATA step?
 
 
 
 [Course Textbook Chapter 12, Problem 3]
 
-* *Question (aalshehry−stat6250):* What is the default oreder of output obsevations when SET statement is used to combine two datasets?
+* *Question (aalshehry−stat6250):* What is the default oreder of the output obsevations when SET statement is used to combine two datasets?
 
 
 
