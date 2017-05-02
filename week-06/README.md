@@ -15,6 +15,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 12, Problem 1]
+
 * *Question (aalshehry−stat6250):* What is the right way to concatenate two datasets in a new one?
 * *Answer (aalshehry−stat6250):* By using the following syntax: 
 ```SAS
@@ -22,6 +23,7 @@ DATA SAS-data-set;
        SET SAS-data-set1 SAS-data-set2 ...;
 RUN;
 ```
+- Question (yzhu12-stat6250): Why there is no end-of-file condition when you use direct access?
 
 
 
