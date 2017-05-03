@@ -100,11 +100,10 @@ RUN;
 - Question (akumar30−stat6250):  Does rename option in merge statement modify the name of actual dataset or only valid for merge statement?
 - Question (yzhu12-stat6250): For example, if we have a data set containing missing variables, how does the SAS combine the data sets horizontally and correctly, which means that the corresponding variables are sorted  and then combined horizontally?
 - Question (meisenbach-stat6250): Why does the column name not also change when we use rename? Why does renaming the column name to a space result in the desired column name?
-- Question (kveng-stat6250):
-
+- Question (kveng-stat6250): Can we just merge without including retain and keep and label statements? 
 
 [optional: adv_recipe_for_combining_data_horizontally (from Week 6 Overview)]
 - Question (akumar30−stat6250): Wwhich statement will have faster performance combine four dataset, using merge statement or proc sql statement?
 - Question (yzhu12-stat6250): What kind of error will occur if the order of these AS statements are converted improperly?
-- Question (kveng-stat6250):
+- Question (kveng-stat6250): What is coalesce? What does it do?
 
