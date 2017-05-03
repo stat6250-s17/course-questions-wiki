@@ -26,6 +26,8 @@ RUN;
 - Question (yzhu12-stat6250): Why there is no end-of-file condition when you use direct access?
 - Question (meisenbach-stat6250): When would you use this one-to-one merging?
 - Answer (meisenbach-stat6250): When the observations in both datasets are in the same order and the columns are different.
+- Question (aoneill2-stat6250): For a one-to-one match, how many set statements are needed?
+- Answer (aoneill2-stat6250): A one-to-one match requires two set statements to input the two files.
 
 
 
@@ -37,6 +39,8 @@ RUN;
 - Answer (yzhu12-stat6250): You either add a STOP statement to the DATA step, or use programming logic that checks for an invalid value of the POINT= variable.
 - Question (meisenbach-stat6250): What is the benefit of using interleaving?
 - Answer (meisenbach-stat6250): The output dataset is sorted by the BY variable.
+- Question (aoneill2-stat6250): How many set statements are used to append one file with another?
+- Answer (aoneill2-stat6250): Only one set statement is required, followed by the two file names.
 
 
 
@@ -48,6 +52,8 @@ RUN;
 - Answer (yzhu12-stat6250): We use the END= option in the SET statement.
 - Question (meisenbach-stat6250): With concatenate, what happens when rows have the same values for a particular variable (e.g. ID)?
 - Answer (meisenbach-stat6250): Nothing, both rows are in the output.
+- Question (aoneill2-stat6250): If two files each have different variables, can they be appended?
+- Answer (aoneill2-stat6250): Yes. The resulting output file will contain columns that reflect the variables in both input files.
 
 
 
@@ -59,6 +65,7 @@ RUN;
 - Answer (yzhu12-stat6250): You can use the DROP= and KEEP= data set options in parentheses after a SAS data set name.
 - Question (meisenbach-stat6250): When should you use concatenate?
 - Answer (meisenbach-stat6250): When both datasets essentially have the same columns and the missing columns are non-essential.
+- Question (aoneill2-stat6250): How does a variable end up "missing" in concatenating files?
 
 
 
@@ -69,6 +76,8 @@ RUN;
 - Answer (yzhu12-stat6250): We use SET statement.
 - Question (meisenbach-stat6250): When two datasets have the same variable, how is the length of the variable determined?
 - Answer (meisenbach-stat6250): The length is determined by the first dataset.
+- Question (aoneill2-stat6250): When two files are merged with different values of a variable by the same name in each, which value gets overwritten, the first input file or the second?
+- Answer (aoneill2-stat6250): The first input file's variable value is overwritten by the second.
 
 
 
@@ -80,6 +89,8 @@ RUN;
 - Question (yzhu12-stat6250): What's the other programming features for manipulation data sets that the DATA step can provide?
 - Answer (yzhu12-stat6250): We can use IF-THEN/ELSE logic with DO groups and DO loops to control processing that is based on one or more conditions, specify additional data set options, process variables in arrays and use SAS functions.
 - Question (meisenbach-stat6250): When two datasets have the same variable, how do you keep just the values from the first dataset?
+- Question (aoneill2-stat6250): How do you prevent a variable value from being overwritten in a merge, when merging two files with different values of the same variable keyed to the same unique identifier?
+- Answer (aoneill2-stat6250): Use the RENAME option in renaming the variables in one or both files to distinguish them. Differences in variable values may reflect different situational meaning, and the RENAME feature could add further detail as well as prevent overwriting the value.
 
 
 
@@ -89,6 +100,8 @@ RUN;
 - Question (yzhu12-stat6250): What's the BY statement in SAS for?
 - Question (meisenbach-stat6250): In a match-merge, how do you exclude records with missing values?
 - Answer (meisenbach-stat6250): use the IN= data set option and an IF statement.
+- Question (aoneill2-stat6250): If one file has 5 records matched to a "by" variable as a unique identifier, and a second file has 3 records, with 2 "by" variables matching the first file's records and 1 different, how many records are in the match-merged file?
+- Answer (aoneill2-stat6250): There will be 6 records altogether, containing the available values from the other variable or variables from each of the files.
 
 
 
@@ -97,6 +110,9 @@ RUN;
 - Question (akumar30−stat6250):  Does rename option in merge statement modify the name of actual dataset or only valid for merge statement?
 - Question (yzhu12-stat6250): For example, if we have a data set containing missing variables, how does the SAS combine the data sets horizontally and correctly, which means that the corresponding variables are sorted  and then combined horizontally?
 - Question (meisenbach-stat6250): Why does the column name not also change when we use rename? Why does renaming the column name to a space result in the desired column name?
+- Question (aoneill2-stat6250): How do you prevent a variable value from being overwritten in a merge, when merging two files with different values of the same variable keyed to the same unique identifier?
+- Answer (aoneill2-stat6250): Use the RENAME option in renaming the variables in one or both files to distinguish them. Differences in variable values may reflect different situational meaning, and the RENAME feature could add further detail as well as prevent overwriting the value.
+- Question (aoneill2-stat6250): Does one have to use the label statement or is it optional?
 
 
 
