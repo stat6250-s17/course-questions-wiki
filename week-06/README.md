@@ -26,7 +26,8 @@ RUN;
 - Question (yzhu12-stat6250): Why there is no end-of-file condition when you use direct access?
 - Question (meisenbach-stat6250): When would you use this one-to-one merging?
 - Answer (meisenbach-stat6250): When the observations in both datasets are in the same order and the columns are different.
-
+- Question (dlee117−stat6250): What are the five methods of combining observations from two or more data sets into a new data set?
+- Answer (dlee117-stat6250): They are one-to-one reading, concatenating, appending, interleaving, and match-merging.
 
 
 [Course Textbook Chapter 12, Problem 2]
@@ -37,6 +38,7 @@ RUN;
 - Answer (yzhu12-stat6250): You either add a STOP statement to the DATA step, or use programming logic that checks for an invalid value of the POINT= variable.
 - Question (meisenbach-stat6250): What is the benefit of using interleaving?
 - Answer (meisenbach-stat6250): The output dataset is sorted by the BY variable.
+- Question (dlee117−stat6250): What is the difference between the interleaving and match-merging methods?
 
 
 
@@ -48,6 +50,8 @@ RUN;
 - Answer (yzhu12-stat6250): We use the END= option in the SET statement.
 - Question (meisenbach-stat6250): With concatenate, what happens when rows have the same values for a particular variable (e.g. ID)?
 - Answer (meisenbach-stat6250): Nothing, both rows are in the output.
+- Question (dlee117−stat6250): What is the difference in the coding between one-to-one matching and concatenating?
+- Answer (dlee117-stat6250): With one-to-one matching, you use individual SET statements per data set while with concatenating, you have multiple data sets in one SET statement separated by commas.
 
 
 
@@ -59,6 +63,8 @@ RUN;
 - Answer (yzhu12-stat6250): You can use the DROP= and KEEP= data set options in parentheses after a SAS data set name.
 - Question (meisenbach-stat6250): When should you use concatenate?
 - Answer (meisenbach-stat6250): When both datasets essentially have the same columns and the missing columns are non-essential.
+- Question (dlee117−stat6250): When can you not concatenate multiple data sets?
+- Answer (dlee117-stat6250): Any common variable must have the same type attribute.
 
 
 
@@ -69,7 +75,7 @@ RUN;
 - Answer (yzhu12-stat6250): We use SET statement.
 - Question (meisenbach-stat6250): When two datasets have the same variable, how is the length of the variable determined?
 - Answer (meisenbach-stat6250): The length is determined by the first dataset.
-
+- Question (dlee117−stat6250): If you want to merge more than one variable in descending order, how do you code this?
 
 
 [Course Textbook Chapter 12, Problem 7]
@@ -80,6 +86,7 @@ RUN;
 - Question (yzhu12-stat6250): What's the other programming features for manipulation data sets that the DATA step can provide?
 - Answer (yzhu12-stat6250): We can use IF-THEN/ELSE logic with DO groups and DO loops to control processing that is based on one or more conditions, specify additional data set options, process variables in arrays and use SAS functions.
 - Question (meisenbach-stat6250): When two datasets have the same variable, how do you keep just the values from the first dataset?
+- Question (dlee117−stat6250): If you merge two data sets and two values for a variable are the same, the DATA step overwrites the values of the like-named variable in the first data set; is this overwrite permanent?
 
 
 
@@ -89,7 +96,7 @@ RUN;
 - Question (yzhu12-stat6250): What's the BY statement in SAS for?
 - Question (meisenbach-stat6250): In a match-merge, how do you exclude records with missing values?
 - Answer (meisenbach-stat6250): use the IN= data set option and an IF statement.
-
+- Question (dlee117−stat6250): When using a BY statement, can you specify any of the variables/more than one variable?
 
 
 [basic_recipe_for_combining_data_horizontally (from Week 6 Overview)]
@@ -97,6 +104,7 @@ RUN;
 - Question (akumar30−stat6250):  Does rename option in merge statement modify the name of actual dataset or only valid for merge statement?
 - Question (yzhu12-stat6250): For example, if we have a data set containing missing variables, how does the SAS combine the data sets horizontally and correctly, which means that the corresponding variables are sorted  and then combined horizontally?
 - Question (meisenbach-stat6250): Why does the column name not also change when we use rename? Why does renaming the column name to a space result in the desired column name?
+- Question (dlee117−stat6250): What is the goal of using a RETAIN statement when merging data sets?
 
 
 
