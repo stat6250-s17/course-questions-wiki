@@ -15,31 +15,36 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 12, Problem 1]
-
+-Question (nly13-stat6250): If the 2 data sets have unequal number of rows, what will happen during the merge?
+-Answer (nly13-stat6250): In the last row of observations, the SET statement will read in the observation in the first set, but will stop when there is nothing to read in from the second set. This observation will not be in the output.
 
 
 [Course Textbook Chapter 12, Problem 2]
-
+-Question (nly13-stat6250): How does the BY statement affect a one to one merge?
+–Answer (nly13-stat6250): The BY statement will sort the order of the merged data set by the specified variable.
 
 
 [Course Textbook Chapter 12, Problem 3]
-
+-Question (nly13-stat6250): During concatenate, what will happen if the variable names are not the same?
+-Answer (nly13-stat6250): If the variable names are not the same, it will generate a new column for each dataset.
 
 
 [Course Textbook Chapter 12, Problem 4]
-
+-Question (nly13-stat6250): If merging datasets with unequal observations, is there a benefit to not having the missing observations?
 
 
 [Course Textbook Chapter 12, Problem 5]
-
+-Question (nly13-stat6250): Is it recommended to always use the RENAME statement in order to prevent overwriting a variable? 
 
 
 [Course Textbook Chapter 12, Problem 7]
-
+-Question (nly13-stat6250): In what order to do rename statement activate in different parts of the data step.
 
 
 [Course Textbook Chapter 12, Problem 9]
+-Question (nly13-stat6250): Is it more efficient to use PROC SQL or DATA step to merge?
 
 
+[basic_recipe_for_combining_data_horizontally (from Week 6 Overview)]
+-Question (nly13-stat6250): Besides not being limited my size, are there any other advantages to using merge instead of sql?
 
-[Recipes TBA]
