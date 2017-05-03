@@ -38,8 +38,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 6, Problem 1]
 - Question (hhu9−stat6250): descriptor portion contains which context?
-- Answer (hhu9−stat6250): the name of the data set; the number of observatons and variables; the names and 
-                          attributes of the variables.
+- Answer (hhu9−stat6250): the name of the data set; the number of observatons and variables; the names and attributes of the variables.
 
 
 [Course Textbook Chapter 6, Problem 2]
@@ -49,13 +48,12 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 6, Problem 3]
 - Question (hhu9−stat6250): Why DATA step exe once for each records in the input files unless otherwise directed?
-- Answer (hhu9−stat6250):
+
 
 
 [Course Textbook Chapter 6, Problem 4]
 - Question (hhu9−stat6250):How to represent remaining variables?
-- Answer (hhu9−stat6250): they are initialized to missing, missing numeric values are represented by period,
-                          and character values are represented by blanks.
+- Answer (hhu9−stat6250): they are initialized to missing, missing numeric values are represented by period,and character values are represented by blanks.
 
 
 [Course Textbook Chapter 6, Problem 5]
