@@ -1,4 +1,4 @@
-?## Week 5 Quiz Questions and Answers
+## Week 5 Quiz Questions and Answers
 
 In order to prepare your Week 5 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
 
@@ -297,6 +297,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): Why the automatic variable_N_ is incremented by 1?
 
 
+
 [basic_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
 - Question (akumar30−stat6250): Can we create new dataset from existing multiple dataset in SAS data step? (without using proc sql)
 * *Question (aalshehry−stat6250):* What is the difference between "Retain" and "Keep" in DATA statement?
@@ -342,3 +343,5 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mcardoso3-stat6250):  How important is PROC SQL command in comparison to the other SAS commands?
 -	Question (lzhao4-stat6250): Can select statement be used to drop a column in PROC SQL?
 - Question (hhu9−stat6250): Why we can not use "where" and "group by" together???
+
+
