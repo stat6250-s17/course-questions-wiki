@@ -39,6 +39,8 @@ RUN;
 - Question (nly13-stat6250): If the 2 data sets have unequal number of rows, what will happen during the merge?
 - Answer (nly13-stat6250): In the last row of observations, the SET statement will read in the observation in the first set, but will stop when there is nothing to read in from the second set. This observation will not be in the output.
 - Question (rluo-stat6250): Is there any requirements for the datasets to perform One-to-One merging?
+- Question (aoneill2-stat6250): For a one-to-one match, how many set statements are needed?
+- Answer (aoneill2-stat6250): A one-to-one match requires two set statements to input the two files.
 
 
 
@@ -62,6 +64,8 @@ RUN;
 – Answer (nly13-stat6250): The BY statement will sort the order of the merged data set by the specified variable.
 - Question (rluo-stat6250): What data will be selected when performing concatenating?
 - Answer (rluo-stat6250): All of the observations from the first data and all of the observations from the second data will be selected.
+- Question (aoneill2-stat6250): How many set statements are used to append one file with another?
+- Answer (aoneill2-stat6250): Only one set statement is required, followed by the two file names.
 
 
 
@@ -87,6 +91,8 @@ RUN;
 - Answer (nly13-stat6250): If the variable names are not the same, it will generate a new column for each dataset.
 - Question (rluo-stat6250): What is the difference between appending and the concatenating?
 - Answer (rluo-stat6250): Concatenating will create a completely new dataset while appending just simply add one to another.
+- Question (aoneill2-stat6250): If two files each have different variables, can they be appended?
+- Answer (aoneill2-stat6250): Yes. The resulting output file will contain columns that reflect the variables in both input files.
 
 
 
@@ -111,6 +117,7 @@ RUN;
 - Question (nly13-stat6250): If merging datasets with unequal observations, is there a benefit to not having the missing observations?
 - Question (rluo-stat6250): What statement is used to perform interleaving?
 - Answer (rluo-stat6250): The BY statement is used when performing interleaving.
+- Question (aoneill2-stat6250): How does a variable end up "missing" in concatenating files?
 
 
 
@@ -131,6 +138,8 @@ RUN;
 - Question (dlee117−stat6250): If you want to merge more than one variable in descending order, how do you code this?
 - Question (nly13-stat6250): Is it recommended to always use the RENAME statement in order to prevent overwriting a variable? 
 - Question (rluo-stat6250): What statement will be used to perform Match-Merging?
+- Question (aoneill2-stat6250): When two files are merged with different values of a variable by the same name in each, which value gets overwritten, the first input file or the second?
+- Answer (aoneill2-stat6250): The first input file's variable value is overwritten by the second.
 
 
 
@@ -151,6 +160,8 @@ RUN;
 - Question (dlee117−stat6250): If you merge two data sets and two values for a variable are the same, the DATA step overwrites the values of the like-named variable in the first data set; is this overwrite permanent?
 - Question (nly13-stat6250): In what order to do rename statement activate in different parts of the data step?
 - Question (rluo-stat6250): What statement can be used to prevent overwriting?
+- Question (aoneill2-stat6250): How do you prevent a variable value from being overwritten in a merge, when merging two files with different values of the same variable keyed to the same unique identifier?
+- Answer (aoneill2-stat6250): Use the RENAME option in renaming the variables in one or both files to distinguish them. Differences in variable values may reflect different situational meaning, and the RENAME feature could add further detail as well as prevent overwriting the value.
 
 
 
@@ -169,6 +180,8 @@ RUN;
 - Question (dlee117−stat6250): When using a BY statement, can you specify any of the variables/more than one variable?
 - Question (nly13-stat6250): Is it more efficient to use PROC SQL or DATA step to merge?
 - Question (rluo-stat6250): What will happen to the observations when their corresponding variables are dropped?
+- Question (aoneill2-stat6250): If one file has 5 records matched to a "by" variable as a unique identifier, and a second file has 3 records, with 2 "by" variables matching the first file's records and 1 different, how many records are in the match-merged file?
+- Answer (aoneill2-stat6250): There will be 6 records altogether, containing the available values from the other variable or variables from each of the files.
 
 
 
@@ -185,6 +198,9 @@ RUN;
 - Question (dlee117−stat6250): What is the goal of using a RETAIN statement when merging data sets?
 - Question (nly13-stat6250): Besides not being limited my size, are there any other advantages to using merge instead of sql?
 - Question (rluo-stat6250): If there are some observations that are completely the same, how do combining treat those two data? Will the combining just keep one of them or keep all of them?
+- Question (aoneill2-stat6250): How do you prevent a variable value from being overwritten in a merge, when merging two files with different values of the same variable keyed to the same unique identifier?
+- Answer (aoneill2-stat6250): Use the RENAME option in renaming the variables in one or both files to distinguish them. Differences in variable values may reflect different situational meaning, and the RENAME feature could add further detail as well as prevent overwriting the value.
+- Question (aoneill2-stat6250): Does one have to use the label statement or is it optional?
 
 
 
