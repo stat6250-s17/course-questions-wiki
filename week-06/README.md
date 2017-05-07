@@ -32,6 +32,8 @@ RUN;
 - *Question* (lwang30-stat6250): What would the new dataset be if the variable "VarZ" in the second dataset changes to "VarY" ?
 - *Answer* (lwang30-stat6250): SAS would recognize a common variable "VarY" between two datasets and overwrites the observation from the first dataset by the values from the second dataset, so only two columns would be present in the new dataset. 
 - Question (mcardoso3-stat6250):  How often is match-merging used in SAS?
+* Question (aalamri−stat6250): Which statement can help us combine two or more datasets into one dataset?
+* Answer(aalamri−stat6250):  We can do that by using the “SET” statement and follow it with each dataset.
 
 
 
@@ -48,6 +50,8 @@ RUN;
 - Answer (kveng-stat6250):  If we don't want to change the order, then we need to use concatenating method. It'll just concate multiple tables without sorting.
 - *Question* (lwang30-stat6250): How many observations would be in the new dataset if the code from answer "D" is used ?
 - Question (mcardoso3-stat6250):  Can data sets be merged into more than one combined data set?
+* Question (aalamri−stat6250):  How does SAS deal with interleaving datasets in order to combine them? 
+* Answer(aalamri−stat6250): SAS makes a list of dataset names in the “SET” statement and one or more “BY” variables in the “BY” statement.
 
 
 
@@ -66,6 +70,7 @@ RUN;
 - *Answer* (lwang30-stat6250): No, we can't, as the "merge" statement requires the two datasets to have at least one common variable. Rename of one of the variables should be done prior to using the "merge" statement for these two datasets.
 - Question (mcardoso3-stat6250):  What happens if the two data sets being merged don't have any columns in common?
 - Answer (mcardoso3-stat6250):  The datasets would be merged with any unspecified values marked as missing.  Though the values aren't necessarily merged together, there will be one merged dataset.
+* Question (aalamri−stat6250): What is the “END” option use for?
 
 
 
@@ -83,6 +88,8 @@ RUN;
 - *Answer* (lwang30-stat6250): In an interleaving case, the observations are read sequentially in each BY group. In a concatenating case, the observations are read sequentially according to their orders in the SET statement.
 - Question (mcardoso3-stat6250):  What is the difference between concatenating, appending, and interleaving?
 - Answer (mcardoso3-stat6250):  Concatenating appends the observations from one data set to another, while appending adds the observations in thesecond data set, and interleaving intersperses observations from two or more data sets.
+* Question (aalamri−stat6250):  When inputting datasets in SAS, how important is the order of these datasets when combining them?
+* Answer (aalamri−stat6250):   very important because SAS reads datasets based on the closest ones to the “SET” statement so it may affect the outcome.
 
 
 
@@ -99,6 +106,7 @@ RUN;
 - *Question* (lwang30-stat6250): In a "merge" statement, what is the effect on the output dataset if the same-named variable from two datasets have different types ?
 - Question (mcardoso3-stat6250):  Why must the overlapping variable values be set to missing when they are merged?
 - Answer (mcardoso3-stat6250):  If the values in the same column variable over two data sets are different, there is no way in telling which the proper values are.  Therefore, the values are set to missing.
+* Question (aalamri−stat6250): How does SAS deal with datasets that have the same variable names?
 
 
 
@@ -115,6 +123,7 @@ RUN;
 - Question (kveng-stat6250): Can we change the column name with concatening and interleaving and match-merging method?
 - *Question* (lwang30-stat6250): In what cases do you want to rename a variable so that the two datasets would have a common variable to be combined ? 
 - Question (mcardoso3-stat6250):  Would there be another reason to rename a variable other than to avoid overwriting the values?
+* Question (aalamri−stat6250): How can you prevent SAS form overwriting variables? 
 
 
 
@@ -129,6 +138,7 @@ RUN;
 - Question (kveng-stat6250): Can we merge two columns together like first name and last name instead of merging the tables?
 - *Question* (lwang30-stat6250): How do you let SAS not output the observations that contain missing values ?
 - Question (mcardoso3-stat6250):  Is there a limit to how many rows or columns a combined data set would have?
+* Question (aalamri−stat6250): When combining multiple datasets, how does the "MERGE" statement work? 
 
 
 
@@ -141,6 +151,7 @@ RUN;
 - Question (kveng-stat6250): Can we just merge without including retain and keep and label statements? 
 - *Question* (lwang30-stat6250): Is it necessary to put the "retain" and "keep" statament in the beginning or they could be anywhere in the data step ? 
 - Question (mcardoso3-stat6250):  How many different SAS statements can be used for combining datasets?
+* Question (aalamri−stat6250): Does SAS allow combining two datasets horizontally when one variable is missing its correspondent value from the other dataset? 
 
 
 
@@ -151,5 +162,6 @@ RUN;
 - *Question* (lwang30-stat6250): What are the proc steps that experienced SAS users frequently apply sql to perform the task ? 
 - Question (mcardoso3-stat6250):  Can a STAT programmer combine SAS datasets without PROC SQL?
 - Answer (mcardoso3-stat6250): Though it requires less code and is useful in other ways, combining datasets can be used in alternative ways.
+* Question (aalamri−stat6250): What can you use the "AS" statement for?
 
 
