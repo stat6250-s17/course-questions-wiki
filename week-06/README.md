@@ -41,6 +41,8 @@ RUN;
 - Question (rluo-stat6250): Is there any requirements for the datasets to perform One-to-One merging?
 - Question (aoneill2-stat6250): For a one-to-one match, how many set statements are needed?
 - Answer (aoneill2-stat6250): A one-to-one match requires two set statements to input the two files.
+- Question (yyan11−stat6250): How One-to-One Merging Selects Data?
+- Answer (yyan11−stat6250): When you perform one-to-one merging, the new data set contains all the variables from all the input data sets. If the data sets contain variables that have the same names, the values that are read from the last data set overwrite the values that were read from earlier data sets.
 
 
 
@@ -66,6 +68,8 @@ RUN;
 - Answer (rluo-stat6250): All of the observations from the first data and all of the observations from the second data will be selected.
 - Question (aoneill2-stat6250): How many set statements are used to append one file with another?
 - Answer (aoneill2-stat6250): Only one set statement is required, followed by the two file names.
+- Question (yyan11−stat6250): How Interleaving Selects Data?
+- Answer (yyan11−stat6250): When SAS interleaves data sets, observations in each BY group in each data set in the SET statement are read sequentially, in the order in which the data sets and BY variables are listed, until all observations have been processed. The new data set includes all the variables from all the input data sets, and it contains the total number of observations from all input data sets.
 
 
 
@@ -93,6 +97,8 @@ RUN;
 - Answer (rluo-stat6250): Concatenating will create a completely new dataset while appending just simply add one to another.
 - Question (aoneill2-stat6250): If two files each have different variables, can they be appended?
 - Answer (aoneill2-stat6250): Yes. The resulting output file will contain columns that reflect the variables in both input files.
+- Question (yyan11−stat6250): How Concatenating Selects Data?
+- Answer (yyan11−stat6250): When a program concatenates data sets, all of the observations are read from the first data set listed in the SET statement. Then all of the observations are read from the second data set listed, and so on, until all of the listed data sets have been read. The new data set contains all of the variables and observations from all of the input data sets.
 
 
 
@@ -118,6 +124,8 @@ RUN;
 - Question (rluo-stat6250): What statement is used to perform interleaving?
 - Answer (rluo-stat6250): The BY statement is used when performing interleaving.
 - Question (aoneill2-stat6250): How does a variable end up "missing" in concatenating files?
+- Question (yyan11−stat6250): How to read the concatenated data sets?
+- Answer (yyan11−stat6250):  The concatenated data sets are read sequentially, in the order in which they are listed in the SET statement. 
 
 
 
@@ -140,6 +148,8 @@ RUN;
 - Question (rluo-stat6250): What statement will be used to perform Match-Merging?
 - Question (aoneill2-stat6250): When two files are merged with different values of a variable by the same name in each, which value gets overwritten, the first input file or the second?
 - Answer (aoneill2-stat6250): The first input file's variable value is overwritten by the second.
+- Question (yyan11−stat6250): What happen if have the same name variables in more than one input data set?
+- Answer (yyan11−stat6250): If you have variables with the same name in more than one input data set, values of the same-named variable in the first data set in which it appears are overwritten by values of the same-named variable in subsequent data sets. 
 
 
 
@@ -162,6 +172,8 @@ RUN;
 - Question (rluo-stat6250): What statement can be used to prevent overwriting?
 - Question (aoneill2-stat6250): How do you prevent a variable value from being overwritten in a merge, when merging two files with different values of the same variable keyed to the same unique identifier?
 - Answer (aoneill2-stat6250): Use the RENAME option in renaming the variables in one or both files to distinguish them. Differences in variable values may reflect different situational meaning, and the RENAME feature could add further detail as well as prevent overwriting the value.
+- Question (yyan11−stat6250): How to prevent the values from being overwritten when you merge the two data sets?
+- Answer (yyan11−stat6250): To prevent overwriting, you can rename variables by using the RENAME= data set option in the MERGE statement.
 
 
 
@@ -182,6 +194,8 @@ RUN;
 - Question (rluo-stat6250): What will happen to the observations when their corresponding variables are dropped?
 - Question (aoneill2-stat6250): If one file has 5 records matched to a "by" variable as a unique identifier, and a second file has 3 records, with 2 "by" variables matching the first file's records and 1 different, how many records are in the match-merged file?
 - Answer (aoneill2-stat6250): There will be 6 records altogether, containing the available values from the other variable or variables from each of the files.
+- Question (yyan11−stat6250): How Match-Merging Selects Data?
+- Answer (yyan11−stat6250): Generally speaking, during match-merging, SAS sequentially checks each observation of each data set to see whether the BY values match, and then writes the combined observation to the new data set.
 
 
 
@@ -201,6 +215,7 @@ RUN;
 - Question (aoneill2-stat6250): How do you prevent a variable value from being overwritten in a merge, when merging two files with different values of the same variable keyed to the same unique identifier?
 - Answer (aoneill2-stat6250): Use the RENAME option in renaming the variables in one or both files to distinguish them. Differences in variable values may reflect different situational meaning, and the RENAME feature could add further detail as well as prevent overwriting the value.
 - Question (aoneill2-stat6250): Does one have to use the label statement or is it optional?
+- Question (yyan11−stat6250): What happen if two datasets have the same name column?
 
 
 
