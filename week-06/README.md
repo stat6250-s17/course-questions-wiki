@@ -33,7 +33,7 @@ RUN;
 - *Answer* (lwang30-stat6250): SAS would recognize a common variable "VarY" between two datasets and overwrites the observation from the first dataset by the values from the second dataset, so only two columns would be present in the new dataset. 
 - Question (mcardoso3-stat6250):  How often is match-merging used in SAS?
 * Question (aalamri−stat6250): Which statement can help us combine two or more datasets into one dataset?
- +* Answer(aalamri−stat6250):  We can do that by using the “SET” statement and follow it with each dataset.
+* Answer(aalamri−stat6250):  We can do that by using the “SET” statement and follow it with each dataset.
 
 
 
@@ -51,7 +51,7 @@ RUN;
 - *Question* (lwang30-stat6250): How many observations would be in the new dataset if the code from answer "D" is used ?
 - Question (mcardoso3-stat6250):  Can data sets be merged into more than one combined data set?
 * Question (aalamri−stat6250):  How does SAS deal with interleaving datasets in order to combine them? 
- +* Answer(aalamri−stat6250): SAS makes a list of dataset names in the “SET” statement and one or more “BY” variables in the “BY” statement.
+* Answer(aalamri−stat6250): SAS makes a list of dataset names in the “SET” statement and one or more “BY” variables in the “BY” statement.
 
 
 
@@ -89,7 +89,7 @@ RUN;
 - Question (mcardoso3-stat6250):  What is the difference between concatenating, appending, and interleaving?
 - Answer (mcardoso3-stat6250):  Concatenating appends the observations from one data set to another, while appending adds the observations in thesecond data set, and interleaving intersperses observations from two or more data sets.
 * Question (aalamri−stat6250):  When inputting datasets in SAS, how important is the order of these datasets when combining them?
- +* Answer (aalamri−stat6250):   very important because SAS reads datasets based on the closest ones to the “SET” statement so it may affect the outcome.
+* Answer (aalamri−stat6250):   very important because SAS reads datasets based on the closest ones to the “SET” statement so it may affect the outcome.
 
 
 
