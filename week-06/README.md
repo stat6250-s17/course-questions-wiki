@@ -165,6 +165,7 @@ RUN;
 - Question (dlee117−stat6250): What is the goal of using a RETAIN statement when merging data sets?
 
 
+
 [optional: adv_recipe_for_combining_data_horizontally (from Week 6 Overview)]
 - Question (akumar30−stat6250): Wwhich statement will have faster performance combine four dataset, using merge statement or proc sql statement?
 - Question (yzhu12-stat6250): What kind of error will occur if the order of these AS statements are converted improperly?
