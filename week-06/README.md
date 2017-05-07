@@ -36,6 +36,8 @@ RUN;
 * Answer(aalamri−stat6250):  We can do that by using the “SET” statement and follow it with each dataset.
 - Question (dlee117−stat6250): What are the five methods of combining observations from two or more data sets into a new data set?
 - Answer (dlee117-stat6250): They are one-to-one reading, concatenating, appending, interleaving, and match-merging.
+- Question (nly13-stat6250): If the 2 data sets have unequal number of rows, what will happen during the merge?
+- Answer (nly13-stat6250): In the last row of observations, the SET statement will read in the observation in the first set, but will stop when there is nothing to read in from the second set. This observation will not be in the output.
 
 
 
@@ -55,6 +57,8 @@ RUN;
 * Question (aalamri−stat6250):  How does SAS deal with interleaving datasets in order to combine them? 
 * Answer(aalamri−stat6250): SAS makes a list of dataset names in the “SET” statement and one or more “BY” variables in the “BY” statement.
 - Question (dlee117−stat6250): What is the difference between the interleaving and match-merging methods?
+- Question (nly13-stat6250): How does the BY statement affect a one to one merge?
+– Answer (nly13-stat6250): The BY statement will sort the order of the merged data set by the specified variable.
 
 
 
@@ -76,6 +80,8 @@ RUN;
 * Question (aalamri−stat6250): What is the “END” option use for?
 - Question (dlee117−stat6250): What is the difference in the coding between one-to-one matching and concatenating?
 - Answer (dlee117-stat6250): With one-to-one matching, you use individual SET statements per data set while with concatenating, you have multiple data sets in one SET statement separated by commas.
+- Question (nly13-stat6250): During concatenate, what will happen if the variable names are not the same?
+- Answer (nly13-stat6250): If the variable names are not the same, it will generate a new column for each dataset.
 
 
 
@@ -97,6 +103,7 @@ RUN;
 * Answer (aalamri−stat6250):   very important because SAS reads datasets based on the closest ones to the “SET” statement so it may affect the outcome.
 - Question (dlee117−stat6250): When can you not concatenate multiple data sets?
 - Answer (dlee117-stat6250): Any common variable must have the same type attribute.
+- Question (nly13-stat6250): If merging datasets with unequal observations, is there a benefit to not having the missing observations?
 
 
 
@@ -115,6 +122,7 @@ RUN;
 - Answer (mcardoso3-stat6250):  If the values in the same column variable over two data sets are different, there is no way in telling which the proper values are.  Therefore, the values are set to missing.
 * Question (aalamri−stat6250): How does SAS deal with datasets that have the same variable names?
 - Question (dlee117−stat6250): If you want to merge more than one variable in descending order, how do you code this?
+- Question (nly13-stat6250): Is it recommended to always use the RENAME statement in order to prevent overwriting a variable? 
 
 
 
@@ -133,6 +141,7 @@ RUN;
 - Question (mcardoso3-stat6250):  Would there be another reason to rename a variable other than to avoid overwriting the values?
 * Question (aalamri−stat6250): How can you prevent SAS form overwriting variables? 
 - Question (dlee117−stat6250): If you merge two data sets and two values for a variable are the same, the DATA step overwrites the values of the like-named variable in the first data set; is this overwrite permanent?
+- Question (nly13-stat6250): In what order to do rename statement activate in different parts of the data step?
 
 
 
@@ -149,6 +158,7 @@ RUN;
 - Question (mcardoso3-stat6250):  Is there a limit to how many rows or columns a combined data set would have?
 * Question (aalamri−stat6250): When combining multiple datasets, how does the "MERGE" statement work? 
 - Question (dlee117−stat6250): When using a BY statement, can you specify any of the variables/more than one variable?
+- Question (nly13-stat6250): Is it more efficient to use PROC SQL or DATA step to merge?
 
 
 
@@ -163,6 +173,7 @@ RUN;
 - Question (mcardoso3-stat6250):  How many different SAS statements can be used for combining datasets?
 * Question (aalamri−stat6250): Does SAS allow combining two datasets horizontally when one variable is missing its correspondent value from the other dataset? 
 - Question (dlee117−stat6250): What is the goal of using a RETAIN statement when merging data sets?
+- Question (nly13-stat6250): Besides not being limited my size, are there any other advantages to using merge instead of sql?
 
 
 
