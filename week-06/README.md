@@ -79,6 +79,7 @@ RUN;
 - Question (yren10-stat6250): Will the Set statement combine table together by some sequence?
 
 
+
 [Course Textbook Chapter 12, Problem 3]
 * *Question (aalshehry−stat6250):* What is the default oreder of the output obsevations when SET statement is used to combine two datasets?
 - Question (akumar30−stat6250): What happen when if the type of common variable differ in the datasets to be concatenated?
@@ -108,8 +109,7 @@ RUN;
 - Question (cyuan10-stat6250): What does concatenate do and how is it different from one-to-one merging?
 - Answer (cyuan10-stat6250): Concatenate is another way of merging data tables. However, records of the 2nd table is appended or added on to the first table. So if you have 6 records in the 1st and 6 in the 2nd, you will end up with 12 total records in the concatenate table.
 - Question (yren10-stat6250): Does how many different variablesin two data set will brings the same amount of observations by using one set in set statment?
-- Answer (yren10-stat6250): No, its all depends, it does different when its weather numric or categorial. Does different when it has different variables. Concatenating appends the observations from one data set to another data set. The
-new data set contains the total number of records from all input data sets.
+- Answer (yren10-stat6250): No, its all depends, it does different when its weather numric or categorial. Does different when it has different variables. Concatenating appends the observations from one data set to another data set. The new data set contains the total number of records from all input data sets.
 
 
 
@@ -246,8 +246,5 @@ new data set contains the total number of records from all input data sets.
 - Question (mcardoso3-stat6250):  Can a STAT programmer combine SAS datasets without PROC SQL?
 - Answer (mcardoso3-stat6250): Though it requires less code and is useful in other ways, combining datasets can be used in alternative ways.
 * Question (aalamri−stat6250): What can you use the "AS" statement for?
-
-
-[optional: adv_recipe_for_combining_data_horizontally (from Week 6 Overview)]
 - Question (akumar30−stat6250): Wwhich statement will have faster performance combine four dataset, using merge statement or proc sql statement?
 - Question (yzhu12-stat6250): What kind of error will occur if the order of these AS statements are converted improperly?
