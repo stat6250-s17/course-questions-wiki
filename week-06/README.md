@@ -47,6 +47,8 @@ RUN;
 - Answer (cyuan10-stat6250): Yes, in one-to-one merging for example will simply take the first observation from one table and merge with the first observation from the second table and so on - they do not have to be of equal number of observations.
 - Question (yren10-stat6250): What decide the number of observations?
 - Answer (yren10-stat6250): The observation in new dataset is the number if observations in the smallest original data set.
+- Question (hhu9-stat6250): In one-to-one matching, if thay have different number of observations, what will happen when been merged?
+- Answer (hhu9-stat6250): the number of observations in new data set is the number of observations in the smallest original data set.  
 
 
 
@@ -77,6 +79,7 @@ RUN;
 - Question (cyuan10-stat6250): Can you move two tables based on an unique identifier vs. based on order of observation?
 - Answer (cyuan10-stat6250): Yes, you can still do this with one-to-one merging. You can sort both variables based on the single unique identifier and then merge the two.
 - Question (yren10-stat6250): Will the Set statement combine table together by some sequence?
+- Question (hhu9-stat6250): What order should "BY" variables be followed in new data set? I mean in this case, should “larry" be above than second "curly"?
 
 
 
@@ -110,6 +113,7 @@ RUN;
 - Answer (cyuan10-stat6250): Concatenate is another way of merging data tables. However, records of the 2nd table is appended or added on to the first table. So if you have 6 records in the 1st and 6 in the 2nd, you will end up with 12 total records in the concatenate table.
 - Question (yren10-stat6250): Does how many different variablesin two data set will brings the same amount of observations by using one set in set statment?
 - Answer (yren10-stat6250): No, its all depends, it does different when its weather numric or categorial. Does different when it has different variables. Concatenating appends the observations from one data set to another data set. The new data set contains the total number of records from all input data sets.
+- Question (hhu9-stat6250): What will happen if the first table have a long list of observations? we will not see the observations of second table in new table, so why dont the new table pull all observations of second table to parallel with the observations of first table. 
 
 
 
@@ -139,6 +143,8 @@ RUN;
 - Answer (yyan11−stat6250):  The concatenated data sets are read sequentially, in the order in which they are listed in the SET statement. 
 - Question (cyuan10-stat6250): What is the benefit of using interleaving data step and when do you gain an advantage when using it?
 - Question (yren10-stat6250): Why its missing the observation 2, not putiing all observation together by order?
+- Question (hhu9-stat6250): Can we use concatenate when there are missing variables?
+- Answer (hhu9-stat6250): no, the concatenate data set is read sequentially, if there are missing variables or different columns, the new table will not contain some useful information.
 
 
 
@@ -165,6 +171,8 @@ RUN;
 - Answer (yyan11−stat6250): If you have variables with the same name in more than one input data set, values of the same-named variable in the first data set in which it appears are overwritten by values of the same-named variable in subsequent data sets. 
 - Question (cyuan10-stat6250): What is the difference with Match-merging vs. using one-to-one merge with sort? And how is missing values dealt with?
 - Question (yren10-stat6250): Does it matter if we put 2nd first and 1st in second after the set statment, will this move change the combined data?
+- Question (hhu9-stat6250): What will happen will two input data set has same variable?
+- Answer (hhu9-stat6250): the variable in second data set will cover first one. And why the new data set do not defaultly list the same variable as "variable1" and "variable2"? 
 
 
 
@@ -191,6 +199,7 @@ RUN;
 - Answer (yyan11−stat6250): To prevent overwriting, you can rename variables by using the RENAME= data set option in the MERGE statement.
 - Question (cyuan10-stat6250): Can you use match-merging on two different variables for matching? For example, if variable 1 matches, check variable 2 before merging?
 - Question (yren10-stat6250): Is there another way to prebent the overwritten other than rename the variable?
+- Question (hhu9-stat6250): Is the same that we use"RENAME" to change the name of variable in first data set or second? 
 
 
 
@@ -215,6 +224,8 @@ RUN;
 - Answer (yyan11−stat6250): Generally speaking, during match-merging, SAS sequentially checks each observation of each data set to see whether the BY values match, and then writes the combined observation to the new data set.
 - Question (cyuan10-stat6250): How are duplicative records handled? Is this something that will be called out in any way during the table merge step or compilation step?
 - Question (yren10-stat6250): Does the merage statement will keep all the different observations and variables from both table?
+- Question (hhu9-stat6250): How to represent missing numeric value? 
+- Answer (hhu9-stat6250): we use "."to represent the missing numeric value?
 
 
 
@@ -237,6 +248,7 @@ RUN;
 - Question (yyan11−stat6250): What happen if two datasets have the same name column?
 - Question (cyuan10-stat6250): What are some of the best practices when it comes to renaming columns in newly merged datasets? Does it help to add a specific identifier to these columns so that we know which ones are merged?
 - Question (yren10-stat6250): If two datasets having different observation which means not all in common, will SAS show all observations and use dot presents missing values after combined?
+- Question (hhu9-stat6250): when should we use"update" instead of "merge"?
 
 
 
@@ -250,5 +262,6 @@ RUN;
 * Question (aalamri−stat6250): What can you use the "AS" statement for?
 - Question (akumar30−stat6250): Wwhich statement will have faster performance combine four dataset, using merge statement or proc sql statement?
 - Question (yzhu12-stat6250): What kind of error will occur if the order of these AS statements are converted improperly?
+- Question (hhu9-stat6250): What is the fuction of output statement? how can we use it to get a table from one column data source?
 
 
