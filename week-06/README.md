@@ -141,6 +141,7 @@ RUN;
 - Question (yren10-stat6250): Why its missing the observation 2, not putiing all observation together by order?
 
 
+
 [Course Textbook Chapter 12, Problem 5]
 * *Question (aalshehry−stat6250):* What is the best way to combine multiple datasets which have a primar-key variable?
 - Question (akumar30−stat6250): Can we merge the two datasets with multiple common variables in single SAS Procedure by specifying multiple variable names in BY statement?
@@ -238,6 +239,7 @@ RUN;
 - Question (yren10-stat6250): If two datasets having different observation which means not all in common, will SAS show all observations and use dot presents missing values after combined?
 
 
+
 [optional: adv_recipe_for_combining_data_horizontally (from Week 6 Overview)]
 - Question (akumar30−stat6250): Wwhich statement will have faster performance combine four dataset, using merge statement or proc sql statement?
 - Question (yzhu12-stat6250): What kind of error will occur if the order of these AS statements are converted improperly?
@@ -248,3 +250,5 @@ RUN;
 * Question (aalamri−stat6250): What can you use the "AS" statement for?
 - Question (akumar30−stat6250): Wwhich statement will have faster performance combine four dataset, using merge statement or proc sql statement?
 - Question (yzhu12-stat6250): What kind of error will occur if the order of these AS statements are converted improperly?
+
+
