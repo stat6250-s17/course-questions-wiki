@@ -43,4 +43,4 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9-stat6250): when should we use"update" instead of "merge"?
 
 [optional: adv_recipe_for_combining_data_horizontally (from Week 6 Overview)] 
-- Question (hhu9-stat6250): What is the fuction of output statement? how can we use it to get a table from one column data source?
+- Question (hhu9-stat6250): What is the fuction of output statement? how can we use it to get a table from one column data source?？
