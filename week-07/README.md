@@ -79,5 +79,5 @@ The instructor will then review the pull request and make comments should furthe
 
 [optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
 
-* *Question (aalshehry−stat6250):* How to sort the slected data using PROQ SQL?
+* *Question (aalshehry−stat6250):* How to sort the selected data using PROQ SQL?
 
