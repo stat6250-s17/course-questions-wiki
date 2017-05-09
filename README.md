@@ -24,11 +24,11 @@ Also, for each Weekly Quiz, your edits should be to the file named README.md in 
 
 - Week 4 Quiz: Chap 7: 3-8 and Chap 8: 1-2,4,7-8 & 10 from the course textbook along with the recipe_for_summarizing_quantitative_values, the recipe_for_summarizing_qualitative_values, and the recipe_for_temporarily_binning_values discussed in the video STAT6250-02_s17-week04_overview-video-16APR2017.mp4 in Blackboard.
 
-- Week 5 Quiz: Chap 5: 1-2 & 6-8 and Chap 6: 1-6 from the course textbook and basic_recipe_for_creating_analytic_datasets discussed in the video STAT6250-02_s17-week05_overview-video-23APR2017.mp4 in Blackboard.
+- Week 5 Quiz: Chap 5: 1-2 & 6-8 and Chap 6: 1-6 from the course textbook and the basic_recipe_for_creating_analytic_datasets discussed in the video STAT6250-02_s17-week05_overview-video-23APR2017.mp4 in Blackboard.
 
-- Week 6 Quiz: Chap 12: 1-5,7 & 9 from the course textbook and basic_recipe_for_combining_data_horizontally discussed in the video STAT6250-02_s17-week06_overview-video-30APR2017.mp4 in Blackboard.
+- Week 6 Quiz: Chap 12: 1-5,7 & 9 from the course textbook and the basic_recipe_for_combining_data_horizontally discussed in the video STAT6250-02_s17-week06_overview-video-30APR2017.mp4 in Blackboard.
 
-- Week 7 Quiz: Chap 10: 2 & 6-10 and Chap 11: 1-3 & 8-9 from the course textbook and [TBA] in Blackboard.
+- Week 7 Quiz: Chap 10: 2 & 6-10 and Chap 11: 1-3 & 8-9 from the course textbook and the basic_recipe_for_combining_data_vertically discussed in the video STAT6250-02_s17-week07_overview-video-07MAY2017.mp4 in Blackboard.
 
 - Week 8 Quiz: Chap 13: 1-7 & 10 from the course textbook and [TBA] in Blackboard.
 
