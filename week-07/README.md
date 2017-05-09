@@ -58,10 +58,10 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[basic_recipe_for_combining_data_vertically (from Week 6 Overview)]
+[basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
 
 
 
-[optional: adv_recipe_for_combining_data_vertically (from Week 6 Overview)]
+[optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
 
 
