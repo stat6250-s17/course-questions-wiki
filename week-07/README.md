@@ -61,7 +61,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
-
+- Question (kveng−stat6250): When combining the data vertically, can we sort and combine the data at the same time?
 
 
 [optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
