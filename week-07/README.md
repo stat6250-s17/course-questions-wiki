@@ -41,23 +41,23 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 11, Problem 1]
-
+- Question (kveng−stat6250): How does KEEP=option in the SET statement work?
 
 
 [Course Textbook Chapter 11, Problem 2]
-
+- Question (kveng−stat6250): Can we drop ordertime from the SET statement in this case?
 
 
 [Course Textbook Chapter 11, Problem 3]
-
+- Question (kveng−stat6250): Where does the FRIST and LAST temporary varaibles are stored?
 
 
 [Course Textbook Chapter 11, Problem 8]
-
+- Question (kveng−stat6250): What does "if last" referred to in this statement?
 
 
 [Course Textbook Chapter 11, Problem 9]
-
+- Question (kveng−stat6250): What is program data vector (PDV)?
 
 
 [basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
