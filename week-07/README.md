@@ -67,8 +67,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
 
-
+- Question (yzhu12-stat6250): In what situation that the indicator variables are not eligible?
 
 [optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
 
-
+- Question (yzhu12-stat6250): The statement "union all corr" can include all the columns with the corresponding names, does that mean the missing columns are skipped automatically and the remained ones are matched up with each other precisely?
