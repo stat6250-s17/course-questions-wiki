@@ -65,4 +65,10 @@ The instructor will then review the pull request and make comments should furthe
 
 - Question (yzhu12-stat6250): Why you can't use DROP or KEEP statements in PROC steps?
 
-[Recipes TBA]
+[basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
+
+
+
+[optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
+
+
