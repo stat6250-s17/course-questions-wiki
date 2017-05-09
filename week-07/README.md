@@ -15,27 +15,29 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 10, Problem 2]
-
+- Question (kveng−stat6250): What is COMMA10 format?
 
 
 [Course Textbook Chapter 10, Problem 6]
-
+- Question (kveng−stat6250): How does Count+1 work?
+- Answer (kveng−stat6250): The count+1 statement creates the variable count and adds one to each oservation as SAS processes the data step.
 
 
 [Course Textbook Chapter 10, Problem 7]
-
-
+- Question (kveng−stat6250): What is LENGTH statement?
+- Answer (kveng−stat6250): You can use a LENGTH statement to specify a length (the number of bytes) for a variable before the first value is referenced elsewhere in the DATA step. For example: LENGTH Type $ 8;
 
 [Course Textbook Chapter 10, Problem 8]
-
+- Question (kveng−stat6250): Can we write multiple ELSE statements to specify a series of mutally exclusive conditions?
+- Answer (kveng−stat6250): Yes, the ELSE statement must immediately follow the IF-THEN statement in your program.
 
 
 [Course Textbook Chapter 10, Problem 9]
-
+- Question (kveng-stat6250): In which order should the LENGTH statement appears in the DATA step?
 
 
 [Course Textbook Chapter 10, Problem 10]
-
+- Question (kveng−stat6250): Can we drop or keep variables in the PROC steps?
 
 
 [Course Textbook Chapter 11, Problem 1]
