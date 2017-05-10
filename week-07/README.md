@@ -16,52 +16,67 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 10, Problem 2]
 
+* Question (aalamri−stat6250): What kind of format does the “PROC PRINT” use when dealing with some variables?
+* Answer (aalamri−stat6250):  It uses “COMMA10” format.
+
 
 
 [Course Textbook Chapter 10, Problem 6]
+
+* Question (aalamri−stat6250):  what is the statement that is used in SAS to make conditional assumptions? 
+* Answer (aalamri−stat6250):  SAS uses “IF - THEN” statement.
 
 
 
 [Course Textbook Chapter 10, Problem 7]
 
+* Question (aalamri−stat6250):  what is the statement that is used in SAS to make conditional assumptions? 
+* Answer (aalamri−stat6250):  SAS uses “IF - THEN” statement.
+
 
 
 [Course Textbook Chapter 10, Problem 8]
 
+* Question (aalamri−stat6250): How to specify a series of mutually exclusive conditions?
 
 
 [Course Textbook Chapter 10, Problem 9]
 
+* Question (aalamri−stat6250): Which reference that determines the length of a new variable when using the “DATA” step?
 
 
 [Course Textbook Chapter 10, Problem 10]
 
+* Question (aalamri−stat6250): Can you use the “DROP” statement in the “PROC” step?
 
 
 [Course Textbook Chapter 11, Problem 1]
 
+* Question (aalamri−stat6250):  How does the “DROP” option work when specifying variables?
 
 
 [Course Textbook Chapter 11, Problem 2]
 
+* Question (aalamri−stat6250): True or false: you can eliminate variable from showing by using the “DROP” option?
 
 
 [Course Textbook Chapter 11, Problem 3]
 
+* Question (aalamri−stat6250):   How can you create a variable without storing it in the dataset?
 
 
 [Course Textbook Chapter 11, Problem 8]
 
-
+* Question (aalamri−stat6250):   How does SAS use the “END” option to name temporary variables?
 
 [Course Textbook Chapter 11, Problem 9]
 
-
+* Question (aalamri−stat6250): What happens when SAS is processing data and a PDV has been created?
 
 [basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
 
-
+* Question (aalamri−stat6250):   How does the “indicator variable” approach work when combining datasets?
 
 [optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
 
-
+* Question (aalamri−stat6250):   What is a “sub-query” mean?
