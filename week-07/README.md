@@ -15,47 +15,47 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 10, Problem 2]
-
+Question(rluo-stat6250): What is the operation priority of the operators?
 
 
 [Course Textbook Chapter 10, Problem 6]
-
+Question(rluo-stat6250): What is the differences between using IF statement and using SELECT statement?
 
 
 [Course Textbook Chapter 10, Problem 7]
-
+Question(rluo-stat6250): How many forms does DO statement have? What are they?
 
 
 [Course Textbook Chapter 10, Problem 8]
-
+Question(rluo-stat6250): Can DO statement be used in the PROC?
 
 
 [Course Textbook Chapter 10, Problem 9]
-
+Question(rluo-stat6250): Can DO statement nest IF or SELECT statement?
 
 
 [Course Textbook Chapter 10, Problem 10]
-
+Question(rluo-stat6250): Is there any situations that cannot use the DO, SELECT, and IF statements but alternatives?
 
 
 [Course Textbook Chapter 11, Problem 1]
-
+Question(rluo-stat6250): Can mutiple datasets be created by using the SET statement?
 
 
 [Course Textbook Chapter 11, Problem 2]
-
+Question(rluo-stat6250): After dropping some variables, how can we add them again?
 
 
 [Course Textbook Chapter 11, Problem 3]
-
+Question(rluo-stat6250): What is the statement that prevents continous looping?
 
 
 [Course Textbook Chapter 11, Problem 8]
-
+Question(rluo-stat6250):
 
 
 [Course Textbook Chapter 11, Problem 9]
-
+Question(rluo-stat6250): 
 
 
 [basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
