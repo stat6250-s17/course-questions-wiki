@@ -58,5 +58,5 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-sta6250):RUN statement
 
 [basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
-- Question (hhu9-sta6250): whats the advantages of SAS language over SQL language?
+- Question (hhu9-sta6250): whats the advantages of SAS language over SQL language??
 
