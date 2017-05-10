@@ -81,6 +81,13 @@ When the compilation phase is complete, the execution phase begins.
 
 
 
+
 [basic_recipe_for_combining_data_vertically(from Week 7 Overview)]
 - Question (yyan11−stat6250): If datasets has more than two with the same column structure. Is it still combined vertically？
+
+
+
+[optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
+- Question (yyan11−stat6250): Which three substitutes can be used to combine dataset?
+
 
