@@ -15,51 +15,52 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 10, Problem 2]
-Question(rluo-stat6250): What is the operation priority of the operators?
+- Question (rluo-stat6250): What is the operation priority of the operators?
 
 
 [Course Textbook Chapter 10, Problem 6]
-Question(rluo-stat6250): What is the differences between using IF statement and using SELECT statement?
+- Question (rluo-stat6250): What is the differences between using IF statement and using SELECT statement?
 
 
 [Course Textbook Chapter 10, Problem 7]
-Question(rluo-stat6250): How many forms does DO statement have? What are they?
-
+- Question (rluo-stat6250): How many forms does DO statement have? What are they?
+- Answer (rluo-stat6250): There are three forms of the DO statement, and they are iterative DO statement, the DO UNTIL statement, and the DO WHILE statement.
 
 [Course Textbook Chapter 10, Problem 8]
-Question(rluo-stat6250): Can DO statement be used in the PROC?
+- Question (rluo-stat6250): Can DO statement be used in the PROC?
 
 
 [Course Textbook Chapter 10, Problem 9]
-Question(rluo-stat6250): Can DO statement nest IF or SELECT statement?
+- Question (rluo-stat6250): Can DO statement nest IF or SELECT statement?
 
 
 [Course Textbook Chapter 10, Problem 10]
-Question(rluo-stat6250): Is there any situations that cannot use the DO, SELECT, and IF statements but alternatives?
+- Question (rluo-stat6250): Is there any situations that cannot use the DO, SELECT, and IF statements but alternatives?
 
 
 [Course Textbook Chapter 11, Problem 1]
-Question(rluo-stat6250): Can mutiple datasets be created by using the SET statement?
+- Question (rluo-stat6250): Can mutiple datasets be created by using the SET statement?
 
 
 [Course Textbook Chapter 11, Problem 2]
-Question(rluo-stat6250): After dropping some variables, how can we add them again?
+- Question (rluo-stat6250): After dropping some variables, how can we add them again?
 
 
 [Course Textbook Chapter 11, Problem 3]
-Question(rluo-stat6250): What is the statement that prevents continous looping?
-
+- Question (rluo-stat6250): What is the statement that prevents continuous looping?
+- Answer (rluo-stat6250): The STOP statement can prevent continuous looping.
 
 [Course Textbook Chapter 11, Problem 8]
-Question(rluo-stat6250):
-
+- Question (rluo-stat6250): What statement is used for detecting the end of a data?
+- Answer (rluo-stat6250): THe END statement can be used for detecting the end of a data.
 
 [Course Textbook Chapter 11, Problem 9]
-Question(rluo-stat6250): 
+- Question (rluo-stat6250): What are the two phases of reading the data sets?
+- Answer (rluo-stat6250): Compilation phase and exxcution phase.
 
 
 [basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
-
+- Question (rluo-stat6250): How many indicator variables should be created when combining the data sets?
 
 
 [optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
