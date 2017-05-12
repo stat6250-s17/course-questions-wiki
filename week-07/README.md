@@ -102,7 +102,6 @@ The instructor will then review the pull request and make comments should furthe
 DATA concat; 
 SET one two; 
 RUN;
-
 *The equivalent SQL statement of concatenated is;
 CREATE TABLE concat AS
 SELECT *
