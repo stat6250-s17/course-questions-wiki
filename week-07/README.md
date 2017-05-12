@@ -119,6 +119,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : In what situations do we want to use the END= option to manipulate the data ?
 
 
+
 [Course Textbook Chapter 11, Problem 9]
 - Question (mcardoso3-stat6250):  How soon would observations be revealed when the DATA step has been executed?
 - Question (akumar30−stat6250):  What is the content of program data vector after compilation phase is completed of data step?
@@ -158,4 +159,5 @@ FROM two
 ```
 * *Question (aalshehry−stat6250):* How to sort the selected data using PROQ SQL?
 - *Question* (lwang30-stat6250) : What are the advantages and disadvantages of using "proc sql" rather than a data step ?
+
 
