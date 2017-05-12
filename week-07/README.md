@@ -22,6 +22,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Answer (aalshehry−stat6250):*  Formats can be assigned temporarily in PROC steps and permanently in DATA steps.
 - Question (kveng−stat6250): What is COMMA10 format?
 - *Question* (lwang30-stat6250) : Can we take the label and format statement in the data step away as they will be overwritten by "proc print" anyway ?
+- Question (lzhao4-stat6250): Can temporary labels which assigned in a PROC step override the permanent labels which assigned in a Data step?
 
 
 
@@ -33,6 +34,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): How does Count+1 work?
 - Answer (kveng−stat6250): The count+1 statement creates the variable count and adds one to each oservation as SAS processes the data step.
 - *Question* (lwang30-stat6250) : What types of variable are present in this problem ?
+- Question (lzhao4−stat6250): What need attention when identify character values in an IF-THEN statement? 
+- Answer (lzhao4-stat6250): In IF-THEN statement, you need to enclose character values in quotation mark, and specify them in same case how they exactly appear in the data set. 
 
 
 
@@ -45,6 +48,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): You can use a LENGTH statement to specify a length (the number of bytes) for a variable before the first value is referenced elsewhere in the DATA step. For example: LENGTH Type $ 8;
 - *Question* (lwang30-stat6250) : What is the consequence of the subsequent observations having longer values than the first observation without the length of the variable being specified in the statement ?
 - *Answer* (lwang30-stat6250) : All subsequent values are truncated to the same length as the first observation's value.
+- Question (lzhao4−stat6250): How to specify length for variables?
 
 
 
@@ -58,6 +62,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): Yes, the ELSE statement must immediately follow the IF-THEN statement in your program.
 - *Question* (lwang30-stat6250) : What is the advantage of using the IF-THEN/ELSE statement ?
 - *Answer* (lwang30-stat6250) : When the dataset is large, IF-THEN/ELSE statement can process much faster than multiple IF-THEN statement in which all the observations are evaluated one by one.
+- Question (lzhao4−stat6250): How to use ELSE statements with the IF-THEN statement?
+- Answer (lzhao4-stat6250): You should write ELSE statement immediately follow the IF-THEN statement. Additionally, you can use multiple ELSE statements when needed.  
 
 
 
@@ -69,6 +75,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Answer (aalshehry−stat6250):* It must be the first reference to the character variables in the DATA step. Therefore, the best position in the DATA step for a LENGTH statement is immediately after the DATA statement.
 - Question (kveng-stat6250): In which order should the LENGTH statement appears in the DATA step?
 - *Question* (lwang30-stat6250) : Where should we place the LENGTH statement in order to let variable "Type" have a length of 10 ?
+- Question (lzhao4−stat6250): Does LENGTH statement can change the length of an existing variable?
 
 
 
@@ -78,6 +85,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* What are the  differences between the DROP & KEEP statements and the DROP= & KEEP= data set options?
 - Question (kveng−stat6250): Can we drop or keep variables in the PROC steps?
 - *Question* (lwang30-stat6250) : What is the difference between the "DROP or KEEP" statement and the "DROP= or KEEP=" statement ?
+- Question (lzhao4−stat6250): What’s the difference between DROP statement and DROP= data set option? 
 
 
 
@@ -88,6 +96,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* If you use more than one data set option or a combination of data set options and statements, what is the order that SAS applying for drops, keeps, and renames variables?
 - Question (kveng−stat6250): How does KEEP=option in the SET statement work?
 - *Question* (lwang30-stat6250) : What are the statements where we can use the "DROP= or KEEP=" option ?
+- Question (lzhao4−stat6250): Where to specify the KEEP= data set option?
 
 
 
@@ -97,6 +106,7 @@ The instructor will then review the pull request and make comments should furthe
 * Question (aalshehry−stat6250): What kind of IF logical operators can we use within a DATA step?
 - Question (kveng−stat6250): Can we drop ordertime from the SET statement in this case?
 - *Question* (lwang30-stat6250) : What is the basic criterion to be based on in order to figure out the correct place where the "DROP= or KEEP=" option should be located ? 
+- Question (lzhao4−stat6250): Where to specify the DROP= data set option? 
 
 
 
@@ -107,6 +117,8 @@ The instructor will then review the pull request and make comments should furthe
 * *Answer (aalshehry−stat6250):* Only one BY statement can accompany each SET statement in a DATA step.
 - Question (kveng−stat6250): Where does the FRIST and LAST temporary varaibles are stored?
 - *Question* (lwang30-stat6250) : What are the values of each FIRST. and LAST. when the BY-Group processing is used for multiple variables ?
+- Question (lzhao4−stat6250): When using the BY statement with the SET statement, does the data step creates two temporary variables for each BY variable?
+- Answer (lzhao4-stat6250): Yes, one is the named FIRST.VARIABLE and another is named LAST.VARIABLE. They are identifying the first and the last observation in each BY group.
 
 
 
@@ -117,6 +129,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* What is the value of the END= variable when random access is used?
 - Question (kveng−stat6250): What does "if last" referred to in this statement?
 - *Question* (lwang30-stat6250) : In what situations do we want to use the END= option to manipulate the data ?
+- Question (lzhao4−stat6250): When to use an END= option in the SET statement?
 
 
 
@@ -128,6 +141,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): What is program data vector (PDV)?
 - *Question* (lwang30-stat6250) : What are the values of each variable in the PDV at the beginning of the execution phase ?
 - *Answer* (lwang30-stat6250) : The values of each variable are set to missing at the beginning of the execution phase.
+- Question (lzhao4−stat6250): In compilation phase, how SAS reading an existing data set with the SET statement?
 
 
 
@@ -137,6 +151,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* What is the main advantage of using "IN=" Statement?
 - Question (kveng−stat6250): When combining the data vertically, can we sort and combine the data at the same time?
 - *Question* (lwang30-stat6250) : What is an example of the expansion of the dataset by applying both two indicator variables that has been defined in the "set" statement ?
+- Question (lzhao4−stat6250): From the recipe we know that IN= dataset option can be used in conjunction with if or else conditioning. Beside this, what else we can do with IN= dataset option?
 
 
 
