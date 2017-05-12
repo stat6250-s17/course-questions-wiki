@@ -112,14 +112,12 @@ The instructor will then review the pull request and make comments should furthe
 
 [optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
 - Question (mcardoso3-stat6250):  What would be the best option to combine datasets in SAS?
-Question (akumar30−stat6250): How to rewrite concat statement using pro sql?
+- Question (akumar30−stat6250): How to rewrite concat statement using pro sql?
 - Answer (akumar30−stat6250):  The two data sets can be combined vertically, or concatenated, in a DATA step by naming them both in a single SET statement. Here is the example where two dataset 'one' and 'two' are being concatenated:
 ```SAS
 DATA concat; 
-SET one 
-        two; 
+SET one two; 
 RUN;
-
 *The equivalent SQL statement of concatenated is;
 CREATE TABLE concat AS
 SELECT *
