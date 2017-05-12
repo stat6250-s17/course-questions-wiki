@@ -31,7 +31,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 10, Problem 8]
 - Question (mcardoso3-stat6250):  What is the benefit of using ELSE in an IF-THEN statement?
- +- Answer (mcardoso3-stat6250):  In a IF-THEN statement with ELSE, SAS executes IF-THEN statements until it encounters the first true statment.
+- Answer (mcardoso3-stat6250):  In a IF-THEN statement with ELSE, SAS executes IF-THEN statements until it encounters the first true statment.
 
 
 
@@ -47,7 +47,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 11, Problem 1]
 - Question (mcardoso3-stat6250):  Is it required to have both the DROP and KEEP data set options within the same statement?
- +- Answer (mcardoso3-stat6250):  If certain variables are not referenced, you can use the DROP= option in the SET statement, which doesn't require yo to use the KEEP= option.
+- Answer (mcardoso3-stat6250):  If certain variables are not referenced, you can use the DROP= option in the SET statement, which doesn't require yo to use the KEEP= option.
 
 
 
@@ -63,7 +63,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 11, Problem 8]
 - Question (mcardoso3-stat6250):  How would continous looping happen when submitting a program?
- +- Answer (mcardoso3-stat6250):  The POINT= option reads only specified observations, so SAS can't read an end-of-file indicator as it would if the file was read sequentially.
+- Answer (mcardoso3-stat6250):  The POINT= option reads only specified observations, so SAS can't read an end-of-file indicator as it would if the file was read sequentially.
 
 
 
