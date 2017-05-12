@@ -26,6 +26,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What is the difference between COMMA6 and COMMA10?
 - Question (meisenbach-stat6250): Do temporary labels and formats override permanent labels and formats?
 - Answer (meisenbach-stat6250): Yes, they do.
+- Question (rluo-stat6250): What is the operation priority of the operators?
 
 
 
@@ -43,6 +44,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dlee117-stat6250): The value of Count would be 12 and the value of Control would be Go.
 - Question (meisenbach-stat6250): When evaluating if a string matches, does case matter?
 - Answer (meisenbach-stat6250): Yes, it does.
+- Question (rluo-stat6250): What is the differences between using IF statement and using SELECT statement?
 
 
 
@@ -59,6 +61,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What does it mean when a value is truncated?
 - Answer (dlee117-stat6250): It means if the value is longer than the assigned length, the value is shortened to the assigned length. 
 - Question (meisenbach-stat6250): How is variable length determined?
+- Question (rluo-stat6250): How many forms does DO statement have? What are they?
+- Answer (rluo-stat6250): There are three forms of the DO statement, and they are iterative DO statement, the DO UNTIL statement, and the DO WHILE statement.
 
 
 
@@ -76,6 +80,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lzhao4-stat6250): You should write ELSE statement immediately follow the IF-THEN statement. Additionally, you can use multiple ELSE statements when needed.  
 - Question (dlee117−stat6250): Why is it more efficient to construct IF-THEN/ELSE statements with conditions of decreasing probability?
 - Question (meisenbach-stat6250): How does SAS evaluate a stand alone character variable in a condition?
+- Question (rluo-stat6250): Can DO statement be used in the PROC?
 
 
 
@@ -91,6 +96,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Can you specify a new LENGTH of a variable after the first value for the variable is referenced?
 - Question (meisenbach-stat6250): Where should the LENGTH statement be?
 - Answer (meisenbach-stat6250): Before any references to the variable in the DATA step.
+- Question (rluo-stat6250): Can DO statement nest IF or SELECT statement?
 
 
 
@@ -104,6 +110,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Do you have to provide a label and format for a variable?
 - Question (meisenbach-stat6250): Can you use DROP or KEEP statements in a PROC step?
 - Answer (meisenbach-stat6250): No, you cannot.
+- Question (rluo-stat6250): Is there any situations that cannot use the DO, SELECT, and IF statements but alternatives?
 
 
 
@@ -118,6 +125,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What is the difference between using DROP= and KEEP= statements in the DATA step vs the SET step?
 - Question (meisenbach-stat6250): Which dataset is specified by the DATE statement?
 - Answer (meisenbach-stat6250): The new dataset. The dataset to be read from is assigned by the SET statement.
+- Question (rluo-stat6250): Can mutiple datasets be created by using the SET statement?
 
 
 
@@ -130,6 +138,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lzhao4−stat6250): Where to specify the DROP= data set option? 
 - Question (dlee117−stat6250): What does “july” mean when referencing the data set Orders with this statement: july.orders?
 - Question (meisenbach-stat6250): What happens if you DROP a variable in the SET statement and then reference it?
+- Question (rluo-stat6250): After dropping some variables, how can we add them again?
 
 
 
@@ -146,6 +155,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dlee117-stat6250): Their values are either 1 for the first and last observations respectively or 0 for any other observation.
 - Question (meisenbach-stat6250): What kind of variable are FIRST. and LAST.?
 - Answer (meisenbach-stat6250): FIRST. and LAST. are temporary variables.
+- Question (rluo-stat6250): What is the statement that prevents continuous looping?
+- Answer (rluo-stat6250): The STOP statement can prevent continuous looping.
 
 
 
@@ -159,6 +170,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lzhao4−stat6250): When to use an END= option in the SET statement?
 - Question (dlee117−stat6250): Is “LAST” a SAS defined statement or is it a variable?
 - Question (meisenbach-stat6250): Why does the “if last” statement do?
+- Question (rluo-stat6250): What statement is used for detecting the end of a data?
+- Answer (rluo-stat6250): THe END statement can be used for detecting the end of a data.
 
 
 
@@ -174,6 +187,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): If variables are created in the DATA step, what happens to them during the compilation phase?
 - Question (meisenbach-stat6250): How are the variables for the Program Data Vector determined?
 - Answer (meisenbach-stat6250): From the SET statement and from any variable created in the DATA steps
+- Question (rluo-stat6250): What are the two phases of reading the data sets?
+- Answer (rluo-stat6250): Compilation phase and exxcution phase.
 
 
 
@@ -187,6 +202,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What is the function of the SAS statement DO?
 - Question (meisenbach-stat6250): How does the IN= data set option work?
 - Answer (meisenbach-stat6250): Syntax: IN=variable, This names the new variable whose value indicates whether the input data set contributed data to the current observation.
+- Question (rluo-stat6250): How many indicator variables should be created when combining the data sets?
 
 
 
@@ -211,4 +227,5 @@ FROM two
 - *Question* (lwang30-stat6250) : What are the advantages and disadvantages of using "proc sql" rather than a data step ?
 - Question (meisenbach-stat6250): What does the AS keyword do in a PROC SQL SELECT statement?
 - Answer (meisenbach-stat6250): Syntax: value AS variable. The AS keyword allows you to set the value of a new variable.
+
 
