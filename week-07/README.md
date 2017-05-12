@@ -27,6 +27,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Do temporary labels and formats override permanent labels and formats?
 - Answer (meisenbach-stat6250): Yes, they do.
 - Question (rluo-stat6250): What is the operation priority of the operators?
+- Question (aoneill2-stat6250): Is the formatting in an input statement in a DATA step overridden by a format statement in the DATA step?
+- Answer (aoneill2-stat6250): Yes, a Format statement in a DATA step is a permanent formatting assignment.
 
 
 
@@ -45,6 +47,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): When evaluating if a string matches, does case matter?
 - Answer (meisenbach-stat6250): Yes, it does.
 - Question (rluo-stat6250): What is the differences between using IF statement and using SELECT statement?
+- Question (aoneill2-stat6250): Are two if statements the same as an if-else statement?
+- Answer (aoneill2-stat6250): The effect is the same in terms of the results, but the processing is different. In a series of if statements, every if statement is evaluated by the compiler. In an if-else construction, once there is a condition satisfied as true, the rest of the conditional statements are not evaluated.
 
 
 
@@ -63,6 +67,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): How is variable length determined?
 - Question (rluo-stat6250): How many forms does DO statement have? What are they?
 - Answer (rluo-stat6250): There are three forms of the DO statement, and they are iterative DO statement, the DO UNTIL statement, and the DO WHILE statement.
+- Question (aoneill2-stat6250): What is the difference in programming protocol between declaring the length of a variable implicitly in its first reference in a data set or in an assignment statement and using a LENGTH statement, or are they used interchangeably?
 
 
 
@@ -81,6 +86,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Why is it more efficient to construct IF-THEN/ELSE statements with conditions of decreasing probability?
 - Question (meisenbach-stat6250): How does SAS evaluate a stand alone character variable in a condition?
 - Question (rluo-stat6250): Can DO statement be used in the PROC?
+- Question (aoneill2-stat6250): Can if statements be viewed as program control structures?
+- Answer (aoneill2-stat6250): Yes, especially in conjunction with if-else structures. If statements are all evaluated, and this makes a difference in the number of statements that can be evaluated or result in variables being assigned values. 
 
 
 
@@ -97,6 +104,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Where should the LENGTH statement be?
 - Answer (meisenbach-stat6250): Before any references to the variable in the DATA step.
 - Question (rluo-stat6250): Can DO statement nest IF or SELECT statement?
+- Question (aoneill2-stat6250):  Are statements concerning length of variable data in a data step permanent or non-permanent assignments? 
 
 
 
@@ -111,6 +119,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Can you use DROP or KEEP statements in a PROC step?
 - Answer (meisenbach-stat6250): No, you cannot.
 - Question (rluo-stat6250): Is there any situations that cannot use the DO, SELECT, and IF statements but alternatives?
+- Question (aoneill2-stat6250): Can a variable be dropped in a data step in which it has been used for a calculation without producing an error?
+- Answer (aoneill2-stat6250): No. When you drop a variable in a DATA step but not in the DATA statement itself, it removes the variable and its data from being accessed by the DATA step.
 
 
 
@@ -126,6 +136,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Which dataset is specified by the DATE statement?
 - Answer (meisenbach-stat6250): The new dataset. The dataset to be read from is assigned by the SET statement.
 - Question (rluo-stat6250): Can mutiple datasets be created by using the SET statement?
+- Question (aoneill2-stat6250): Do variables referenced in a data file in a set statement within a DATA step need to be explicitly kept or dropped?
 
 
 
@@ -139,6 +150,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What does “july” mean when referencing the data set Orders with this statement: july.orders?
 - Question (meisenbach-stat6250): What happens if you DROP a variable in the SET statement and then reference it?
 - Question (rluo-stat6250): After dropping some variables, how can we add them again?
+- Question (aoneill2-stat6250): When creating an output file in a DATA statement, is there an error if no variables are explicitly kept or dropped?
 
 
 
@@ -157,6 +169,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): FIRST. and LAST. are temporary variables.
 - Question (rluo-stat6250): What is the statement that prevents continuous looping?
 - Answer (rluo-stat6250): The STOP statement can prevent continuous looping.
+- Question (aoneill2-stat6250): How can the sort process help create subtotals for variables by which the data set is sorted by?
+- Answer (aoneill2-stat6250): The sort process creates "first." and "last." extenuated variables that can be used with the by-variable name appended to them and used in if statements to determine whether you have hit the first of a list or the last of a list to begin an operation or to end one.
 
 
 
@@ -172,6 +186,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Why does the “if last” statement do?
 - Question (rluo-stat6250): What statement is used for detecting the end of a data?
 - Answer (rluo-stat6250): THe END statement can be used for detecting the end of a data.
+- Question (aoneill2-stat6250): How can you create an end-of-file marker when reading in a list of values?
+- Answer (aoneill2-stat6250): You can solve the problem by assigning a value to the end of file variable, "end".
 
 
 
@@ -189,6 +205,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): From the SET statement and from any variable created in the DATA steps
 - Question (rluo-stat6250): What are the two phases of reading the data sets?
 - Answer (rluo-stat6250): Compilation phase and exxcution phase.
+- Question (aoneill2-stat6250): How can the program data vector and its population of values as the program steps through the code be useful in debugging a program?
 
 
 
@@ -203,6 +220,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): How does the IN= data set option work?
 - Answer (meisenbach-stat6250): Syntax: IN=variable, This names the new variable whose value indicates whether the input data set contributed data to the current observation.
 - Question (rluo-stat6250): How many indicator variables should be created when combining the data sets?
+- Question (aoneill2-stat6250): How can one create useful data structures to evaluate business logic in combining data files vertically?
+- Answer (aoneill2-stat6250): An "in" (for "in-file") variable is created along with a datasource variable that holds a reference to the file. The in-variable then gets assigned a value of 1 if the data comes from the indicated file and 0 if not, which can further be used in a business analysis scheme regarding the file through the use of the datasource variable assignment.
 
 
 
