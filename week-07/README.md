@@ -24,6 +24,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : Can we take the label and format statement in the data step away as they will be overwritten by "proc print" anyway ?
 - Question (lzhao4-stat6250): Can temporary labels which assigned in a PROC step override the permanent labels which assigned in a Data step?
 - Question (dlee117−stat6250): What is the difference between COMMA6 and COMMA10?
+- Question (meisenbach-stat6250): Do temporary labels and formats override permanent labels and formats?
+- Answer (meisenbach-stat6250): Yes, they do.
 
 
 
@@ -39,6 +41,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lzhao4-stat6250): In IF-THEN statement, you need to enclose character values in quotation mark, and specify them in same case how they exactly appear in the data set. 
 - Question (dlee117−stat6250): For Chapter 10 Quiz, problem 6, if both if statements were false, what would be the values of the variables Count and Control?
 - Answer (dlee117-stat6250): The value of Count would be 12 and the value of Control would be Go.
+- Question (meisenbach-stat6250): When evaluating if a string matches, does case matter?
+- Answer (meisenbach-stat6250): Yes, it does.
 
 
 
@@ -54,6 +58,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lzhao4−stat6250): How to specify length for variables?
 - Question (dlee117−stat6250): What does it mean when a value is truncated?
 - Answer (dlee117-stat6250): It means if the value is longer than the assigned length, the value is shortened to the assigned length. 
+- Question (meisenbach-stat6250): How is variable length determined?
 
 
 
@@ -70,6 +75,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lzhao4−stat6250): How to use ELSE statements with the IF-THEN statement?
 - Answer (lzhao4-stat6250): You should write ELSE statement immediately follow the IF-THEN statement. Additionally, you can use multiple ELSE statements when needed.  
 - Question (dlee117−stat6250): Why is it more efficient to construct IF-THEN/ELSE statements with conditions of decreasing probability?
+- Question (meisenbach-stat6250): How does SAS evaluate a stand alone character variable in a condition?
 
 
 
@@ -83,6 +89,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : Where should we place the LENGTH statement in order to let variable "Type" have a length of 10 ?
 - Question (lzhao4−stat6250): Does LENGTH statement can change the length of an existing variable?
 - Question (dlee117−stat6250): Can you specify a new LENGTH of a variable after the first value for the variable is referenced?
+- Question (meisenbach-stat6250): Where should the LENGTH statement be?
+- Answer (meisenbach-stat6250): Before any references to the variable in the DATA step.
 
 
 
@@ -94,6 +102,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : What is the difference between the "DROP or KEEP" statement and the "DROP= or KEEP=" statement ?
 - Question (lzhao4−stat6250): What’s the difference between DROP statement and DROP= data set option? 
 - Question (dlee117−stat6250): Do you have to provide a label and format for a variable?
+- Question (meisenbach-stat6250): Can you use DROP or KEEP statements in a PROC step?
+- Answer (meisenbach-stat6250): No, you cannot.
 
 
 
@@ -106,6 +116,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : What are the statements where we can use the "DROP= or KEEP=" option ?
 - Question (lzhao4−stat6250): Where to specify the KEEP= data set option?
 - Question (dlee117−stat6250): What is the difference between using DROP= and KEEP= statements in the DATA step vs the SET step?
+- Question (meisenbach-stat6250): Which dataset is specified by the DATE statement?
+- Answer (meisenbach-stat6250): The new dataset. The dataset to be read from is assigned by the SET statement.
 
 
 
@@ -117,6 +129,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : What is the basic criterion to be based on in order to figure out the correct place where the "DROP= or KEEP=" option should be located ? 
 - Question (lzhao4−stat6250): Where to specify the DROP= data set option? 
 - Question (dlee117−stat6250): What does “july” mean when referencing the data set Orders with this statement: july.orders?
+- Question (meisenbach-stat6250): What happens if you DROP a variable in the SET statement and then reference it?
 
 
 
@@ -131,6 +144,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lzhao4-stat6250): Yes, one is the named FIRST.VARIABLE and another is named LAST.VARIABLE. They are identifying the first and the last observation in each BY group.
 - Question (dlee117−stat6250): What are the values in FIRST.variable and LAST.variable?
 - Answer (dlee117-stat6250): Their values are either 1 for the first and last observations respectively or 0 for any other observation.
+- Question (meisenbach-stat6250): What kind of variable are FIRST. and LAST.?
+- Answer (meisenbach-stat6250): FIRST. and LAST. are temporary variables.
 
 
 
@@ -143,6 +158,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : In what situations do we want to use the END= option to manipulate the data ?
 - Question (lzhao4−stat6250): When to use an END= option in the SET statement?
 - Question (dlee117−stat6250): Is “LAST” a SAS defined statement or is it a variable?
+- Question (meisenbach-stat6250): Why does the “if last” statement do?
 
 
 
@@ -156,6 +172,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (lwang30-stat6250) : The values of each variable are set to missing at the beginning of the execution phase.
 - Question (lzhao4−stat6250): In compilation phase, how SAS reading an existing data set with the SET statement?
 - Question (dlee117−stat6250): If variables are created in the DATA step, what happens to them during the compilation phase?
+- Question (meisenbach-stat6250): How are the variables for the Program Data Vector determined?
+- Answer (meisenbach-stat6250): From the SET statement and from any variable created in the DATA steps
 
 
 
@@ -167,6 +185,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (lwang30-stat6250) : What is an example of the expansion of the dataset by applying both two indicator variables that has been defined in the "set" statement ?
 - Question (lzhao4−stat6250): From the recipe we know that IN= dataset option can be used in conjunction with if or else conditioning. Beside this, what else we can do with IN= dataset option?
 - Question (dlee117−stat6250): What is the function of the SAS statement DO?
+- Question (meisenbach-stat6250): How does the IN= data set option work?
+- Answer (meisenbach-stat6250): Syntax: IN=variable, This names the new variable whose value indicates whether the input data set contributed data to the current observation.
 
 
 
@@ -189,5 +209,6 @@ FROM two
 ```
 * *Question (aalshehry−stat6250):* How to sort the selected data using PROQ SQL?
 - *Question* (lwang30-stat6250) : What are the advantages and disadvantages of using "proc sql" rather than a data step ?
-
+- Question (meisenbach-stat6250): What does the AS keyword do in a PROC SQL SELECT statement?
+- Answer (meisenbach-stat6250): Syntax: value AS variable. The AS keyword allows you to set the value of a new variable.
 
