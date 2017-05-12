@@ -16,32 +16,31 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 10, Problem 2]
 
-- Question (yzhu12-stat6250): During Opening and Closing ODS destinations, what's a good choice you should make if you don't need to create listing output?
-- Answer (yzhu12-stat6250): It's a good idea to close the Listing destination.
-
+- Question (yzhu12-stat6250): What is the funtion of ODS HTML CLOSE statement and where do we add it?
+- Answer (yzhu12-stat6250): The ODS HTML CLOSE statement closes the HTML destination and is added after the RUN statement for the procedure.
 [Course Textbook Chapter 10, Problem 6]
 
-- Question (yzhu12-stat6250): How can you close the several opening ODS destinations all?
-- Answer (yzhu12-stat6250): You can close them all by using the ODS_ALL_CLOSE statement.
+- Question (yzhu12-stat6250): Which statement would you use in the ODS HTML statement to change the appearance of your output?
+- Answer (yzhu12-stat6250): You can use STYLE= option.
 
 [Course Textbook Chapter 10, Problem 7]
 
-- Question (yzhu12-stat6250): Which statements will you use if your goal is to create a table of contents that links to your HTML output?
-- Answer (yzhu12-stat6250): You can use the CONTENTS= and FRAME= options with the ODS HTML statement.
+- Question (yzhu12-stat6250): Which statement would you use to close several open ODS destination?
+- Answer (yzhu12-stat6250): You can close them all by using the ODS _ALL_ CLOSE statement.
 
 [Course Textbook Chapter 10, Problem 8]
-
-- Question (yzhu12-stat6250): Why you don't need to specify the complete pathname for the body, contents, or frame files when you use the PATH= option?
-
-[Course Textbook Chapter 10, Problem 9]
 
 - Question (yzhu12-stat6250): What good step you should take before you create HTML output and re-open the Listing destination after you close the HTML destination?
 - Answer (yzhu12-stat6250): It's a good idea to close the Listing destination.
 
+
+[Course Textbook Chapter 10, Problem 9]
+
+- Question (yzhu12-stat6250): Under what situation that the style that need quotation marks?
+
 [Course Textbook Chapter 10, Problem 10]
 
-- Question (yzhu12-stat6250): How can you change the appearance of HTML output?
-- Answer (yzhu12-stat6250): By using the STYLE= option in the ODS HTML statement. 
+- Question (yzhu12-stat6250): Why you don't need to specify the complete pathname for the body, contents, or frame files when you use the PATH= option?
 
 [Course Textbook Chapter 11, Problem 1]
 
