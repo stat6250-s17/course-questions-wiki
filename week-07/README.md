@@ -16,31 +16,32 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 10, Problem 2]
 
-- Question (yzhu12-stat6250): What is the funtion of ODS HTML CLOSE statement and where do we add it?
-- Answer (yzhu12-stat6250): The ODS HTML CLOSE statement closes the HTML destination and is added after the RUN statement for the procedure.
+- Question (yzhu12-stat6250): Which statement can you use to specify a length before the variable's first value that referred in the DATA step?
+- Answer (yzhu12-stat6250): You can use Length statement.
+
 [Course Textbook Chapter 10, Problem 6]
 
-- Question (yzhu12-stat6250): Which statement would you use in the ODS HTML statement to change the appearance of your output?
-- Answer (yzhu12-stat6250): You can use STYLE= option.
+- Question (yzhu12-stat6250): Which statement would you use if you need to read and process variables that you don't want to keep in the dataset?
+- Answer (yzhu12-stat6250): You need to use DROP= and KEEP= data set options.
 
 [Course Textbook Chapter 10, Problem 7]
 
-- Question (yzhu12-stat6250): Which statement would you use to close several open ODS destination?
-- Answer (yzhu12-stat6250): You can close them all by using the ODS _ALL_ CLOSE statement.
+- Question (yzhu12-stat6250): What is the alternative statement of IF-THEN/ELSE statements when you perform conditional processing?
+- Answer (yzhu12-stat6250): You can use SELECT groups.
 
 [Course Textbook Chapter 10, Problem 8]
 
-- Question (yzhu12-stat6250): What good step you should take before you create HTML output and re-open the Listing destination after you close the HTML destination?
-- Answer (yzhu12-stat6250): It's a good idea to close the Listing destination.
-
+- Question (yzhu12-stat6250):  How can you assign an initial value to a variable whose value is assigned by a sum statement?
+- Answer (yzhu12-stat6250): You can use RETAIN statement.
 
 [Course Textbook Chapter 10, Problem 9]
 
-- Question (yzhu12-stat6250): Under what situation that the style that need quotation marks?
+- Question (yzhu12-stat6250): How can you perform many statements as part of the conditional action?
+- Answer (yzhu12-stat6250): You can use DO groups.
 
 [Course Textbook Chapter 10, Problem 10]
 
-- Question (yzhu12-stat6250): Why you don't need to specify the complete pathname for the body, contents, or frame files when you use the PATH= option?
+- Question (yzhu12-stat6250): Why the LENGTH statement has to be before any other reference to the variable in the DATA step?
 
 [Course Textbook Chapter 11, Problem 1]
 
