@@ -33,6 +33,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yren10-stat6250):  Formats this variable using the COMMA10. format. 
 - Question (nly13-stat6250): What is COMMA10 format?
 - Question (hhu9-sta6250):In PROC PRINT, why there is a "." after "comma10"?
+- Question (yzhu12-stat6250): Which statement can you use to specify a length before the variable's first value that referred in the DATA step?
+- Answer (yzhu12-stat6250): You can use Length statement.
 
 
 
@@ -58,6 +60,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Is it possible to use fuzzy logic?
 - Question (hhu9-sta6250):IN IF-THEN statement, is it case-sensitive?  
 - Answer (hhu9-sta6250): yes, it is, so we need to be careful about case-sensitive.
+- Question (yzhu12-stat6250): Which statement would you use if you need to read and process variables that you don't want to keep in the dataset?
+- Answer (yzhu12-stat6250): You need to use DROP= and KEEP= data set options.
 
 
 
@@ -83,6 +87,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nly13-stat6250): You can use a LENGTH statement to specify a length for a variable before the first value is referenced elsewhere in the DATA step.
 - Question (hhu9-sta6250):What is the difference between LENGTH() and LENGTHC()?
 - Answer (hhu9-sta6250): LENGTH() do not count blank in tail.
+- Question (yzhu12-stat6250): What is the alternative statement of IF-THEN/ELSE statements when you perform conditional processing?
+- Answer (yzhu12-stat6250): You can use SELECT groups.
 
 
 
@@ -107,6 +113,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): What is the benefit of using ELSE in IF-THEN statement?
 - Answer (nly13-stat6250): Using IF-THEN statements without the ELSE statement causes SAS to evaluate all IF-THEN statements. Using IF-THEN statements with the ELSE statement causes SAS to execute IF-THEN statements until it encounters the first true statement. 
 - Question (hhu9-sta6250):Why in SAS, we should type first "else" parallel with "if" in first column?
+- Question (yzhu12-stat6250):  How can you assign an initial value to a variable whose value is assigned by a sum statement?
+- Answer (yzhu12-stat6250): You can use RETAIN statement.
 
 
 
@@ -128,6 +136,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): How does the length statement work with newly created variables?
 - Question (hhu9-sta6250):Where should we place LENGTH statement in?
 - Answer (hhu9-sta6250): LENGTH statement should be placed before any other reference to the variable in the DATA step.
+- Question (yzhu12-stat6250): How can you perform many statements as part of the conditional action?
+- Answer (yzhu12-stat6250): You can use DO groups.
 
 
 
@@ -147,6 +157,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250):  Can we use DROP or KEEP statements in PROC steps?
 - Question (nly13-stat6250): What are the possible errors that can occur while writing a LENGTH, INFILE, or IF-THEN statement?
 - Question (hhu9-sta6250):In which time we should use KEEP= instead of keep?
+- Question (yzhu12-stat6250): Why the LENGTH statement has to be before any other reference to the variable in the DATA step?
 
 
 
@@ -168,6 +179,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nly13-stat6250): Only the first WHEN statement will be read.
 - Question (hhu9-sta6250):when we use drop statement, where are the variables that be droped?
 - Answer (hhu9-sta6250): They are still in PDV.
+- Question (yzhu12-stat6250): If there are more than one WHEN statement that has a true when-expression, how many WHEN statements will be used?
+- Answer (yzhu12-stat6250): Only the first WHEN statement is used.
 
 
 
@@ -185,6 +198,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250): Does DROP= drops all the stuff from the variable? or we may use ‘if’ make some change？
 - Question (nly13-stat6250): What is the basic criteria in order to figure out the placement of the "DROP= or KEEP=" option?
 - Question (hhu9-sta6250):How to understand "compile-time only statement"?
+- Question (yzhu12-stat6250): When you create a new variable in SAS, what will happen if the variable has been created by another statement instead of the LENGTH statement?
+- Answer (yzhu12-stat6250): Then a later use of the LENGTH statement will not change its size.
 
 
 
@@ -209,6 +224,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Is there any other type of comparisons that goes before logical comparison in SAS?
 - Question (hhu9-sta6250):what does FIRST.andLAST.mean?
 - Answer (hhu9-sta6250): it identify the first and last observations in each BY statement.
+- Question (yzhu12-stat6250): Is there any other type of logical comparison in SAS?
 
 
 
@@ -229,6 +245,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250): What does END= option do in the program?
 - Question (nly13-stat6250): Is there a maximum number of set statements allowed?
 - Question (hhu9-sta6250):In what situation we should add end=eof in set statement?
+- Question (yzhu12-stat6250): What's the alternative statement that works the same as the ELSE statement in SAS?
 
 
 
@@ -251,6 +268,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): What are the values of each variable in the PDV at the beginning of the execution phase ?
 - Question (hhu9-sta6250):What signs the end of DATA precess?
 - Answer (hhu9-sta6250):RUN statement
+- Question (yzhu12-stat6250): Why you can't use DROP or KEEP statements in PROC steps?
 
 
 
@@ -270,6 +288,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250): If we are combining data vertically or horizontally, what does missing observations or variables will show in result or output when combining them?
 - Question (nly13-stat6250): In what situation that the indicator variables are not eligible?
 - Question (hhu9-sta6250): whats the advantages of SAS language over SQL language?
+- Question (yzhu12-stat6250): In what situation can indicator variables not be used?
 
 
 
@@ -295,5 +314,6 @@ FROM two
 - Question (meisenbach-stat6250): What does the AS keyword do in a PROC SQL SELECT statement?
 - Answer (meisenbach-stat6250): Syntax: value AS variable. The AS keyword allows you to set the value of a new variable.
 - Question (nly13-stat6250): Do the advantages of PROC sql out weight the disadvantage of memory?
+- Question (yzhu12-stat6250): The statement "union all corr" can include all the columns with the corresponding names, does that mean the missing columns are skipped automatically and the remained ones are matched up with each other precisely?
 
 
