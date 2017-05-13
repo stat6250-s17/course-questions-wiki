@@ -291,6 +291,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): In what situation can indicator variables not be used?
 
 
+
 [optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
 - Question (mcardoso3-stat6250):  What would be the best option to combine datasets in SAS?
 - Question (akumar30−stat6250): How to rewrite concat statement using pro sql?
@@ -314,4 +315,5 @@ FROM two
 - Answer (meisenbach-stat6250): Syntax: value AS variable. The AS keyword allows you to set the value of a new variable.
 - Question (nly13-stat6250): Do the advantages of PROC sql out weight the disadvantage of memory?
 - Question (yzhu12-stat6250): The statement "union all corr" can include all the columns with the corresponding names, does that mean the missing columns are skipped automatically and the remained ones are matched up with each other precisely?
+
 
