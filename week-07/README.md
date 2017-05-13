@@ -253,6 +253,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-sta6250):RUN statement
 
 
+
 [basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
 - Question (mcardoso3-stat6250):  Why would a length statement need to appear when creating wider character variable?
 - Question (akumar30−stat6250): If there are two data set having same data structure but variable names and position are different? Can we combine this dataset vertically by using additional keep and retain statement?
