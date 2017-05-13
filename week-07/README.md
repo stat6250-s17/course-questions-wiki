@@ -15,7 +15,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 10, Problem 2]
-- Question (hhu9-sta6250):In PROC PRINT, why there is a "." after "comma10"
+- Question (hhu9-sta6250):In PROC PRINT, why there is a "." after "comma10"?
 
 
 [Course Textbook Chapter 10, Problem 6]
