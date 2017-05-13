@@ -32,6 +32,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250): What to use for formatiing the variable, how it formatted in the PROC PRINT output?
 - Answer (yren10-stat6250):  Formats this variable using the COMMA10. format. 
 - Question (nly13-stat6250): What is COMMA10 format?
+- Question (hhu9-sta6250):In PROC PRINT, why there is a "." after "comma10"?
 
 
 
@@ -55,6 +56,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250): Does lower-case and upper-case matters in IF-THEN statement?
 - Answer (yren10-stat6250): Yes, like the case in this question, value 'Ok' is not identical to 'OK'.
 - Question (nly13-stat6250): Is it possible to use fuzzy logic?
+- Question (hhu9-sta6250):IN IF-THEN statement, is it case-sensitive?  
+- Answer (hhu9-sta6250): yes, it is, so we need to be careful about case-sensitive.
 
 
 
@@ -78,6 +81,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yren10-stat6250): It determined by its first reference
 - Question (nly13-stat6250): What is LENGTH statement?
 - Answer (nly13-stat6250): You can use a LENGTH statement to specify a length for a variable before the first value is referenced elsewhere in the DATA step.
+- Question (hhu9-sta6250):What is the difference between LENGTH() and LENGTHC()?
+- Answer (hhu9-sta6250): LENGTH() do not count blank in tail.
 
 
 
@@ -101,6 +106,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250): How many  ELSE statements we can write in one statement(IF-THEN)?
 - Question (nly13-stat6250): What is the benefit of using ELSE in IF-THEN statement?
 - Answer (nly13-stat6250): Using IF-THEN statements without the ELSE statement causes SAS to evaluate all IF-THEN statements. Using IF-THEN statements with the ELSE statement causes SAS to execute IF-THEN statements until it encounters the first true statement. 
+- Question (hhu9-sta6250):Why in SAS, we should type first "else" parallel with "if" in first column?
 
 
 
@@ -120,6 +126,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250):  Are statements concerning length of variable data in a data step permanent or non-permanent assignments? 
 - Question (yren10-stat6250): What determines the length of a new variable?
 - Question (nly13-stat6250): How does the length statement work with newly created variables?
+- Question (hhu9-sta6250):Where should we place LENGTH statement in?
+- Answer (hhu9-sta6250): LENGTH statement should be placed before any other reference to the variable in the DATA step.
 
 
 
@@ -138,6 +146,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2-stat6250): No. When you drop a variable in a DATA step but not in the DATA statement itself, it removes the variable and its data from being accessed by the DATA step.
 - Question (yren10-stat6250):  Can we use DROP or KEEP statements in PROC steps?
 - Question (nly13-stat6250): What are the possible errors that can occur while writing a LENGTH, INFILE, or IF-THEN statement?
+- Question (hhu9-sta6250):In which time we should use KEEP= instead of keep?
 
 
 
@@ -157,6 +166,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250): If age <= 40 and group not equal 2, will age and group appears in new data set? 
 - Question (nly13-stat6250): If there are more than one WHEN statement that has a true ‘when’ expression, how many WHEN statements will be used?
 - Answer (nly13-stat6250): Only the first WHEN statement will be read.
+- Question (hhu9-sta6250):when we use drop statement, where are the variables that be droped?
+- Answer (hhu9-sta6250): They are still in PDV.
 
 
 
@@ -173,6 +184,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): When creating an output file in a DATA statement, is there an error if no variables are explicitly kept or dropped?
 - Question (yren10-stat6250): Does DROP= drops all the stuff from the variable? or we may use ‘if’ make some change？
 - Question (nly13-stat6250): What is the basic criteria in order to figure out the placement of the "DROP= or KEEP=" option?
+- Question (hhu9-sta6250):How to understand "compile-time only statement"?
 
 
 
@@ -195,6 +207,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2-stat6250): The sort process creates "first." and "last." extenuated variables that can be used with the by-variable name appended to them and used in if statements to determine whether you have hit the first of a list or the last of a list to begin an operation or to end one.
 - Question (yren10-stat6250): When we're using the BY statement with the SET statement, what the DATA step creates？
 - Question (nly13-stat6250): Is there any other type of comparisons that goes before logical comparison in SAS?
+- Question (hhu9-sta6250):what does FIRST.andLAST.mean?
+- Answer (hhu9-sta6250): it identify the first and last observations in each BY statement.
 
 
 
@@ -214,6 +228,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2-stat6250): You can solve the problem by assigning a value to the end of file variable, "end".
 - Question (yren10-stat6250): What does END= option do in the program?
 - Question (nly13-stat6250): Is there a maximum number of set statements allowed?
+- Question (hhu9-sta6250):In what situation we should add end=eof in set statement?
 
 
 
@@ -234,6 +249,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): How can the program data vector and its population of values as the program steps through the code be useful in debugging a program?
 - Question (yren10-stat6250): What does PDV do in the DATA step processing?
 - Question (nly13-stat6250): What are the values of each variable in the PDV at the beginning of the execution phase ?
+- Question (hhu9-sta6250):What signs the end of DATA precess?
+- Answer (hhu9-sta6250):RUN statement
 
 
 
@@ -252,6 +269,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2-stat6250): An "in" (for "in-file") variable is created along with a datasource variable that holds a reference to the file. The in-variable then gets assigned a value of 1 if the data comes from the indicated file and 0 if not, which can further be used in a business analysis scheme regarding the file through the use of the datasource variable assignment.
 - Question (yren10-stat6250): If we are combining data vertically or horizontally, what does missing observations or variables will show in result or output when combining them?
 - Question (nly13-stat6250): In what situation that the indicator variables are not eligible?
+- Question (hhu9-sta6250): whats the advantages of SAS language over SQL language?
 
 
 
