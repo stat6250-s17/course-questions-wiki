@@ -34,6 +34,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): What is COMMA10 format?
 
 
+
 [Course Textbook Chapter 10, Problem 6]
 - Question (mcardoso3-stat6250):  How many different ways are there of writing an IF-THEN statement in SAS?
 - Question (akumar30−stat6250): What is the order of execution in case of multiple IF-THEN statement?
@@ -54,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250): Does lower-case and upper-case matters in IF-THEN statement?
 - Answer (yren10-stat6250): Yes, like the case in this question, value 'Ok' is not identical to 'OK'.
 - Question (nly13-stat6250): Is it possible to use fuzzy logic?
+
 
 
 [Course Textbook Chapter 10, Problem 7]
@@ -192,7 +194,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): How can the sort process help create subtotals for variables by which the data set is sorted by?
 - Answer (aoneill2-stat6250): The sort process creates "first." and "last." extenuated variables that can be used with the by-variable name appended to them and used in if statements to determine whether you have hit the first of a list or the last of a list to begin an operation or to end one.
 - Question (yren10-stat6250): When we're using the BY statement with the SET statement, what the DATA step creates？
-- Question (nly13-stat6250): Is there any other type of comparisons that goes before logistic comparison in SAS?
+- Question (nly13-stat6250): Is there any other type of comparisons that goes before logical comparison in SAS?
 
 
 
@@ -214,6 +216,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Is there a maximum number of set statements allowed?
 
 
+
 [Course Textbook Chapter 11, Problem 9]
 - Question (mcardoso3-stat6250):  How soon would observations be revealed when the DATA step has been executed?
 - Question (akumar30−stat6250):  What is the content of program data vector after compilation phase is completed of data step?
@@ -233,6 +236,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): What are the values of each variable in the PDV at the beginning of the execution phase ?
 
 
+
 [basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
 - Question (mcardoso3-stat6250):  Why would a length statement need to appear when creating wider character variable?
 - Question (akumar30−stat6250): If there are two data set having same data structure but variable names and position are different? Can we combine this dataset vertically by using additional keep and retain statement?
@@ -248,6 +252,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2-stat6250): An "in" (for "in-file") variable is created along with a datasource variable that holds a reference to the file. The in-variable then gets assigned a value of 1 if the data comes from the indicated file and 0 if not, which can further be used in a business analysis scheme regarding the file through the use of the datasource variable assignment.
 - Question (yren10-stat6250): If we are combining data vertically or horizontally, what does missing observations or variables will show in result or output when combining them?
 - Question (nly13-stat6250): In what situation that the indicator variables are not eligible?
+
 
 
 [optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
