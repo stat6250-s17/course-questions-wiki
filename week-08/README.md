@@ -16,34 +16,52 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 13, Problem 1]
 
-
+* *Question (aalshehry−stat6250):* How does MEAN function deal with missing values?
 
 [Course Textbook Chapter 13, Problem 2]
 
+* *Question (aalshehry−stat6250):* How SAS will deal with variable values in arithmetic operation?
 
+* *Answer (aalshehry−stat6250):* SAS automatically converts the variable values to numeric by creating a temporary numeric value for each 
+character value which will be used in the calculation. Besides, SAS issues a message in the log showing that the conversion has been occurred.
 
 [Course Textbook Chapter 13, Problem 3]
+
+* *Question (aalshehry−stat6250):* How to convert variable values with a dollar sign to numeric?
 
 
 
 [Course Textbook Chapter 13, Problem 4]
 
+* *Question (aalshehry−stat6250):* What is the difference between INPUT and PUT?
 
+* *Answer (aalshehry−stat6250):* INPUT function to convert character data values to numeric values while PUT function converts numeric data values to character
+data values.
 
 [Course Textbook Chapter 13, Problem 5]
+
+* *Question (aalshehry−stat6250):* Whenever possible, use four-digit year values in the MDY function, why?
 
 
 
 [Course Textbook Chapter 13, Problem 6]
 
+* *Question (aalshehry−stat6250):* How to use SCAN function when the delimiter is TAB key?
 
 
 [Course Textbook Chapter 13, Problem 7]
 
-
+* *Question (aalshehry−stat6250):* Can SUBSTR function be used with matrix?
 
 [Course Textbook Chapter 13, Problem 10]
+
+* *Question (aalshehry−stat6250):* Can INDEX function be used to search for the last occurance for a certain value?
 
 
 
 [Recipes TBA]
+
+
+
+
+
