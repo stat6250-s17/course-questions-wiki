@@ -56,6 +56,7 @@ The instructor will then review the pull request and make comments should furthe
 [recipe_for_isolating_all_duplicates (from Week 8 Overview)]
 
 - Question (yzhu12-stat6250): In the example, the code first*School_Code*last*School_Code=0 is used to ensure that if and only if a value of School_Code only appears exactly once in a dataset. So why doesn't it has the same code to analysis the County_Code and District_Code?
+
 [recipe_for_drop_and_swap (from Week 8 Overview)]
 
 - Question (yzhu12-stat6250): What statement can you use if you only want to drop several rows from a particular variable?
