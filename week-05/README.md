@@ -62,7 +62,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 6, Problem 6]
-- Question (hhu9−stat6250): Why the automatic variable_N_ is incremented by 1??
+- Question (hhu9−stat6250): Why the automatic variable_N_ is incremented by 1?
 
 [basic_recepi_for_creating_analytic_datasets (from week 5 Overview)]
 - Question (hhu9−stat6250): How important is the data itself? can we get the result that what we want by using specific method?
