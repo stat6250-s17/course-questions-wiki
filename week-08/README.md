@@ -10,7 +10,7 @@ All edits should conform to GitHub Markdown specifications (https://guides.githu
 
 The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
 
-********************************************************************************
+ ********************************************************************************
 
 
 
@@ -71,17 +71,17 @@ data values.
 
 * *Answer (aalshehry−stat6250):* 
 
-a:	adds uppercase and lowercase letters
+- a:	adds uppercase and lowercase letters
 
-d:	adds numerals (digits)
+- d:	adds numerals (digits)
 
-i:	ignores case
+- i:	ignores case
 
-k:	keeps listed characters instead of removing them
+- k:	keeps listed characters instead of removing them
 
-s:	adds space (blank, tabs, lf, cr) to the list
+- s:	adds space (blank, tabs, lf, cr) to the list
 
-p:	adds punctuation 
+- p:	adds punctuation 
 
 
 
