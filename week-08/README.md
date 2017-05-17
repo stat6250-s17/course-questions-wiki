@@ -48,8 +48,10 @@ conversion has occurred.
 
 
 [recipe_for_isolating_all_duplicates (from Week 8 Overview)]
-- Question (hhu9−stat6250):during this process,How to reduce the space occupied by duplicates when we meet a big 
-  dataset?
+- Question (hhu9−stat6250):during this process,How to reduce the space occupied by duplicates when we meet a big dataset?
+
+[recipe_for_drop_and_swap (from Week 8 Overview)]
+- Question (hhu9−stat6250): How can we drop variables in PROC DATASETS.
 
 
 
