@@ -51,9 +51,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_for_isolating_all_duplicates (from Week 8 Overview)]
-
+- Question (kveng−stat6250): Instead of using the first.School_Code * last.School_Code = 0, is there a convenient function  to call that would check for duplicate? 
 
 
 [recipe_for_drop_and_swap (from Week 8 Overview)]
-
+- Question (kveng−stat6250): Do we have to specify the drop = dataset option at the top of the data step?
 
