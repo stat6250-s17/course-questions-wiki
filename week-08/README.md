@@ -31,6 +31,7 @@ character value which will be used in the calculation. Besides, SAS issues a mes
 
 
 
+
 [Course Textbook Chapter 13, Problem 4]
 
 * *Question (aalshehry−stat6250):* What is the difference between INPUT and PUT?
@@ -69,11 +70,17 @@ data values.
 * *Question (aalshehry−stat6250):* What are the modifiers that COMPRESS function accept?
 
 * *Answer (aalshehry−stat6250):* 
+
 a:	adds uppercase and lowercase letters
+
 d:	adds numerals (digits)
+
 i:	ignores case
+
 k:	keeps listed characters instead of removing them
+
 s:	adds space (blank, tabs, lf, cr) to the list
+
 p:	adds punctuation 
 
 
