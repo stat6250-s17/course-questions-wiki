@@ -48,9 +48,12 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): What does the INDEX function do?
 - Answer (nly13-stat6250): This function enables you to search a character value for a specified string.
 
+
 [recipe_for_isolating_all_duplicates (from Week 8 Overview)]
 - Question (nly13-stat6250): What is the difference between using proc sort with dupout= option and this method?
 
 
 [recipe_for_drop_and_swap (from Week 8 Overview)]
 - Question (nly13-stat6250): Why is it necessary to rename the High_Grade variable?
+
+
