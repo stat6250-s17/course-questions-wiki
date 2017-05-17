@@ -16,11 +16,11 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 13, Problem 1]
 - Question (aoneill2-stat6250): How many arguments does the mean function take?
-
+- Answer (aoneill2-stat6250): The mean function can have as many arguments as there are values to take the average of, but can also appear as an expression of a range of values of variables in an array, such as mean(of x1-x3) which is equivalent to mean(x1,x2,x3).
 
 [Course Textbook Chapter 13, Problem 2]
 - Question (aoneill2-stat6250): What is the resulting value type when you mix char and numeric vars in a function operation?
-
+- Answer (aoneill2-stat6250): SAS will automatically convert the character variable to a numeric variable, but there is a chance it may not work.
 
 [Course Textbook Chapter 13, Problem 3]
 - Question (aoneill2-stat6250): How many values must be accommodated in a format for a numeric value - do characters like commas and decimals count?
@@ -30,6 +30,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 13, Problem 4]
 - Question (aoneill2-stat6250): In formatting char values to assign as numeric values to variables, what is the function used - "put" or "input"?
+- Answer (aoneill2-stat6250): The input function converts char vars to numeric vars, and the put function does vice versa.
 
 [Course Textbook Chapter 13, Problem 5]
 - Question (aoneill2-stat6250): Does MDY format in Year of cutoff value require only a 2-digit year in the year of the cutoff itself - i.e., if the cutoff year is year 0?
