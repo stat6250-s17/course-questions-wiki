@@ -15,7 +15,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
-- Question (yren10-stat6250): What would happen if we forgot to use "of" 
+- Question (yren10-stat6250): What would happen if we forgot to use "of"?
 - Answer (yren10-stat6250): The function argument might not be interpreted as expected.
 
 [Course Textbook Chapter 13, Problem 2]
