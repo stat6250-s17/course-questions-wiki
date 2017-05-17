@@ -21,7 +21,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 13, Problem 2]
 
 * *Question (aalshehry−stat6250):* How SAS will deal with variable values in arithmetic operation?
-
+ 
 * *Answer (aalshehry−stat6250):* SAS automatically converts the variable values to numeric by creating a temporary numeric value for each 
 character value which will be used in the calculation. Besides, SAS issues a message in the log showing that the conversion has been occurred.
 
@@ -71,17 +71,17 @@ data values.
 
 * *Answer (aalshehry−stat6250):* 
 
-- a:	adds uppercase and lowercase letters
+   - a:	adds uppercase and lowercase letters
 
-- d:	adds numerals (digits)
+   - d:	adds numerals (digits)
 
-- i:	ignores case
+   - i:	ignores case
 
-- k:	keeps listed characters instead of removing them
+   - k:	keeps listed characters instead of removing them
 
-- s:	adds space (blank, tabs, lf, cr) to the list
+   - s:	adds space (blank, tabs, lf, cr) to the list
 
-- p:	adds punctuation 
+   - p:	adds punctuation 
 
 
 
