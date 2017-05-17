@@ -35,7 +35,7 @@ character value which will be used in the calculation. Besides, SAS issues a mes
 
 * *Question (aalshehry−stat6250):* What is the difference between INPUT and PUT?
 
-* *Answer (aalshehry−stat6250):* INPUT function to convert character data values to numeric values while PUT function converts numeric data values to character
+* *Answer (aalshehry−stat6250):* INPUT function is used to to convert character data values to numeric values while PUT function converts numeric data values to character
 data values.
 
 [Course Textbook Chapter 13, Problem 5]
@@ -59,7 +59,23 @@ data values.
 
 
 
-[Recipes TBA]
+
+[recipe_for_isolating_all_duplicates (from Week 8 Overview)]
+
+* *Question (aalshehry−stat6250):* Can we do the doublecate comparision without isolating the rows in a temperory dataset?
+
+[recipe_for_drop_and_swap (from Week 8 Overview)]
+
+* *Question (aalshehry−stat6250):* What are the modifiers that COMPRESS function accept?
+
+* *Answer (aalshehry−stat6250):* 
+a:	adds uppercase and lowercase letters
+d:	adds numerals (digits)
+i:	ignores case
+k:	keeps listed characters instead of removing them
+s:	adds space (blank, tabs, lf, cr) to the list
+p:	adds punctuation 
+
 
 
 
