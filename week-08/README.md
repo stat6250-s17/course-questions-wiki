@@ -29,10 +29,10 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 13, Problem 4]
 - Question (kveng−stat6250): What is the different between PUT() and  INPUT()?
-- Answer (kveng−stat6250): 1, PUT() always creates character variables
-                           2, INPUT() can create character or numeric variables based on the informat
-                           3, The source format must match the source variable type in PUT()
-                           4, The source variable type for INPUT() must always be character variables
+- Answer (kveng−stat6250): 1, PUT() always creates character variables.
+                           2, INPUT() can create character or numeric variables based on the informat.
+                           3, The source format must match the source variable type in PUT().
+                           4, The source variable type for INPUT() must always be character variables.
 
 [Course Textbook Chapter 13, Problem 5]
 - Question (kveng−stat6250): How does YEARCUTOFF work?
