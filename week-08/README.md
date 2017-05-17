@@ -52,5 +52,7 @@ conversion has occurred.
   dataset?
 
 
-[recipe_for_drop_and_swap (from Week 8 Overview)]
-- Question (hhu9−stat6250): Does drop statement exe after altering dataset? what is the order does it obey?
+
+
+
+
