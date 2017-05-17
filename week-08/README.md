@@ -70,3 +70,4 @@ The instructor will then review the pull request and make comments should furthe
 
 [recipe_for_drop_and_swap (from Week 8 Overview)]
 - Question (yyan11−stat6250): In this example, it is converted to a numeric value using the input function and the format best12., which is the default format for numerical variable having no value after the decimal point. But, if I want to keep two decimal place, how can I do it?
+
