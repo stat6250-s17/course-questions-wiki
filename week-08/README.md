@@ -15,35 +15,42 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
-
+- Question (hhu9−stat6250): can we use mean(var1,var4) without "of" or we must use "of"
 
 
 [Course Textbook Chapter 13, Problem 2]
-
-
+- Question (hhu9−stat6250): In this case , I think PayRate is also should be numeric values right? LOG will show the information of data converted? 
+- Answer (hhu9−stat6250): I think PayRate is also represented by numeric values, Log will show a massage that a 
+conversion has occurred.
 
 [Course Textbook Chapter 13, Problem 3]
-
-
+- Question (hhu9−stat6250): Which fuction should we use to convert character value to numeric value?
+- Answer (hhu9−stat6250): we should use INPUT function.
 
 [Course Textbook Chapter 13, Problem 4]
-
-
+- Question (hhu9−stat6250): Which fuction we should use to convert numeric values to character values?
+- Answer (hhu9−stat6250): we should use PUT function.
 
 [Course Textbook Chapter 13, Problem 5]
-
-
+- Question (hhu9−stat6250): how to write date in correct order in MDY function?
+- Answer (hhu9−stat6250):  (moutn/day/year)
 
 [Course Textbook Chapter 13, Problem 6]
-
+- Question (hhu9−stat6250): In which situation we should specify delimiters in SCAN function.
 
 
 [Course Textbook Chapter 13, Problem 7]
-
+- Question (hhu9−stat6250):If we dont know the exact position of the substring, which function should we use?
 
 
 [Course Textbook Chapter 13, Problem 10]
+- Question (hhu9−stat6250):What is the differece between INDEX function and INDEXC function?
 
 
+[recipe_for_isolating_all_duplicates (from Week 8 Overview)]
+- Question (hhu9−stat6250):during this process,How to reduce the space occupied by duplicates when we meet a big 
+  dataset?
 
-[Recipes TBA]
+
+[recipe_for_drop_and_swap (from Week 8 Overview)]
+- Question (hhu9−stat6250): Does drop statement exe after altering dataset? what is the order does it obey?
