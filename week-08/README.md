@@ -15,35 +15,42 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
-
+– Question (nly13-stat6250): Can you use this same mechanics with alphabetical variable names?
 
 
 [Course Textbook Chapter 13, Problem 2]
-
+- Question (nly13-stat6250): When a numeric operation is involved, why does SAS automatically convert character variables to numeric?
 
 
 [Course Textbook Chapter 13, Problem 3]
-
+- Question (nly13-stat6250): Does the width in an INFORMAT read the comma?
 
 
 [Course Textbook Chapter 13, Problem 4]
-
+- Question (nly13-stat6250): Can you next an INPUT statement in a PUT statement, and vice versa?
 
 
 [Course Textbook Chapter 13, Problem 5]
-
+- Question (nly13-stat6250): What is the correct order for the MDY function?
+- Answer (nly13-stat6250): (mouth/day/year)
 
 
 [Course Textbook Chapter 13, Problem 6]
-
+- Question (nly13-stat6250): How do you use INT and ROUND functions?
 
 
 [Course Textbook Chapter 13, Problem 7]
-
+- Question (nly13-stat6250): What is the difference between SCAN and SUBSTR?
+- Answer (nly13-stat6250): Scan relies on delimiters, while SUBSTR reads values from specified locations.
 
 
 [Course Textbook Chapter 13, Problem 10]
+- Question (nly13-stat6250): What does the INDEX function do?
+- Answer (nly13-stat6250): This function enables you to search a character value for a specified string.
+
+[recipe_for_isolating_all_duplicates (from Week 8 Overview)]
+- Question (nly13-stat6250): What is the difference between using proc sort with dupout= option and this method?
 
 
-
-[Recipes TBA]
+[recipe_for_drop_and_swap (from Week 8 Overview)]
+- Question (nly13-stat6250): Why is it necessary to rename the High_Grade variable?
