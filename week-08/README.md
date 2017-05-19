@@ -21,6 +21,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (akumar30−stat6250): It will return a missing value.
 - *Question* (lwang30-stat6250) : What value would SAS produce if "of" is not added in function D ?
 - *Answer* (lwang30-stat6250) : SAS will give the mean of the difference between "var1" and "var4".
+- Question (hhu9−stat6250): can we use mean(var1,var4) without "of" or we must use "of"?
 
 
 
@@ -30,6 +31,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (akumar30−stat6250): Can I use character variable to a function that requires numeric arguments?
 - Answer (akumar30−stat6250): Yes, Automatic character-to-numeric conversion occurs when a character value is specified in a function that requires numeric arguments.
 - *Question* (lwang30-stat6250) : Can SAS automatically convert numeric variable to character variable as well ?
+- Question (hhu9−stat6250): In this case , I think PayRate is also should be numeric values right? LOG will show the information of data converted? 
+- Answer (hhu9−stat6250): I think PayRate is also represented by numeric values, Log will show a massage that a  conversion has occurred.
 
 
 
@@ -39,6 +42,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (akumar30−stat6250): What will happen if length specifies in input or put statement less than length of new variable?
 - *Question* (lwang30-stat6250) : What does the PUT function do and how is it used ?
 - *Answer* (lwang30-stat6250) : PUT function is able to convert numeric variable to character variable. In the parentheses, the variable and a format should be specified.
+- Question (hhu9−stat6250): Which fuction should we use to convert character value to numeric value?
+- Answer (hhu9−stat6250): we should use INPUT function.
 
 
 
@@ -46,6 +51,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): What kind of error will occur if you don't place the LENGTH statement before the assignment statements that contain the SCAN function?
 - Question (akumar30−stat6250): Can I use ANSCI character chr(10) to concatenate multiple values separated by new line ?
 - *Question* (lwang30-stat6250) : What other types of manipulation of variables is performed in this problem ?
+- Question (hhu9−stat6250): Which fuction we should use to convert numeric values to character values?
+- Answer (hhu9−stat6250): we should use PUT function.
 
 
 
@@ -54,6 +61,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): It still need to be followed by parentheses.
 - Question (akumar30−stat6250): How to extract SAS date from numeric Date?
 - *Question* (lwang30-stat6250) : What is the default YEARCUTOFF in SAS ?
+- Question (hhu9−stat6250): how to write date in correct order in MDY function?
+- Answer (hhu9−stat6250):  (moutn/day/year)
 
 
 
@@ -62,6 +71,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): We need to precede the list or the array with the word OF.
 - Question (akumar30−stat6250): Can I get fiscal calendar date, time and year in SAS?
 - *Question* (lwang30-stat6250) : What other delimiters can be recognized by SAS when SCAN or other similar function is performed ?
+- Question (hhu9−stat6250): In which situation we should specify delimiters in SCAN function?
 
 
 
@@ -72,6 +82,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (akumar30−stat6250):  If third argument (n) is omitted, all remaining characters are replaced.
 - *Question* (lwang30-stat6250) : What other function is "substr" able to do in SAS ?
 - *Answer* (lwang30-stat6250) : "substr" function can also be used to replace variable values when it is used on the left side of an assignment statement.
+- Question (hhu9−stat6250):If we dont know the exact position of the substring, which function should we use?
 
 
 
@@ -81,6 +92,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (akumar30−stat6250): Can I use trim function to store the variable with no trailing spaces?
 - Answer (akumar30−stat6250): TRIM function does not affect how a variable is stored. The trimmed values are padded with trailing blanks again if the values are shorter than the length of the new variable.
 - *Question* (lwang30-stat6250) : What functions can be used to make sure the search for the string is not case-sensitive ?
+- Question (hhu9−stat6250):What is the differece between INDEX function and INDEXC function?
 
 
 
@@ -88,6 +100,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): In the example, the code first*School_Code*last*School_Code=0 is used to ensure that if and only if a value of School_Code only appears exactly once in a dataset. So why doesn't it has the same code to analysis the County_Code and District_Code?
 - Question (akumar30−stat6250): If we are removing duplicates in SAS, does also remove duplicate missing value?
 - *Question* (lwang30-stat6250) : How do we identify which is the most deeply nested column in a composite key ?
+- Question (hhu9−stat6250):during this process,How to reduce the space occupied by duplicates when we meet a big dataset?
 
 
 
@@ -96,5 +109,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (akumar30−stat6250): How to remove special character from SAS Dataset and convert them in to decimal variable?
 - Answer (akumar30−stat6250):  using compress (id,'0123456789.','k') option result will show only decimal variable. Here id contains the special character. 
 - *Question* (lwang30-stat6250) : What is the consequence if the compress function with "kd" option is not used in the business logic ?
+- Question (hhu9−stat6250): How can we drop variables in PROC DATASETS.
 
 
