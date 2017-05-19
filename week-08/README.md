@@ -34,6 +34,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2-stat6250): The mean function can have as many arguments as there are values to take the average of, but can also appear as an expression of a range of values of variables in an array, such as mean(of x1-x3) which is equivalent to mean(x1,x2,x3).
 - Question (yren10-stat6250): What would happen if we forgot to use "of"?
 - Answer (yren10-stat6250): The function argument might not be interpreted as expected.
+- Question (cyuan10-stat6250): Is there a way to write the code is that you can specify to calculate all the variables or do we have to list them all out individually?
 
 
 
@@ -56,6 +57,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): What is the resulting value type when you mix char and numeric vars in a function operation?
 - Answer (aoneill2-stat6250): SAS will automatically convert the character variable to a numeric variable, but there is a chance it may not work.
 - Question (yren10-stat6250): What would output shows after SAS automatically converts the character values to numeric values?
+- Question (cyuan10-stat6250): What happens if we have two numeric of different lengths?
+- Answer (cyuan10-stat6250): SAS will automatically return a data that has the length of the longest numeric input.
 
 
 
@@ -80,6 +83,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2-stat6250): Yes, in a format statement such as comma7. the comma counts as one of the 7 "digits" even though the comma itself is not really a numerical value itself.
 - Question (aoneill2-stat6250): In a numeric variable format, what does it mean when it ends in a decimal?
 - Question (yren10-stat6250): What the difference between the 1nput and put, what difference they will make in output?
+- Question (cyuan10-stat6250): Does the width of the input include the comma?
+- Answer (cyuan10-stat6250): Yes, for example 123,456 is a comma7 because the "," is read.
 
 
 
@@ -99,6 +104,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): In formatting char values to assign as numeric values to variables, what is the function used - "put" or "input"?
 - Answer (aoneill2-stat6250): The input function converts char vars to numeric vars, and the put function does vice versa.
 - Question (yren10-stat6250): By using 4.1 on d selection, Is it just because we are having 3 numbers and dot, so we are using n+1 and its 4?
+- Question (cyuan10-stat6250): In these cases, if we wish for SAS to include a ending zero such as "12.30", how do we specify it?
 
 
 
@@ -120,6 +126,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): Does MDY format in Year of cutoff value require only a 2-digit year in the year of the cutoff itself - i.e., if the cutoff year is year 0?
 - Question (yren10-stat6250): Does MDY means month goes first then day and year?
 - Answer (yren10-stat6250): Yes, month number then date then full year number, and don't start with 0.
+- Question (cyuan10-stat6250): What happens if you only use (1,3,20) for MDY?
+- Answer (cyuan10-stat6250): Since the YEARCUTOFF is defaulted to 1920, then your output would display 1920 instead of 2020.
 
 
 
@@ -139,6 +147,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): In reading in a string to store a subset of it, is there a way to make SAS take the characters from the RHS without having to count the number of characters in the original string or the number of characters leading up to it?
 - Question (yren10-stat6250): How we deal with the space and the comma when doing the assign?
 - Answer (yren10-stat6250): You don't need to specify delimiters, because the blank and the comma are default delimiters.
+- Question (cyuan10-stat6250): If the character data includes a number, will the scan function automatically create a new numeric variable?
 
 
 
@@ -160,6 +169,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): What is the defference between SCAN and substr?
 - Question (aoneill2-stat6250): Do you use scan or substr function to locate single-char input in a string and do you have to specify with a separate arg the length of the substring if only one char?
 - Question (yren10-stat6250): When we usually use the SUBSTR function?
+- Question (cyuan10-stat6250): How do you deal with data where similar information is stored in different parts/length of a single variable?
 
 
 
@@ -180,6 +190,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): What is the difference between index function and substr?
 - Question (aoneill2-stat6250): How does the index function work to find values of a given bar in a given dataset?
 - Question (yren10-stat6250): Why we need set returning value greater than 0, what would happen if we don't set it greater than 0?
+- Question (cyuan10-stat6250): Since the old area code and the new area code both start with '9', then technically, can we only change the last two digits?
 
 
 
@@ -197,6 +208,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): How does SAS know to loop through the entire program with just one line of code?
 - Answer (aoneill2-stat6250): The run statement in a data step is the end of an implied loop.
 - Question (yren10-stat6250): What does the first_column mutiply last_column do in the command?
+- Question (cyuan10-stat6250): Then the sort function includes 3 variables, then does it proceed to sort in order of how the variables are listed?
 
 
 
@@ -215,5 +227,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): Why is best12. the format used for the value assigned to High_Grade?
 - Answer (aoneill2-stat6250): best12. is the default format for assigning a numeric value without any decimal part.
 - Question (yren10-stat6250): Why the dataset needed temporarilly rename when procs the function?
+- Question (cyuan10-stat6250): For what reasons do we create a temporary varaible name High_Grade_character for High_Grade and what does does it play in the data step?
 
 
