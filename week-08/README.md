@@ -15,43 +15,192 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- Question (yzhu12-stat6250): What will happen if the SUBSTR function is on the left side of an assignment? How about on the right side of an assignment?
+- Answer (yzhu12-stat6250): When the SUBSTR function is on the left side of an assignment statement, it replaces variable values. When SUBSTR is on the right side of an assignment statement, it extracts variable values. 
+- Question (akumar30−stat6250): What will be the output of mean function if all arguments has missing values?
+- Answer (akumar30−stat6250): It will return a missing value.
+- *Question* (lwang30-stat6250) : What value would SAS produce if "of" is not added in function D ?
+- *Answer* (lwang30-stat6250) : SAS will give the mean of the difference between "var1" and "var4".
+- Question (hhu9−stat6250): can we use mean(var1,var4) without "of" or we must use "of"?
+- Question (meisenbach-stat6250): What happends if you specify var1-var4 and var3 does not exist?
+- Question (rluo-stat6250): Where can we use SAS functions?
+- Answer (rluo-stat6250): SAS functions can be used in DATA step programming statements.
+– Question (nly13-stat6250): Can you use this same mechanics with alphabetical variable names?
+- Question (yyan11−stat6250): How to use a SAS function?
+- Answer (yyan11−stat6250): To use a SAS function, specify the function name followed by the function arguments, which are enclosed in parentheses. General form, SAS function:function-name(argument-1<,argument-n>)
+- Question (kveng−stat6250): Do we really need to word OF inside the mean function?
+- Answer (kveng−stat6250): If you omit the word OF, the function argument might not be interpreted as expected. 
 - Question (aoneill2-stat6250): How many arguments does the mean function take?
 - Answer (aoneill2-stat6250): The mean function can have as many arguments as there are values to take the average of, but can also appear as an expression of a range of values of variables in an array, such as mean(of x1-x3) which is equivalent to mean(x1,x2,x3).
 
+
+
 [Course Textbook Chapter 13, Problem 2]
+- Question (yzhu12-stat6250): What statement do we use if we want to ensure that all forms of a character string are found?
+- Answer (yzhu12-stat6250): We can use the UPCASE or LOWCASE function with the INDEX function.
+- Question (akumar30−stat6250): Can I use character variable to a function that requires numeric arguments?
+- Answer (akumar30−stat6250): Yes, Automatic character-to-numeric conversion occurs when a character value is specified in a function that requires numeric arguments.
+- *Question* (lwang30-stat6250) : Can SAS automatically convert numeric variable to character variable as well ?
+- Question (hhu9−stat6250): In this case , I think PayRate is also should be numeric values right? LOG will show the information of data converted? 
+- Answer (hhu9−stat6250): I think PayRate is also represented by numeric values, Log will show a massage that a  conversion has occurred.
+- Question (meisenbach-stat6250): Why should you not rely on automatic conversion?
+- Answer (meisenbach-stat6250): Sometimes SAS is unable to do the conversion (e.g. the PayRate contains a dollar sign).
+- Question (rluo-stat6250): What is the target variables?
+- Answer (rluo-stat6250): A target variable is the variable to whic the result of a function is assigned.
+- Question (nly13-stat6250): When a numeric operation is involved, why does SAS automatically convert character variables to numeric?
+- Question (yyan11−stat6250): Does SAS convert character values to numeric values?
+- Answer (yyan11−stat6250): By default, if you reference a character variable in a numeric context such as an arithmetic operation, SAS tries to convert the variable values to numeric.
+- Question (kveng−stat6250): Is it better to specify the data type of PayRate in advance to numberic?
 - Question (aoneill2-stat6250): What is the resulting value type when you mix char and numeric vars in a function operation?
 - Answer (aoneill2-stat6250): SAS will automatically convert the character variable to a numeric variable, but there is a chance it may not work.
 
+
+
 [Course Textbook Chapter 13, Problem 3]
+- Question (yzhu12-stat6250): What will happen if you specify an invalid data in the MDY function?
+- Answer (yzhu12-stat6250):  A missing value will be assigned to the target variable.
+- Question (akumar30−stat6250): What will happen if length specifies in input or put statement less than length of new variable?
+- *Question* (lwang30-stat6250) : What does the PUT function do and how is it used ?
+- *Answer* (lwang30-stat6250) : PUT function is able to convert numeric variable to character variable. In the parentheses, the variable and a format should be specified.
+- Question (hhu9−stat6250): Which fuction should we use to convert character value to numeric value?
+- Answer (hhu9−stat6250): we should use INPUT function.
+- Question (meisenbach-stat6250): Does the width in an INFORMAT count the comma?
+- Answer (meisenbach-stat6250): Yes, comma7 = 123,456
+- Question (rluo-stat6250): What is the function of INPUT?
+- Answer (rluo-stat6250): INPUT function converts character data values to numeric values.
+- Question (nly13-stat6250): Does the width in an INFORMAT read the comma?
+- Question (yyan11−stat6250): What happens if skip the INPUT function or the PUT function when converting data?
+- Answer (yyan11−stat6250): SAS will detect the mismatched variables and will try an automatic character-to-numeric or numeric-to-character conversion. However, this process doesn't always work. Therefore, it is always best to include INPUT and PUT functions in your programs to avoid data type mismatches and circumvent automatic conversion.
+- Question (kveng−stat6250): What is the different between comma6 and comma7 here?
+- Answer (kveng−stat6250): The numeric informat "comma6." tells SAS that you want to read in a number that contains a comma and takes up to 6 spaces (including the comma)
 - Question (aoneill2-stat6250): How many values must be accommodated in a format for a numeric value - do characters like commas and decimals count?
 - Answer (aoneill2-stat6250): Yes, in a format statement such as comma7. the comma counts as one of the 7 "digits" even though the comma itself is not really a numerical value itself.
-
 - Question (aoneill2-stat6250): In a numeric variable format, what does it mean when it ends in a decimal?
 
+
+
 [Course Textbook Chapter 13, Problem 4]
+- Question (yzhu12-stat6250): What kind of error will occur if you don't place the LENGTH statement before the assignment statements that contain the SCAN function?
+- Question (akumar30−stat6250): Can I use ANSCI character chr(10) to concatenate multiple values separated by new line ?
+- *Question* (lwang30-stat6250) : What other types of manipulation of variables is performed in this problem ?
+- Question (hhu9−stat6250): Which fuction we should use to convert numeric values to character values?
+- Answer (hhu9−stat6250): we should use PUT function.
+- Question (meisenbach-stat6250): Does using PUT change the type of the original variable?
+- Question (rluo-stat6250): How many SAS date functions are there? And what are they?
+- Question (nly13-stat6250): Can you nest an INPUT statement in a PUT statement, and vice versa?
+- Question (yyan11−stat6250): What is the difference between the INPUT function and the PUT function?
+- Answer (yyan11−stat6250): To use the INPUT function to convert character data values to numeric values. And you can use the PUT function to explicitly convert numeric data values to character data values.
+- Question (kveng−stat6250): What is the different between PUT() and  INPUT()?
+- Answer (kveng−stat6250): (1) PUT() always creates character variables; (2) INPUT() can create character or numeric variables based on the informat; (3) The source format must match the source variable type in PUT(); and (4) The source variable type for INPUT() must always be character variables.
 - Question (aoneill2-stat6250): In formatting char values to assign as numeric values to variables, what is the function used - "put" or "input"?
 - Answer (aoneill2-stat6250): The input function converts char vars to numeric vars, and the put function does vice versa.
 
+
+
 [Course Textbook Chapter 13, Problem 5]
+- Question (yzhu12-stat6250): Even if a function doesn't require arguments, the function name must still be followed by what?
+- Answer (yzhu12-stat6250): It still need to be followed by parentheses.
+- Question (akumar30−stat6250): How to extract SAS date from numeric Date?
+- *Question* (lwang30-stat6250) : What is the default YEARCUTOFF in SAS ?
+- Question (hhu9−stat6250): how to write date in correct order in MDY function?
+- Answer (hhu9−stat6250):  (moutn/day/year)
+- Question (meisenbach-stat6250): What does YEARCUTOFF specify?
+- Answer (meisenbach-stat6250): YEARCUTOFF specifies the first year of the 100 year span.
+- Question (rluo-stat6250): What are the character functions?
+- Question (nly13-stat6250): What is the correct order for the MDY function?
+- Answer (nly13-stat6250): (mouth/day/year)
+- Question (yyan11−stat6250): What is the MDY function?
+- Answer (yyan11−stat6250): The MDY function creates a SAS date value from numeric values that represent the month, day, and year.
+- Question (kveng−stat6250): How does YEARCUTOFF work?
 - Question (aoneill2-stat6250): Does MDY format in Year of cutoff value require only a 2-digit year in the year of the cutoff itself - i.e., if the cutoff year is year 0?
 
 
+
 [Course Textbook Chapter 13, Problem 6]
+- Question (yzhu12-stat6250): What do we need to do when specifying a variable list or an array as a function argument?
+- Answer (yzhu12-stat6250): We need to precede the list or the array with the word OF.
+- Question (akumar30−stat6250): Can I get fiscal calendar date, time and year in SAS?
+- *Question* (lwang30-stat6250) : What other delimiters can be recognized by SAS when SCAN or other similar function is performed ?
+- Question (hhu9−stat6250): In which situation we should specify delimiters in SCAN function?
+- Question (meisenbach-stat6250): What does the SCAN function do?
+- Answer (meisenbach-stat6250): The SCAN function is used to extract words using blanks and commas. The second argument is the nth word.
+- Question (rluo-stat6250): How to use INT and ROUND functions?
+- Question (nly13-stat6250): How do you use INT and ROUND functions?
+- Question (yyan11−stat6250): When can I use the SCAN function?
+- Answer (yyan11−stat6250): The SCAN function is best used when you know the order of the words in the character value the starting position of the words varies the words are marked by some delimiter.
+- Question (kveng−stat6250): Is there a substr function in SAS? 
 - Question (aoneill2-stat6250): In reading in a string to store a subset of it, is there a way to make SAS take the characters from the RHS without having to count the number of characters in the original string or the number of characters leading up to it?
 
 
+
 [Course Textbook Chapter 13, Problem 7]
+- Question (yzhu12-stat6250): What function can you use if you want to replace or remove patterns of characters in the values of character variables?
+- Answer (yzhu12-stat6250): You can use TRANWRD function.
+- Question (akumar30−stat6250): What will be happen if third argument will be missing from SUBSTR function?
+- Answer (akumar30−stat6250):  If third argument (n) is omitted, all remaining characters are replaced.
+- *Question* (lwang30-stat6250) : What other function is "substr" able to do in SAS ?
+- *Answer* (lwang30-stat6250) : "substr" function can also be used to replace variable values when it is used on the left side of an assignment statement.
+- Question (hhu9−stat6250):If we dont know the exact position of the substring, which function should we use?
+- Question (meisenbach-stat6250): What happens when you do not give the number of characters to extract?
+- Answer (meisenbach-stat6250): You get the rest of the string.
+- Question (rluo-stat6250): What functions can we nest, and how many functions can we nest?
+- Question (nly13-stat6250): What is the difference between SCAN and SUBSTR?
+- Answer (nly13-stat6250): Scan relies on delimiters, while SUBSTR reads values from specified locations.
+- Question (yyan11−stat6250): When can I use the SUBSTR function?
+- Answer (yyan11−stat6250): The SUBSTR function is best used when you know the exact position of the string that you want to extract from the character value. The string does not need to be marked by delimiters. 
+- Question (kveng−stat6250): What is the defference between SCAN and substr?
 - Question (aoneill2-stat6250): Do you use scan or substr function to locate single-char input in a string and do you have to specify with a separate arg the length of the substring if only one char?
 
 
+
 [Course Textbook Chapter 13, Problem 10]
+- Question (yzhu12-stat6250): How can you test character values for the presence of a string?
+- Answer (yzhu12-stat6250): You need to  use the INDEX function and specify, in parentheses, the name of the variable and the string enclosed in quotation marks.
+- Question (akumar30−stat6250): Can I use trim function to store the variable with no trailing spaces?
+- Answer (akumar30−stat6250): TRIM function does not affect how a variable is stored. The trimmed values are padded with trailing blanks again if the values are shorter than the length of the new variable.
+- *Question* (lwang30-stat6250) : What functions can be used to make sure the search for the string is not case-sensitive ?
+- Question (hhu9−stat6250):What is the differece between INDEX function and INDEXC function?
+- Question (meisenbach-stat6250): Is it necessary to lowercase the variable that you are searching in?
+- Answer (meisenbach-stat6250): No but it’s safer to do so.
+- Question (rluo-stat6250): What is the purpose to modify the data value?
+- Question (nly13-stat6250): What does the INDEX function do?
+- Answer (nly13-stat6250): This function enables you to search a character value for a specified string.
+- Question (yyan11−stat6250): What is the INDEX function?
+- Answer (yyan11−stat6250): The INDEX function enables you to search a character value for a specified string. The INDEX function searches values from left to right, looking for the first occurrence of the string. It returns the position of the string's first character; if the string is not found, it returns a value of 0.
+- Question (kveng−stat6250): What is the difference between index function and substr?
 - Question (aoneill2-stat6250): How does the index function work to find values of a given bar in a given dataset?
 
 
-[Recipe for Isolating All Dups]
+
+[recipe_for_isolating_all_duplicates (from Week 8 Overview)]
+- Question (yzhu12-stat6250): In the example, the code first*School_Code*last*School_Code=0 is used to ensure that if and only if a value of School_Code only appears exactly once in a dataset. So why doesn't it has the same code to analysis the County_Code and District_Code?
+- Question (akumar30−stat6250): If we are removing duplicates in SAS, does also remove duplicate missing value?
+- *Question* (lwang30-stat6250) : How do we identify which is the most deeply nested column in a composite key ?
+- Question (hhu9−stat6250):during this process,How to reduce the space occupied by duplicates when we meet a big dataset?
+- Question (meisenbach-stat6250): What is the benefit of using this method for removing duplicate row?
+- Answer (meisenbach-stat6250): This method outputs all row which have duplicate key values and allows you to review them.
+- Question (rluo-stat6250): What is the difference between using proc sort, the duput= option and this method?
+- Question (nly13-stat6250): What is the difference between using proc sort with dupout= option and this method?
+- Question (yyan11−stat6250): In the composite key, which variables are used to identify duplicates?
+- Question (kveng−stat6250): Instead of using the first.School_Code * last.School_Code = 0, is there a convenient function  to call that would check for duplicate? 
 - Question (aoneill2-stat6250): How does SAS know to loop through the entire program with just one line of code?
 - Answer (aoneill2-stat6250): The run statement in a data step is the end of an implied loop.
 
-[Recipe for Drop-and-Swap]
+
+
+[recipe_for_drop_and_swap (from Week 8 Overview)]
+- Question (yzhu12-stat6250): What statement can you use if you only want to drop several rows from a particular variable?
+- Question (akumar30−stat6250): How to remove special character from SAS Dataset and convert them in to decimal variable?
+- Answer (akumar30−stat6250):  using compress (id,'0123456789.','k') option result will show only decimal variable. Here id contains the special character. 
+- *Question* (lwang30-stat6250) : What is the consequence if the compress function with "kd" option is not used in the business logic ?
+- Question (hhu9−stat6250): How can we drop variables in PROC DATASETS.
+- Question (meisenbach-stat6250): Why is it necessary to rename the High_Grade variable?
+- Answer (meisenbach-stat6250): This is necesary in order to be able to create a new numeric variable with the same name.
+- Question (rluo-stat6250): What three statements will be used to change the value type and drop the original value?
+- Question (nly13-stat6250): Why is it necessary to rename High_Grade?
+- Question (yyan11−stat6250): In this example, it is converted to a numeric value using the input function and the format best12., which is the default format for numerical variable having no value after the decimal point. But, if I want to keep two decimal place, how can I do it?
+- Question (kveng−stat6250): Do we have to specify the drop = dataset option at the top of the data step?
 - Question (aoneill2-stat6250): Why is best12. the format used for the value assigned to High_Grade?
 - Answer (aoneill2-stat6250): best12. is the default format for assigning a numeric value without any decimal part.
+
+
