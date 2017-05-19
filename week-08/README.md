@@ -23,6 +23,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (lwang30-stat6250) : SAS will give the mean of the difference between "var1" and "var4".
 - Question (hhu9−stat6250): can we use mean(var1,var4) without "of" or we must use "of"?
 - Question (meisenbach-stat6250): What happends if you specify var1-var4 and var3 does not exist?
+- Question (rluo-stat6250): Where can we use SAS functions?
+- Answer (rluo-stat6250): SAS functions can be used in DATA step programming statements.
 
 
 
@@ -36,6 +38,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9−stat6250): I think PayRate is also represented by numeric values, Log will show a massage that a  conversion has occurred.
 - Question (meisenbach-stat6250): Why should you not rely on automatic conversion?
 - Answer (meisenbach-stat6250): Sometimes SAS is unable to do the conversion (e.g. the PayRate contains a dollar sign).
+- Question (rluo-stat6250): What is the target variables?
+- Answer (rluo-stat6250): A target variable is the variable to whic the result of a function is assigned.
 
 
 
@@ -49,6 +53,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9−stat6250): we should use INPUT function.
 - Question (meisenbach-stat6250): Does the width in an INFORMAT count the comma?
 - Answer (meisenbach-stat6250): Yes, comma7 = 123,456
+- Question (rluo-stat6250): What is the function of INPUT?
+- Answer (rluo-stat6250): INPUT function converts character data values to numeric values.
 
 
 
@@ -59,6 +65,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): Which fuction we should use to convert numeric values to character values?
 - Answer (hhu9−stat6250): we should use PUT function.
 - Question (meisenbach-stat6250): Does using PUT change the type of the original variable?
+- Question (rluo-stat6250): How many SAS date functions are there? And what are they?
 
 
 
@@ -71,6 +78,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9−stat6250):  (moutn/day/year)
 - Question (meisenbach-stat6250): What does YEARCUTOFF specify?
 - Answer (meisenbach-stat6250): YEARCUTOFF specifies the first year of the 100 year span.
+- Question (rluo-stat6250): What are the character functions?
 
 
 
@@ -82,6 +90,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): In which situation we should specify delimiters in SCAN function?
 - Question (meisenbach-stat6250): What does the SCAN function do?
 - Answer (meisenbach-stat6250): The SCAN function is used to extract words using blanks and commas. The second argument is the nth word.
+- Question (rluo-stat6250): How to use INT and ROUND functions?
 
 
 
@@ -95,6 +104,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250):If we dont know the exact position of the substring, which function should we use?
 - Question (meisenbach-stat6250): What happens when you do not give the number of characters to extract?
 - Answer (meisenbach-stat6250): You get the rest of the string.
+- Question (rluo-stat6250): What functions can we nest, and how many functions can we nest?
 
 
 
@@ -107,6 +117,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250):What is the differece between INDEX function and INDEXC function?
 - Question (meisenbach-stat6250): Is it necessary to lowercase the variable that you are searching in?
 - Answer (meisenbach-stat6250): No but it’s safer to do so.
+- Question (rluo-stat6250): What is the purpose to modify the data value?
 
 
 
@@ -117,6 +128,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250):during this process,How to reduce the space occupied by duplicates when we meet a big dataset?
 - Question (meisenbach-stat6250): What is the benefit of using this method for removing duplicate row?
 - Answer (meisenbach-stat6250): This method outputs all row which have duplicate key values and allows you to review them.
+- Question (rluo-stat6250): What is the difference between using proc sort, the duput= option and this method?
 
 
 
@@ -128,5 +140,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9−stat6250): How can we drop variables in PROC DATASETS.
 - Question (meisenbach-stat6250): Why is it necessary to rename the High_Grade variable?
 - Answer (meisenbach-stat6250): This is necesary in order to be able to create a new numeric variable with the same name.
+- Question (rluo-stat6250): What three statements will be used to change the value type and drop the original value?
 
 
