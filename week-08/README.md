@@ -28,6 +28,8 @@ The instructor will then review the pull request and make comments should furthe
 – Question (nly13-stat6250): Can you use this same mechanics with alphabetical variable names?
 - Question (yyan11−stat6250): How to use a SAS function?
 - Answer (yyan11−stat6250): To use a SAS function, specify the function name followed by the function arguments, which are enclosed in parentheses. General form, SAS function:function-name(argument-1<,argument-n>)
+- Question (kveng−stat6250): Do we really need to word OF inside the mean function?
+- Answer (kveng−stat6250): If you omit the word OF, the function argument might not be interpreted as expected. 
 
 
 
@@ -46,6 +48,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): When a numeric operation is involved, why does SAS automatically convert character variables to numeric?
 - Question (yyan11−stat6250): Does SAS convert character values to numeric values?
 - Answer (yyan11−stat6250): By default, if you reference a character variable in a numeric context such as an arithmetic operation, SAS tries to convert the variable values to numeric.
+- Question (kveng−stat6250): Is it better to specify the data type of PayRate in advance to numberic?
 
 
 
@@ -64,6 +67,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Does the width in an INFORMAT read the comma?
 - Question (yyan11−stat6250): What happens if skip the INPUT function or the PUT function when converting data?
 - Answer (yyan11−stat6250): SAS will detect the mismatched variables and will try an automatic character-to-numeric or numeric-to-character conversion. However, this process doesn't always work. Therefore, it is always best to include INPUT and PUT functions in your programs to avoid data type mismatches and circumvent automatic conversion.
+- Question (kveng−stat6250): What is the different between comma6 and comma7 here?
+- Answer (kveng−stat6250): The numeric informat "comma6." tells SAS that you want to read in a number that contains a comma and takes up to 6 spaces (including the comma)
 
 
 
@@ -78,6 +83,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Can you nest an INPUT statement in a PUT statement, and vice versa?
 - Question (yyan11−stat6250): What is the difference between the INPUT function and the PUT function?
 - Answer (yyan11−stat6250): To use the INPUT function to convert character data values to numeric values. And you can use the PUT function to explicitly convert numeric data values to character data values.
+- Question (kveng−stat6250): What is the different between PUT() and  INPUT()?
+- Answer (kveng−stat6250): (1) PUT() always creates character variables; (2) INPUT() can create character or numeric variables based on the informat; (3) The source format must match the source variable type in PUT(); and (4) The source variable type for INPUT() must always be character variables.
 
 
 
@@ -95,6 +102,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nly13-stat6250): (mouth/day/year)
 - Question (yyan11−stat6250): What is the MDY function?
 - Answer (yyan11−stat6250): The MDY function creates a SAS date value from numeric values that represent the month, day, and year.
+- Question (kveng−stat6250): How does YEARCUTOFF work?
 
 
 
@@ -110,7 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): How do you use INT and ROUND functions?
 - Question (yyan11−stat6250): When can I use the SCAN function?
 - Answer (yyan11−stat6250): The SCAN function is best used when you know the order of the words in the character value the starting position of the words varies the words are marked by some delimiter.
-
+- Question (kveng−stat6250): Is there a substr function in SAS? 
 
 
 
@@ -129,6 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nly13-stat6250): Scan relies on delimiters, while SUBSTR reads values from specified locations.
 - Question (yyan11−stat6250): When can I use the SUBSTR function?
 - Answer (yyan11−stat6250): The SUBSTR function is best used when you know the exact position of the string that you want to extract from the character value. The string does not need to be marked by delimiters. 
+- Question (kveng−stat6250): What is the defference between SCAN and substr?
 
 
 
@@ -146,6 +155,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nly13-stat6250): This function enables you to search a character value for a specified string.
 - Question (yyan11−stat6250): What is the INDEX function?
 - Answer (yyan11−stat6250): The INDEX function enables you to search a character value for a specified string. The INDEX function searches values from left to right, looking for the first occurrence of the string. It returns the position of the string's first character; if the string is not found, it returns a value of 0.
+- Question (kveng−stat6250): What is the difference between index function and substr?
 
 
 
@@ -159,6 +169,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): What is the difference between using proc sort, the duput= option and this method?
 - Question (nly13-stat6250): What is the difference between using proc sort with dupout= option and this method?
 - Question (yyan11−stat6250): In the composite key, which variables are used to identify duplicates?
+- Question (kveng−stat6250): Instead of using the first.School_Code * last.School_Code = 0, is there a convenient function  to call that would check for duplicate? 
 
 
 
@@ -173,5 +184,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): What three statements will be used to change the value type and drop the original value?
 - Question (nly13-stat6250): Why is it necessary to rename High_Grade?
 - Question (yyan11−stat6250): In this example, it is converted to a numeric value using the input function and the format best12., which is the default format for numerical variable having no value after the decimal point. But, if I want to keep two decimal place, how can I do it?
+- Question (kveng−stat6250): Do we have to specify the drop = dataset option at the top of the data step?
 
 
