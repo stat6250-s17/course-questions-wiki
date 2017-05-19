@@ -72,6 +72,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Can you nest an INPUT statement in a PUT statement, and vice versa?
 
 
+
 [Course Textbook Chapter 13, Problem 5]
 - Question (yzhu12-stat6250): Even if a function doesn't require arguments, the function name must still be followed by what?
 - Answer (yzhu12-stat6250): It still need to be followed by parentheses.
@@ -130,6 +131,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nly13-stat6250): This function enables you to search a character value for a specified string.
 
 
+
 [recipe_for_isolating_all_duplicates (from Week 8 Overview)]
 - Question (yzhu12-stat6250): In the example, the code first*School_Code*last*School_Code=0 is used to ensure that if and only if a value of School_Code only appears exactly once in a dataset. So why doesn't it has the same code to analysis the County_Code and District_Code?
 - Question (akumar30−stat6250): If we are removing duplicates in SAS, does also remove duplicate missing value?
@@ -139,6 +141,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): This method outputs all row which have duplicate key values and allows you to review them.
 - Question (rluo-stat6250): What is the difference between using proc sort, the duput= option and this method?
 - Question (nly13-stat6250): What is the difference between using proc sort with dupout= option and this method?
+
 
 
 [recipe_for_drop_and_swap (from Week 8 Overview)]
