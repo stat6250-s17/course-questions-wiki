@@ -32,6 +32,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): If you omit the word OF, the function argument might not be interpreted as expected. 
 - Question (aoneill2-stat6250): How many arguments does the mean function take?
 - Answer (aoneill2-stat6250): The mean function can have as many arguments as there are values to take the average of, but can also appear as an expression of a range of values of variables in an array, such as mean(of x1-x3) which is equivalent to mean(x1,x2,x3).
+- Question (yren10-stat6250): What would happen if we forgot to use "of"?
+- Answer (yren10-stat6250): The function argument might not be interpreted as expected.
 
 
 
@@ -53,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Is it better to specify the data type of PayRate in advance to numberic?
 - Question (aoneill2-stat6250): What is the resulting value type when you mix char and numeric vars in a function operation?
 - Answer (aoneill2-stat6250): SAS will automatically convert the character variable to a numeric variable, but there is a chance it may not work.
+- Question (yren10-stat6250): What would output shows after SAS automatically converts the character values to numeric values?
 
 
 
@@ -76,6 +79,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2-stat6250): How many values must be accommodated in a format for a numeric value - do characters like commas and decimals count?
 - Answer (aoneill2-stat6250): Yes, in a format statement such as comma7. the comma counts as one of the 7 "digits" even though the comma itself is not really a numerical value itself.
 - Question (aoneill2-stat6250): In a numeric variable format, what does it mean when it ends in a decimal?
+- Question (yren10-stat6250): What the difference between the 1nput and put, what difference they will make in output?
 
 
 
@@ -94,6 +98,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (kveng−stat6250): (1) PUT() always creates character variables; (2) INPUT() can create character or numeric variables based on the informat; (3) The source format must match the source variable type in PUT(); and (4) The source variable type for INPUT() must always be character variables.
 - Question (aoneill2-stat6250): In formatting char values to assign as numeric values to variables, what is the function used - "put" or "input"?
 - Answer (aoneill2-stat6250): The input function converts char vars to numeric vars, and the put function does vice versa.
+- Question (yren10-stat6250): By using 4.1 on d selection, Is it just because we are having 3 numbers and dot, so we are using n+1 and its 4?
 
 
 
@@ -113,6 +118,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): The MDY function creates a SAS date value from numeric values that represent the month, day, and year.
 - Question (kveng−stat6250): How does YEARCUTOFF work?
 - Question (aoneill2-stat6250): Does MDY format in Year of cutoff value require only a 2-digit year in the year of the cutoff itself - i.e., if the cutoff year is year 0?
+- Question (yren10-stat6250): Does MDY means month goes first then day and year?
+- Answer (yren10-stat6250): Yes, month number then date then full year number, and don't start with 0.
 
 
 
@@ -130,6 +137,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): The SCAN function is best used when you know the order of the words in the character value the starting position of the words varies the words are marked by some delimiter.
 - Question (kveng−stat6250): Is there a substr function in SAS? 
 - Question (aoneill2-stat6250): In reading in a string to store a subset of it, is there a way to make SAS take the characters from the RHS without having to count the number of characters in the original string or the number of characters leading up to it?
+- Question (yren10-stat6250): How we deal with the space and the comma when doing the assign?
+- Answer (yren10-stat6250): You don't need to specify delimiters, because the blank and the comma are default delimiters.
 
 
 
@@ -150,6 +159,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): The SUBSTR function is best used when you know the exact position of the string that you want to extract from the character value. The string does not need to be marked by delimiters. 
 - Question (kveng−stat6250): What is the defference between SCAN and substr?
 - Question (aoneill2-stat6250): Do you use scan or substr function to locate single-char input in a string and do you have to specify with a separate arg the length of the substring if only one char?
+- Question (yren10-stat6250): When we usually use the SUBSTR function?
 
 
 
@@ -169,6 +179,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): The INDEX function enables you to search a character value for a specified string. The INDEX function searches values from left to right, looking for the first occurrence of the string. It returns the position of the string's first character; if the string is not found, it returns a value of 0.
 - Question (kveng−stat6250): What is the difference between index function and substr?
 - Question (aoneill2-stat6250): How does the index function work to find values of a given bar in a given dataset?
+- Question (yren10-stat6250): Why we need set returning value greater than 0, what would happen if we don't set it greater than 0?
 
 
 
@@ -185,6 +196,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Instead of using the first.School_Code * last.School_Code = 0, is there a convenient function  to call that would check for duplicate? 
 - Question (aoneill2-stat6250): How does SAS know to loop through the entire program with just one line of code?
 - Answer (aoneill2-stat6250): The run statement in a data step is the end of an implied loop.
+- Question (yren10-stat6250): What does the first_column mutiply last_column do in the command?
 
 
 
@@ -202,5 +214,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Do we have to specify the drop = dataset option at the top of the data step?
 - Question (aoneill2-stat6250): Why is best12. the format used for the value assigned to High_Grade?
 - Answer (aoneill2-stat6250): best12. is the default format for assigning a numeric value without any decimal part.
+- Question (yren10-stat6250): Why the dataset needed temporarilly rename when procs the function?
 
 
