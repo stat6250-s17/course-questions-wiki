@@ -25,6 +25,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What happends if you specify var1-var4 and var3 does not exist?
 - Question (rluo-stat6250): Where can we use SAS functions?
 - Answer (rluo-stat6250): SAS functions can be used in DATA step programming statements.
+– Question (nly13-stat6250): Can you use this same mechanics with alphabetical variable names?
 
 
 
@@ -40,6 +41,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): Sometimes SAS is unable to do the conversion (e.g. the PayRate contains a dollar sign).
 - Question (rluo-stat6250): What is the target variables?
 - Answer (rluo-stat6250): A target variable is the variable to whic the result of a function is assigned.
+- Question (nly13-stat6250): When a numeric operation is involved, why does SAS automatically convert character variables to numeric?
 
 
 
@@ -55,6 +57,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (meisenbach-stat6250): Yes, comma7 = 123,456
 - Question (rluo-stat6250): What is the function of INPUT?
 - Answer (rluo-stat6250): INPUT function converts character data values to numeric values.
+- Question (nly13-stat6250): Does the width in an INFORMAT read the comma?
 
 
 
@@ -66,6 +69,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9−stat6250): we should use PUT function.
 - Question (meisenbach-stat6250): Does using PUT change the type of the original variable?
 - Question (rluo-stat6250): How many SAS date functions are there? And what are they?
+- Question (nly13-stat6250): Can you nest an INPUT statement in a PUT statement, and vice versa?
 
 
 
@@ -79,6 +83,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What does YEARCUTOFF specify?
 - Answer (meisenbach-stat6250): YEARCUTOFF specifies the first year of the 100 year span.
 - Question (rluo-stat6250): What are the character functions?
+- Question (nly13-stat6250): What is the correct order for the MDY function?
+- Answer (nly13-stat6250): (mouth/day/year)
 
 
 
@@ -91,6 +97,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What does the SCAN function do?
 - Answer (meisenbach-stat6250): The SCAN function is used to extract words using blanks and commas. The second argument is the nth word.
 - Question (rluo-stat6250): How to use INT and ROUND functions?
+- Question (nly13-stat6250): How do you use INT and ROUND functions?
 
 
 
@@ -105,6 +112,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What happens when you do not give the number of characters to extract?
 - Answer (meisenbach-stat6250): You get the rest of the string.
 - Question (rluo-stat6250): What functions can we nest, and how many functions can we nest?
+- Question (nly13-stat6250): What is the difference between SCAN and SUBSTR?
+- Answer (nly13-stat6250): Scan relies on delimiters, while SUBSTR reads values from specified locations.
 
 
 
@@ -118,6 +127,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Is it necessary to lowercase the variable that you are searching in?
 - Answer (meisenbach-stat6250): No but it’s safer to do so.
 - Question (rluo-stat6250): What is the purpose to modify the data value?
+- Question (nly13-stat6250): What does the INDEX function do?
+- Answer (nly13-stat6250): This function enables you to search a character value for a specified string.
 
 
 
@@ -129,6 +140,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): What is the benefit of using this method for removing duplicate row?
 - Answer (meisenbach-stat6250): This method outputs all row which have duplicate key values and allows you to review them.
 - Question (rluo-stat6250): What is the difference between using proc sort, the duput= option and this method?
+- Question (nly13-stat6250): What is the difference between using proc sort with dupout= option and this method?
 
 
 
@@ -141,5 +153,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Why is it necessary to rename the High_Grade variable?
 - Answer (meisenbach-stat6250): This is necesary in order to be able to create a new numeric variable with the same name.
 - Question (rluo-stat6250): What three statements will be used to change the value type and drop the original value?
+- Question (nly13-stat6250): Why is it necessary to rename High_Grade?
 
 
