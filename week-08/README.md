@@ -15,54 +15,54 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
-- Question (lzhao4-stat6250): What happens if you forget to use “of” when specify a range of variables as the function argument?
--	Answer (lzhao4-stat6250): The function argument won’t execute. 
+- Question(lzhao4-stat6250): What happens if you forget to use “of” when specify a range of variables as the function argument?
+-	Answer(lzhao4-stat6250): The function argument won’t execute. 
 
 
 
 [Course Textbook Chapter 13, Problem 2]
-- Question (lzhao4−stat6250): In which situation would the automatic conversion occur?
+- Question(lzhao4−stat6250): In which situation would the automatic conversion occur?
 
 
 
 [Course Textbook Chapter 13, Problem 3]
-- Question (lzhao4−stat6250): What is the correct format for INPUT function?
+- Question(lzhao4−stat6250): What is the correct format for INPUT function?
 
 
 
 [Course Textbook Chapter 13, Problem 4]
--	Question (lzhao4−stat6250): What is the correct format for PUT function? 
+-	Question(lzhao4−stat6250): What is the correct format for PUT function? 
 
 
 
 [Course Textbook Chapter 13, Problem 5]
--	Question (lzhao4−stat6250): What is the general format for MDY function?
--	Answer (lzhao4-stat6250): MDY(month,day,year) 
+-	Question(lzhao4−stat6250): What is the general format for MDY function?
+-	Answer(lzhao4-stat6250): MDY(month,day,year) 
 
 
 
 [Course Textbook Chapter 13, Problem 6]
--	Question (lzhao4−stat6250): What are the default delimiters in SCAN function?
--	Answer (lzhao4-stat6250): The comma and blank are default delimiters.  
+-	Question(lzhao4−stat6250): What are the default delimiters in SCAN function?
+-	Answer(lzhao4-stat6250): The comma and blank are default delimiters.  
 
 
 
 [Course Textbook Chapter 13, Problem 7]
-- Question (lzhao4−stat6250): When should we use SUBSTR function rather than the SCAN function?
+- Question(lzhao4−stat6250): When should we use SUBSTR function rather than the SCAN function?
 
 
 
 [Course Textbook Chapter 13, Problem 10]
-- Question (lzhao4−stat6250): What is the default order when use INDEX function to search values?
+- Question(lzhao4−stat6250): What is the default order when use INDEX function to search values?
 
 
 
 [recipe_for_isolating_all_duplicates (from Week 8 Overview)]
--	Question (lzhao4−stat6250): Can we use same method to isolate only part of the duplicates when needed?
+-	Question(lzhao4−stat6250): Can we use same method to isolate only part of the duplicates when needed?
 
 
 
 [recipe_for_drop_and_swap (from Week 8 Overview)]
--	Question (lzhao4−stat6250): Can we take same process and simply use PUT function to replace the INPUT function when we want to return a numeric value as a character string?
+-	Question(lzhao4−stat6250): Can we take same process and simply use PUT function to replace the INPUT function when we want to return a numeric value as a character string?
 
 
