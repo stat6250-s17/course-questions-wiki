@@ -78,19 +78,22 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 15, Problem 4]
 
-- Question (yzhu12-stat6250): 
+- Question (yzhu12-stat6250): How to define a multidimensional array?
+- Answer (yzhu12-stat6250): You can specify the number of elements in each dimension, separated by a comma. 
+
 
 [Course Textbook Chapter 15, Problem 5]
 
-
+- Question (yzhu12-stat6250): You can create temporary array elements for DATA step processing without creating additional variables, but what step you must take then?
+- Answer (yzhu12-stat6250): You need to specify _TEMPORARY_ after the array name and dimension.
 
 [Course Textbook Chapter 15, Problem 6]
 
-
+- Question (yzhu12-stat6250): Why do we have to enclose each value in quotation marks when assigning initial values to character variables? Which error will occur if we fail to do so?
 
 [Course Textbook Chapter 15, Problem 7]
 
-
+- Question (yzhu12-stat6250): 
 
 [Course Textbook Chapter 15, Problem 8]
 
