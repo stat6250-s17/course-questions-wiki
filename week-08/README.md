@@ -37,13 +37,13 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 13, Problem 5]
 -	Question(lzhao4−stat6250): What is the general format for MDY function?
--	Answer(lzhao4-stat6250): MDY(month,day,year) 
+- Answer(lzhao4-stat6250): MDY(month,day,year) 
 
 
 
 [Course Textbook Chapter 13, Problem 6]
 -	Question(lzhao4−stat6250): What are the default delimiters in SCAN function?
--	Answer(lzhao4-stat6250): The comma and blank are default delimiters.  
+- Answer(lzhao4-stat6250): The comma and blank are default delimiters.  
 
 
 
