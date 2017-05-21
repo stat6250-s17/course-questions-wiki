@@ -63,19 +63,22 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 15, Problem 1]
 
-
+- Question (yzhu12-stat6250): What will happen if you using the name of a SAS function as an array name?
+- Answer (yzhu12-stat6250): The array will be correct, but you won't be able to use the function in the same DATA step, and a warning will be written to the SAS log.
 
 [Course Textbook Chapter 15, Problem 2]
 
-
+- Question (yzhu12-stat6250): How can you indicate the dimension of a one-dimensional array?
+- Answer (yzhu12-stat6250): You can indicate the dimension of a one-dimensional array with an asterisk (*) as long as you specify the elements of the array. 
 
 [Course Textbook Chapter 15, Problem 3]
 
-
+- Question (yzhu12-stat6250): How can you create temporary array elements for DATA step processing without creating additional variables?
+- Answer (yzhu12-stat6250): You can specify _TEMPORARY_ after the array name and dimension.
 
 [Course Textbook Chapter 15, Problem 4]
 
-
+- Question (yzhu12-stat6250): 
 
 [Course Textbook Chapter 15, Problem 5]
 
