@@ -93,14 +93,17 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 15, Problem 7]
 
-- Question (yzhu12-stat6250): 
+- Question (yzhu12-stat6250): How to create an array of character variables?
+- Answer (yzhu12-stat6250): You can add a dollar sign ($) after the array dimension.
 
 [Course Textbook Chapter 15, Problem 8]
 
-
+- Question (yzhu12-stat6250): Why you don't have to re-specify the stop value of a DO statement if you change the dimension of the array when you use the DIM function?
 
 [Course Textbook Chapter 15, Problem 9]
 
+- Question (yzhu12-stat6250): What is the purpose of a SAS array?
+- Answer (yzhu12-stat6250): An array is a temporary grouping of variables under a single name. This can reduce the number of statements needed to process variables and can simplify the maintenance of DATA step programs. 
 
 
 [recipe_to_create_unique_record_id (from Week 9 Overview)]
