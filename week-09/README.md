@@ -108,8 +108,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [recipe_to_create_unique_record_id (from Week 9 Overview)]
 
-
+- Question (yzhu12-stat6250): How can we convert some particular numeric to character and which statement do we use to convert character to numeric?
 
 [recipe_to_disaggregate_counts_data (from Week 9 Overview)]
 
-
+- Question (yzhu12-stat6250): How can we tell if the data is a fine data so that we can coombine it with other dataset and input into something like proc mean or proc freq?
