@@ -16,7 +16,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 14, Problem 1]
 -	Question (lzhao4−stat6250): DO loops process a group of statements repeatedly or once?
--	Answer (lzhao4-stat6250): DO loops process a group of statements repeatedly rather than once. -
+-	Answer (lzhao4-stat6250): DO loops process a group of statements repeatedly rather than once. 
 
 
 [Course Textbook Chapter 14, Problem 2]
