@@ -36,6 +36,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yren10-stat6250): The function argument might not be interpreted as expected.
 - Question (cyuan10-stat6250): Is there a way to write the code is that you can specify to calculate all the variables or do we have to list them all out individually?
 * *Question (aalshehry−stat6250):* How does MEAN function deal with missing values?
+- Question (lzhao4-stat6250): What happens if you forget to use “of” when specify a range of variables as the function argument?
+- Answer (lzhao4-stat6250): The function argument won’t execute. 
 
 
 
@@ -63,6 +65,7 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* How SAS will deal with variable values in arithmetic operation?
 * *Answer (aalshehry−stat6250):* SAS automatically converts the variable values to numeric by creating a temporary numeric value for each 
 character value which will be used in the calculation. Besides, SAS issues a message in the log showing that the conversion has been occurred.
+- Question (lzhao4−stat6250): In which situation would the automatic conversion occur?
 
 
 
@@ -90,6 +93,7 @@ character value which will be used in the calculation. Besides, SAS issues a mes
 - Question (cyuan10-stat6250): Does the width of the input include the comma?
 - Answer (cyuan10-stat6250): Yes, for example 123,456 is a comma7 because the "," is read.
 * *Question (aalshehry−stat6250):* How to convert variable values with a dollar sign to numeric?
+- Question (lzhao4−stat6250): What is the correct format for INPUT function?
 
 
 
@@ -113,6 +117,7 @@ character value which will be used in the calculation. Besides, SAS issues a mes
 * *Question (aalshehry−stat6250):* What is the difference between INPUT and PUT?
 * *Answer (aalshehry−stat6250):* INPUT function is used to to convert character data values to numeric values while PUT function converts numeric data values to character
 data values.
+- Question (lzhao4−stat6250): What is the correct format for PUT function? 
 
 
 
@@ -137,6 +142,8 @@ data values.
 - Question (cyuan10-stat6250): What happens if you only use (1,3,20) for MDY?
 - Answer (cyuan10-stat6250): Since the YEARCUTOFF is defaulted to 1920, then your output would display 1920 instead of 2020.
 * *Question (aalshehry−stat6250):* Whenever possible, use four-digit year values in the MDY function, why?
+- Question (lzhao4−stat6250): What is the general format for MDY function?
+- Answer (lzhao4-stat6250): MDY(month,day,year) 
 
 
 
@@ -158,6 +165,8 @@ data values.
 - Answer (yren10-stat6250): You don't need to specify delimiters, because the blank and the comma are default delimiters.
 - Question (cyuan10-stat6250): If the character data includes a number, will the scan function automatically create a new numeric variable?
 * *Question (aalshehry−stat6250):* How to use SCAN function when the delimiter is TAB key?
+- Question (lzhao4−stat6250): What are the default delimiters in SCAN function?
+- Answer (lzhao4-stat6250): The comma and blank are default delimiters.  
 
 
 
@@ -181,6 +190,7 @@ data values.
 - Question (yren10-stat6250): When we usually use the SUBSTR function?
 - Question (cyuan10-stat6250): How do you deal with data where similar information is stored in different parts/length of a single variable?
 * *Question (aalshehry−stat6250):* Can SUBSTR function be used with matrix?
+- Question (lzhao4−stat6250): When should we use SUBSTR function rather than the SCAN function?
 
 
 
@@ -203,6 +213,7 @@ data values.
 - Question (yren10-stat6250): Why we need set returning value greater than 0, what would happen if we don't set it greater than 0?
 - Question (cyuan10-stat6250): Since the old area code and the new area code both start with '9', then technically, can we only change the last two digits?
 * *Question (aalshehry−stat6250):* Can INDEX function be used to search for the last occurance for a certain value?
+- Question (lzhao4−stat6250): What is the default order when use INDEX function to search values?
 
 
 
@@ -222,6 +233,7 @@ data values.
 - Question (yren10-stat6250): What does the first_column mutiply last_column do in the command?
 - Question (cyuan10-stat6250): Then the sort function includes 3 variables, then does it proceed to sort in order of how the variables are listed?
 * *Question (aalshehry−stat6250):* Can we do the doublecate comparision without isolating the rows in a temperory dataset?
+- Question (lzhao4−stat6250): Can we use same method to isolate only part of the duplicates when needed?
 
 
 
@@ -249,5 +261,6 @@ data values.
    - k:	keeps listed characters instead of removing them
    - s:	adds space (blank, tabs, lf, cr) to the list
    - p:	adds punctuation 
+- Question (lzhao4−stat6250): Can we take same process and simply use PUT function to replace the INPUT function when we want to return a numeric value as a character string?
 
 
