@@ -129,7 +129,6 @@ By default, all character variables that are created in an ARRAY statement are a
 
 
 
-
 [recipe_to_create_unique_record_id (from Week 9 Overview)]
 - Question (yyan11−stat6250): The resulting value of "z6" is 6-digits wide, what is the largest magnitude?
 
@@ -137,3 +136,5 @@ By default, all character variables that are created in an ARRAY statement are a
 
 [recipe_to_disaggregate_counts_data (from Week 9 Overview)]
 - Question (yyan11−stat6250): Can we still have the individual level values in the resulting dataset?
+
+
