@@ -237,6 +237,7 @@ By default, all character variables that are created in an ARRAY statement are a
 - Question (lzhao4−stat6250): How to correctly assign initial values to arrays? 
 
 
+
 [Course Textbook Chapter 15, Problem 9]
 - Question (yzhu12-stat6250): What is the purpose of a SAS array?
 - Answer (yzhu12-stat6250): An array is a temporary grouping of variables under a single name. This can reduce the number of statements needed to process variables and can simplify the maintenance of DATA step programs. 
