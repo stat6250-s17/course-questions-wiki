@@ -23,8 +23,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What is a DO loop?
 - Answer (yyan11−stat6250): You can execute SAS statements repeatedly by placing them in a DO loop. DO loops can execute any number of times in a single iteration of the DATA step. Using DO loops lets you write concise DATA steps that are easier to change and debug.
 - Question (mcardoso3-stat6250):  What is the benefit of having a DO statement as opposed to a normal SAS command?
--	Question (lzhao4−stat6250): DO loops process a group of statements repeatedly or once?
--	Answer (lzhao4-stat6250): DO loops process a group of statements repeatedly rather than once. 
+- Question (lzhao4−stat6250): DO loops process a group of statements repeatedly or once?
+- Answer (lzhao4-stat6250): DO loops process a group of statements repeatedly rather than once. 
 
 
 
@@ -36,7 +36,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to construct DO loops?
 - Answer (yyan11−stat6250): To construct a DO loop, you use the DO and END statements along with other SAS statements. The value of the index variable can be changed within the loop. When creating a DO loop with the iterative DO statement, you must specify an index variable. The index variable stores the value of the current iteration of the DO loop. You may use any valid SAS name.
 - Question (mcardoso3-stat6250):  How many DO loop statements can be used in one DATA step?
--	Question (lzhao4−stat6250): What decides the number of iterations in DO statement? 
+- Question (lzhao4−stat6250): What decides the number of iterations in DO statement? 
 
 
 
@@ -49,7 +49,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): Can I dropp the index variable from the data set?
 - Answer (yyan11−stat6250): In most cases, the index variable is needed only for processing the DO loop and can be dropped from the data set.
 - Question (mcardoso3-stat6250):  Does the "do count" statement cover both numerical and categorical variables?
--	Question (lzhao4−stat6250): How the DO loop perform repetitive calculations? 
+- Question (lzhao4−stat6250): How the DO loop perform repetitive calculations? 
 
 
 
