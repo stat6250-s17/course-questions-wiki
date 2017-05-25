@@ -18,10 +18,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): Are there any example of statement that can be used to combine DATA and PROC steps?
 
 
-
 [Course Textbook Chapter 14, Problem 2]
 - Question (cyuan10-stat6250): If the BY statement is not included in the Do loop, what happens?
-Answer: Then it will default to 1 unit increments.
+- Answer (cyuan10-stat6250): Then it will default to 1 unit increments.
 
 
 
