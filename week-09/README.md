@@ -23,6 +23,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What is a DO loop?
 - Answer (yyan11−stat6250): You can execute SAS statements repeatedly by placing them in a DO loop. DO loops can execute any number of times in a single iteration of the DATA step. Using DO loops lets you write concise DATA steps that are easier to change and debug.
 - Question (mcardoso3-stat6250):  What is the benefit of having a DO statement as opposed to a normal SAS command?
+-	Question (lzhao4−stat6250): DO loops process a group of statements repeatedly or once?
+-	Answer (lzhao4-stat6250): DO loops process a group of statements repeatedly rather than once. 
 
 
 
@@ -34,6 +36,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to construct DO loops?
 - Answer (yyan11−stat6250): To construct a DO loop, you use the DO and END statements along with other SAS statements. The value of the index variable can be changed within the loop. When creating a DO loop with the iterative DO statement, you must specify an index variable. The index variable stores the value of the current iteration of the DO loop. You may use any valid SAS name.
 - Question (mcardoso3-stat6250):  How many DO loop statements can be used in one DATA step?
+-	Question (lzhao4−stat6250): What decides the number of iterations in DO statement? 
 
 
 
@@ -46,6 +49,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): Can I dropp the index variable from the data set?
 - Answer (yyan11−stat6250): In most cases, the index variable is needed only for processing the DO loop and can be dropped from the data set.
 - Question (mcardoso3-stat6250):  Does the "do count" statement cover both numerical and categorical variables?
+-	Question (lzhao4−stat6250): How the DO loop perform repetitive calculations? 
 
 
 
@@ -57,6 +61,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to count iterations of DO loops?
 - Answer (yyan11−stat6250): In some cases, it is useful to create an index variable to count and store the number of iterations in the DO loop. Then you can drop the index variable from the data set. The sum statement Year+1 accumulates the number of iterations of the DO loop and stores the total in the new variable Year. The final value of Year is then stored in the data set, whereas the index variable counter is dropped. The data set has one observation.
 - Question (mcardoso3-stat6250):  What other variables can be used in a DO loop statement aside from Year?
+-	Question (lzhao4−stat6250): How the DO loop executes in the DATA step? 
 
 
 
@@ -69,6 +74,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): When can I place an explicit OUTPUT statement in a DATA step?
 - Answer (yyan11−stat6250): To create an observation for each iteration of the DO loop, place an OUTPUT statement inside the loop.     
 - Question (mcardoso3-stat6250):  Why does the number of iterations include the year after the last one noted in the DO loop statement?
+-	Question (lzhao4−stat6250): What happens when placing an explicit OUTPUT statement in a DATA step?
+-	Answer (lzhao4-stat6250): The OUTPUT statement overrides automatic output.
 
 
 
@@ -80,6 +87,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What happen when I place an explicit OUTPUT statement in a DATA step?
 - Answer (yyan11−stat6250): By default, every DATA step contains an implicit OUTPUT statement at the end of the step. But placing an explicit OUTPUT statement in a DATA step overrides automatic output, causing SAS to add an observation to the data set only when the explicit OUTPUT statement is executed.
 - Question (mcardoso3-stat6250):  What is the limit to the number of observations that can be in a DO LOOP statemet?
+-	Question (lzhao4−stat6250): How to count and store the number of iterations in the DO loop? 
 
 
 
@@ -90,6 +98,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What is nesting DO loop?
 - Answer (yyan11−stat6250): Iterative DO statements can be executed within a DO loop. Putting a DO loop within a DO loop is called nesting.
 - Question (mcardoso3-stat6250):  Would using a DO WHILE or DO UNTIL statement always be preferred when comparing investing capital as opposed to using nested DO loops or a DO group?
+-	Question (lzhao4−stat6250): How to correctly execute nested DO loops? 
 
 
 
@@ -100,6 +109,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to use the DO UNTIL Statement?
 - Answer (yyan11−stat6250): The DO UNTIL statement executes a DO loop until the expression becomes true. The expression is not evaluated until the bottom of the loop, so a DO UNTIL loop always executes at least once. When the expression is evaluated as true, the DO loop stops.
 - Question (mcardoso3-stat6250):  Why can't a DO UNTIL statement be evaluated at the top?
+-	Question (lzhao4−stat6250): Does DO UNTIL statement allow you to execute DO loops when the condition is false? 
+-	Answer (lzhao4-stat6250):  DO UNTIL statements enable you to execute DO loops based on whether a condition is true or false.
 
 
 
@@ -112,6 +123,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): Like the DO UNTIL statement, the DO WHILE statement executes DO loops conditionally. You can use the DO WHILE statement to execute a DO loop while the expression is true.
 - Question (mcardoso3-stat6250):  How are DO UNTIL and DO WHILE statements similar?
 - Answer (mcardoso3-stat6250):  The biggest similarity between both DO statements is that they execute DO loops conditionally.
+-	Question (lzhao4−stat6250): What is the difference between DO UNTIL statement and DO WHILE statement? 
 
 
 
@@ -123,6 +135,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What different between the DO UNTIL and DO WHILE statements?
 - Answer (yyan11−stat6250): An important difference between the DO UNTIL and DO WHILE statements is that the DO WHILE expression is evaluated at the top of the DO loop. If the expression is false the first time it is evaluated, the DO loop never executes. For example, in the following program, because the value of Capital is initially zero, which is less than 50,000, the DO loop does not execute.
 - Question (mcardoso3-stat6250):  What do the "when" and "over" statements indicate and can they be a DO LOOP statement as well?
+-	Question (lzhao4−stat6250): The WHILE expression is evaluated before or after the execution of the DO loop?
 
 
 
@@ -135,6 +148,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): You can use arrays to simplify the code needed to perform repetitive calculations, create many variables that have the same attributes, read data, rotate SAS data sets by changing variables to observations or observations to variables, compare variables, perform a table lookup.
 - Question (mcardoso3-stat6250):  What is a valid reason for using arrays?
 - Answer (mcardoso3-stat6250):  An array is useful for reducing the number of statements that are required for processing variables.
+-	Question (lzhao4−stat6250): How to correctly define an array? 
 
 
 
@@ -148,6 +162,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): Where array-name specifies the name of the array, dimension describes the number and arrangement of array elements. The default dimension is one, elements lists the variables to include in the array. Array elements must be either all numeric or all character. If no elements are listed, new variables will be created with default names.
 - Question (mcardoso3-stat6250):  What does the number within the braces of an ARRAY statement supposed to indicate?
 - Answer (mcardoso3-stat6250):  It's the number of elements in the array, which can be specified in many ways.
+-	Question (lzhao4−stat6250): What does the value inside the parentheses indicate for?
 
 
 
@@ -159,6 +174,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to specify Array Elements?
 - Answer (yyan11−stat6250): When specifying the elements of an array, you can list each variable name that you want to include in the array. When listing elements, separate each element with a space. As with all SAS statements, you end the ARRAY statement with a semicolon (;). You can also specify array elements as a variable list.
 - Question (mcardoso3-stat6250):  Is it easier to reference the elements of an array with a DO loop statement rather than without it?
+-	Question (lzhao4−stat6250): How to represent the values of the array elements?
 
 
 
@@ -171,6 +187,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to reference elements of an Array?
 - Answer (yyan11−stat6250): You use an array reference to perform an action on an array element during execution. To reference an array element in the DATA step, specify the name of the array, followed by a subscript value enclosed in parentheses.
 - Question (mcardoso3-stat6250):  How many different values can an index variable contain in a DATA step?
+-	Question (lzhao4−stat6250): Where is the right place to enclose index value? 
 
 
 
@@ -182,6 +199,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to use the DIM Function in an iterative DO Statement?
 - Answer (yyan11−stat6250): When using DO loops to process arrays, you can also use the DIM function to specify the TO clause of the iterative DO statement. For a one-dimensional array, specify the array name as the argument for the DIM function. The function returns the number of elements in the array.
 - Question (mcardoso3-stat6250):  What types of variables/elements can a DIM function use to specify with in a statement?
+-	Question (lzhao4−stat6250): When to use the DIM function? 
 
 
 
@@ -192,6 +210,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): How to creating variables in an ARRAY Statement?
 - Answer (yyan11−stat6250): You can create variables in an ARRAY statement by omitting the array elements from the statement. If you do not reference existing variables, SAS automatically creates new variables for you and assigns default names to them. The default name is the array-name followed by consecutive numbers 1 to the dimension of the array.
 - Question (mcardoso3-stat6250):  What types of variables can be created when using arrays?
+-	Question (lzhao4−stat6250): Is there any kind of variable cannot be created by an ARRAY statement?  
 
 
 
@@ -204,6 +223,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yyan11−stat6250): To create an array of character variables, add a dollar sign ($) after the array dimension.
 By default, all character variables that are created in an ARRAY statement are assigned a length of 8.
 - Question (mcardoso3-stat6250):  What is the purpose of finding the difference between {i+1} and {i}?
+-	Question (lzhao4−stat6250): What happens when you create variables in an ARRAY statement by omitting the array elements from the statement? 
 
 
 
@@ -214,7 +234,7 @@ By default, all character variables that are created in an ARRAY statement are a
 - Question (yyan11−stat6250): How to creating temporary array elements?
 - Answer (yyan11−stat6250): To create temporary array elements for DATA step processing without creating new variables, specify _TEMPORARY_ after the array name and dimension.
 - Question (mcardoso3-stat6250):  Why are parentheses needed when creating temporary array elements in an ARRAY statement?
-
+- Question (lzhao4−stat6250): How to correctly assign initial values to arrays? 
 
 
 [Course Textbook Chapter 15, Problem 9]
@@ -225,6 +245,7 @@ By default, all character variables that are created in an ARRAY statement are a
 - Question (yyan11−stat6250): Can I reference an element within the array by specifying the two dimensions?
 - Answer (yyan11−stat6250): Yes. If a DO loop processes a two-dimensional array, you can reference any element within the array by specifying the two dimensions. Multidimensional arrays are typically used with nested DO loops. 
 - Question (mcardoso3-stat6250):  Is there a limit to how many elements you may have in a ARRAY statement?
+-	Question (lzhao4−stat6250): How to group variables into two-dimensional array?
 
 
 
@@ -235,6 +256,7 @@ By default, all character variables that are created in an ARRAY statement are a
 - Question (yyan11−stat6250): The resulting value of "z6" is 6-digits wide, what is the largest magnitude?
 - Question (mcardoso3-stat6250):  What does concatenating strings do?
 - Answer (mcardoso3-stat6250):  It means to join strings together to form a single string.
+-	Question (lzhao4−stat6250): From the recipe we can know that format "z6" meaning it's left-padded with zeros. So what else we can use?
 
 
 
@@ -244,5 +266,6 @@ By default, all character variables that are created in an ARRAY statement are a
 - Question (rluo-stat6250): In what kind of situation do we need to disaggregate the data?
 - Question (yyan11−stat6250): Can we still have the individual level values in the resulting dataset?
 - Question (mcardoso3-stat6250):  What would be the main reason to disaggregate the data in your dataset?
+-	Question (lzhao4−stat6250): What is the distinction between high level of aggregations and low level of aggregations?
 
 
