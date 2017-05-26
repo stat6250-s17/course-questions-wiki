@@ -107,6 +107,7 @@ The instructor will then review the pull request and make comments should furthe
 -Answer (mcardoso3-stat6250):  There are two types of variables that SAS supports:  character and numeric.
 
 -Question (aoneill2-stat6250): If a variable type is not specified, what is the default?
+
 -Answer (mcardoso3-stat6250): The numeric variable would be the default since a $ sign would need to be added to the variable names in order to classify it as a character variable.
 
 [Course Textbook Chapter 1, Problem 4]
