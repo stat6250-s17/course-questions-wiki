@@ -35,6 +35,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9-sta6250):In PROC PRINT, why there is a "." after "comma10"?
 - Question (yzhu12-stat6250): Which statement can you use to specify a length before the variable's first value that referred in the DATA step?
 - Answer (yzhu12-stat6250): You can use Length statement.
+* Question (aalamri−stat6250): What kind of format does the “PROC PRINT” use when dealing with some variables?
+* Answer (aalamri−stat6250):  It uses “COMMA10” format.
+
 
 
 
@@ -62,6 +65,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-sta6250): yes, it is, so we need to be careful about case-sensitive.
 - Question (yzhu12-stat6250): Which statement would you use if you need to read and process variables that you don't want to keep in the dataset?
 - Answer (yzhu12-stat6250): You need to use DROP= and KEEP= data set options.
+* Question (aalamri−stat6250):  what is the statement that is used in SAS to make conditional assumptions? 
+* Answer (aalamri−stat6250):  SAS uses “IF - THEN” statement.
 
 
 
@@ -89,6 +94,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-sta6250): LENGTH() do not count blank in tail.
 - Question (yzhu12-stat6250): What is the alternative statement of IF-THEN/ELSE statements when you perform conditional processing?
 - Answer (yzhu12-stat6250): You can use SELECT groups.
+*Question (aalamri−stat6250):  Give an example that SAS uses to determine the length of a new variable.
+*Answer (aalamri−stat6250):  One example would be the “LENGTH” statement.
 
 
 
@@ -115,7 +122,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9-sta6250):Why in SAS, we should type first "else" parallel with "if" in first column?
 - Question (yzhu12-stat6250):  How can you assign an initial value to a variable whose value is assigned by a sum statement?
 - Answer (yzhu12-stat6250): You can use RETAIN statement.
-
+* Question (aalamri−stat6250): How to specify a series of mutually exclusive conditions?
 
 
 [Course Textbook Chapter 10, Problem 9]
@@ -138,7 +145,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-sta6250): LENGTH statement should be placed before any other reference to the variable in the DATA step.
 - Question (yzhu12-stat6250): How can you perform many statements as part of the conditional action?
 - Answer (yzhu12-stat6250): You can use DO groups.
-
+* Question (aalamri−stat6250): Which reference that determines the length of a new variable when using the “DATA” step?
 
 
 [Course Textbook Chapter 10, Problem 10]
@@ -158,7 +165,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): What are the possible errors that can occur while writing a LENGTH, INFILE, or IF-THEN statement?
 - Question (hhu9-sta6250):In which time we should use KEEP= instead of keep?
 - Question (yzhu12-stat6250): Why the LENGTH statement has to be before any other reference to the variable in the DATA step?
-
+* Question (aalamri−stat6250): Can you use the “DROP” statement in the “PROC” step?
 
 
 [Course Textbook Chapter 11, Problem 1]
@@ -181,7 +188,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (hhu9-sta6250): They are still in PDV.
 - Question (yzhu12-stat6250): If there are more than one WHEN statement that has a true when-expression, how many WHEN statements will be used?
 - Answer (yzhu12-stat6250): Only the first WHEN statement is used.
-
+* Question (aalamri−stat6250):  How does the “DROP” option work when specifying variables?
 
 
 [Course Textbook Chapter 11, Problem 2]
@@ -200,7 +207,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9-sta6250):How to understand "compile-time only statement"?
 - Question (yzhu12-stat6250): When you create a new variable in SAS, what will happen if the variable has been created by another statement instead of the LENGTH statement?
 - Answer (yzhu12-stat6250): Then a later use of the LENGTH statement will not change its size.
-
+* Question (aalamri−stat6250): True or false: you can eliminate variable from showing by using the “DROP” option?
 
 
 [Course Textbook Chapter 11, Problem 3]
@@ -225,7 +232,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9-sta6250):what does FIRST.andLAST.mean?
 - Answer (hhu9-sta6250): it identify the first and last observations in each BY statement.
 - Question (yzhu12-stat6250): Is there any other type of logical comparison in SAS?
-
+* Question (aalamri−stat6250):   How can you create a variable without storing it the dataset?
 
 
 [Course Textbook Chapter 11, Problem 8]
@@ -246,7 +253,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Is there a maximum number of set statements allowed?
 - Question (hhu9-sta6250):In what situation we should add end=eof in set statement?
 - Question (yzhu12-stat6250): What's the alternative statement that works the same as the ELSE statement in SAS?
-
+* Question (aalamri−stat6250):   How does SAS use the “END” option to name temporary variables?
 
 
 [Course Textbook Chapter 11, Problem 9]
@@ -269,7 +276,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (hhu9-sta6250):What signs the end of DATA precess?
 - Answer (hhu9-sta6250):RUN statement
 - Question (yzhu12-stat6250): Why you can't use DROP or KEEP statements in PROC steps?
-
+* Question (aalamri−stat6250): What happens when SAS is processing data and a PDV has been created?
 
 
 [basic_recipe_for_combining_data_vertically (from Week 7 Overview)]
@@ -289,7 +296,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): In what situation that the indicator variables are not eligible?
 - Question (hhu9-sta6250): whats the advantages of SAS language over SQL language?
 - Question (yzhu12-stat6250): In what situation can indicator variables not be used?
-
+* Question (aalamri−stat6250):   How does the “indicator variable” approach work when combining datasets?
 
 
 [optional: adv_recipe_for_combining_data_vertically (from Week 7 Overview)]
@@ -315,5 +322,5 @@ FROM two
 - Answer (meisenbach-stat6250): Syntax: value AS variable. The AS keyword allows you to set the value of a new variable.
 - Question (nly13-stat6250): Do the advantages of PROC sql out weight the disadvantage of memory?
 - Question (yzhu12-stat6250): The statement "union all corr" can include all the columns with the corresponding names, does that mean the missing columns are skipped automatically and the remained ones are matched up with each other precisely?
-
+* Question (aalamri−stat6250):   What is a “sub-query” mean?
 
