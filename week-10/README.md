@@ -62,4 +62,10 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Recipes TBA]
+[basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
+
+
+
+[adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
+
+
