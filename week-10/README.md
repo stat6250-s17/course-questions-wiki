@@ -16,19 +16,21 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 16, Problem 1]
 
-
+- Question (yzhu12-stat6250): How to specify array elements.
+- Answer (yzhu12-stat6250): You can use a variable list to specify array elements.
 
 [Course Textbook Chapter 16, Problem 5]
 
-
+- Question (yzhu12-stat6250): Why you don't need to re-specify the stop value of a DO statement if you change the dimension of the array  when you use the DIM function?
 
 [Course Textbook Chapter 16, Problem 7]
 
-
+- Question (yzhu12-stat6250): What is the difference between FIND function and INDEX function?
+- Answer (yzhu12-stat6250):  The FIND function is similar to the INDEX function, but the FIND function enables you to ignore character case in your search and to trim trailing blanks. 
 
 [Course Textbook Chapter 16, Problem 8]
 
-
+- Question (yzhu12-stat6250): 
 
 [Course Textbook Chapter 16, Problem 9]
 
