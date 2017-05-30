@@ -40,6 +40,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250) : Is that important to follow a standard formating or steps when doing SAS coding?
 - Question (cyuan10-stat6250): What purpose does indenting within a step do? Is it more stylistic or functional?
 - Answer (cyuan10-stat6250): It is for both purposes. It is importantly to make your code consistent in style so that other users can read and understand it.
+- Question (lzhao4−stat6250): How to write SAS statements in a most readable format?
 
 
 
@@ -66,7 +67,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yren10-stat6250) : If i have a error, Will the log message indicates my error comes out all the time, or its depends on what error I had?
 - Question (cyuan10-stat6250): Do spelling errors really matter beyond standard commands and does the program highlight spelling error?
 - Answer (cyuan10-stat6250): No, but it is important you are referring to the correct spelling or variables or command. Also, other readers of your code should be able to understand your coding so correct naming is important.
-
+- Question (lzhao−stat6250): After correcting the errors do we have to clear the log window?
+- Answer (lzhao4−stat6250):  Clear the messages from the Log window can avoid confusing between old error messages and the new messages. 
 
 
 
@@ -97,6 +99,7 @@ PROC SORT;
  - Answer (aoneill2-stat6250): I believe the label option gives the column variable a name, often used to shorten or consolidate the name to make it convenient for printed summary reports, and otherwise to give it a descriptive name.
 - Question (yren10-stat6250) : What exactly we use "BY variable" for, and why its a "BY variable"?
 - Question (cyuan10-stat6250): What does the aprotrasphe do and how is it used different in the 5th line (before Recovery Heart Rate) vs. the 7th line (before and after I)?
+- Question (lzhao4−stat6250): Do SAS able to resolve the PROC step when it appears at the top of the active window?
 
 
  
@@ -124,6 +127,8 @@ PROC SORT;
 - Question (yren10-stat6250) : When we got Syntax errors，it will appear as a warning message or a red error sign?
 - Answer (yren10-stat6250) : Both would happen, depends on what error you made.
 - Question (cyuan10-stat6250): Does SAS indicate where the syntax error occurred?
+- Question (lzhao4−stat6250): When your Log window displays the word “ERROR” how can you know what’s the error is? 
+- Answer (lzhao4−stat6250):  When the Log window displays the word ERROR to mention you that a syntax error is detected, it will identify the possible location of the error and explains the error as well.
 
 
 
@@ -148,6 +153,7 @@ PROC SORT;
 - Question (yren10-stat6250) : What we find and deal with the Syntax errors?
 - Answer (yren10-stat6250) : Its a common types of errors, the DATA step debugger can help us identify syntax errors.
 - Question (cyuan10-stat6250): What about errors like infinite loop? If we write a code that codes such (like on python), how do we end the loop?
+- Question (lzhao4−stat6250): Besides the syntax error, can SAS identify other types of error?
 
 
 
@@ -173,6 +179,7 @@ PROC SORT;
 - Question (aoneill2-stat6250): Can you know you have a data error by just looking at the log window, or by just looking at the output window, or do you need to figure it out from looking at both?
 - Question (yren10-stat6250) : Can I submit a SAS statement that contains an invalid option?
 - Question (cyuan10-stat6250): In this case, what exactly does option refer to? Is it the output?
+- Question (lzhao4−stat6250): What should you do when a log message indicates you that an option is not valid or not recognized?
 
 
 
@@ -198,6 +205,7 @@ PROC SORT;
 - Question (yren10-stat6250) : How many types of data errors would occur when we are using SAS?
 - Question (cyuan10-stat6250): Does the semicolon indicate that the step is done and what happens if it is not included at the end of each line? Do we always use a semicolon or are there other options?
 - Answer (cyuan10-stat6250): The semicolon indicates the end of the line.
+- Question (lzhao4−stat6250): Can a syntax error be caused by misspelling?
 
 
 
@@ -222,6 +230,8 @@ PROC SORT;
 - Answer (aoneill2-stat6250): SAS can detect syntax, data, and execution-time errors.
 - Question (yren10-stat6250) : What is the difference between "PROC running" and "DATA step running"?
 - Question (cyuan10-stat6250): In what cases do you write a code that does not end with run?
+- Question (lzhao4−stat6250): What will happen if you miss the RUN statement?
+- Answer (lzhao4−stat6250):  The active window will display the message "DATA step running". And the DATA step won’t execute.
 
 
 
@@ -246,6 +256,7 @@ Question (nly13-stat6250): Do labels exist permanently in a dataset?
 - Question (aoneill2-stat6250): How many WHERE statements can you include in a PROC step?
 - Question (yren10-stat6250) : How to change a name of an observation?
 - Question (cyuan10-stat6250): How does one format the table output - for example, switch the columns with the rows?
+- Question (lzhao4−stat6250): When to use the ID statement?
 
 
 
@@ -271,6 +282,7 @@ where fee in (‘124’,’178’);
 - Question (yren10-stat6250) : What is DATA=option specifies in the codes?
 - Answer (yren10-stat6250) : It specifies the data set that you are listing.
 - Question (cyuan10-stat6250): Do we always use an apostraphe oppose to quotations?
+- Question (lzhao4−stat6250): How to format multiple values in one WHERE statement?
 
 
 
@@ -294,6 +306,7 @@ Question (nly13-stat6250): Can the process of data to output be reverse, where y
 - Question (aoneill2-stat6250): When would you actually want to not use an "OUT=" statement when sorting data?
 - Question (yren10-stat6250) : What is the OUT=option specifies in these steps?
 - Question (cyuan10-stat6250): For the sort function, is it always alphabetical and how can we reverse it?
+- Question (lzhao4−stat6250): Any difference when using PROC SORT to sort multiple datasets?
 
 
 
@@ -315,6 +328,7 @@ Question (nly13-stat6250): Can you have multiple ‘out’ outputs in the same s
 - Question (aoneill2-stat6250): Does PROC PRINT fail if a BY statement is included?
 - Question (yren10-stat6250) : What does the BY statement really do in steps？
 - Question (cyuan10-stat6250): Why do we have two runs here, can we combine sort and print and have run at the end of both?
+- Question (lzhao4−stat6250): Can PROC SORT step successfully run without the BY statement?
 
 
 
@@ -338,6 +352,7 @@ Question (nly13-stat6250): Does the where statements every use ‘if then’ sta
 - Answer (aoneill2-stat6250) : The rules are the same as that in mathematical calculations. For example, what's in the parentheses will be calculated first.
 - Question (yren10-stat6250) : Should we use LABEL option to specific that variable labels appear in output instead of variable names?
 - Question (cyuan10-stat6250): Can these equation symbols be used for text as well as numbers?
+- Question (lzhao4−stat6250): Is parentheses required when group data?
 
 
 
@@ -360,6 +375,7 @@ Question (nly13-stat6250): Does the where statements every use ‘if then’ sta
 - Question (aoneill2-stat6250): It's a good idea to begin DATA steps, proc steps, and RUN statements on which side to indent statements within a step?
 - Question (yren10-stat6250) : What does PROC PRINT display， just observation or just variable or both？
 - Question (cyuan10-stat6250): What exactly does PROC mean in PROC PRINT?
+- Question (lzhao−stat6250): Any default can refine? step?
 
 
 
@@ -380,6 +396,7 @@ Question (nly13-stat6250): What would the code be if you wanted to remove all du
 - Question (aoneill2-stat6250): How can obs numbers be suppressed in a print statement without the use of the noobs option?
 - Question (yren10-stat6250) : What is the default settig for the sorting option?
 - Question (cyuan10-stat6250): Is this case-sensitive?
+- Question (lzhao4−stat6250): What step we can do to sort a dataset while simultaneously keeping duplicates?
 
 
 
@@ -401,6 +418,7 @@ Question (nly13-stat6250): Instead of sorting by categories, can you sort by len
 - Question (aoneill2-stat6250): Can multiple sorts be done on more than one variable in a single sorting operation?
 - Question (yren10-stat6250) : Will numerical variables and categrical variable sorted together sometimes? what if we needed it seperated for our convenience?
 - Question (cyuan10-stat6250): How are numbers sorted? Is it from 0-9 or high to low?
+- Question (lzhao4−stat6250): When sorting in descending order will missing values appear last?
 
 
 
@@ -421,5 +439,6 @@ Question (nly13-stat6250): In the proc print statement, if obs= controls how man
 - Question (aoneill2-stat6250): Does one always have to sort data BEFORE printing it in the PROC PRINT step?
 - Question (yren10-stat6250) : How can we take out a specific part of data seprartely if we needed?
 - Question (cyuan10-stat6250): How do we specify certain formating of numbers (rounding) or letters (all case vs. lower case)
+- Question (lzhao4−stat6250): What’s the specific step to use “Explorer”?
 
 
