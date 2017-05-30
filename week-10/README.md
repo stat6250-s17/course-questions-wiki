@@ -78,8 +78,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
 
-- Question (yzhu12-stat6250): 
+- Question (yzhu12-stat6250): The proc import can be hit or miss with delimited text files, then how can we prove the programming performance?
 
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
 
-
+- Question (yzhu12-stat6250): We can convert columns to numeric using recipe of drop and swap, what recipe can we use if we want to convert columns to category?
