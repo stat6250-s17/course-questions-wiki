@@ -70,8 +70,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
 
-
+* *Question (aalshehry−stat6250):* Is there another effieciant way to determine the longest width for each variable rather than set the width to 100 for all columns?
 
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
 
-
+* *Question (aalshehry−stat6250):* Who to deal with TAB as delimitor in INFILE statement?
