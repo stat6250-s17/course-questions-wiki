@@ -15,57 +15,72 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
+- Question (dlee117−stat6250): When using column input, can it read character variable values that contain embedded blanks?
+- Answer (dlee117-stat6250): Yes, column input can be used to read values that contain embedded blanks. You just need to specify the correct column locations and it will be able to read it.
 
 
 
 [Course Textbook Chapter 16, Problem 5]
+- Question (dlee117−stat6250): What does the informat $w. do? 
+- Answer (dlee117-stat6250): It enables you to read character data. The w represents the field width.
 
 
 
 [Course Textbook Chapter 16, Problem 7]
+- Question (dlee117−stat6250): Are there any informats that do not contain a period?
+- Answer (dlee117-stat6250): No, each informat always contains a period because it is a required delimiter.
 
 
 
 [Course Textbook Chapter 16, Problem 8]
+- Question (dlee117−stat6250): What is the difference between @n column pointer control and +n pointer control?
 
 
 
 [Course Textbook Chapter 16, Problem 9]
-
+- Question (dlee117−stat6250): If the first field is located in column 1, do you need to use column pointer control to read this field?
 
 
 [Course Textbook Chapter 17, Problem 1]
+- Question (dlee117−stat6250): What is the definition and purpose of a delimiter?
 
 
 
 [Course Textbook Chapter 17, Problem 2]
+- Question (dlee117−stat6250): What is the definition and purpose of a delimiter?
 
 
 
 [Course Textbook Chapter 17, Problem 4]
+- Question (dlee117−stat6250): When using List Input, do you have to read all of the data or can you use it to only read certain columns? 
 
 
 
 [Course Textbook Chapter 17, Problem 5]
+- Question (dlee117−stat6250): When trying to specify a delimiter, what happens when that delimiter is also a character that occurs in a data value?
 
 
 
 [Course Textbook Chapter 17, Problem 7]
+- Question (dlee117−stat6250): When do you need to enclose your variable list and $ symbol in parentheses when specifying a range of variables?
 
 
 
 [Course Textbook Chapter 17, Problem 8]
+- Question (dlee117−stat6250): What should you do if there are missing values that occur at the end of a record?
 
 
 
 [Course Textbook Chapter 17, Problem 10]
-
+- Question (dlee117−stat6250): What does the & symbol do when reading raw data values?
 
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
+- Question (dlee117−stat6250): Are there other file types besides .csv that use delimiters besides commas?
 
 
 
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
+- Question (dlee117−stat6250): What is the purpose of using the firstobs option and is it necessary?
 
 
