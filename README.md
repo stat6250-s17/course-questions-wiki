@@ -32,6 +32,6 @@ Also, for each Weekly Quiz, your edits should be to the file named README.md in 
 
 - Week 8 Quiz: Chap 13: 1-7 & 10 from the course textbook, the recipe_for_isolating_all_duplicates, and the recipe_for_drop_and_swap discussed in the video STAT6250-02_s17-week08_overview-video-14MAY2017.mp4 in Blackboard.
 
-- Week 9 Quiz: Chap 14: 1-10 and Chap 15: 1-9 from the course textbook and [TBA] in Blackboard.
+- Week 9 Quiz: Chap 14: 1-10 and Chap 15: 1-9 from the course textbook, the recipe_to_create_unique_record_id, and the recipe_to_disaggregate_counts_data discussed in the video STAT6250-02_s17-week09_overview-video-21MAY2017.mp4 in Blackboard.
 
-- Week 10 Quiz: Chap 16: 1,5 & 7-9 and Chap 17: 1-2,4-5,7-8 & 10 from the course textbook and [TBA] in Blackboard.
+- Week 10 Quiz: Chap 16: 1,5 & 7-9 and Chap 17: 1-2,4-5,7-8 & 10 from the course textbook, the basic_recipe_to_load_remote_delimited_file, and the adv_recipe_to_load_remote_delimited_file discussed in the video STAT6250-02_s17-week10_overview-video-28MAY2017.mp4 in Blackboard.
