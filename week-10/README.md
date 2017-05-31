@@ -95,3 +95,4 @@ The instructor will then review the pull request and make comments should furthe
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
 - Question (yyan11−stat6250): Why the informat statement seta each column type to character-values vith width 100?
 - Answer (yyan11−stat6250): It' a common convention to use when using disk space usage is less inportant than the time it could take to carefully determine an optimal maximum length or value type for each column.
+
