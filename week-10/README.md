@@ -15,57 +15,74 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
+* *Question (aalshehry−stat6250):* In INPUT statement, can you re-read the fields? 
+* *Answer (aalshehry−stat6250):* Yes, Fields or parts of fields can be re-read.
 
 
 
-[Course Textbook Chapter 16, Problem 5]
+[Course Textbook Chapter 16, Problem 5] 
+* *Question (aalshehry−stat6250):* What kind of delimiter does INFORMAT contains?
+* *Answer (aalshehry−stat6250):*  INFORMAT contains a period which is a required delimiter.
 
 
 
 [Course Textbook Chapter 16, Problem 7]
+* *Question (aalshehry−stat6250):* In INPUT statement, what do “+” and “@” do? 
+* *Answer (aalshehry−stat6250):* The + moves the pointer forward ,however, @ moves the pointer back
 
 
 
-[Course Textbook Chapter 16, Problem 8]
+[Course Textbook Chapter 16, Problem 8] 
+* *Question (aalshehry−stat6250):* What does COMMAw.d informat used for?
 
 
 
-[Course Textbook Chapter 16, Problem 9]
+[Course Textbook Chapter 16, Problem 9] 
+* *Question (aalshehry−stat6250):* What does “w” and “d” represent in COMMAw.d informat?
 
 
 
-[Course Textbook Chapter 17, Problem 1]
+[Course Textbook Chapter 17, Problem 1] 
+* *Question (aalshehry−stat6250):* How is a free-format different from a formatted input?
 
 
 
-[Course Textbook Chapter 17, Problem 2]
+[Course Textbook Chapter 17, Problem 2] 
+* *Question (aalshehry−stat6250):* Do we have to use the dollar sign before a character variable?
 
 
 
-[Course Textbook Chapter 17, Problem 4]
+[Course Textbook Chapter 17, Problem 4] 
+* *Question (aalshehry−stat6250):* Can list INPUT skip or re-read fields?
 
 
 
-[Course Textbook Chapter 17, Problem 5]
+[Course Textbook Chapter 17, Problem 5] 
+* *Question (aalshehry−stat6250):* When to use DLM= option in the INFILE statement?
 
 
 
-[Course Textbook Chapter 17, Problem 7]
+[Course Textbook Chapter 17, Problem 7] 
+* *Question (aalshehry−stat6250):* Does the order of the variables matter when using the LENGTH statement?
 
 
 
-[Course Textbook Chapter 17, Problem 8]
+[Course Textbook Chapter 17, Problem 8] 
+* *Question (aalshehry−stat6250):* What does modified list input used for?
 
 
 
-[Course Textbook Chapter 17, Problem 10]
+[Course Textbook Chapter 17, Problem 10] 
+* *Question (aalshehry−stat6250):* when do we use mixed input style?
 
 
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
+* *Question (aalshehry−stat6250):* Is there another effieciant way to determine the longest width for each variable rather than set the width to 100 for all columns?
 
 
 
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
+* *Question (aalshehry−stat6250):* Who to deal with TAB as delimitor in INFILE statement?
 
 
