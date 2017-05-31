@@ -55,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What is the definition and purpose of a delimiter?
 
 
+
 [Course Textbook Chapter 17, Problem 2] 
 * *Question (aalshehry−stat6250):* Do we have to use the dollar sign before a character variable?
 - Question (dlee117−stat6250): What is the definition and purpose of a delimiter?
