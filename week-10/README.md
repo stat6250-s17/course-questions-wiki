@@ -43,37 +43,38 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2−stat6250): No, because the comma and the $ sign are included as characters in the first part of the informant before the period that separates it from the number of decimal places, and the comma-informant actually strips the field value that is read of the dollar sign, along with any other embedded symbols, which is a good solution if you want the value to be stored only as a number.
 
 [Course Textbook Chapter 17, Problem 1]
-- Question (aoneill2−stat6250):
-
+- Question (aoneill2−stat6250): What happens if you read in free-form data that is also variable in length for some field?
+- Answer (aoneill2−stat6250): It can generate an error and leave the value blank if the system attempts to read more characters than are available before an end-of-record marker is reached.
 
 [Course Textbook Chapter 17, Problem 2]
-
+- Question (aoneill2−stat6250): When listing variables in an input statement, why is it merely sufficient to use a $ sign to read in a character field without specifying a minimum-width or maximum-width field?
 
 
 [Course Textbook Chapter 17, Problem 4]
-
-
+- Question (aoneill2−stat6250): Are variable field values read into the data vector incorrectly if column values are specified but it is in free form?
+- Answer (aoneill2−stat6250): Yes, it is parsed strictly according the specified columns.
 
 [Course Textbook Chapter 17, Problem 5]
-
+- Question (aoneill2−stat6250): Can the delimiter be declared merely in single quotes as an option?
+- Question (aoneill2−stat6250): No, it needs to be enclosed in single quotes after dlm= or delimiter=.
 
 
 [Course Textbook Chapter 17, Problem 7]
-
+- Question (aoneill2−stat6250): Can input data that is in free form be read out of order?
 
 
 [Course Textbook Chapter 17, Problem 8]
-
+- Question (aoneill2−stat6250): 
 
 
 [Course Textbook Chapter 17, Problem 10]
-
+- Question (aoneill2−stat6250): 
 
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
-
+- Question (aoneill2−stat6250): 
 
 
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
-
+- Question (aoneill2−stat6250): 
 
