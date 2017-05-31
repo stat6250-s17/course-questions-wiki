@@ -15,57 +15,46 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
-
-
+- Question (mcardoso3-stat6250):  How would you use column input to read variables?
+- Answer (mcardoso3-stat6250):  You can read data values by first typing "input" followed by the first variable name, then the values for the respected variable ($ for numeric), and then inserting a semicolon. 
 
 [Course Textbook Chapter 16, Problem 5]
-
-
+- Question (mcardoso3-stat6250):  What are the different types of informats that can be used to read character data?
 
 [Course Textbook Chapter 16, Problem 7]
-
-
+- Question (mcardoso3-stat6250):  What do + and @ indicate when reading column variables?
 
 [Course Textbook Chapter 16, Problem 8]
-
-
+- Question (mcardoso3-stat6250):  What does comma7 or comma9 supposed to mean?
+- Answer (mcardoso3-stat6250):  The COMMAw.d informat is used to read numeric values and to remove embedded characters.
 
 [Course Textbook Chapter 16, Problem 9]
-
-
+- Question (mcardoso3-stat6250):  What happens if the variable-length of each record changeswhen formatting your column variables?
 
 [Course Textbook Chapter 17, Problem 1]
-
-
+- Question (mcardoso3-stat6250):  What is the difference between raw data files that are free-format, mixed-format, arragned in fixed fields, and arranged in columns?
 
 [Course Textbook Chapter 17, Problem 2]
-
-
+- Question (mcardoso3-stat6250):  What is the use for the list input style?
+- Answer (mcardoso3-stat6250):  The List input is used to read both standard and nonstandard free-format data.
 
 [Course Textbook Chapter 17, Problem 4]
-
-
+- Question (mcardoso3-stat6250):  Is inputting the length of the variable name always necessary to include?
 
 [Course Textbook Chapter 17, Problem 5]
-
-
+- Question (mcardoso3-stat6250):  Are there any options other than a delimeter option used for an INFILE statement?
 
 [Course Textbook Chapter 17, Problem 7]
-
-
+- Question (mcardoso3-stat6250):  Where would be the proper place to type the length variable in a SAS statement?
 
 [Course Textbook Chapter 17, Problem 8]
-
-
+- Question (mcardoso3-stat6250):  Is there a best type of input to use to read a raw data file, or does it depend on the data set?
 
 [Course Textbook Chapter 17, Problem 10]
-
-
+- Question (mcardoso3-stat6250):  Is there more than one way to correctly input a SAS statement to include the same output (i.e. without @ + & signs)?
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
-
-
+- Question (mcardoso3-stat6250):  When would PROC IMPORT not be enough to import simple, small files into SAS?
 
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
-
-
+- Question (mcardoso3-stat6250):  What is the most essential command to enter for an INILE statement? 
