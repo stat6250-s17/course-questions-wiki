@@ -64,11 +64,11 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 17, Problem 8]
-- Question (aoneill2−stat6250): 
+- Question (aoneill2−stat6250): When you specify the length of a character variable, when do you have to repeat the use of the $ sign in declaring the variable in the input statement and when do you not need to?
 
 
 [Course Textbook Chapter 17, Problem 10]
-- Question (aoneill2−stat6250): 
+- Question (aoneill2−stat6250): Does the length of a variable field have to be declared in a separate length statement when the & sign is used to indicate embedded blank spaces in the input statement?
 
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
