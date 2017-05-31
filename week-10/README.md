@@ -72,9 +72,10 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
-- Question (aoneill2−stat6250): 
+- Question (aoneill2−stat6250): When specifying the dbms engine, is the delimiter implied, or is an error generated if the delimiter option left out?
+- Question (aoneill2−stat6250): Since the getnames option in the import statement seems to detect and create informants for individual variables, and in conjunction with the guessingrows option, can truncation be avoided of character fields longer than 8 characters?
 
 
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
-- Question (aoneill2−stat6250): 
+- Question (aoneill2−stat6250): If lrecl option is to specify the maximum possible line length, what its default value?
 
