@@ -29,7 +29,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mcardoso3-stat6250):  The COMMAw.d informat is used to read numeric values and to remove embedded characters.
 
 [Course Textbook Chapter 16, Problem 9]
-- Question (mcardoso3-stat6250):  What happens if the variable-length of each record changeswhen formatting your column variables?
+- Question (mcardoso3-stat6250):  What happens if the variable-length of each record changes when formatting your column variables?
 
 [Course Textbook Chapter 17, Problem 1]
 - Question (mcardoso3-stat6250):  What is the difference between raw data files that are free-format, mixed-format, arragned in fixed fields, and arranged in columns?
