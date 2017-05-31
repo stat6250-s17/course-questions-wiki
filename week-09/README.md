@@ -11,6 +11,9 @@ All edits should conform to GitHub Markdown specifications (https://guides.githu
 The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
 
 ********************************************************************************
+
+
+
 [Course Textbook Chapter 14, Problem 1]
 - Question (yzhu12-stat6250): If you do not specify a BY clause, what is the increment value for DO loops?
 - Answer (yzhu12-stat6250): The increment value for DO loops is 1.
@@ -56,6 +59,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lzhao4−stat6250): How the DO loop perform repetitive calculations? 
 - Question (cyuan10-stat6250): Can the BY statement be anything other than numeric? Does it have it be integers?
 - Question (akumar30−stat6250): Can we exit do loop before reaching its stop value mentioned in do loop statement?
+
 
 
 [Course Textbook Chapter 14, Problem 4]
