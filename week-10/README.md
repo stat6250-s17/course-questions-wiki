@@ -15,27 +15,35 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
-
+- Question (aoneill2−stat6250): Is it necessary to leave unused columns in columnar-formatted data?
+- Answer (aoneill2−stat6250): No, it is not necessary to use spaces or other delimiters.
 
 
 [Course Textbook Chapter 16, Problem 5]
-
+- Question (aoneill2−stat6250): What does the period mean at the end of an informat?
+- Answer (aoneill2−stat6250): The period ends the informat.
+- Question (aoneill2−stat6250): Why does an informat need to be "ended?"
 
 
 [Course Textbook Chapter 16, Problem 7]
-
+- Question (aoneill2−stat6250): If the default for the input argument is column 1, then isn't it the same to read a piece of data that starts in column 7 either with input @7 or input +6?
+- Answer (aoneill2−stat6250): Yes, that's true. In the possible answers, there is a missing period at the end of the informat for Item in answer (d).
 
 
 [Course Textbook Chapter 16, Problem 8]
-
-
+- Question (aoneill2−stat6250): Do you have to count everything including $ signs, commas, and decimals in determining the informant for reading in dollar and cents values?
+- Answer (aoneill2−stat6250): Yes, everything counts towards the number preceding the period marking the separation between the overall character count and the number of decimal places.
+- Question (aoneill2−stat6250): Does a decimal number informant include a second period at the end to end the informant itself?
+- Answer (aoneill2−stat6250): No, not for a decimal number. It does not apply for this informant.
 
 [Course Textbook Chapter 16, Problem 9]
-
-
+- Question (aoneill2−stat6250): If you read in blank spaces preceding a number, is it still stored in the same manner?
+- Answer (aoneill2−stat6250): Yes, because the number's formatting is determined by its informant, and not by blank spaces.
+- Question (aoneill2−stat6250): Should you use the comma informant to read in dollar values with commas in them?
+- Answer (aoneill2−stat6250): No, because the comma and the $ sign are included as characters in the first part of the informant before the period that separates it from the number of decimal places, and the comma-informant actually strips the field value that is read of the dollar sign, along with any other embedded symbols, which is a good solution if you want the value to be stored only as a number.
 
 [Course Textbook Chapter 17, Problem 1]
-
+- Question (aoneill2−stat6250):
 
 
 [Course Textbook Chapter 17, Problem 2]
