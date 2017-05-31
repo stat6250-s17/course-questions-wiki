@@ -15,57 +15,57 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
-
-
+- Question (rluo-stat6250): What is the function of the column input?
+- Answer (rluo-stat6250): Column input can be used to read raw data that is stored in an external file. 
 
 [Course Textbook Chapter 16, Problem 5]
-
+- Question (rluo-stat6250): What are the features of the column input?
 
 
 [Course Textbook Chapter 16, Problem 7]
-
+- Question (rluo-stat6250): What is standard numeric data?
 
 
 [Course Textbook Chapter 16, Problem 8]
-
-
+- Question (rluo-stat6250): What does nonstandard numeric dat include?
+- Answer (rluo-stat6250): values that contain special characters, date and time values, and data in fraction, binary and hexadecimal.
 
 [Course Textbook Chapter 16, Problem 9]
-
+- Question (rluo-stat6250): What styles can we choose when encountering raw data that is organized into fixed fields.
 
 
 [Course Textbook Chapter 17, Problem 1]
-
+- Question (rluo-stat6250): What is free-format data?
 
 
 [Course Textbook Chapter 17, Problem 2]
-
-
+- Question (rluo-stat6250): Can list input read both standard and nonstandard free-format data?
+- Answer (rluo-stat6250): Yes, it can read both.
 
 [Course Textbook Chapter 17, Problem 4]
-
+- Question (rluo-stat6250): What is the rule of using list input?
 
 
 [Course Textbook Chapter 17, Problem 5]
-
+- Question (rluo-stat6250): What is the limitations of list input?
 
 
 [Course Textbook Chapter 17, Problem 7]
-
+- Question (rluo-stat6250): What is the function of the MISSOVER option?
 
 
 [Course Textbook Chapter 17, Problem 8]
-
+- Question (rluo-stat6250): What is the function of the LENGTH statement?
 
 
 [Course Textbook Chapter 17, Problem 10]
-
+- Question (rluo-stat6250): How to create a free-format dataset?
 
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
-
+- Question (rluo-stat6250): How can we import delimited text file?
 
 
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
-
+- Question (rluo-stat6250): What is the function of the INFORMAT statement?
 
