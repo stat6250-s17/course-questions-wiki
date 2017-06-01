@@ -48,30 +48,33 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 2]
 
-- Question (yzhu12-stat6250):
+- Question (yzhu12-stat6250): What can you do if your data contains missing values at the end of a record to prevent SAS from reading the next record to find the missing values?
+- Answer (yzhu12-stat6250): You can use the INFILE statement with the MISSOVER option.
 
 [Course Textbook Chapter 17, Problem 4]
 
-
+- Question (yzhu12-stat6250): What's the main differences between DSD option and DLM= option in the INFILE statement?
 
 [Course Textbook Chapter 17, Problem 5]
 
-
+- Question (yzhu12-stat6250): Under what condition does the DSD option be used to read raw data when there is a missing value at the beginning of a record?
+- Answer (yzhu12-stat6250): As long as a delimiter precedes the first value in the record. 
 
 [Course Textbook Chapter 17, Problem 7]
 
-
+- Question (yzhu12-stat6250): How does the informats work differently in modified list input compared to that they do in formatted input?
 
 
 [Course Textbook Chapter 17, Problem 8]
 
-
+- Question (yzhu12-stat6250): How to create a delimited raw data file?
+- Answer (yzhu12-stat6250): You can use the DLM= option with a FILE statement to create a delimited raw data file.
 
 
 [Course Textbook Chapter 17, Problem 10]
 
-- Question (yzhu12- stat6250): 
-- Answer (yzhu12-stat6250): 
+- Question (yzhu12- stat6250): When do you need to specify the variable type again when you use the LENGTH statement?
+ 
 
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
