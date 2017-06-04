@@ -24,7 +24,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (kveng−stat6250): Does the code still work without indenting the statements within step?
 - Answer (kveng−stat6250): I tested it. The code still work but it's a good idea indeed to indent the statements for better reading.
 - *Question* (lwang30-stat6250) : What are the consequences if you do not end with a *run* statement ?
--Answer (mcardoso3-stat6250):  Not ending statements with run would lead to missing output or results and thus the SAS statement would be incomplete.
+-Answer (mcardoso3-stat6250):  Not ending statements with run would lead to missing output or results and thus the SAS statement would be incomplete. 
 - Question (meisenbach-stat6250): Should you place a run statement after every DATA or PROC step?
 - Question (nly13-stat6250): Some SAS code has QUIT; after RUN;, does this make a significant difference in procedural steps?
 - Answer (nly13-stat6250): QUIT can be optional, as it will end the procedure.
