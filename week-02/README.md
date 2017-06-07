@@ -19,7 +19,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mcardoso3-stat6250): How many observations and variables are needed for a large enough sample size to draw a strong conclusion from the data provided?
 * *Question (aalshehry−stat6250):* Wht is themaximum number of observations per dataset? What about variables/columns?
 - Question (lzhao4−stat6250): Do missing values affect the structure of the data set?
--Answer (mcardoso3-stat6250):  Missing values are recorded in the SAS data set, but the structure of the data set isn't affected because every variable and observation must have a value to work.
+- Answer (mcardoso3-stat6250):  Missing values are recorded in the SAS data set, but the structure of the data set isn't affected because every variable and observation must have a value to work.
 - Question (yyan11−stat6250): What are observations and variables?
 - Answer (yyan11−stat6250): Rows in the data set are called observations, and columns are called variables. 
 - Question (dlee117−stat6250): In the given data set, what is considered an observation and what is considered a variable?
@@ -37,9 +37,10 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): Are observations always equivalent to the number of rows of data regardless of whether any specific row has null data fields?
 - Answer (aoneill2−stat6250): Yes, each row of data is an "observation," whether all data fields have data or not.
 - Question (cyuan10−stat6250): Is the observations always the “rows” and variable always the columns?
--Answer (mcardoso3-stat6250):  Yes, rows are called observations while columns are called variables, so their statuses remain the same.
+- Answer (mcardoso3-stat6250):  Yes, rows are called observations while columns are called variables, so their statuses remain the same.
 - Question (yren10−stat6250): When comparing two observations in one data set, if one observation missing 1 variable value, are we still able to do the comparison? Are we still getting a correct result?
 - Question (akumar30−stat6250): Does missing value has any impact on total number of observation or variables in SAS Datasets?
+
 
 
 [Course Textbook Chapter 1, Problem 2]
@@ -65,10 +66,11 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): What are program steps? Do they consist of a set of statements ending in a semicolon that end with a run statement? Or are they just statements that end in semicolons?
 - Answer (aoneill2−stat6250): Program steps are defined as beginning with "data" or "proc". Program steps are then usually each terminated by a "run" statement.
 - Question (cyuan10−stat6250): In this example, what is the difference between having 3 different “steps” or “runs” versus a single run at the end?
--Answer (mcardoso3-stat6250):  It is better to run different steps rather than one because it allows you to see the log and output of your analysis along the way, and doing one run wouldn't reveal that.
+- Answer (mcardoso3-stat6250):  It is better to run different steps rather than one because it allows you to see the log and output of your analysis along the way, and doing one run wouldn't reveal that.
 - Question (yren10−stat6250): Can we usually use a single letter like "U" or “U.T” in stead "user.table"?
--Answer (mcardoso3-stat6250):  No, "user.table" is a command that can import a table from an outside data set, but using an abbreviation for it wouldn't translate the same way.
+- Answer (mcardoso3-stat6250):  No, "user.table" is a command that can import a table from an outside data set, but using an abbreviation for it wouldn't translate the same way.
 - Question (akumar30−stat6250): What is the default sorting format in SAS and how to format multiple variables in different sorting order?
+
 
 
 [Course Textbook Chapter 1, Problem 3]
@@ -80,7 +82,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What is a variable's type?
 - Answer (yyan11−stat6250): A variable's type is either character or numeric.
 - Question (dlee117−stat6250): Is it valid for the variable AcctNum to contain both numbers and letters?
--Answer (mcardoso3-stat6250):  Yes, as long as variable names being with a letter or underscore, they can continue with any combination of numbers, letters, or underscores.
+- Answer (mcardoso3-stat6250):  Yes, as long as variable names being with a letter or underscore, they can continue with any combination of numbers, letters, or underscores.
 - Question (yzhu12-stat6250): What's the difference between character variable and numeric variable?
 - Answer (yzhu12-stat6250): character variables can contain any values while numeric variables can contain only numeric values. 
 - *Question* (lwang30-stat6250) : What are the other names for numeric and character variables ?
@@ -92,7 +94,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nly13-stat6250): By adding a $ at the end of AcctNum, it makes all of its values a character.
 - Question (meisenbach-stat6250): What happens when you try to assign a character value to a numeric variable and vice versa?
 - Question (aoneill2−stat6250): If a variable type is not specified, what is the default?
--Answer (mcardoso3-stat6250): The numeric variable would be the default since a $ sign would need to be added to the variable names in order to classify it as a character variable.
+- Answer (mcardoso3-stat6250): The numeric variable would be the default since a $ sign would need to be added to the variable names in order to classify it as a character variable.
 - Question (cyuan10-stat6250): If a single cell contains characters, does that make the entire column a “character variable”?
 - Question (yren10−stat6250): Does a variable named like "Account number" means it's has to be a numeric variable?
 - Answer (yren10−stat6250): No, name can't decide the type.
@@ -100,11 +102,12 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (akumar30−stat6250): A variable can be defined as only one type, so you cannot use the same variable name to convert the values. You create a new variable with the values converted using input function.
 
 
+
 [Course Textbook Chapter 1, Problem 4]
 - Question (mcardoso3-stat6250):  Why are there some missing values in certain datasets?
 - Answer (mcardoso3-stat6250):  Some datasets are more difficult to collect the entire data for than others, which is reasonable considering error is a part of statistics.  Therefore, there will sometimes be an occasional missing value when the data is collected.
 * *Question (aalshehry−stat6250):* How to represent missing data in SAS dataset?
--Answer (mcardoso3-stat6250):  Missing data values may be represented by a "." in place of the blank data cell.
+- Answer (mcardoso3-stat6250):  Missing data values may be represented by a "." in place of the blank data cell.
 - Question (lzhao4−stat6250): Can missing value indicates a different type of variable?
 - Question (yyan11−stat6250): What are Numeric variables?
 - Answer (yyan11−stat6250): Numeric variables, such as Policy and Total (shown below), can contain only
@@ -121,12 +124,13 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (nly13-stat6250): Can SAS read determine value types automatically when reading in a mixed data set?
 - Question (meisenbach-stat6250): SAS uses floating point representation for a numeric values? Does this cause inaccuracies when working with integer values?
 - Question (aoneill2−stat6250): Does a numeric variable have to be specified as such to be treated as a number for calculations?
--Answer (mcardoso3-stat6250):  Yes, numeric variables can contain only numeric values, so that is how they must be treated for calculations.
+- Answer (mcardoso3-stat6250):  Yes, numeric variables can contain only numeric values, so that is how they must be treated for calculations.
 - Question (cyuan10−stat6250): What happens to the “.” missing numeric value when you calculate that variable? Is it simply ignored? What is the default action?
 - Question (yren10−stat6250): Does a missing value in a variable column affects the type of the variable?
 - Answer (yren10−stat6250): No, a blank dpesn't represent anything, the missing value is indcated by a period. 
 - Question (akumar30−stat6250): How to distinguish between different types of missing values (e.g missing values because of non-response or missing values because of invalid data entry)?
 - Answer (akumar30−stat6250):  In SAS, letters A-Z and underscore "_" to indicate the type of missing values.
+
 
 
 [Course Textbook Chapter 1, Problem 5]
@@ -136,7 +140,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (yyan11−stat6250): What are valid variable names? 
 - Answer (yyan11−stat6250): Variable names can be 1 to 32 characters long, must begin with a letter (A–Z, either uppercase or lowercase) or an underscore, and can continue with any combination of numbers, letters, or underscores.
 - Question (dlee117−stat6250): Can variable names contain a space?
--Answer (mcardoso3-stat6250):  No, variable names must be named without any spaces.  Underscores may be used to separate words for variable names.
+- Answer (mcardoso3-stat6250):  No, variable names must be named without any spaces.  Underscores may be used to separate words for variable names.
 - Question (yzhu12-stat6250): Is the variable name @Bunny01 a valid name? 
 - Answer (yzhu12-stat6250): No, it's not a valid name because it must begin with a letter (A–Z, either uppercase or lowercase) or an underscore, and can continue with any combination of numbers, letters, or underscores. 
 - *Question* (lwang30-stat6250) : What are the rules for variable names ?
@@ -145,7 +149,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (hhu9−stat6250): What is the rules of SAS data set names and variable names?
 - Answer (hhu9−stat6250): Variable names follow the same rules as SAS data set names. They can be 1 to 32 characters long, must begin with a letter (A-Z, either uppercase or lowercase) or an underscore, and can continue with any combination of numerals, letters, or underscores.
 - Question (nly13-stat6250): In the text it says a variable can only begin with a letter or an underscore, but if does converting it to a character with $ make a difference?
--Answer (mcardoso3-stat6250): Converting the variable name to a $ character would make a difference because special characters are not permitted as part of a variable name, so it would need to be adjusted.
+- Answer (mcardoso3-stat6250): Converting the variable name to a $ character would make a difference because special characters are not permitted as part of a variable name, so it would need to be adjusted.
 - Question (meisenbach-stat6250): Is SAS case sensitive? 
 - Answer (meisenbach-stat6250): No
 - Question (aoneill2−stat6250): If a variable is not named correctly, does it generate an error in naming, or is the error type hard to pin dow?
@@ -169,11 +173,11 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (yyan11−stat6250): How many bytes in a numeric variable?
 - Answer (yyan11−stat6250): All numeric variables have a default length of 8.
 - Question (dlee117−stat6250): Why does the variable Name have a longer length than Policy or Total?
--Answer (mcardoso3-stat6250):  Name is a character variable while Policy and Total are numeric variables.  Since character variables can be up to 32,767 bytes long while numeric variables can only be 8, Name can be longer in length.
+- Answer (mcardoso3-stat6250):  Name is a character variable while Policy and Total are numeric variables.  Since character variables can be up to 32,767 bytes long while numeric variables can only be 8, Name can be longer in length.
 - Question (yzhu12-stat6250): What's the default length of the numeric variable Oyster?
 - Answer (yzhu12-stat6250): 6
 - *Question* (lwang30-stat6250) : What would SAS output if we input a numeric value that exceeds 8 bytes ? Would it be rounded up to the first 8 digits including decimal points ?
--Answer (mcardoso3-stat6250):  Numeric values are stored as floating-point numbers in 8 bytes of storage.
+- Answer (mcardoso3-stat6250):  Numeric values are stored as floating-point numbers in 8 bytes of storage.
 - Question (kveng-stat6250): Can set a default length different than 8 bytes?
 - Question (hhu9−stat6250): What is the default length for the numeric variable Balance?
 - Answer (hhu9−stat6250): No matter how many digits they contain, the default length is 8.
@@ -187,6 +191,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Answer (akumar30−stat6250): All numeric variables have a default length of 8 bytes.
 
 
+
 [Course Textbook Chapter 2, Problem 3]
 - Question (mcardoso3-stat6250):  Why does te YEARCUTOFF=option affect two-digit year values, but not four-digit year values?
 * *Question (aalshehry−stat6250):* Where and how to use YEARCUTOFF option?
@@ -195,11 +200,11 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (yyan11−stat6250): Does the YEARCUTOFF= option affectdate values that have four-digit years?
 - Answer (yyan11−stat6250): No, the YEARCUTOFF= option doesn't affect date values that have four-digit years.
 - Question (dlee117−stat6250): What date would 4/4/17 be interpreted as if YEARCUTOFF = 2017?
--Answer (mcardoso3-stat6250):  The date would be interpreted as 4/4/2017 if the YEARCUTOFF=2017.
+- Answer (mcardoso3-stat6250):  The date would be interpreted as 4/4/2017 if the YEARCUTOFF=2017.
 - Question (yzhu12-stat6250): How to define library?
 - Answer (yzhu12-stat6250): You assign a library name (a libref) to it and specify a path, such as a directory path and use the libref as the first part of the file's two-level name (libref.filename) to reference the file within the library. You can use programming statements to assign library names. 
 - *Question* (lwang30-stat6250) : Is there a way to let SAS read and process more than 100 years ?
--Answer (mcardoso3-stat6250):  Yes, you can override the default and change the value of YEARCUTOFF= to the first year of another 100-year span.
+- Answer (mcardoso3-stat6250):  Yes, you can override the default and change the value of YEARCUTOFF= to the first year of another 100-year span.
 - Question (kveng-stat6250): Is “YEARCUTOFF” a function in SAS? 
 - Question (hhu9−stat6250): Does the YEARCUTOFF=option has affect on 4 digit value?
 - Answer (hhu9−stat6250): No, you set an informat with correct field width.
@@ -212,15 +217,16 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Answer (akumar30−stat6250): The default value of YEARCUTOFF= is 1920.
 
 
+
 [Course Textbook Chapter 2, Problem 7]
 - Question (mcardoso3-stat6250): How much storage does a permanent SAS library contain?
 * *Question (aalshehry−stat6250):* How to save your dataset in the permanent library?
 - Question (lzhao4−stat6250): How to correctly assign a SAS libref?
--Answer (mcardoso3-stat6250):  Use a LIBNAME statement and store it with any SAS program so that the library is assigned each time the program is submitted.
+- Answer (mcardoso3-stat6250):  Use a LIBNAME statement and store it with any SAS program so that the library is assigned each time the program is submitted.
 - Question (yyan11−stat6250): How long are Librefs?
 - Answer (yyan11−stat6250): Librefs must be 1 to 8 characters long, must begin with a letter or underscore, and can contain only letters, numbers, or underscores.
 - Question (dlee117−stat6250): What are the steps to reference a permanent SAS file?
--Answer (mcardoso3-stat6250):  To reference a permanent SAS file, you assign a libref to the SAS library, and then use the libref as the first part of the files name to reference the file within the library.
+- Answer (mcardoso3-stat6250):  To reference a permanent SAS file, you assign a libref to the SAS library, and then use the libref as the first part of the files name to reference the file within the library.
 - Question (yzhu12-stat6250): How can you modify system options?
 - Answer (yzhu12-stat6250): I submit an OPTIONS statement and place an OPTIONS statement anywhere in a SAS program to change the current settings. Because the OPTIONS statement is global, the settings remain in effect until you modify them or until you end your SAS session. 
 - *Question* (lwang30-stat6250) : What are the functions of *proc freq* statement ?
@@ -235,6 +241,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Answer (cyuan10−stat6250): Having a permanent library vs. a temporary library would be helpful to keep things organized so that you don’t end up with 20 versions. Instead, you can work on 20 different versions during the same sessions and make the “final” version a permanent but delete all the temp. This will keep your files organized.
 - Question (yren10−stat6250): Can a SAS engine access other format except SAS file format?
 - Question (akumar30−stat6250): Doe dataset saved in permanent library accessible after end of SAS Session?
+
 
 
 [Course Textbook Chapter 2, Problem 8]
@@ -257,10 +264,11 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Answer (meisenbach-stat6250): 1926 for SAS 9.4 and beyond. It might. Previously the default was 1920.
 - Question (aoneill2−stat6250): Can the value of the YEARCUTOFF= option be equal to exactly 100 yeas before the date in question? How do you determine the YEARCUTOFF= option if you are not syure about whether the years entered would be within a 100-yr interval?
 - Question (cyuan10−stat6250): Does the YEARCUTOFF= option always start from the low-end and count up or can it start from the high end and count down?
--Answer (mcardoso3-stat6250):  Yes, the YEARCUTOFF=option can specify which 100-year span is used to interpret two-digit year values.
+- Answer (mcardoso3-stat6250):  Yes, the YEARCUTOFF=option can specify which 100-year span is used to interpret two-digit year values.
 - Question (yren10−stat6250): “YEARCUTOFF=” specifies 100-year span, what if we need a 200-year span or more?
 - Question (akumar30−stat6250): Does YEARCUTOFF option in SAS has any impact on a date value that contains four digit year?
--Answer (mcardoso3-stat6250):  Yes, a date value that contains a four-digit year value is interpreted correctly even if it doesn't fall within the 100-year span set by the YEARCUTOFF= option.
+- Answer (mcardoso3-stat6250):  Yes, a date value that contains a four-digit year value is interpreted correctly even if it doesn't fall within the 100-year span set by the YEARCUTOFF= option.
+
 
 
 [Course Textbook Chapter 2, Problem 9]
@@ -269,7 +277,7 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 * **Answer (aalshehry−stat6250): In these cases, SAS no longer has access to the files in the library.
 - Question (lzhao4−stat6250): Libref exists only during the session in which it is created?
 - Question (yyan11−stat6250): what is the LIBNAME statement?
--Answer (mcardoso3-stat6250):  The LIBNAME statement assigns a libref and can be stored with any SAS program so that the library is assigned each time the program is submitted.
+- Answer (mcardoso3-stat6250):  The LIBNAME statement assigns a libref and can be stored with any SAS program so that the library is assigned each time the program is submitted.
 - Question (dlee117−stat6250): What is the default libref for temporary SAS files?
 - Question (yzhu12-stat6250): What option do we add to suppress detailed information about the files?
 - Answer (yzhu12-stat6250): NODS.
@@ -284,9 +292,10 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (cyuan10−stat6250): Are all syntax written in all CAPs?
 - Answer (cyuan10−stat6250): No, like all programming languages, there are different ways of distinguish between synatx. It looks like the text uses all caps to help show the difference.
 - Question (yren10−stat6250): What is the difference or relation between library and libref?
--Answer (mcardoso3-stat6250):  A libref is an assigned name for storing while a library is where everything in SAS is stored.
+- Answer (mcardoso3-stat6250):  A libref is an assigned name for storing while a library is where everything in SAS is stored.
 - Question (akumar30−stat6250): What is the default default libref for a temporary SAS data library?
 - Answer (akumar30−stat6250): Work is the libref for a temporary SAS data library
+
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
@@ -298,11 +307,11 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (dlee117−stat6250): What does it mean to assign TEMP to the file name tempfile?
 - Question (yzhu12-stat6250): Besides the method using "get" function to download URL, what other methods can be the substitute?
 - *Question* (lwang30-stat6250) : Why can some statement lines not end with a semicolon ?
--Answer (mcardoso3-stat6250):  Entering certain names or values in PROC statements can be acceptable when listing them, though using SAS statements without any semicolons will nullify any command you try to input.
+- Answer (mcardoso3-stat6250):  Entering certain names or values in PROC statements can be acceptable when listing them, though using SAS statements without any semicolons will nullify any command you try to input.
 - Question (kveng-stat6250): Where does the “tempfile” is stored after we run the code. Is it stored in a local computer or SAS server? Can we have it stored in our personal computer? 
 - Question (hhu9−stat6250):  there is a technology that transfer PDF to word, is it can be used to transfer image data to excel, and then to SAS data set? 
 - Question (nly13-stat6250): Is formatting ever an issue when getting data from a URL to Excel to SAS?
--Answer (mcardoso3-stat6250):  Formatting can have an effect when getting data from Excel to SAS, so certain changes may need to be made to properly read the dataset in SAS.
+- Answer (mcardoso3-stat6250):  Formatting can have an effect when getting data from Excel to SAS, so certain changes may need to be made to properly read the dataset in SAS.
 - Question (meisenbach-stat6250): What happens if I misspell something (e.g dbms → dms)?
 - Answer (meisenbach-stat6250): You get a warning that the interpretor assumed symbol DBMS was misspelled as "dms" and the statement executes correctly.
 - Question (aoneill2−stat6250): What data step follows the proc http data step in importing an online file into a temporary working file?
@@ -311,10 +320,11 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - Question (akumar30−stat6250):  What type of files are supported using proc http statement in SAS?
 
 
+
 [optional: bonus_advanced_recipe_for_loading_data_from_remote_Excel_file (from Week 2 Overview)]
 - Question (mcardoso3-stat6250): How important is it for someone working in statistics to learn about macros?
 - Question (yzhu12-stat6250): What's the meaning of two command % and & in SAS?
--Answer (mcardoso3-stat6250):  % defines the macro command by creating values and parameters.  & replaces the alue that was stored in the macro variable.
+- Answer (mcardoso3-stat6250):  % defines the macro command by creating values and parameters.  & replaces the alue that was stored in the macro variable.
 - *Question* (lwang30-stat6250) : In the macro, what are the functions of **%** and **&** respectively ? What is the advantage of using a macro ? 
 - Question (cyuan10−stat6250): Does this macro only compare names? Is there a way to compare the content within so that if there are two versions, the users to check to see if the content is different?
--Answer (mcardoso3-stat6250):  Yes, macro is an advanced command that can compare multiple types of names or content, and there are many methods to check how the content in question is different by the macro.
+- Answer (mcardoso3-stat6250):  Yes, macro is an advanced command that can compare multiple types of names or content, and there are many methods to check how the content in question is different by the macro.
