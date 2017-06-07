@@ -328,3 +328,5 @@ numeric values (the digits 0 through 9, +, -, ., and E for scientific notation).
 - *Question* (lwang30-stat6250) : In the macro, what are the functions of **%** and **&** respectively ? What is the advantage of using a macro ? 
 - Question (cyuan10−stat6250): Does this macro only compare names? Is there a way to compare the content within so that if there are two versions, the users to check to see if the content is different?
 - Answer (mcardoso3-stat6250):  Yes, macro is an advanced command that can compare multiple types of names or content, and there are many methods to check how the content in question is different by the macro.
+
+
