@@ -16,6 +16,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 5, Problem 1]
 - Question (akumar30−stat6250): What is the significance of aggregate storage location in SAS?
+- Answer (mcardoso3-stat6250):  The aggregate storage location contains external files that you can reference, so it makes any filerefs easier to find.
 * *Question (aalshehry−stat6250):* What is the general form of using FILENAME statement?
 * *Answer (aalshehry−stat6250):* FILENAME fileref 'filename';
 - Question (yyan11−stat6250): Can I using a FILENAME Statement referencing a Raw Data File?
@@ -31,6 +32,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Is there a limit to the types of files we can associate to?
 - Question (rluo-stat6250): What is a raw data file, and what are its features?
 - Question (aoneill2−stat6250): Can you access files in your SAS user file without a LIBREF statement?
+- Answer (mcardoso3-stat6250):  Yes, you can disassociate a LIBREF by using a LIBNAME statement, specifying the libref, and the CLEAR option.
 - Question (cyuan10−stat6250): Raw data files can be converted to SAS datasets. Can we also use filename statement to convert a SAS dataset into a different software file like excel?
 - Question (yren10−stat6250): How can we assign a fileref?
 - Answer (yren10−stat6250): You assign a fileref by using a FILENAME statement in the same way that you assign a libref by using a LIBNAME statement.
@@ -44,6 +46,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (akumar30−stat6250):  Can I reference multiple external file with a fileref that points to an aggregate storage location?
 - Answer (akumar30−stat6250):  Yes, The * and ? wildcards can be used in either the external file name. Wildcards are supported for input only in the FILENAME and INFILE statements, and in member name syntax (aggregate syntax). Also allfiles command can be used to reads all files in the current working directory.
 * *Question (aalshehry−stat6250):* Why does Fileref statement lose its information after ending SAS session?
+- Answer (mcardoso3-stat6250):  A Fileref is a name associated with an external file, so unless its information is saved elsewhere within the SAS library, it would be lost after ending a SAS session.
 - Question (yyan11−stat6250): How to view active filerefs?
 - Answer (yyan11−stat6250): Like librefs, the filerefs currently defined for your SAS session are listed in the SAS Explorer window. To view details about a referenced file, double-click File Shortcuts (or select File Shortcuts and then Open from the pop-up menu). Then select View→Details. Information for each file (name, size, type, and host path name) is listed.
 - Question (meisenbach-stat6250): Can you save filenames permanently?
@@ -56,6 +59,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nly13-stat6250): Will Fileref be in effect if you save your SAS session?
 - Answer (nly13-stat6250): No, it ends when the SAS session ends.
 - Question (rluo-stat6250): In order to read the raw data file, what DATA steps must be provided?
+- Answer (mcardoso3-stat6250):  To read the raw data file, the DATA step must provide the location or name of the external text file, a name for the new SAS data set, a reference that identifies the external file, and a description of the data values to be read.
 - Question (aoneill2−stat6250): Do explicit fileref statements using full pathnames render the use of a LIBREF statement unneccessary?
 - Question (cyuan10−stat6250): How do we make filerefs permanent? 
 - Question (yren10−stat6250): LIBNAME statement remain effect utill?
@@ -77,6 +81,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): Can I use the INPUT statement to describing the data?
 - Answer (yyan11−stat6250): The INPUT statement describes the fields of raw data to be read and placed into the SAS data set.
 - Question (meisenbach-stat6250): What happens when you change the order of the variables in the INPUT statement?
+- Answer (mcardoso3-stat6250):  When you use column input, you can change and read the fields in any order without any problem to the statement.
 - Question (dlee117−stat6250): When using the INPUT statement to describe the fields of raw data to be read and placed into the SAS data set, what does the dollar sign ($) do?
 - Answer (dlee117-stat6250): It identifies the variable type as character.
 - Question (kveng−stat6250): What is the $ sign use din the input statement?
@@ -96,6 +101,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yren10−stat6250): Yes, when we write an INPUT statement, we need to specify the variable names exactly as we want them to appear in the SAS data set.
 - Question (mcardoso3-stat6250):  How much differently, if at all, would variables be inputed in an INFILE statement as opposed to a DATALINES  statement?
 -	Question (lzhao4−stat6250): Do INPUT statement reads raw data from instream data lines into a SAS data set?
+- Answer (mcardoso3-stat6250):  No, though INPUT reads raw data into a SAS data set, a DATALINES statement would be used to read instream data.
 - Question (hhu9−stat6250): In this table, we can see obs, why we dont need to input "OBS $ x-x"? 
 
 
@@ -116,9 +122,11 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): Does assignment statement begin with the keyword?
 - Answer (rluo-stat6250): Assignment statement does not begin with the keyword.
 - Question (aoneill2−stat6250): What kind of error is generated when data is read in using an infile statement with incorrect column numbers?
+- Answer (mcardoso3-stat6250):  This would be considered a data error since some data values are not appropriate for SAS statements under the program.
 - Question (cyuan10−stat6250): In the example, are ending "0" such as 33.990 the same as 33.99 read as the same in SAS?
 - Answer (cyuan10−stat6250): Yes. These two values are equal.
 - Question (yren10−stat6250): What is the rule when we are using $ in INPUT statement, should we use it between variable name and numbers?
+- Answer (mcardoso3-stat6250):  The dollar sign identifies the variable type only as a character in an INPUT statement and it is placed in between the variable name and values.
 - Question (mcardoso3-stat6250):  What happens if the input variables are entered out of order?
 - Answer (mcardoso3-stat6250):  If the variables are entered out of order, the columns will have inaccurate names and therefore the dataset would appear confusing to interpret.
 -	Question (lzhao4−stat6250):  Can you use column input to read fields in any order?
@@ -136,6 +144,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): How do you use comparison and logical operators with variables?
 - Answer (meisenbach-stat6250): With an IF-THEN statement (e.g. IF age > 40 AND gender ‘F’ THEN test = ‘T’)
 - Question (dlee117−stat6250): When you use more than one arithmetic operator in an expression, how do you control the order of operations?
+- Answer (mcardoso3-stat6250):  You can control the order of operations by placing parentheses.
 - Question (kveng−stat6250): Does this method permanent re-define the values of the varaible?
 - Answer (kveng-stat6250): Yes, it will.
 - *Question* (lwang30-stat6250): What is the order for arithmetic operator's processing ?
@@ -146,6 +155,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): Must assignment statements for operations on variables use explicit mention of the variable, or can it be implied, such as count=+1?
 - Question (cyuan10−stat6250): Is there a difference in output if we use 2 vs. 2.00? Would our results end with decimals?
 - Question (yren10−stat6250): Does expression has to be on the left of the equal sign?
+- Answer (mcardoso3-stat6250):  No, when a variable name appears on both sides of the equal sign, the original value on the right side is used to evaluate the expression.
 - Question (mcardoso3-stat6250):  What other variables can define values as percentages besides Income?
 -	Question (lzhao4-stat6250): Do you have to including the variable name on the right side of the equal sign when re-define a value?
 - Question (hhu9−stat6250): What is the difference between "income*2" and "income *2.00"?
@@ -160,6 +170,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What are program data vectors?
 - Answer (yyan11−stat6250): The program data vector contains two automatic variables that can be used for processing but which are not written to the data set as part of an observation. _N_ counts the number of times that the DATA step begins to execute. _ERROR_ signals the occurrence of an error that is caused by the data during execution. 
 - Question (meisenbach-stat6250): The descriptor portion is created at the end of the compilation phase. How does the program know how many observations there are before the data is read?
+- Answer (mcardoso3-stat6250):  The program recognizes there are no observations yet because the DATA step has not yet been executed.
 - Question (dlee117−stat6250): What are the two automatic variables that can be used for processing contained in the program data vector?
 - Question (kveng−stat6250): What is compilation phase?
 - *Question* (lwang30-stat6250): What are the two phases of a data step process ?
@@ -169,6 +180,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (rluo-stat6250): What are the two phases of SAS DATA step process?
 - Answer (rluo-stat6250): Compilation phase and the execution phase.
 - Question (aoneill2−stat6250): What heppens during the execution phase of a SAS DATA step?
+- Answer (mcardoso3-stat6250):  During the execution phase, each record in the input raw data file is read into the input buffer, copied to the prgram data vector, and then written to the new data set an observation.
 - Question (cyuan10−stat6250): What can prevent or block the descriptors during the compilation phrase?
 - Answer (cyuan10−stat6250): Syntax errors may prevent the compilation phrase from moving forward successfully.
 - Question (yren10−stat6250): So where is the data set descriptor created?
@@ -199,7 +211,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): What happens if SAS cannot interpret a syntax error during compliation phase?
 - Answer (aoneill2−stat6250): If an error is found during the compilation phase, SAS tries to interpret it if possible.
 - Question (cyuan10−stat6250): Is there a memory limitation with the input buffer?
+- Answer (mcardoso3-stat6250):  There is no specific limitation with the input buffer since it indicates how much raw data is read and you can have unlmited data in your SAS data set.
 - Question (yren10−stat6250): Does syntax checks the values of variables or the correctness of formats?
+- Answer (mcardoso3-stat6250):  Syntax only checks the variable values and any spelling or grammar mistakes within.
 - Question (mcardoso3-stat6250):  If incorrect values and formats in each statement in the DATA step aren't considered syntax errors, what are they considered as?
 -	Question (lzhao4-stat6250): Do Syntax checking able to verify the values of variables or the correctness of formats?
 - Question (hhu9−stat6250):What is the fuction of syntax checking?
@@ -212,10 +226,12 @@ The instructor will then review the pull request and make comments should furthe
 * *Question (aalshehry−stat6250):* How to change/redirect the defult Data statem?
 - Question (yyan11−stat6250): How SAS Processes Programs if the DATA step compiles successfully?
 - Answer (yyan11−stat6250): If the DATA step compiles successfully, then the execution phase begins. During the execution phase, the DATA step reads and processes the input data. The DATA step executes once for each record in the input file, unless otherwise directed.
-- Question (meisenbach-stat6250): What would cause the DATA step to stop before excuting once per record? 
+- Question (meisenbach-stat6250): What would cause the DATA step to stop before excuting once per record?
+- Answer (mcardoso3-stat6250):  The DATA step would stop before executing if there is any error committed in the compilation or execution phase.
 - Question (dlee117−stat6250): A raw data file with 20 records on the file executes how many times during the DATA step?
 - Question (kveng−stat6250): Can we execute more than once per each record in the input file?
 - *Question* (lwang30-stat6250): Which phase of the data step process works like a loop ?
+- Answer (mcardoso3-stat6250):  The execution phase works like a loop because it repititively executes statements to read data values and create observations one by one.
 - Question (yzhu12-stat6250): In what situation that SAS can’t interpret the error?
 - Question (nly13-stat6250): Can a Data step be executed more than once for each record in the input file?
 - Question (rluo-stat6250): What does the descriptor portion of the data set include?
@@ -234,6 +250,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yyan11−stat6250): What is initializing variables?
 - Answer (yyan11−stat6250): The remaining variables are initialized to missing. Missing numeric values are represented by periods, and missing character values are represented by blanks.
 - Question (meisenbach-stat6250): Why does SAS initalize the variables in the data vector to missing at the beginning of the execution step?
+- Answer (mcardoso3-stat6250):  Each value in the execution phase must have a value in order for the execution step to process, so the blank values are thus initialized.
 - Question (dlee117−stat6250): If I was missing the item name, what symbol would represent this missing value?
 - Question (kveng−stat6250): Why do the remaining variables are initialized to missing?
 - *Question* (lwang30-stat6250): What are the values of _N_ , _ERROR_ , and the remaining variables before the second observation starts to be read ? 
@@ -241,6 +258,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (yzhu12-stat6250): Numeric represents missing numeric values and blanks represent missing character values.
 - Question (nly13-stat6250): Can you extract the _N_ value?
 - Question (rluo-stat6250): Can the execution phase only input a portion of the dataset?
+- Answer (mcardoso3-stat6250):  Yes, during the execution phase, the data portion of the data set is created.
 - Question (aoneill2−stat6250): How can you use the assignment of values to variables in a SAS file during execution to track the execution of a DATA step?
 - Question (cyuan10−stat6250): Is there a way to add more "descriptors" to the Descriptor Portion beyond was is currently in the output?
 - Question (yren10−stat6250): What are missing values will represent in output?
@@ -254,6 +272,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 6, Problem 5]
 - Question (akumar30−stat6250):  Can we find the number of errors in execution step by analyzing the value of _ERROR_ in SAS?
 * *Question (aalshehry−stat6250):* What values can _ERROR_ takes?
+- Answer (mcardoso3-stat6250):  ERROR can take any data error, meaning any misinterpreted data values in the selected portion of the data set.
 - Question (yyan11−stat6250):What is the value of the automatic variable _ERROR_ when the observation that contains any error?
 - Answer (yyan11−stat6250): _ERROR_ signals the occurrence of an error that is caused by the data during execution. The default value is 0, which means there is no error. When one or more errors occur, the value is set to 1.
 - Question (meisenbach-stat6250): When there is an error, does the DATA step stop executing?
@@ -267,7 +286,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (rluo-stat6250): Use IF-THEN statement or IF-THEN-ELSE statement to valid the data.
 - Question (aoneill2−stat6250): Does the value of the automatic variable _ERROR_ equal the number of actual errors encountered?
 - Question (cyuan10−stat6250): Will ERRORS help us identify exactly how many errors there are in the Data step?
-- Question (yren10−stat6250): What does default _ERROR_ equal to zero actually means? 
+- Question (yren10−stat6250): What does default _ERROR_ equal to zero actually means?
+- Answer (mcardoso3-stat6250):  The default ERROR equaling zero means that there are no errors at the beginning of each DATA step, regardless of whether any errors exist in previous data steps.
 - Question (mcardoso3-stat6250):  When would it be necessary to reset the automatic variable_ERROR_ to 0?
 -	Question (lzhao4-stat6250): What the default value of ERROR is?
 -	Answer (lzhao4-stat6250): The ERROR variable acts like a binary switch whose value is 0 if no errors exist in the DATA step, or 1 if one or more errors exist.
@@ -288,6 +308,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yzhu12-stat6250): What kind of errors will raise when you use a wrong method to test your programs?
 - Question (nly13-stat6250): Why are variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
 - Question (rluo-stat6250): What is the function of the PUT Statement?
+- Answer (mcardoso3-stat6250):  The PUT statement is used to flag any missing or zero values for the variable Rate.
 - Question (aoneill2−stat6250): Are values of the variables set to missing as part of the initial execution step of a DATA step, or does that happen at the beginning of the compilation phase?
 - Question (cyuan10−stat6250): Why are ERROR and the program data vector reset to zero at the end of the data step? 
 - Question (yren10−stat6250): What is the default at the end of the DATA step will do?
@@ -295,12 +316,14 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mcardoso3-stat6250):  An iteration is a loop or cycle of execution, which repetitively executes statements to read data values and create observations one by one.
 -	Question (lzhao4-stat6250): What different actions will occur at the beginning and the end of the DATA step?
 - Question (hhu9−stat6250): Why the automatic variable_N_ is incremented by 1?
+- Answer (mcardoso3-stat6250):  The automatic variable _N_ is incremented by 1 after each loop, or iteration, in the DATA step.
 
 
 
 [basic_recipe_for_creating_analytic_datasets (from Week 5 Overview)]
 - Question (akumar30−stat6250): Can we create new dataset from existing multiple dataset in SAS data step? (without using proc sql)
 * *Question (aalshehry−stat6250):* What is the difference between "Retain" and "Keep" in DATA statement?
+- Answer (mcardoso3-stat6250):  RETAIN is used to set variable order, while KEEP is used to explicitly list the columns to keep in output.
 - Question (yyan11−stat6250): Is there a limit number of specific rows or columns data that will be the subset of an SAS data set?
 - Question (meisenbach-stat6250): What does the SET statement in the DATA step do?
 - Answer (meisenbach-stat6250): It tells SAS to read an observation from one or more SAS data sets. If more than one data set name appears in the SET statement, the resulting output data set is a concatenation of all the data sets that are listed. 
@@ -314,6 +337,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aoneill2−stat6250): Can a retain statement be sufficient in itself, given that it specifies the order of the existing variables?
 - Answer (aoneill2−stat6250): No, a retain statement must always be accompanied by either a "keep" or "drop" statement. The retain statement only specifies order, wherease the "keep' or "drop" statement determines the existence of the variables in the program.
 - Question (cyuan10−stat6250): Can we create a single SAS data set from mulitple external raw data sets?
+- Answer (mcardoso3-stat6250):  Yes, SAS data sets can be created from multiple external raw data sets by reading raw data, or by accessing the files that were created by another software.
 - Question (yren10−stat6250): How we ise "Retain" exactly, and what it does in DATA statement?
 - Question (mcardoso3-stat6250):  How much practice would it typically take for one to fully understand the programming data vector in SAS?
 -	Question (lzhao4-stat6250): What different aspects do retain and keep modify with?
@@ -328,9 +352,11 @@ The instructor will then review the pull request and make comments should furthe
 - Question (meisenbach-stat6250): Does using PROC SQL create a different data structure than using the DATA statement? If I want to sort data using PROC SQL, does the data need to be read into a TABLE?
 - Question (dlee117−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
 - Question (kveng−stat6250): What happens if we don't sepecify the program to quit at the end?
+- Answer (mcardoso3-stat6250):  PROC SQL executes statements as it reads them rather than once a RUN statement is encountered, therefore the program continue to run if we don't specify QUIT at the end.
 - *Question* (lwang30-stat6250): If *prog glm* is an interactive proc, why can we still run other statement without enclosing *proc glm* by a "quit" ? 
 - Question (yzhu12-stat6250): How does SAS run sql and what’s the difference of the coding language between sql and SAS?
 - Question (nly13-stat6250): What is the memory limit to proc sql?
+- Answer (mcardoso3-stat6250):  PROC SQL has the memory to contain certain datasets depending on their size.
 - Question (aoneill2−stat6250): What statement can be left out of the recipe without affecting its output?
 - Answer (aoneill2−stat6250): The WHERE statement can be omitted.
 - Question (aoneill2−stat6250): What is the PROC step used in the advanced recipe for creating analytic datasets?
