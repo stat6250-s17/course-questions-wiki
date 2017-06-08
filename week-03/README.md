@@ -15,6 +15,7 @@ The instructor will then review the pull request and make comments should furthe
 ********************************************************************************
 
 
+
 [Course Textbook Chapter 3, Problem 1]
 - Question (mcardoso3-stat6250):  Why must each SAS statement begin with a DATA or PROC?
 * *Question (aalshehry−stat6250):* Why code formatting is important?
