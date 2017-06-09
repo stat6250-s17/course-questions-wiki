@@ -27,6 +27,7 @@ RUN;
 - Question (meisenbach-stat6250): When would you use this one-to-one merging?
 - Answer (meisenbach-stat6250): When the observations in both datasets are in the same order and the columns are different.
 - Question (lzhao4-stat6250): How does SAS reading values when same named variables occur?
+- Answer (mcardoso3-stat6250):  Combining data sets with common variables is done by match-merging, where you use a MERGE statement rather than a SET statement to combine data sets.
 - Question (kveng-stat6250): What are the methods of combining data set?
 - Answer (kveng-stat6250): There are one-to-one reading (statement: SET), concatenating (statement: SET), interleaving (statement: SET, BY), and match-merging (statement: MERGE, BY)
 - *Question* (lwang30-stat6250): What would the new dataset be if the variable "VarZ" in the second dataset changes to "VarY" ?
@@ -39,6 +40,7 @@ RUN;
 - Question (nly13-stat6250): If the 2 data sets have unequal number of rows, what will happen during the merge?
 - Answer (nly13-stat6250): In the last row of observations, the SET statement will read in the observation in the first set, but will stop when there is nothing to read in from the second set. This observation will not be in the output.
 - Question (rluo-stat6250): Is there any requirements for the datasets to perform One-to-One merging?
+- Answer (mcardoso3-stat6250):  One-to-One merging is done with a MERGE statement without a BY statement and combines observations from two or more data sets based on the observations' positions in the data sets.
 - Question (aoneill2-stat6250): For a one-to-one match, how many set statements are needed?
 - Answer (aoneill2-stat6250): A one-to-one match requires two set statements to input the two files.
 - Question (yyan11−stat6250): How One-to-One Merging Selects Data?
@@ -61,9 +63,11 @@ RUN;
 - Question (meisenbach-stat6250): What is the benefit of using interleaving?
 - Answer (meisenbach-stat6250): The output dataset is sorted by the BY variable.
 - Question (lzhao4−stat6250): How to use BY statement and SET statement when interleave data sets?
+- Answer (mcardoso3-stat6250):  When interleaving SAS data sets, we would specify a list of data set names in the SET statement, and specify one or more BY variables in the BY statement.
 - Question (kveng-stat6250): Can we use interleaving without changing the order?
 - Answer (kveng-stat6250):  If we don't want to change the order, then we need to use concatenating method. It'll just concate multiple tables without sorting.
 - *Question* (lwang30-stat6250): How many observations would be in the new dataset if the code from answer "D" is used ?
+- Answer (mcardoso3-stat6250):  There are a total of 3 observations in answer D because using the merge statement by actor's name would list each actor as one observation.  Since there are three actors (Larry, Curly, Moe), there are 3 observations.
 - Question (mcardoso3-stat6250):  Can data sets be merged into more than one combined data set?
 * Question (aalamri−stat6250):  How does SAS deal with interleaving datasets in order to combine them? 
 * Answer(aalamri−stat6250): SAS makes a list of dataset names in the “SET” statement and one or more “BY” variables in the “BY” statement.
@@ -85,6 +89,7 @@ RUN;
 
 [Course Textbook Chapter 12, Problem 3]
 * *Question (aalshehry−stat6250):* What is the default oreder of the output obsevations when SET statement is used to combine two datasets?
+- Answer (mcardoso3-stat6250):  By default, using the SET statement to combine two datasets will order the output of the observations in ascending order starting with the smallest observation at the top.
 - Question (akumar30−stat6250): What happen when if the type of common variable differ in the datasets to be concatenated?
 - Answer (akumar30−stat6250):  SAS will stops process the DATA step and issues an error message stating that the variables are incompatible.
 - Question (yzhu12-stat6250): How do we determine when the last observation in an input data set has been read?
@@ -113,7 +118,8 @@ RUN;
 - Answer (cyuan10-stat6250): Concatenate is another way of merging data tables. However, records of the 2nd table is appended or added on to the first table. So if you have 6 records in the 1st and 6 in the 2nd, you will end up with 12 total records in the concatenate table.
 - Question (yren10-stat6250): Does how many different variablesin two data set will brings the same amount of observations by using one set in set statment?
 - Answer (yren10-stat6250): No, its all depends, it does different when its weather numric or categorial. Does different when it has different variables. Concatenating appends the observations from one data set to another data set. The new data set contains the total number of records from all input data sets.
-- Question (hhu9-stat6250): What will happen if the first table have a long list of observations? we will not see the observations of second table in new table, so why dont the new table pull all observations of second table to parallel with the observations of first table. 
+- Question (hhu9-stat6250): What will happen if the first table have a long list of observations? we will not see the observations of second table in new table, so why dont the new table pull all observations of second table to parallel with the observations of first table.
+- Answer (mcardoso3-stat6250):  The second table may have a completely different list of observations and/or variables, so they would need to be placed under the first table values by Concatenating, Appending, or Interleaving.
 
 
 
@@ -126,7 +132,9 @@ RUN;
 - Question (meisenbach-stat6250): When should you use concatenate?
 - Answer (meisenbach-stat6250): When both datasets essentially have the same columns and the missing columns are non-essential.
 - Question (lzhao4−stat6250): What’s the difference between concatenate multiple data sets and merge multiple data sets?
+- Answer (mcardoso3-stat6250):  Concatenating multiple datasets merely places the second dataset underneath the first, while merging multiple datasets combines the observations together.
 - Question (kveng-stat6250): Is concatenating the best method to use in this case?
+- Answer (mcardoso3-stat6250):  No, interleaving appears to be the best method in problem 4 since there is a common variable and observations are split within the data sets.
 - *Question* (lwang30-stat6250): What is the difference between an interleaving case and a concatenating case ?
 - *Answer* (lwang30-stat6250): In an interleaving case, the observations are read sequentially in each BY group. In a concatenating case, the observations are read sequentially according to their orders in the SET statement.
 - Question (mcardoso3-stat6250):  What is the difference between concatenating, appending, and interleaving?
@@ -163,7 +171,13 @@ RUN;
 - Answer (mcardoso3-stat6250):  If the values in the same column variable over two data sets are different, there is no way in telling which the proper values are.  Therefore, the values are set to missing.
 * Question (aalamri−stat6250): How does SAS deal with datasets that have the same variable names?
 - Question (dlee117−stat6250): If you want to merge more than one variable in descending order, how do you code this?
-- Question (nly13-stat6250): Is it recommended to always use the RENAME statement in order to prevent overwriting a variable? 
+- Answer (mcardoso3-stat6250):  The code for merging more than one variable in descending is:
+DATA (output-data-set)
+	MERGE (data-set-1 data-set-2);
+	BY DESCENDING (variables);
+RUN;
+- Question (nly13-stat6250): Is it recommended to always use the RENAME statement in order to prevent overwriting a variable?
+- Answer (mcardoso3-stat6250):  Using a RENAME statement is entirely optional, but it is likely a simpler task rather than overwriting values of a variable.
 - Question (rluo-stat6250): What statement will be used to perform Match-Merging?
 - Question (aoneill2-stat6250): When two files are merged with different values of a variable by the same name in each, which value gets overwritten, the first input file or the second?
 - Answer (aoneill2-stat6250): The first input file's variable value is overwritten by the second.
@@ -191,6 +205,7 @@ RUN;
 - Question (mcardoso3-stat6250):  Would there be another reason to rename a variable other than to avoid overwriting the values?
 * Question (aalamri−stat6250): How can you prevent SAS form overwriting variables? 
 - Question (dlee117−stat6250): If you merge two data sets and two values for a variable are the same, the DATA step overwrites the values of the like-named variable in the first data set; is this overwrite permanent?
+- Answer (mcardoso3-stat6250):  Yes, overwriting is permanent once you have merged the two data sets with the same variables.
 - Question (nly13-stat6250): In what order to do rename statement activate in different parts of the data step?
 - Question (rluo-stat6250): What statement can be used to prevent overwriting?
 - Question (aoneill2-stat6250): How do you prevent a variable value from being overwritten in a merge, when merging two files with different values of the same variable keyed to the same unique identifier?
@@ -198,6 +213,7 @@ RUN;
 - Question (yyan11−stat6250): How to prevent the values from being overwritten when you merge the two data sets?
 - Answer (yyan11−stat6250): To prevent overwriting, you can rename variables by using the RENAME= data set option in the MERGE statement.
 - Question (cyuan10-stat6250): Can you use match-merging on two different variables for matching? For example, if variable 1 matches, check variable 2 before merging?
+- Answer (mcardoso3-stat6250):  Yes, you can match-merge with different variables and they would each be listed as a column in the new dataset.
 - Question (yren10-stat6250): Is there another way to prebent the overwritten other than rename the variable?
 - Question (hhu9-stat6250): Is the same that we use"RENAME" to change the name of variable in first data set or second? 
 
@@ -218,12 +234,14 @@ RUN;
 - Question (dlee117−stat6250): When using a BY statement, can you specify any of the variables/more than one variable?
 - Question (nly13-stat6250): Is it more efficient to use PROC SQL or DATA step to merge?
 - Question (rluo-stat6250): What will happen to the observations when their corresponding variables are dropped?
+- Answer (mcardoso3-stat6250):  When an observation's variable is dropped, the observation indicates no variables in the new data set, though the variable would still be outputted in the original dataset.
 - Question (aoneill2-stat6250): If one file has 5 records matched to a "by" variable as a unique identifier, and a second file has 3 records, with 2 "by" variables matching the first file's records and 1 different, how many records are in the match-merged file?
 - Answer (aoneill2-stat6250): There will be 6 records altogether, containing the available values from the other variable or variables from each of the files.
 - Question (yyan11−stat6250): How Match-Merging Selects Data?
 - Answer (yyan11−stat6250): Generally speaking, during match-merging, SAS sequentially checks each observation of each data set to see whether the BY values match, and then writes the combined observation to the new data set.
 - Question (cyuan10-stat6250): How are duplicative records handled? Is this something that will be called out in any way during the table merge step or compilation step?
 - Question (yren10-stat6250): Does the merage statement will keep all the different observations and variables from both table?
+- Answer (mcardoso3-stat6250):  Yes, the MERGE statement will keep all different observations and variables from both tables in the new dataset.  Only observations with the same variables would be merged or overridden.
 - Question (hhu9-stat6250): How to represent missing numeric value? 
 - Answer (hhu9-stat6250): we use "."to represent the missing numeric value?
 
@@ -240,11 +258,13 @@ RUN;
 - Question (mcardoso3-stat6250):  How many different SAS statements can be used for combining datasets?
 * Question (aalamri−stat6250): Does SAS allow combining two datasets horizontally when one variable is missing its correspondent value from the other dataset? 
 - Question (dlee117−stat6250): What is the goal of using a RETAIN statement when merging data sets?
+- Answer (mcardoso3-stat6250):  A RETAIN statement is used to speify column order in the output dataset.
 - Question (nly13-stat6250): Besides not being limited my size, are there any other advantages to using merge instead of sql?
 - Question (rluo-stat6250): If there are some observations that are completely the same, how do combining treat those two data? Will the combining just keep one of them or keep all of them?
 - Question (aoneill2-stat6250): How do you prevent a variable value from being overwritten in a merge, when merging two files with different values of the same variable keyed to the same unique identifier?
 - Answer (aoneill2-stat6250): Use the RENAME option in renaming the variables in one or both files to distinguish them. Differences in variable values may reflect different situational meaning, and the RENAME feature could add further detail as well as prevent overwriting the value.
 - Question (aoneill2-stat6250): Does one have to use the label statement or is it optional?
+- Answer (mcardoso3-stat6250):  A LABEL statement is used to delete the label for each column listed and it is important to override them if they are no longer going to be used. 
 - Question (yyan11−stat6250): What happen if two datasets have the same name column?
 - Question (cyuan10-stat6250): What are some of the best practices when it comes to renaming columns in newly merged datasets? Does it help to add a specific identifier to these columns so that we know which ones are merged?
 - Question (yren10-stat6250): If two datasets having different observation which means not all in common, will SAS show all observations and use dot presents missing values after combined?
@@ -254,6 +274,7 @@ RUN;
 
 [optional: adv_recipe_for_combining_data_horizontally (from Week 6 Overview)]
 - Question (akumar30−stat6250): Wwhich statement will have faster performance combine four dataset, using merge statement or proc sql statement?
+- Answer (mcardoso3-stat6250):  Though PROC SQL is more often used, it is limited by available RAM and can take significantly longer to create joint datasets in an equivalent dataset.  Therefore using a MERGE statement would have a faster performance.
 - Question (yzhu12-stat6250): What kind of error will occur if the order of these AS statements are converted improperly?
 - Question (kveng-stat6250): What is coalesce? What does it do?
 - *Question* (lwang30-stat6250): What are the proc steps that experienced SAS users frequently apply sql to perform the task ? 
@@ -263,5 +284,6 @@ RUN;
 - Question (akumar30−stat6250): Wwhich statement will have faster performance combine four dataset, using merge statement or proc sql statement?
 - Question (yzhu12-stat6250): What kind of error will occur if the order of these AS statements are converted improperly?
 - Question (hhu9-stat6250): What is the fuction of output statement? how can we use it to get a table from one column data source?
+- Answer (mcardoso3-stat6250):  The OUTPUT statement specifies the name of the output data set to be displayed.  You would need to be sure to include the data source of the table in the OUTPUT OUT= statement in order to display the table.
 
 
