@@ -30,8 +30,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): Are there any example of statement that can be used to combine DATA and PROC steps?
 - Question (akumar30−stat6250):  Can start value will be larger than stop value in do statement?
 - Answer (akumar30−stat6250):  Yes, when you use a negative BY clause value, the start value must always be greater than the stop value in order to decrease the index variable during each iteration.
-
-
+- Question (hhu9−stat6250): Can DO loops be used to combine DATA and PROC steps?
+- Answer (hhu9−stat6250):no, it can not be used to combine DATA and PROC steps.
 
 [Course Textbook Chapter 14, Problem 2]
 - Question (yzhu12-stat6250): Why the index variables can be dropped from the data set?
@@ -48,7 +48,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (cyuan10-stat6250): Then it will default to 1 unit increments.
 - Question (akumar30−stat6250):  Can we use character values as series of items for do loop execution?
 - Answer (akumar30−stat6250): Yes, all character values, with each value enclosed in quotation marks can be used to execute do loop for executes once for each item in the series.
-
+- Question (hhu9−stat6250): what will happen if there is no break step in DO loops?
 
 
 [Course Textbook Chapter 14, Problem 3]
@@ -65,7 +65,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): Can the BY statement be anything other than numeric? Does it have it be integers?
 - Answer (mcardoso3-stat6250):  The BY statement specifies an increment value for the index variable, so it does need to be numeric.  There is no requirement for how much you want to increment by, but it is typically best if you increment by one for each iteration, so using integers for BY is best.
 - Question (akumar30−stat6250): Can we exit do loop before reaching its stop value mentioned in do loop statement?
-
+- Question (hhu9−stat6250): How to write do count if the rate is compound interest?
 
 
 [Course Textbook Chapter 14, Problem 4]
@@ -81,7 +81,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lzhao4−stat6250): How the DO loop executes in the DATA step? 
 - Question (cyuan10-stat6250): What if we used DO UNTIL instead? Would the stored YEAR be different? 
 - Question (akumar30−stat6250):  Can we use do statement to create primary key in dataset?
-
+- Question (hhu9−stat6250): Why stored value is great than the stop value?
 
 
 [Course Textbook Chapter 14, Problem 5]
@@ -100,8 +100,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (cyuan10-stat6250): When the OUTPUT statement is included, then it will print the output for each iteration otherwise, the default is one single output.
 - Question (akumar30−stat6250): Can we use output statement outside do block?
 - Answer (mcardoso3-stat6250):  Yes, OUTPUT statements can be used anytime in SAS that you want to display explicit output.
-
-
+- Question (hhu9−stat6250): If there is "do year =1990-2004", what is the last value wrote in data set?
+- Answer (hhu9−stat6250): the last value is is on the last iteration of the DO step. It is 2004.
 
 [Course Textbook Chapter 14, Problem 6]
 - Question (yzhu12-stat6250): How can you run DO loops within DO loops?
@@ -117,8 +117,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mcardoso3-stat6250):  Yes, increments are one of the simple specifications to include in a DO loop statment, so it is very important that they are represented.  The purpose of the iteration is to give you a value, so having it be numeric is essential.
 - Question (akumar30−stat6250): What are the differences between Do-Until and Do-While?
 - Answer (akumar30−stat6250): Do Until is executed at least once, but DO while is executed only if the condition is true.
-
-
+- Question (hhu9−stat6250): How to count the number of observations? 
+- Answer (hhu9−stat6250): It is the same as iterations.
 
 [Course Textbook Chapter 14, Problem 7]
 - Question (yzhu12-stat6250):  Once the loop's index value exceeds the stop value, the DO loop stops, and processing continues with the following DATA step statement. So how can we re-open the previous Do loop if necessary?
@@ -133,7 +133,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (cyuan10-stat6250): The “Do” statement will start the loop and “End;” will stop the loop. Anything within the these two statements are part of the loop
 - Question (akumar30−stat6250): Which performs faster between Do-Until and Do-While statement?
 - Answer (mcardoso3-stat6250):  It depends on whether expression if true or not.  If the expression is true right away, DO UNTIL executes fairly quickly.  The DO WHILE executes statements conditionally, but not if the expression is false the first time it is evaluated.
-
+- Question (hhu9−stat6250): What is the diference between DO WHILE and WHILE loops?
 
 
 [Course Textbook Chapter 14, Problem 8]
@@ -149,8 +149,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): What is the difference between DO WHILE and DO UNTIL?
 - Question (akumar30−stat6250): can we use both DO while and Do until in same do statement?
 - Answer (mcardoso3-stat6250):  You can use both DO statements in the same statement, but it will only execute the DO statement that occurs first in the DATA step.
-
-
+- Question (hhu9−stat6250): When does DO while statement and DO UNTIL run?
+- Answer (hhu9−stat6250): check before executing and check after executing.
 
 [Course Textbook Chapter 14, Problem 9]
 - Question (yzhu12-stat6250): How can you specify that how many times that a DO loop executes?
@@ -167,7 +167,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (cyuan10-stat6250): What happens when you accidentally excuse an infinite Do loop?
 - Question (akumar30−stat6250):  Can nested do loop be used in SAS?
 - Answer (akumar30−stat6250): Yes, SAS allows Do-Loop inside a Do-Loop.
-
+- Question (hhu9−stat6250): why we use "ge" and "le" instead of > and <?
 
 
 [Course Textbook Chapter 14, Problem 10]
@@ -193,7 +193,7 @@ run;
 - Answer (mcardoso3-stat6250):  DO WHILE is evaluated before the execution of the DO loop because the DO LOOP doesn't execute if the DO WHILE expression is false, so WHILE must come first.
 - Question (cyuan10-stat6250): Can you have multiple nested DO UNTIL and DO WHILE loops?
 - Question (akumar30−stat6250): Can we break outside of do loop before completion of all do steps?
-
+- Question (hhu9−stat6250): Why there are 3 "." after "1 to 10"?
 
 
 [Course Textbook Chapter 15, Problem 1]
@@ -211,7 +211,7 @@ run;
 - Question (cyuan10-stat6250): What is an “executable” statement?
 - Question (akumar30−stat6250):  What is the primary purpose to use array in SAS?
 - Answer (akumar30−stat6250):  Primary purpose of an array is array is to reduce the number of statements that are required for processing variables.
-
+- Question (hhu9−stat6250): Can ARRAY statement be executed?
 
 
 [Course Textbook Chapter 15, Problem 2]
@@ -230,8 +230,8 @@ run;
 - Question (cyuan10-stat6250): Are brackets, parentheses, and braces interchangeable? Is there a benefit of one over the others?
 - Question (akumar30−stat6250): Does the Array index in SAS starts with 0 or 1?
 - Answer (akumar30−stat6250): The index of Array in SAS starts with 1.
-
-
+- Question (hhu9−stat6250): how to calculate the size of all elements?
+- Answer (hhu9−stat6250): the number of elements * size of each element.
 
 [Course Textbook Chapter 15, Problem 3]
 - Question (yzhu12-stat6250): How can you create temporary array elements for DATA step processing without creating additional variables?
@@ -247,7 +247,7 @@ run;
 - Question (cyuan10-stat6250): What is the benefit of creating arrays? 
 - Answer (cyuan10-stat6250): You can use them in Do Loops.
 - Question (akumar30−stat6250): can we use array inside nested do statement?
-
+- Question (hhu9−stat6250): Why we always use number1 to number2, can we use(number1,number2)?
 
 
 [Course Textbook Chapter 15, Problem 4]
@@ -265,7 +265,7 @@ run;
 - Question (cyuan10-stat6250): Does the index refer to the order in which the variables are listed or it’s alphabetical order?
 - Question (akumar30−stat6250): What is the advantage of using an array with do loops?
 - Answer (akumar30−stat6250): Arrays are used with DO loops to process multiple variables and to perform repetitive calculations.
-
+- Question (hhu9−stat6250): Does the index value always obey the order listed after {}?
 
 
 [Course Textbook Chapter 15, Problem 5]
@@ -282,7 +282,7 @@ run;
 - Answer (mcardoso3-stat6250):  No, * typically represents the multiplication or combination of variable names, values, etc. in other SAS statements.
 - Question (akumar30−stat6250): How to identify size of array in SAS?
 - Answer (akumar30−stat6250): In SAS DIM function can be used to determine array size.
-
+- Question (hhu9−stat6250): is "do i=1,2,3,4;" always the same with "do i=1 to 4;"in any case?
 
 
 [Course Textbook Chapter 15, Problem 6]
@@ -297,8 +297,8 @@ run;
 - Answer (mcardoso3-stat6250):  Since all numeric, character, and combination of character and numeric variables are acceptable for ARRAY statements.
 - Question (cyuan10-stat6250): Can variables be continuous values?
 - Question (akumar30−stat6250): How to combine multiple array in SAS?
-
-
+- Question (hhu9−stat6250): Which tpye of variables can be created by an ARRAY statement?
+- Answer (hhu9−stat6250): numeric variables and character variables.
 
 [Course Textbook Chapter 15, Problem 7]
 - Question (yzhu12-stat6250): How to create an array of character variables?
@@ -314,7 +314,7 @@ By default, all character variables that are created in an ARRAY statement are a
 - Question (cyuan10-stat6250): In this example, is the output a single value? Do we need to include output statement to print the output of each iteration? 
 - Question (akumar30−stat6250):  How to compare two arrays and find duplicate records?
 - Answer (mcardoso3-stat6250):  A DO loop statement would be used to execute and compare two arrays while calculating the values of the elements and noting any duplicates.
-
+- Question (hhu9−stat6250): Where are weight4-weight10 in this case? 
 
 
 [Course Textbook Chapter 15, Problem 8]
@@ -329,7 +329,7 @@ By default, all character variables that are created in an ARRAY statement are a
 - Answer (mcardoso3-stat6250):  To assign values in an ARRAY statement, place the values after the array elements, specify one initial value for each array element, separate each value with a comma/blank, enclose the values in parentheses, and enclose each character value in quotation marks.
 - Question (cyuan10-stat6250): What is the difference between this array with numeric variables vs. using an index with increments of 300?
 - Question (akumar30−stat6250):  can array have multiple datatypes as values?
-
+- Question (hhu9−stat6250): Is it same when we use blanks or , when we specify an initial value for each element?
 
 
 [Course Textbook Chapter 15, Problem 9]
@@ -345,7 +345,7 @@ By default, all character variables that are created in an ARRAY statement are a
 - Answer (mcardoso3-stat6250):  First give the array a name, then specify the dimension of the array along with the array elements.
 - Question (cyuan10-stat6250): What if the increments in the array is not equal or linear?
 - Question (akumar30−stat6250):  Can we use character variable as index of array in SAS? 
-
+- Question (hhu9−stat6250): what is the advantage when we use ARRAY statement?
 
 
 [recipe_to_create_unique_record_id (from Week 9 Overview)]
@@ -360,7 +360,7 @@ By default, all character variables that are created in an ARRAY statement are a
 - Answer (mcardoso3-stat6250):  We can use the automatic variable _IN_ in a data step to form record ID values.
 - Question (cyuan10-stat6250): For concatenating string values, can “+” be used instead?
 - Question (akumar30−stat6250): Can we append hexadecimal value to make unique id in SAS?
-
+- Question (hhu9−stat6250): when should we use lag statement?
 
 
 [recipe_to_disaggregate_counts_data (from Week 9 Overview)]
@@ -374,5 +374,5 @@ By default, all character variables that are created in an ARRAY statement are a
 - Question (lzhao4−stat6250): What is the distinction between high level of aggregations and low level of aggregations?
 - Question (cyuan10-stat6250): What is the benefit of disaggregate data and when would we use it?
 - Question (akumar30−stat6250): How to keep the result accurate when aggregating the data at different level?
-
+- Question (hhu9−stat6250): How to determain high level disaggregate and low level disaggregate?
 
