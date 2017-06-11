@@ -20,6 +20,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): When using column input, can it read character variable values that contain embedded blanks?
 - Answer (dlee117-stat6250): Yes, column input can be used to read values that contain embedded blanks. You just need to specify the correct column locations and it will be able to read it.
 - Question (akumar30−stat6250): Can we change the order of variables specifies in input statement?
+- Answer (mcardoso3-stat6250): Though a feature of column input lets you read fields in any order, the variables are always listed in the order in which they were created by default in the data set.
 - Question (rluo-stat6250): What is the function of the column input?
 - Answer (rluo-stat6250): Column input can be used to read raw data that is stored in an external file. 
 - Question (yyan11−stat6250): How many input styles does SAS provide?
@@ -30,6 +31,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mcardoso3-stat6250):  You can read data values by first typing "input" followed by the first variable name, then the values for the respected variable ($ for numeric), and then inserting a semicolon. 
 - Question (yzhu12-stat6250): What are the two input styles for reading data in fixed fields and what's the function of them?
 - Answer (yzhu12-stat6250): They are column input and format input. Column input reads standard data only and format input read both standard and nonstandard data.
+- Question (mcardoso3-stat6250):  What is the purpose of an informat?
+- Answer (mcardoso3-stat6250):  An informat is an instruction that tells SAS how to read raw data.
 
 
 
@@ -41,11 +44,13 @@ The instructor will then review the pull request and make comments should furthe
 - Question (akumar30−stat6250): Can we read nonstandard numeric data without using informat instructions?  
 - Answer (akumar30−stat6250): No, we have to use informat instructions in specified format for each type of nonstandard numeric data.
 - Question (rluo-stat6250): What are the features of the column input?
+- Answer (mcardoso3-stat6250):  There are 4 column input features:  reading character variable values that contain embedded blanks, no placeholder is required for missing data, fields or parts of fields can be re-read, and fields do not need to be separated by blanks or other delimiters.
 - Question (yyan11−stat6250): What does the $w. represent?
 - Answer (yyan11−stat6250): The $w. informat enables you to read character data. The w represents the field width of the data value (the total number of columns that contain the raw data field).
 - Question (aoneill2−stat6250): What does the period mean at the end of an informat?
 - Answer (aoneill2−stat6250): The period ends the informat.
 - Question (aoneill2−stat6250): Why does an informat need to be "ended?"
+- Answer (mcardoso3-stat6250):  An informat needs to be ended in order for the DATA step to be completed.
 - Question (mcardoso3-stat6250):  What are the different types of informats that can be used to read character data?
 - Question (yzhu12-stat6250): What's the difference between standard numeric data and nonstandard numeric data?
 - Answer (yzhu12-stat6250): Standard numeric data values are values that contain only numbers, scientific notation, decimal points, and plus and minus signs. When numeric data contains characters such as commas or dollar signs, the data is considered to be nonstandard. 
@@ -58,7 +63,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Are there any informats that do not contain a period?
 - Answer (dlee117-stat6250): No, each informat always contains a period because it is a required delimiter.
 - Question (akumar30−stat6250): Does auto cast applies if we specified the format of numeric data as character in input statement?
+- Answer (mcardoso3-stat6250):  No, as long as the data is specified in the format in the input statement, auto cast does not apply.
 - Question (rluo-stat6250): What is standard numeric data?
+- Answer (mcardoso3-stat6250):  Standard numeric data are values that can only contain numbers, decimal points, scientific notation, and plus and minus signs.
 - Question (yyan11−stat6250): Which one could be used to read numeric values?
 - Answer (yyan11−stat6250): The COMMAw.d informat is used to read numeric values and to remove embedded blanks, commas, dashes, dollar signs, percent signs, right parentheses, left parentheses, which are interpreted as minus signs.
 - Question (aoneill2−stat6250): If the default for the input argument is column 1, then isn't it the same to read a piece of data that starts in column 7 either with input @7 or input +6?
@@ -71,7 +78,9 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 16, Problem 8] 
 * *Question (aalshehry−stat6250):* What does COMMAw.d informat used for?
+- Answer (mcardoso3-stat6250):  The COMMAw.d informat is used for reading numeric values and to remove embedded blanks, commas, hyphens, dollar signs, percent signs, close parentheses, and open parentheses.
 - Question (dlee117−stat6250): What is the difference between @n column pointer control and +n pointer control?
+- Answer (mcardoso3-stat6250):  An @n column pointer control moves a pointer forward or backward when reading a record, while a +n pointer control moves the input pointer forward to a column number that is relative to the current position.
 - Question (akumar30−stat6250): What is the advantage of COMMAw.d informat?
 - Answer (akumar30−stat6250): It is used to read numeric values and to remove embedded blanks, commas, dashes, dollar signs, percent signs and right parentheses.
 - Question (rluo-stat6250): What does nonstandard numeric dat include?
@@ -91,7 +100,9 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 16, Problem 9] 
 * *Question (aalshehry−stat6250):* What does “w” and “d” represent in COMMAw.d informat?
+- Answer (mcardoso3-stat6250):  The w specifies the field width of the raw data value, while the d specifies the number of implied decimal places for the value.
 - Question (dlee117−stat6250): If the first field is located in column 1, do you need to use column pointer control to read this field?
+- Answer (mcardoso3-stat6250):  Depending on your current position, you may need to use a @n column pointer to move backwards if you are looking at a column far past the range of column 1.
 - Question (akumar30−stat6250): How to write an input statement if we don’t know the length of each base column in raw data?
 - Question (rluo-stat6250): What styles can we choose when encountering raw data that is organized into fixed fields?
 - Question (yyan11−stat6250): How to use the @n column pointer control?
@@ -108,7 +119,9 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 1] 
 * *Question (aalshehry−stat6250):* How is a free-format different from a formatted input?
+- Answer (mcardoso3-stat6250):  Free-format reads non-arranged fixed fields, while formatted input reads both standard and nonstandard data in fixed fields.
 - Question (dlee117−stat6250): What is the definition and purpose of a delimiter?
+- Answer (mcardoso3-stat6250):  A delimiter is a character and is meant to serve as a boundary that separates the elements of a text string.
 - Question (akumar30−stat6250):  What is free-format raw data in SAS?
 - Answer (akumar30−stat6250): Data that is not arranged in columns or do not begin and end in the same columns is classified as free-format raw data.
 - Question (rluo-stat6250): What is free-format data?
@@ -124,8 +137,10 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 2] 
 * *Question (aalshehry−stat6250):* Do we have to use the dollar sign before a character variable?
+- Answer (mcardoso3-stat6250):  Yes, because the dollar sign is what specifies that the variable is a character variable.
 - Question (dlee117−stat6250): What is the definition and purpose of a delimiter?
 - Question (akumar30−stat6250):  Can we use list input to convert free-format raw data to columns row data?
+- Answer (mcardoso3-stat6250):  Yes, since list input can read both standard and nonstandard free-format data, it is easy for it to convert the free-format raw data.
 - Question (rluo-stat6250): Can list input read both standard and nonstandard free-format data?
 - Answer (rluo-stat6250): Yes, it can read both.
 - Question (yyan11−stat6250): What is the list input?
@@ -140,6 +155,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 4] 
 * *Question (aalshehry−stat6250):* Can list INPUT skip or re-read fields?
+- Answer (mcardoso3-stat6250):  No, you cannont skip or re-read fields under list input because it does not specify column locations.
 - Question (dlee117−stat6250): When using List Input, do you have to read all of the data or can you use it to only read certain columns? 
 - Question (akumar30−stat6250): Can we change the order of columns in free-format raw data using input statement?
 - Question (rluo-stat6250): What is the rule of using list input?
@@ -149,14 +165,17 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aoneill2−stat6250): Yes, it is parsed strictly according the specified columns.
 - Question (mcardoso3-stat6250):  Is inputting the length of the variable name always necessary to include?
 - Question (yzhu12-stat6250): What's the main differences between DSD option and DLM= option in the INFILE statement?
+- Answer (mcardoso3-stat6250):  Though DSD and DLM=option can read fields that are delimited by blanks, you can also use DSD to read raw data.
 
 
 
 [Course Textbook Chapter 17, Problem 5] 
 * *Question (aalshehry−stat6250):* When to use DLM= option in the INFILE statement?
+- Answer (mcardoso3-stat6250):  Use  DLM= option in the INFILE statement to specify a delimeter other than a blank.
 - Question (dlee117−stat6250): When trying to specify a delimiter, what happens when that delimiter is also a character that occurs in a data value?
 - Question (akumar30−stat6250): Can we processed one raw data using input statement which are separated by different delimiters?
 - Question (rluo-stat6250): What is the limitations of list input?
+- Answer (mcardoso3-stat6250):   Aside from not being able to skip or re-read fields, all fields in a list input must be separated by at least one blank or other delimeter and fields must be read in order from left to right.
 - Question (yyan11−stat6250): How to output using sequential variable names?
 - Answer (yyan11−stat6250): You can also specify a range of variables using formatted input. If you specify a range of variables using formatted input, both the variable list and the informat must be enclosed in parentheses, regardless of the variable's type.
 - Question (aoneill2−stat6250): Can the delimiter be declared merely in single quotes as an option?
@@ -173,20 +192,24 @@ The instructor will then review the pull request and make comments should furthe
 - Question (akumar30−stat6250):  What is the default length of character variable in input sttatemnet?
 - Answer (akumar30−stat6250): Character Variable has default length of 8.
 - Question (rluo-stat6250): What is the function of the MISSOVER option?
+- Answer (mcardoso3-stat6250):  The MISSOVER is used to assign the missing values to variables with missing data at the end of a record.
 - Question (yyan11−stat6250): How to use the LENGTH statement with the INPUT statement?
 - Answer (yyan11−stat6250): The LENGTH statement extends the length of the character variable. The LENGTH statement should precede the INPUT statement so that the correct length is defined.
 - Question (aoneill2−stat6250): Can input data that is in free form be read out of order?
 - Question (mcardoso3-stat6250):  Where would be the proper place to type the length variable in a SAS statement?
 - Question (yzhu12-stat6250): How does the informats work differently in modified list input compared to that they do in formatted input?
+- Answer (mcardoso3-stat6250):  Unlike in modified list input, with formatted input, the informat determines both the length of character variables and the number of columns that are read.
 
 
 
 [Course Textbook Chapter 17, Problem 8] 
 * *Question (aalshehry−stat6250):* What does modified list input used for?
+- Answer (mcardoso3-stat6250):  Modified list input can be used for reading character values that contain embedded blanks with &, or reading nonstandard data values and character values that are no longer eight characters with no embedded blanks with a :.
 - Question (dlee117−stat6250): What should you do if there are missing values that occur at the end of a record?
 - Question (akumar30−stat6250): Can we change the default value of dsd from comma ‘,’ to semicolon ‘;’?
 - Answer (akumar30−stat6250): Yes, using dlm=option, we can change the default value to any acceptable delimiter.
 - Question (rluo-stat6250): What is the function of the LENGTH statement?
+- Answer (mcardoso3-stat6250):  The LENGTH statement defines both the length and type of the variable indicated
 - Question (yyan11−stat6250): How to use modify list input?
 - Answer (yyan11−stat6250): There are two modifiers that can be used with list input.The ampersand (&) modifier is used to read character values that contain embedded blanks. The colon (:) modifier is used to read nonstandard data values and character values that are longer than eight characters, but which contain no embedded blanks.
 - Question (aoneill2−stat6250): When you specify the length of a character variable, when do you have to repeat the use of the $ sign in declaring the variable in the input statement and when do you not need to?
@@ -198,9 +221,11 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 10] 
 * *Question (aalshehry−stat6250):* when do we use mixed input style?
+- Answer (mcardoso3-stat6250):  In some cases, you might need to use mix input styles in the same INPUT statement in order to read the data correctly.
 - Question (dlee117−stat6250): What does the & symbol do when reading raw data values?
 - Question (akumar30−stat6250): Can we use dynamic length based on max length of each variable in raw data file?
 - Question (rluo-stat6250): How to create a free-format dataset?
+- Answer (mcardoso3-stat6250):  You can use the PUT statement with list output to create free-format raw data files.
 - Question (yyan11−stat6250): Can the modified list input be used to read values that contain embedded blank and nonstandard values?
 - Answer (yyan11−stat6250): Yes, modified list input can be used to read values that contain embedded blanks and nonstandard values.
 - Question (aoneill2−stat6250): Does the length of a variable field have to be declared in a separate length statement when the & sign is used to indicate embedded blank spaces in the input statement?
@@ -221,11 +246,13 @@ The instructor will then review the pull request and make comments should furthe
    - creates an INPUT statement
    - submits all of the code to the DATA step compiler, which, in turn, executes the code
 - Question (rluo-stat6250): How can we import delimited text file?
+- Answer (mcardoso3-stat6250):  We can import delimited text files through a web server, such as a url beginning with https.
 - Question (yyan11−stat6250): Why the errors will occur, if the first few values in a column are numeric and a numerie informat is assumed?
 - Question (aoneill2−stat6250): When specifying the dbms engine, is the delimiter implied, or is an error generated if the delimiter option left out?
 - Question (aoneill2−stat6250): Since the getnames option in the import statement seems to detect and create informants for individual variables, and in conjunction with the guessingrows option, can truncation be avoided of character fields longer than 8 characters?
 - Question (mcardoso3-stat6250):  When would PROC IMPORT not be enough to import simple, small files into SAS?
 - Question (yzhu12-stat6250): The proc import can be hit or miss with delimited text files, then how can we prove the programming performance?
+- Answer (mcardoso3-stat6250):  The programming performance can be proved either by the delimited text files being imported in Excel and saved as an excel data file, or to have a custom data step written to import them.
 
 
 
@@ -234,9 +261,11 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What is the purpose of using the firstobs option and is it necessary?
 - Question (akumar30−stat6250): What is the maximum file size limit of tempfile in SAS to load data directly from webpage?
 - Question (rluo-stat6250): What is the function of the INFORMAT statement?
+- Answer (mcardoso3-stat6250):  INFORMAT is meant to for a data value to be read as input.
 - Question (yyan11−stat6250): Why the informat statement seta each column type to character-values vith width 100?
 - Answer (yyan11−stat6250): It' a common convention to use when using disk space usage is less inportant than the time it could take to carefully determine an optimal maximum length or value type for each column.
 - Question (aoneill2−stat6250): If lrecl option is to specify the maximum possible line length, what its default value?
+- Answer (mcardoso3-stat6250):  The default value of the maximum possible line length is 256.
 - Question (mcardoso3-stat6250):  What is the most essential command to enter for an INILE statement? 
 - Question (yzhu12-stat6250): We can convert columns to numeric using recipe of drop and swap, what recipe can we use if we want to convert columns to category?
 
