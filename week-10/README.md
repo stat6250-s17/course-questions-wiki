@@ -150,13 +150,13 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): What is the definition and purpose of a delimiter?
 - Answer (aoneill2−stat6250): A delimiter is used to indidiate end of a record field or to tell the SAS system that an informat is finished being read and can be interpreted.
 - Question (akumar30−stat6250):  Can we use list input to convert free-format raw data to columns row data?
-- Answer (aoneill2−stat6250):
+- Answer (aoneill2−stat6250): Yes, you can print to an ODS file using the put statement with the columns option. 
 - Question (rluo-stat6250): Can list input read both standard and nonstandard free-format data?
 - Answer (rluo-stat6250): Yes, it can read both.
 - Question (yyan11−stat6250): What is the list input?
 - Answer (yyan11−stat6250): List input is a powerful tool for reading both standard and nonstandard free-format data.
 - Question (aoneill2−stat6250): When listing variables in an input statement, why is it merely sufficient to use a $ sign to read in a character field without specifying a minimum-width or maximum-width field?
-- Answer (aoneill2−stat6250):
+- Answer (aoneill2−stat6250): The SAS system reads a default of 8 characters for a given field. The rest of the field before the delimiter is ignored and truncated.
 - Question (mcardoso3-stat6250):  What is the use for the list input style?
 - Answer (mcardoso3-stat6250):  The List input is used to read both standard and nonstandard free-format data.
 - Question (yzhu12-stat6250): What can you do if your data contains missing values at the end of a record to prevent SAS from reading the next record to find the missing values?
@@ -166,9 +166,13 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 4] 
 * *Question (aalshehry−stat6250):* Can list INPUT skip or re-read fields?
+- Answer (aoneill2−stat6250): No, fields must be read in order and cannot be skipped. 
 - Question (dlee117−stat6250): When using List Input, do you have to read all of the data or can you use it to only read certain columns? 
+- Answer (aoneill2−stat6250): No, all fields must be read in order until the end of record marker is reached, indicating the beginning of the next record group.
 - Question (akumar30−stat6250): Can we change the order of columns in free-format raw data using input statement?
+- Answer (aoneill2−stat6250): No, all fields must be read in order because there is no way to anticipate where the next record begins, so column references such as pointers cannot be used.
 - Question (rluo-stat6250): What is the rule of using list input?
+- Answer (aoneill2−stat6250): List input must be read in order and relies upon delimiters. Also, it must not contain embedded spaces.
 - Question (yyan11−stat6250): How to output with missing data records?
 - Answer (yyan11−stat6250): You can use the Delimiter Sensitive Data (DSD) option in the INFILE statement to correctly read the raw data. The DSD option changes how SAS treats delimiters when list input is used.
 - Question (aoneill2−stat6250): Are variable field values read into the data vector incorrectly if column values are specified but it is in free form?
@@ -180,9 +184,13 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 5] 
 * *Question (aalshehry−stat6250):* When to use DLM= option in the INFILE statement?
+- Answer (aoneill2−stat6250): A DLM= (delimiter) option is necessary when any delimiter other than a blank space is used, and is also useful when encountering missing data, as a missing value is recorded when no record is found between two delimiters.
 - Question (dlee117−stat6250): When trying to specify a delimiter, what happens when that delimiter is also a character that occurs in a data value?
+- Answer (aoneill2−stat6250): It is still treated as a delimiter, even within quoted strings.
 - Question (akumar30−stat6250): Can we processed one raw data using input statement which are separated by different delimiters?
+- Answer (aoneill2−stat6250): Yes, you would use the DLM= option along with the DSD optoin in the INFILE statement.
 - Question (rluo-stat6250): What is the limitations of list input?
+- Answer (aoneill2−stat6250): List input can become unwieldy when embedded spaces are encountered. 
 - Question (yyan11−stat6250): How to output using sequential variable names?
 - Answer (yyan11−stat6250): You can also specify a range of variables using formatted input. If you specify a range of variables using formatted input, both the variable list and the informat must be enclosed in parentheses, regardless of the variable's type.
 - Question (aoneill2−stat6250): Can the delimiter be declared merely in single quotes as an option?
@@ -195,13 +203,17 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 7] 
 * *Question (aalshehry−stat6250):* Does the order of the variables matter when using the LENGTH statement?
+- Answer (aoneill2−stat6250): No, the LENGTH statement is just a variable declaration, not part of the input statement itself. It must appear before the INPUT statement so that it is the first time the data step encounters the variable.
 - Question (dlee117−stat6250): When do you need to enclose your variable list and $ symbol in parentheses when specifying a range of variables?
+- Answer (aoneill2−stat6250): I think you need to enclose your variable list in parentheses when referring to an array or as arguments for a macro.
 - Question (akumar30−stat6250):  What is the default length of character variable in input sttatemnet?
 - Answer (akumar30−stat6250): Character Variable has default length of 8.
 - Question (rluo-stat6250): What is the function of the MISSOVER option?
+- Answer (aoneill2−stat6250): The MISSOVER option allows the list data to be read in with missing values, but only those that occur at the end of a record.
 - Question (yyan11−stat6250): How to use the LENGTH statement with the INPUT statement?
 - Answer (yyan11−stat6250): The LENGTH statement extends the length of the character variable. The LENGTH statement should precede the INPUT statement so that the correct length is defined.
 - Question (aoneill2−stat6250): Can input data that is in free form be read out of order?
+- Answer (aoneill2−stat6250): No. This is what makes free form data less flexible than column data. This is because the next field begins following wherever the delimiter is, and it could be anywhere before the end of record.
 - Question (mcardoso3-stat6250):  Where would be the proper place to type the length variable in a SAS statement?
 - Question (yzhu12-stat6250): How does the informats work differently in modified list input compared to that they do in formatted input?
 
@@ -209,13 +221,17 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 8] 
 * *Question (aalshehry−stat6250):* What does modified list input used for?
+- Answer (aoneill2−stat6250): Modified list input takes advantage of known record characteristics, such as whether given fields start in a specified column or appear in a given range of columns, and otherwise takes advantage of the free form for other data fields of  unspecified or unknown length.
 - Question (dlee117−stat6250): What should you do if there are missing values that occur at the end of a record?
+- Answer (aoneill2−stat6250): Use the MISSOVER option.
 - Question (akumar30−stat6250): Can we change the default value of dsd from comma ‘,’ to semicolon ‘;’?
 - Answer (akumar30−stat6250): Yes, using dlm=option, we can change the default value to any acceptable delimiter.
 - Question (rluo-stat6250): What is the function of the LENGTH statement?
+- Answer (aoneill2−stat6250): The length statement circumvents truncation of variables to the default 8 characters or numberical digits.
 - Question (yyan11−stat6250): How to use modify list input?
 - Answer (yyan11−stat6250): There are two modifiers that can be used with list input.The ampersand (&) modifier is used to read character values that contain embedded blanks. The colon (:) modifier is used to read nonstandard data values and character values that are longer than eight characters, but which contain no embedded blanks.
 - Question (aoneill2−stat6250): When you specify the length of a character variable, when do you have to repeat the use of the $ sign in declaring the variable in the input statement and when do you not need to?
+- Answer (aoneill2−stat6250): You do not need to repeat the character type specification in the input statement because the length statement functions in lieu of the declaration in the input statement.
 - Question (mcardoso3-stat6250):  Is there a best type of input to use to read a raw data file, or does it depend on the data set?
 - Question (yzhu12-stat6250): How to create a delimited raw data file?
 - Answer (yzhu12-stat6250): You can use the DLM= option with a FILE statement to create a delimited raw data file.
@@ -224,9 +240,13 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 10] 
 * *Question (aalshehry−stat6250):* when do we use mixed input style?
+- Answer (aoneill2−stat6250): We used mixed input style when we know the variable types so they can be specified. This is especially useful when mixing standard and nonstandard values in fixed fields.
 - Question (dlee117−stat6250): What does the & symbol do when reading raw data values?
+- Answer (aoneill2−stat6250): The & directs SAS to ignore one embedded blank in reading a field. It appears after the variable name and before the informat.
 - Question (akumar30−stat6250): Can we use dynamic length based on max length of each variable in raw data file?
+- Answer (aoneill2−stat6250): Yes. If you do not want to let it default to the 8 character or numerical digit maximum, then you must specify the length in a length statement prior to the input statement in the data step.
 - Question (rluo-stat6250): How to create a free-format dataset?
+- Answer (aoneill2−stat6250): You can use the put statement. The default is to leave a space after printing each variable's value.
 - Question (yyan11−stat6250): Can the modified list input be used to read values that contain embedded blank and nonstandard values?
 - Answer (yyan11−stat6250): Yes, modified list input can be used to read values that contain embedded blanks and nonstandard values.
 - Question (aoneill2−stat6250): Does the length of a variable field have to be declared in a separate length statement when the & sign is used to indicate embedded blank spaces in the input statement?
@@ -237,7 +257,9 @@ The instructor will then review the pull request and make comments should furthe
 
 [basic_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
 * *Question (aalshehry−stat6250):* Is there another effieciant way to determine the longest width for each variable rather than set the width to 100 for all columns?
+- Answer (aoneill2−stat6250): Yes, you can use the guessingcolumns= option, and set it to the number of rows of data you'd like it to check before it determines the maximum field size.
 - Question (dlee117−stat6250): Are there other file types besides .csv that use delimiters besides commas?
+- Answer (aoneill2−stat6250): Actually .csv IS a comma-delimited file.
 - Question (akumar30−stat6250): How proc import identifies the variable name and its data type from external file?
 - Answer (akumar30−stat6250): When PROC IMPORT used to read a CSV, tab, or other character-delimited file, the procedure does the following to identifies variable name and its data type
    - scans the first 20 records
@@ -247,8 +269,10 @@ The instructor will then review the pull request and make comments should furthe
    - creates an INPUT statement
    - submits all of the code to the DATA step compiler, which, in turn, executes the code
 - Question (rluo-stat6250): How can we import delimited text file?
+- Answer (aoneill2−stat6250): You can declare the delimiter in a dlm= option.
 - Question (yyan11−stat6250): Why the errors will occur, if the first few values in a column are numeric and a numerie informat is assumed?
 - Question (aoneill2−stat6250): When specifying the dbms engine, is the delimiter implied, or is an error generated if the delimiter option left out?
+- Answer (aoneill2−stat6250): The dbms engine infers a default delimiter, but to be clear the delimiter can be specified.
 - Question (aoneill2−stat6250): Since the getnames option in the import statement seems to detect and create informants for individual variables, and in conjunction with the guessingrows option, can truncation be avoided of character fields longer than 8 characters?
 - Question (mcardoso3-stat6250):  When would PROC IMPORT not be enough to import simple, small files into SAS?
 - Question (yzhu12-stat6250): The proc import can be hit or miss with delimited text files, then how can we prove the programming performance?
@@ -257,12 +281,16 @@ The instructor will then review the pull request and make comments should furthe
 
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
 * *Question (aalshehry−stat6250):* Who to deal with TAB as delimitor in INFILE statement?
+- Answer (aoneill2−stat6250): On an ASCII platform, you can use the dlm='09'x option for the hexadecimal representation for tab.
 - Question (dlee117−stat6250): What is the purpose of using the firstobs option and is it necessary?
+- Answer (aoneill2−stat6250): Firstobs tells SAS where to start listing your specified number of observations. The default is firstobs=1.
 - Question (akumar30−stat6250): What is the maximum file size limit of tempfile in SAS to load data directly from webpage?
 - Question (rluo-stat6250): What is the function of the INFORMAT statement?
+- Answer (aoneill2−stat6250): The INFORMAT statement is important to deal with nonstandard character and numeric data. Otherwise the default of as numerical field of 8 digits is assumed.
 - Question (yyan11−stat6250): Why the informat statement seta each column type to character-values vith width 100?
 - Answer (yyan11−stat6250): It' a common convention to use when using disk space usage is less inportant than the time it could take to carefully determine an optimal maximum length or value type for each column.
 - Question (aoneill2−stat6250): If lrecl option is to specify the maximum possible line length, what its default value?
+- Answer (aoneill2−stat6250): The default is 256 bytes.
 - Question (mcardoso3-stat6250):  What is the most essential command to enter for an INILE statement? 
 - Question (yzhu12-stat6250): We can convert columns to numeric using recipe of drop and swap, what recipe can we use if we want to convert columns to category?
 
