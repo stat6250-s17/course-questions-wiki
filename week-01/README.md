@@ -46,8 +46,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): No.
 - Question (akumar30-stat6250): Do i need to use any markdwon software for this program ?
 - Answer (ilankham−stat6250): No.
-
-
+- Question (hhu9−stat6250): At least how many quizzes should we complete so that we can obtain achievement?
+- Answer (hhu9−stat6250): At least 8 quizzes.
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -82,8 +82,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mcardoso3-stat6250):  Earning a "complete" mark in the Weekly Forum posts require including the title, complete URL, synopsis, and article choice along with the proper amount of detail provided.
 - Question (akumar30-stat6250): What is the advantage of slack over other colloboartive tools ?
 - Answer (akumar30-stat6250): Slack integrates with many pieces of software, allowing the other software that you use to post messages in your Slack conversations.
-
-
+- Question (hhu9−stat6250): Where can we read the most recent articles about SAS?
+- Answer (hhu9−stat6250): 10 web links in bb was posted by professor.
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -120,8 +120,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): I think they're equally important since they provide practice with different skills.
 - Question (akumar30-stat6250): What is the disadvantage of slack over other colloboartive tools ?
 - Answer (akumar30-stat6250): hastle to setup audio and video call than skype. 
-
-
+- Question (hhu9−stat6250): What will happen when you submit your quiz?
+- Answer (hhu9−stat6250): professor will merge your quiz if it meets all requirements.
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?		
@@ -150,7 +150,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): Either; more details soon.
 - Question (akumar30-stat6250): What must you do if your Horizon email address is already associated with a GitHub account?
 - Answer (akumar30-stat6250): You can change the username of the existing account. 
-
+- Question (hhu9−stat6250): What is the team project?
 
 
 [Course Structure Quiz, Problem 5]
@@ -184,7 +184,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mcardoso3-stat6250): The final exam will be accumulative with questions coming from chapters 1–8, 10–17, and 19–20 of the course textbook.  Therefore, it is important to study for each part of the material equally.
 - Question (akumar30-stat6250): Is this program good for working professionals taking two more classes this quarter ?
 - Answer (ilankham−stat6250): It depends on the working professional.
-
+- Question (hhu9−stat6250): Should we complete all chapeters before the final.
 
 
 [Course Structure Quiz, Problem 6]
@@ -228,7 +228,7 @@ other persons."
 - Answer (mcardoso3-stat6250):  Yes according to the grading criteria.  However, it is not good practice to skip the final exam (or any exam) because one should always strive for the best and the exam is an indicator to show how much a student has learned over the 10 weeks.
 - Question (akumar30-stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 - Answer (ilankham−stat6250): Yes.
-
+- Question (hhu9−stat6250): Do we have chance to meet outline with classmates?
 
 
 [Course Structure Quiz, Problem 7]
@@ -263,7 +263,7 @@ other persons."
 - Answer (ilankham−stat6250): As late as the instructor permits?
 - Question (akumar30-stat6250): Do weekly quizzes allow late attempts?
 - Answer (ilankham−stat6250): No.
-
+- Question (hhu9−stat6250): If some mistakes have been made in quiz, do we have one more chance to resubmit it?
 
 
 [Course Structure Quiz, Problem 8]
@@ -299,7 +299,7 @@ other persons."
 - Answer (ilankham−stat6250): Because I freely admit to making mistakes and hope to have the classes help in creating the best quality course materials possible.
 - Question (akumar30-stat6250): How to get extra credit in this course.
 - Answer (akumar30-stat6250):  By finding mistakes in course material. 
-
+- Question (hhu9−stat6250): Do we have chance to be trained with code? 
 
 
 [Course Structure Quiz, Problem 9]
@@ -334,7 +334,7 @@ other persons."
 - Answer (ilankham−stat6250): I'd recommend using a computer at the CSUEB Library, or perhaps a cell phone with a data plan.
 - Question (akumar30-stat6250): How to check your gardes ?
 - Answer (akumar30-stat6250): Grades will be updated on blackboard after each week.
-
+- Question (hhu9−stat6250): Should we contact with other classmates in slack everyday? 
 
 
 [Course Structure Quiz, Problem 10]
@@ -373,7 +373,7 @@ other persons."
 - Answer (ilankham−stat6250): Blackboard, followed by Slack, followed by email, followed by GitHub.
 - Question (akumar30-stat6250): Is this course will be sufficent enough for SAS Certification prepeartion.
 - Answer (ilankham−stat6250): Most likely, though additional review of the course textbook after the quarter ends is recommended.
-
+- Question (hhu9−stat6250): After this class, what can we learn about coding?
 
 
 [hello-world SAS Recipe (from Week 1 Setup Instructions and Week 1 Overview)]
@@ -409,3 +409,4 @@ other persons."
 - Answer (ilankham−stat6250): It depends on how you learn best. I personally prefer to run everything for practice.
 - Question (akumar30-stat6250): How to get good understanding of SAS User Interface ?
 - Answer (ilankham−stat6250): Trial and error, per a growth mindset.
+- Question (hhu9−stat6250): Is there any other materias except those posted in BB?
