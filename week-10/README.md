@@ -67,7 +67,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [adv_recipe_to_load_remote_delimited_file (from Week 10 Overview)]
 - Question (hhu9-stat6250):how to export the result to remote server?
-=======
+
 * *Question (aalshehry−stat6250):* In INPUT statement, can you re-read the fields? 
 * *Answer (aalshehry−stat6250):* Yes, Fields or parts of fields can be re-read.
 - Question (dlee117−stat6250): When using column input, can it read character variable values that contain embedded blanks?
