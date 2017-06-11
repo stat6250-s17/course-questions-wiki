@@ -20,6 +20,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): When using column input, can it read character variable values that contain embedded blanks?
 - Answer (dlee117-stat6250): Yes, column input can be used to read values that contain embedded blanks. You just need to specify the correct column locations and it will be able to read it.
 - Question (akumar30−stat6250): Can we change the order of variables specifies in input statement?
+- Answer (aoneill2−stat6250): You can change the order of variables only if the variables are defined as columnar input. 
 - Question (rluo-stat6250): What is the function of the column input?
 - Answer (rluo-stat6250): Column input can be used to read raw data that is stored in an external file. 
 - Question (yyan11−stat6250): How many input styles does SAS provide?
@@ -30,8 +31,12 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mcardoso3-stat6250):  You can read data values by first typing "input" followed by the first variable name, then the values for the respected variable ($ for numeric), and then inserting a semicolon. 
 - Question (yzhu12-stat6250): What are the two input styles for reading data in fixed fields and what's the function of them?
 - Answer (yzhu12-stat6250): They are column input and format input. Column input reads standard data only and format input read both standard and nonstandard data.
-
-
+- Question (aoneill2−stat6250): Can you read in data if you don't know what type of variable/s are to be scanned?
+- Answer (aoneill2−stat6250): Yes, you could generalize the data input function as character input, so that both character and numeric data are treated the same.
+- Question (aoneill2−stat6250):Are there any limitations on reading in colunn input?
+- Answer (aoneill2−stat6250): Yes, column input can only be used on character or numeric data.
+- Question (aoneill2−stat6250): What is the benefit of using informats on inputing data?
+- Answer (aoneill2−stat6250): When you use infomats, you don't have to specify the number of characters or digits.
 
 [Course Textbook Chapter 16, Problem 5] 
 * *Question (aalshehry−stat6250):* What kind of delimiter does INFORMAT contains?
@@ -41,14 +46,19 @@ The instructor will then review the pull request and make comments should furthe
 - Question (akumar30−stat6250): Can we read nonstandard numeric data without using informat instructions?  
 - Answer (akumar30−stat6250): No, we have to use informat instructions in specified format for each type of nonstandard numeric data.
 - Question (rluo-stat6250): What are the features of the column input?
+- Answer (aoneill2−stat6250): Features of column input include being able to read in embedded blanks, no need for placeholders for missing data, entire fields or parts of fields can be read, and no delimiter is necessary.
 - Question (yyan11−stat6250): What does the $w. represent?
 - Answer (yyan11−stat6250): The $w. informat enables you to read character data. The w represents the field width of the data value (the total number of columns that contain the raw data field).
 - Question (aoneill2−stat6250): What does the period mean at the end of an informat?
 - Answer (aoneill2−stat6250): The period ends the informat.
 - Question (aoneill2−stat6250): Why does an informat need to be "ended?"
+- Answer (aoneill2−stat6250): The period functions as a delimiter to tell SAS when to stop reading the informat.
 - Question (mcardoso3-stat6250):  What are the different types of informats that can be used to read character data?
+- Answer (aoneill2−stat6250): Some informats include fixed and variable-width character values, standard numerical data and numerical data with commas, dollar signs, percent signs, dashes, parentheses, binary data, hexadecimal data, etc.
 - Question (yzhu12-stat6250): What's the difference between standard numeric data and nonstandard numeric data?
-- Answer (yzhu12-stat6250): Standard numeric data values are values that contain only numbers, scientific notation, decimal points, and plus and minus signs. When numeric data contains characters such as commas or dollar signs, the data is considered to be nonstandard. 
+- Answer (yzhu12-stat6250): Standard numeric data values are values that contain only numbers, date/time, scientific notation, decimal points, and plus and minus signs. When numeric data contains characters such as commas or dollar signs, the data is considered to be nonstandard. 
+- Question (aoneill2−stat6250): What happens if you specify a character informat to read in a numerical value?
+- Answer (aoneill2−stat6250): The numerical value will be treated as a character.
 
 
 
@@ -58,15 +68,19 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dlee117−stat6250): Are there any informats that do not contain a period?
 - Answer (dlee117-stat6250): No, each informat always contains a period because it is a required delimiter.
 - Question (akumar30−stat6250): Does auto cast applies if we specified the format of numeric data as character in input statement?
+- Answer (aoneill2−stat6250): Yes, if a character informat is used on numeric input, it is auto-cast as a character value.
 - Question (rluo-stat6250): What is standard numeric data?
+- Answer (aoneill2−stat6250): Standard numeric data contains only numbers, scientific notation, decimal points, and plus and minus signs.
 - Question (yyan11−stat6250): Which one could be used to read numeric values?
 - Answer (yyan11−stat6250): The COMMAw.d informat is used to read numeric values and to remove embedded blanks, commas, dashes, dollar signs, percent signs, right parentheses, left parentheses, which are interpreted as minus signs.
 - Question (aoneill2−stat6250): If the default for the input argument is column 1, then isn't it the same to read a piece of data that starts in column 7 either with input @7 or input +6?
 - Answer (aoneill2−stat6250): Yes, that's true. In the possible answers, there is a missing period at the end of the informat for Item in answer (d).
 - Question (mcardoso3-stat6250):  What do + and @ indicate when reading column variables?
+- Answer (aoneill2−stat6250): Input +d moves the pointer to column 1+d to begin reading, whereas @d moves the pointer to column d to begin reading in data.
 - Question (yzhu12-stat6250): What are the two most common types of record formats?
 - Answer (yzhu12-stat6250): Fixed-length records and variable length records. 
-
+- Question (aoneill2−stat6250): Where is the position of the pointer if input +8 format is used to read in a piece of data?
+- Answer (aoneill2−stat6250): Since the default position of the pointer is column 1, input +8 starts reading beginning with column 9.
 
 
 [Course Textbook Chapter 16, Problem 8] 
@@ -91,9 +105,13 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 16, Problem 9] 
 * *Question (aalshehry−stat6250):* What does “w” and “d” represent in COMMAw.d informat?
+- Question (aoneill2−stat6250): "w" stands for the width of the number including the comma, a possible decimal point, any dollar sign preceding the number, and up to "d" decimal places following the decimal.
 - Question (dlee117−stat6250): If the first field is located in column 1, do you need to use column pointer control to read this field?
+- Question (aoneill2−stat6250): No, because since the default pointer value is @1, it can be omitted.
 - Question (akumar30−stat6250): How to write an input statement if we don’t know the length of each base column in raw data?
+- Question (aoneill2−stat6250): In variable-length data input, a delimiter must be used - usually a space, tab, or comma or else a pointer to indicate the beginning of the next field. A $ sign must be used to indicate a character variable, but the default is otherwise numeric input, and the default length of a numeric field is 8 digits. If reading in a character variable of variable length, the default is also a length of 8 characters or until a delimiter or end of file mark is encountered.
 - Question (rluo-stat6250): What styles can we choose when encountering raw data that is organized into fixed fields?
+- Question (aoneill2−stat6250): In terms of styles of input formats, with fixed fields we can use column input with the most convenience and versatility.
 - Question (yyan11−stat6250): How to use the @n column pointer control?
 - Answer (yyan11−stat6250): The @n is an absolute pointer control that moves the input pointer to a specific column number. The @ moves the pointer to column n, which is the first column of the field that is being read.
 - Question (aoneill2−stat6250): If you read in blank spaces preceding a number, is it still stored in the same manner?
@@ -108,15 +126,19 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 1] 
 * *Question (aalshehry−stat6250):* How is a free-format different from a formatted input?
+- Answer (aoneill2−stat6250): Free-format does not have to specify field width and relies upon delimiters and end of file markers to tell SAS that it can stop reading in a field value and go on to the next.
 - Question (dlee117−stat6250): What is the definition and purpose of a delimiter?
+- Answer (aoneill2−stat6250): A delimiter is used to tell SAS that an end of record has been reached in reading input data. It is also used in telling the SAS system when to stop reading an informat formatting specification.
 - Question (akumar30−stat6250):  What is free-format raw data in SAS?
 - Answer (akumar30−stat6250): Data that is not arranged in columns or do not begin and end in the same columns is classified as free-format raw data.
 - Question (rluo-stat6250): What is free-format data?
+- Answer (aoneill2−stat6250): Free-format data is data that does not come in fixed-width fields and can begin and end in any column different from the previous row of data or set of records.
 - Question (yyan11−stat6250): What is Free-format?
 - Answer (yyan11−stat6250): Free-format is not arranged in fixed fields, the fields are often separated by blanks or by some other delimiter. In this case, column input and formatted input that you might have used before to read standard and nonstandard data in fixed fields will not enable you to read all of the values in the raw data file.
 - Question (aoneill2−stat6250): What happens if you read in free-form data that is also variable in length for some field?
 - Answer (aoneill2−stat6250): It can generate an error and leave the value blank if the system attempts to read more characters than are available before an end-of-record marker is reached.
 - Question (mcardoso3-stat6250):  What is the difference between raw data files that are free-format, mixed-format, arragned in fixed fields, and arranged in columns?
+- Answer (aoneill2−stat6250): Free-format data can start in any column and fields must be separated by delimiters with end of row data specified by end of record or and end of file. Mixed-format data can include free-form and column data. Fixed-fields are fields of set length, separated by delimiters or beginning in a given column and arrived at using a pointer. Column data begins and ends in given ranges of columns, but may include embedded spaces or spaces at the front or the end of the field.
 - Question (yzhu12-stat6250): When can you specify a range of variables in the INPUT statement? 
 - Answer (yzhu12-stat6250): You can also specify a range of variables in the INPUT statement when the variable values in the raw data file are sequential and are separated by blanks (or by some other delimiter).
 
@@ -124,13 +146,17 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 2] 
 * *Question (aalshehry−stat6250):* Do we have to use the dollar sign before a character variable?
+- Answer (aoneill2−stat6250): Yes, you must use a dollar sign to read in a character variable, or it is assumed to be numeric data. If so, it generates an error and is treated as a missing value.
 - Question (dlee117−stat6250): What is the definition and purpose of a delimiter?
+- Answer (aoneill2−stat6250): A delimiter is used to indidiate end of a record field or to tell the SAS system that an informat is finished being read and can be interpreted.
 - Question (akumar30−stat6250):  Can we use list input to convert free-format raw data to columns row data?
+- Answer (aoneill2−stat6250):
 - Question (rluo-stat6250): Can list input read both standard and nonstandard free-format data?
 - Answer (rluo-stat6250): Yes, it can read both.
 - Question (yyan11−stat6250): What is the list input?
 - Answer (yyan11−stat6250): List input is a powerful tool for reading both standard and nonstandard free-format data.
 - Question (aoneill2−stat6250): When listing variables in an input statement, why is it merely sufficient to use a $ sign to read in a character field without specifying a minimum-width or maximum-width field?
+- Answer (aoneill2−stat6250):
 - Question (mcardoso3-stat6250):  What is the use for the list input style?
 - Answer (mcardoso3-stat6250):  The List input is used to read both standard and nonstandard free-format data.
 - Question (yzhu12-stat6250): What can you do if your data contains missing values at the end of a record to prevent SAS from reading the next record to find the missing values?
