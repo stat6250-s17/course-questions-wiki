@@ -15,13 +15,11 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
-
 - Question (hhu9−stat6250): should we use $ sign if the variables combined by character and numeric values?
-
 
 [Course Textbook Chapter 16, Problem 5]
 - Question (hhu9−stat6250): which informat should we use to read character data?
-- Answer (hhu9−stat6250): $w.
+- Answer (hhu9−stat6250): $w
 
 [Course Textbook Chapter 16, Problem 7]
 - Question (hhu9−stat6250): why there is a "." before ";" in this statement? can we delete it?
